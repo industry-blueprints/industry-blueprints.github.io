@@ -1,0 +1,10 @@
+<a class="blueprint-card" href="{{ include.entry.url | relative_url }}">
+  <h3>{{ include.entry.title }}</h3>
+  <p class="summary">{{ include.entry.summary }}</p>
+  <div class="meta-row">
+    <span class="kind-badge">{{ include.entry.kind }}</span>
+    {% if include.entry.status %}
+      <span class="status-badge status-{{ include.entry.status }}">{{ include.entry.status }}</span>
+    {% endif %}
+  </div>
+</a>

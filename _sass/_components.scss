@@ -1,0 +1,136 @@
+// Reusable UI components: hero type, buttons, callout (summary-box),
+// status badges, tags.
+
+.hero h1 {
+  font-size: clamp(2.8rem, 7vw, 5.6rem);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  max-width: 42rem;
+}
+
+.hero .lede {
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  color: var(--muted);
+  max-width: 38rem;
+  margin-top: var(--space-3);
+}
+
+.button-link {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 0.6em 1.1em;
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.text-link {
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--accent-soft);
+}
+
+.text-link:hover {
+  color: #fff;
+}
+
+.external::after {
+  content: " ↗";
+}
+
+// Summary-box-style callout (USWDS pattern), themed to the dark palette.
+.callout {
+  border: 1px solid var(--accent);
+  border-left-width: 4px;
+  background: var(--surface-raised);
+  padding: var(--space-3) var(--space-4);
+  margin-block: var(--space-4);
+}
+
+.callout h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-soft);
+  margin-bottom: var(--space-1);
+}
+
+.callout p {
+  margin-bottom: var(--space-2);
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.status-badge::before {
+  content: "";
+  width: 0.55em;
+  height: 0.55em;
+  background: var(--status-planned);
+}
+
+.status-badge.status-proven {
+  color: var(--status-proven);
+}
+.status-badge.status-proven::before {
+  background: var(--status-proven);
+}
+
+.status-badge.status-emerging {
+  color: var(--status-emerging);
+}
+.status-badge.status-emerging::before {
+  background: var(--status-emerging);
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  margin: var(--space-2) 0;
+}
+
+.tag {
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 0.25em 0.6em;
+}
+
+.kind-badge {
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  padding: 0.2em 0.6em;
+  display: inline-block;
+}

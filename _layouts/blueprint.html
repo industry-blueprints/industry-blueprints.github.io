@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<section class="section">
+  <div class="wrap">
+    <div class="entry-head">
+      <span class="kind-badge">{{ page.kind }}</span>
+      <h1>{{ page.title }}</h1>
+      <p class="summary">{{ page.summary }}</p>
+      <div class="tag-row">
+        {% if page.status %}<span class="status-badge status-{{ page.status }}">{{ page.status }}</span>{% endif %}
+        {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </div>
+    </div>
+
+    <div class="entry-body">
+      {{ content }}
+
+      {% include callout.html %}
+    </div>
+
+    {% if page.related %}
+      <div class="section-head" style="margin-top: var(--space-6);">
+        <span class="eyebrow">Related blueprints</span>
+      </div>
+      <ul class="related-list">
+        {% for item in page.related %}
+          <li>
+            <a href="{{ item.url | relative_url }}">
+              <span class="kind-label">{{ item.kind }}</span>
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</section>

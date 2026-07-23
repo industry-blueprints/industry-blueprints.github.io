@@ -1,0 +1,71 @@
+title: Industry Blueprints
+description: A catalog of personas, use cases, processes, app experiences, and AI agent skills for industry-grade public-sector software — proven end to end in the Industry Modules platform.
+url: "https://industry-blueprints.github.io"
+baseurl: ""
+
+author:
+  name: Jeremy Hofmann
+  site: "https://hofmann-studio.github.io"
+
+platform:
+  repo: "https://github.com/industry-blueprints/platform"
+
+collections:
+  personas:
+    output: true
+    permalink: /personas/:path/
+  use_cases:
+    output: true
+    permalink: /use-cases/:path/
+  processes:
+    output: true
+    permalink: /processes/:path/
+  app_experiences:
+    output: true
+    permalink: /app-experiences/:path/
+  agent_skills:
+    output: true
+    permalink: /agent-skills/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "personas"
+    values:
+      layout: "blueprint"
+      kind: "Persona"
+      collection_key: "personas"
+  - scope:
+      path: ""
+      type: "use_cases"
+    values:
+      layout: "blueprint"
+      kind: "Use Case"
+      collection_key: "use_cases"
+  - scope:
+      path: ""
+      type: "processes"
+    values:
+      layout: "blueprint"
+      kind: "Process"
+      collection_key: "processes"
+  - scope:
+      path: ""
+      type: "app_experiences"
+    values:
+      layout: "blueprint"
+      kind: "App Experience"
+      collection_key: "app_experiences"
+  - scope:
+      path: ""
+      type: "agent_skills"
+    values:
+      layout: "blueprint"
+      kind: "Agent Skill"
+      collection_key: "agent_skills"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">{{ page.title }}</span>
+      <h2>{{ page.intro_title | default: page.title }}</h2>
+      {% if page.description %}<p class="muted">{{ page.description }}</p>{% endif %}
+    </div>
+    <div class="card-grid">
+      {% assign entries = site[page.collection_key] %}
+      {% for entry in entries %}
+        {% include blueprint-card.html entry=entry %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
