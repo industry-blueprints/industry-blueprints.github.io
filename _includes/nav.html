@@ -1,8 +1,9 @@
 <nav class="site-nav" aria-label="Primary navigation">
-  <a href="{{ '/personas/' | relative_url }}"{% if page.collection_key == 'personas' %} class="active"{% endif %}>Personas</a>
-  <a href="{{ '/use-cases/' | relative_url }}"{% if page.collection_key == 'use_cases' %} class="active"{% endif %}>Use Cases</a>
-  <a href="{{ '/processes/' | relative_url }}"{% if page.collection_key == 'processes' %} class="active"{% endif %}>Processes</a>
-  <a href="{{ '/app-experiences/' | relative_url }}"{% if page.collection_key == 'app_experiences' %} class="active"{% endif %}>App Experiences</a>
-  <a href="{{ '/agent-skills/' | relative_url }}"{% if page.collection_key == 'agent_skills' %} class="active"{% endif %}>Agent Skills</a>
-  <a href="{{ site.platform.repo }}" target="_blank" rel="noopener noreferrer" class="external">Platform</a>
+  {% assign coll = page.collection | default: page.collection_key %}
+  <a href="{{ '/guides/' | relative_url }}"{% if coll == 'guides' or page.url == '/guides/' %} class="active" aria-current="page"{% endif %}>Guides</a>
+  <a href="{{ '/industries/public-sector/' | relative_url }}"{% if coll == 'industries' or coll == 'domains' %} class="active" aria-current="page"{% endif %}>Capability map</a>
+  <a href="{{ '/capabilities/' | relative_url }}"{% if coll == 'capabilities' %} class="active" aria-current="page"{% endif %}>Capabilities</a>
+  <a href="{{ '/processes/' | relative_url }}"{% if coll == 'processes' %} class="active" aria-current="page"{% endif %}>Processes</a>
+  <a href="{{ '/ai-opportunities/' | relative_url }}"{% if coll == 'ai_opportunities' %} class="active" aria-current="page"{% endif %}>AI Opportunities</a>
+  <a href="{{ '/browse/' | relative_url }}"{% if page.url == '/browse/' %} class="active" aria-current="page"{% endif %}>Browse all</a>
 </nav>

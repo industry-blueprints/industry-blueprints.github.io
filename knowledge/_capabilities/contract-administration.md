@@ -1,0 +1,165 @@
+---
+type: Capability
+title: Contract Administration
+description: Managing performance, payment, and change across the life of a contract —
+  the phase where value is actually realized or quietly lost.
+resource: https://industry-blueprints.github.io/capabilities/contract-administration/
+tags: [capability, contracts, vendor-management, performance, procurement]
+
+generated: { by: human:jhofmann, at: 2026-07-27T16:00:00Z }
+status: draft
+stale_after: 2027-01-27
+depth: complete
+
+industry: public-sector
+government_levels: [federal, state, county, municipal]
+
+relationships:
+  - predicate: part_of
+    target: /domains/acquire.md
+  - predicate: has_participant
+    target: /personas/contract-manager.md
+    note: Owns the contract through its term
+  - predicate: has_participant
+    target: /personas/program-manager.md
+    note: Frequently the de facto contract manager, without the title or the time
+  - predicate: has_participant
+    target: /personas/supplier.md
+  - predicate: has_participant
+    target: /personas/internal-auditor.md
+  - predicate: uses_data
+    target: /data-entities/contract.md
+---
+
+## Purpose
+
+To ensure the organization receives what it contracted for, pays only for what it received, and
+manages change and expiry deliberately rather than by default.
+
+Organizations invest heavily in the award and thinly in the following five years. **Unmanaged
+contracts, missed renewal dates, unclaimed service credits, and scope drift routinely cost more
+than a suboptimal award ever did.**
+
+## Desired outcomes
+
+- Performance measured against the obligations actually written in the agreement
+- Payment matched to delivery and acceptance
+- Changes authorized, priced, and recorded before the work happens
+- Renewals and expiries acted on with time to compete
+- Poor performance documented well enough to be actionable
+
+## Current state: how this typically runs today
+
+The contract is signed and filed. Procurement closes the file; the department inherits it, and
+nobody walks anyone through what was agreed. **The obligations then exist only inside a PDF that
+nobody re-reads until something goes wrong.**
+
+Invoices are approved by confirming the amount looks right, not by confirming delivery. Performance
+is assessed impressionistically — nothing recorded while things are broadly working, frustration
+accumulating informally when they are not. Service credits trigger and are never claimed.
+
+A department asks the supplier for something slightly out of scope; the supplier obliges. This
+repeats. Eighteen months later the delivered service differs materially from the competed one with
+no amendment trail. Renewal arrives as a supplier notification, too late to compete, so the
+contract is extended from no negotiating position at all.
+
+### Why it works that way
+
+- **Contract administration is unrecognized work** — not in an objective, not resourced, on top of
+  a full role, and the first thing to slip.
+- **Reading a contract is genuinely hard.** Obligations are spread across a main document,
+  schedules, and amendments, in language written for a dispute rather than for daily use.
+- **Approving an invoice takes two minutes; verifying delivery takes twenty.** Under load, the
+  two-minute version wins.
+- **Small changes are individually reasonable.** The cost appears only cumulatively.
+- **Documenting poor performance feels adversarial** until the moment it is needed.
+
+## Processes
+
+[Contract Handover & Performance Monitoring](/processes/contract-handover-and-performance/) ·
+[Change, Renewal & Closeout](/processes/change-renewal-and-closeout/)
+
+## Data
+
+[Procurement & Contract Data Model](/data-models/procurement-data-model/). Two decisions carry this
+capability: **Acceptance authorizes Payment** as a modelled relationship rather than a workflow
+convention, and **Obligation is a first-class entity** rather than prose inside an agreement.
+See [Contract](/data-entities/contract/).
+
+## Business rules
+
+- No contract goes live without a named manager and a completed handover.
+- Obligations extracted into a register at execution, with owners and dates.
+- Payment follows acceptance; acceptance follows defined criteria.
+- Performance recorded contemporaneously, both satisfactory and unsatisfactory.
+- Entitlements applied when triggered, or a decision not to apply them recorded.
+- Changes authorized and priced before work is performed.
+- Cumulative change assessed against the original award, not request by request.
+- A change that would have altered the competition requires a new competition.
+- Renewal decision dated from required lead time, not from expiry.
+- Closeout initiated automatically at end of term; retention clock recorded.
+
+## Measures
+
+| Measure | Class |
+|---|---|
+| [Renewal lead time](/kpis/renewal-lead-time/) adequacy | Process |
+| [Service credit realization](/kpis/service-credit-realization/) | Process |
+| Contracts with a named, active manager | Process |
+| Deliverables accepted against defined criteria | Process |
+| Change orders as share of original value | Process |
+| Requirement actually met over the term | Outcome |
+
+## Governance
+
+[Supplier Eligibility & Payment Integrity](/governance/supplier-eligibility-and-payment-integrity/) —
+covering three separable questions usually conflated into "we pay approved invoices": is this
+organization allowed to be paid, was the thing delivered, and are we paying the right bank account.
+
+## Patterns
+
+[Obligation Tracking](/patterns/obligation-tracking/) — minimum maturity level 2, deliberately.
+A spreadsheet with owners and dates beats a PDF, and the step from nothing to something is where
+nearly all the value is.
+
+## AI opportunities
+
+[Obligation extraction](/ai-opportunities/obligation-extraction/) — the strongest extraction case
+in the library, and the one most exposed to flattening conditionality ·
+[Invoice-deliverable matching](/ai-opportunities/invoice-deliverable-matching/)
+
+Neither may decide. Acceptance is a judgement with contractual and financial consequence, and
+payment approval is a financial control with segregation requirements.
+
+## Level variance
+
+- **Federal.** Formally designated contracting officer's representative with defined duties,
+  required training, and written authority limits.
+- **State.** Contract management delegated to the program with varying central oversight and
+  varying formality of designation.
+- **County / municipal.** Frequently no named manager at all — the requesting department inherits
+  administration without training, capacity, or recognition. The handover gate matters most at
+  exactly the level least likely to have it.
+
+## Where it goes wrong
+
+**The handover that never happens.** Root cause of nearly everything else in this capability, and
+fixable in an afternoon per contract.
+
+**Auto-renewal by inattention.** The date passes, the term extends, and the chance to renegotiate
+is gone for another cycle.
+
+**Payment against invoice rather than delivery.** The most common control weakness in the domain.
+
+**Scope drift by accumulation** — a series of small unpriced changes that would never have been
+approved as one amendment.
+
+**Unclaimed entitlements.** Real money, contractually owed, never invoked because nobody tracked
+the trigger.
+
+**Performance problems undocumented until termination**, so when action is needed there is no
+contemporaneous basis for it.
+
+**No portfolio view.** Contracts, grants, licences, and permits in separate systems, so total
+exposure to a supplier is unanswerable — the problem
+[Agreement](/data-entities/agreement/) exists to solve.

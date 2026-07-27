@@ -1,38 +1,81 @@
 ---
 layout: default
 ---
-<section class="section">
+<article class="blueprint">
   <div class="wrap">
-    <div class="entry-head">
-      <span class="kind-badge">{{ page.kind }}</span>
-      <h1>{{ page.title }}</h1>
-      <p class="summary">{{ page.summary }}</p>
-      <div class="tag-row">
-        {% if page.status %}<span class="status-badge status-{{ page.status }}">{{ page.status }}</span>{% endif %}
-        {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
-      </div>
-    </div>
-
-    <div class="entry-body">
-      {{ content }}
-
-      {% include callout.html %}
-    </div>
-
-    {% if page.related %}
-      <div class="section-head" style="margin-top: var(--space-6);">
-        <span class="eyebrow">Related blueprints</span>
-      </div>
-      <ul class="related-list">
-        {% for item in page.related %}
-          <li>
-            <a href="{{ item.url | relative_url }}">
-              <span class="kind-label">{{ item.kind }}</span>
-              {{ item.title }}
-            </a>
-          </li>
+    <header class="entry-head">
+      <div class="entry-eyebrow">
+        <span class="kind-badge">{{ page.okf_type }}</span>
+        {% for lvl in page.government_levels %}
+          <span class="gov-badge">{{ lvl }}</span>
         {% endfor %}
-      </ul>
-    {% endif %}
+      </div>
+
+      <h1>{{ page.title }}</h1>
+      <p class="summary">{{ page.description }}</p>
+
+      {% include badges.html %}
+
+      {% if page.from_level and page.to_level %}
+        {% include maturity-scale.html from=page.from_level to=page.to_level caption="Maturity transition" %}
+      {% elsif page.minimum_level %}
+        {% include maturity-scale.html from=page.minimum_level to=5 caption="Viable from" %}
+      {% endif %}
+
+      {% if page.shape %}
+        {% assign shape = site.guide_shapes[page.shape] %}
+        <div class="guide-meta">
+          <p class="guide-shape"><strong>{{ shape.label | default: page.shape }}</strong>{% if shape.note %} — {{ shape.note }}{% endif %}</p>
+          {% if page.audience %}
+            <p class="guide-audience"><span class="guide-audience-label">For</span> {{ page.audience }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.tags %}
+        <div class="tag-row">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </div>
+      {% endif %}
+    </header>
+
+    <div class="entry-layout{% if page.wide %} is-wide{% endif %}">
+      <div class="entry-body">
+        {{ content }}
+        {% include sources.html %}
+      </div>
+
+      <aside class="entry-aside">
+        {% include related.html %}
+      </aside>
+    </div>
+
+    <footer class="entry-foot">
+      <dl class="provenance">
+        {% if page.author %}
+          <div><dt>Author</dt><dd>{{ page.author | remove: 'human:' }}</dd></div>
+        {% endif %}
+        {% if page.last_verified %}
+          <div><dt>Last verified</dt><dd>{{ page.last_verified | date: "%B %-d, %Y" }}</dd></div>
+        {% else %}
+          <div><dt>Verification</dt><dd>Not yet reviewed by a human</dd></div>
+        {% endif %}
+        {% if page.stale_after_date %}
+          <div><dt>Review due</dt><dd>{{ page.stale_after_date | date: "%B %-d, %Y" }}</dd></div>
+        {% endif %}
+        {% if page.layer %}
+          <div><dt>Layer</dt><dd>{{ page.layer }} — {% case page.layer %}{% when 1 %}operating-model knowledge{% when 2 %}vendor-neutral design{% when 3 %}vendor implementation{% endcase %}</dd></div>
+        {% endif %}
+      </dl>
+
+      <p class="entry-actions">
+        <a class="text-link external"
+           href="https://github.com/industry-blueprints/industry-blueprints.github.io/blob/main/{{ page.path }}"
+           target="_blank" rel="noopener noreferrer">View source ↗</a>
+        <a class="text-link external"
+           href="https://github.com/industry-blueprints/industry-blueprints.github.io/issues/new?title={{ page.title | uri_escape }}"
+           target="_blank" rel="noopener noreferrer">Suggest a correction ↗</a>
+      </p>
+    </footer>
   </div>
-</section>
+</article>

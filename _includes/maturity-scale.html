@@ -1,0 +1,17 @@
+{% comment %}
+  The maturity spine (vision.md §8.1) rendered as a five-step scale.
+  Params: from, to (inclusive range to highlight), caption.
+{% endcomment %}
+<div class="maturity-scale" role="group" aria-label="{{ include.caption }}: maturity level {{ include.from }} to {{ include.to }}">
+  <span class="maturity-caption">{{ include.caption }}</span>
+  <ol class="maturity-steps">
+    {% for lvl in site.maturity_levels %}
+      {% assign on = false %}
+      {% if lvl.level >= include.from and lvl.level <= include.to %}{% assign on = true %}{% endif %}
+      <li class="maturity-step{% if on %} is-on{% endif %}">
+        <span class="maturity-num">{{ lvl.level }}</span>
+        <span class="maturity-name">{{ lvl.name }}</span>
+      </li>
+    {% endfor %}
+  </ol>
+</div>

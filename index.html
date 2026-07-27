@@ -1,65 +1,117 @@
 ---
 layout: default
-title:
-summary: A catalog of personas, use cases, processes, app experiences, and AI agent skills for industry-grade public-sector software — proven end to end in the Industry Modules platform.
+title: Industry Blueprints
+description: A vendor-neutral blueprint toolkit for public-sector transformation — work out where an organization is today, where it could go, and what it takes to get there.
 ---
+
 <section class="section hero">
-  <div class="wrap">
-    <span class="eyebrow">01 · What this is</span>
-    <h1>Industry Blueprints</h1>
-    <p class="lede">
-      A catalog of personas, use cases, processes, app experiences, and AI agent skills
-      for industry-grade public-sector software. Every blueprint here links to the exact
-      real code, config, or running feature that proves it works.
-    </p>
-    <p style="margin-top: var(--space-4);">
-      <a class="button-link external" href="{{ site.platform.repo }}" target="_blank" rel="noopener noreferrer">See the platform</a>
-    </p>
+  <div class="wrap hero-split">
+    <div>
+      <h1>Where you are, where you could go, and what it takes to get there.</h1>
+      <p class="lede">
+        A vendor-neutral blueprint toolkit for public-sector transformation — federal, state,
+        county, and municipal. Built to be used in a working session, not read like a blog.
+      </p>
+      <p class="hero-actions">
+        <a class="button-link" href="{{ '/maturity-rubrics/constituent-service/' | relative_url }}">Find where you are</a>
+        <a class="text-link" href="{{ '/browse/' | relative_url }}">Browse the library</a>
+      </p>
+    </div>
+
+    <div>
+      <div class="section-head" style="margin-bottom: var(--space-2);">
+        <span class="eyebrow">Four ways in</span>
+      </div>
+      <nav class="entry-points" aria-label="Ways to start">
+        <a class="entry-point" href="{{ '/maturity-rubrics/constituent-service/' | relative_url }}">
+          <span class="entry-point-num">01</span>
+          <span>
+            <span class="entry-point-title">Find where you are</span>
+            <span class="entry-point-desc">Score seven dimensions out loud with the people who do the work. Forty minutes, no scoring engine, no number at the end.</span>
+          </span>
+          <span class="entry-point-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="entry-point" href="{{ '/capabilities/constituent-service-management/' | relative_url }}">
+          <span class="entry-point-num">02</span>
+          <span>
+            <span class="entry-point-title">Explore a capability</span>
+            <span class="entry-point-desc">What the organization must be able to do — and the personas, processes, measures, and controls that hang off it.</span>
+          </span>
+          <span class="entry-point-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="entry-point" href="{{ '/ai-opportunities/' | relative_url }}">
+          <span class="entry-point-num">03</span>
+          <span>
+            <span class="entry-point-title">Find an AI opportunity</span>
+            <span class="entry-point-desc">Each one tagged with the maturity level it presupposes, and the prerequisites that are usually missing.</span>
+          </span>
+          <span class="entry-point-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="entry-point" href="{{ '/playbooks/constituent-service-level-2-to-3/' | relative_url }}">
+          <span class="entry-point-num">04</span>
+          <span>
+            <span class="entry-point-title">Run a transition</span>
+            <span class="entry-point-desc">Level 2 to level 3, with phases, governance gates, a workshop agenda, and the failure modes named.</span>
+          </span>
+          <span class="entry-point-arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </div>
   </div>
 </section>
 
-<section class="section" aria-labelledby="catalog">
+<section class="section">
   <div class="wrap">
     <div class="section-head">
-      <span class="eyebrow">02 · The catalog</span>
-      <h2 id="catalog">Five kinds of blueprint</h2>
-      <p class="muted">Each kind answers a different question about what an industry app should contain.</p>
+      <span class="eyebrow">How this is built</span>
+      <h2>Three things that make it different</h2>
     </div>
     <div class="card-grid">
-      <a class="blueprint-card" href="{{ '/personas/' | relative_url }}">
-        <h3>Personas</h3>
-        <p class="summary">Who does the work — their goals, permissions, and the app experiences built for them.</p>
-      </a>
-      <a class="blueprint-card" href="{{ '/use-cases/' | relative_url }}">
-        <h3>Use Cases</h3>
-        <p class="summary">The concrete jobs to be done — what triggers work, and what "done" looks like.</p>
-      </a>
-      <a class="blueprint-card" href="{{ '/processes/' | relative_url }}">
-        <h3>Processes</h3>
-        <p class="summary">The stages a record moves through, and the checklist of activities inside each stage.</p>
-      </a>
-      <a class="blueprint-card" href="{{ '/app-experiences/' | relative_url }}">
-        <h3>App Experiences</h3>
-        <p class="summary">The tailored, role-specific surfaces built on top of a process — dashboards, workbenches, portals.</p>
-      </a>
-      <a class="blueprint-card" href="{{ '/agent-skills/' | relative_url }}">
-        <h3>Agent Skills</h3>
-        <p class="summary">What an AI assistant should know and be allowed to do for a given persona and process.</p>
-      </a>
+      <div class="blueprint-card" style="cursor: default;">
+        <h3>Maturity is the spine</h3>
+        <p class="summary">
+          Advice that assumes a capability you don't have is worse than no advice. Every AI
+          opportunity and pattern declares the level it presupposes, and every playbook is
+          written as a transition between two levels.
+        </p>
+      </div>
+      <div class="blueprint-card" style="cursor: default;">
+        <h3>Current state gets equal billing</h3>
+        <p class="summary">
+          Every process describes how it typically runs today <em>and why it works that way</em>.
+          Current-state dysfunction usually has a reason — a statute, an audit finding, a
+          system that can't do the thing. Blueprints that treat it as incompetence don't
+          survive contact with the people who live it.
+        </p>
+      </div>
+      <div class="blueprint-card" style="cursor: default;">
+        <h3>Provenance is visible</h3>
+        <p class="summary">
+          Every artifact shows who wrote it, whether a human verified it, what it's based on,
+          and when it goes stale. Badges are derived from the metadata, never hand-set.
+          Content nobody stands behind is labeled, not hidden.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section" aria-labelledby="proof">
+<section class="section">
   <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">03 · See it running</span>
-      <h2 id="proof">The child proves the parent</h2>
-      <p class="muted">
-        This site is the knowledge layer. <a href="{{ site.platform.repo }}" target="_blank" rel="noopener noreferrer" class="external">Industry Modules platform</a>
-        is the working end-to-end implementation — every blueprint links straight to the real solution, module, or
-        running feature that backs it, not a hypothetical.
+    <div class="callout">
+      <h3>Draft library</h3>
+      <p>
+        This is an early, deliberately narrow build: one capability — constituent service and
+        case management — threaded end to end to prove the model, across federal and
+        state/local government. Most artifacts are marked <strong>unverified</strong>, which is
+        accurate rather than modest.
       </p>
+      <p>
+        The maturity rubric in particular is written from research and has not yet been
+        walked through with real organizations. Treat disagreement from one as a defect in the
+        rubric.
+      </p>
+      <p><a class="text-link" href="{{ '/browse/' | relative_url }}">See everything published so far</a></p>
     </div>
   </div>
 </section>

@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="{{ page.summary | default: page.description | default: site.description | escape }}" />
     <meta name="theme-color" content="#0b0e12" />
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    {% seo %}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,5 +18,6 @@
     {% include header.html %}
     <main id="main">{{ content }}</main>
     {% include footer.html %}
+    {% if page.mermaid %}{% include mermaid.html %}{% endif %}
   </body>
 </html>

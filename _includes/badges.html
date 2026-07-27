@@ -1,0 +1,37 @@
+{% comment %}
+  Trust / lifecycle / freshness badges.
+  All three are DERIVED in _plugins/okf.rb from OKF frontmatter — never hand-set.
+  An author marks something reviewed by adding a `verified` entry, not by editing a badge.
+{% endcomment %}
+<div class="badge-row">
+  {% if page.status %}
+    <span class="badge badge-status is-{{ page.status }}">{{ page.status }}</span>
+  {% endif %}
+
+  <span class="badge badge-trust is-{{ page.trust_tier }}">
+    {% case page.trust_tier %}
+      {% when 'human-reviewed' %}Human-reviewed
+      {% when 'machine-confirmed' %}Machine-confirmed
+      {% else %}Unverified
+    {% endcase %}
+  </span>
+
+  {% if page.freshness %}
+    <span class="badge badge-fresh is-{{ page.freshness }}">
+      {% case page.freshness %}
+        {% when 'stale' %}Stale — review overdue
+        {% when 'review-due' %}Review due
+        {% else %}Current
+      {% endcase %}
+    </span>
+  {% endif %}
+
+  {% if page.depth %}
+    {% assign d = site.depth_levels[page.depth] %}
+    <span class="badge badge-depth is-{{ page.depth }}" title="{{ d.note }}">{{ d.label }}</span>
+  {% endif %}
+
+  {% if page.last_verified %}
+    <span class="badge-meta">Verified {{ page.last_verified | date: "%b %-d, %Y" }}</span>
+  {% endif %}
+</div>

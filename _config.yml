@@ -1,7 +1,10 @@
 title: Industry Blueprints
-description: A catalog of personas, use cases, processes, app experiences, and AI agent skills for industry-grade public-sector software — proven end to end in the Industry Modules platform.
+description: >-
+  A vendor-neutral blueprint toolkit for public-sector transformation — work out
+  where an organization is today, where it could go, and what it takes to get there.
 url: "https://industry-blueprints.github.io"
 baseurl: ""
+lang: en
 
 author:
   name: Jeremy Hofmann
@@ -10,62 +13,166 @@ author:
 platform:
   repo: "https://github.com/industry-blueprints/platform"
 
+# Pinned deliberately. Review minor bumps; do not track automatically.
+okf_version: "0.2"
+
+# Warn on unresolvable relationship targets (true = fail the build).
+strict_relationships: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# ─────────────────────────────────────────────────────────────
+# Content lives in knowledge/_<label>/ — see .design/content-architecture.md §3
+# ─────────────────────────────────────────────────────────────
+collections_dir: knowledge
+
 collections:
+  industries:
+    output: true
+    permalink: /industries/:name/
+  domains:
+    output: true
+    permalink: /domains/:name/
+  capabilities:
+    output: true
+    permalink: /capabilities/:name/
+  maturity_rubrics:
+    output: true
+    permalink: /maturity-rubrics/:name/
   personas:
     output: true
-    permalink: /personas/:path/
-  use_cases:
-    output: true
-    permalink: /use-cases/:path/
+    permalink: /personas/:name/
   processes:
     output: true
-    permalink: /processes/:path/
-  app_experiences:
+    permalink: /processes/:name/
+  patterns:
     output: true
-    permalink: /app-experiences/:path/
-  agent_skills:
+    permalink: /patterns/:name/
+  ai_opportunities:
     output: true
-    permalink: /agent-skills/:path/
+    permalink: /ai-opportunities/:name/
+  ai_agents:
+    output: true
+    permalink: /ai-agents/:name/
+  architectures:
+    output: true
+    permalink: /architectures/:name/
+  data_models:
+    output: true
+    permalink: /data-models/:name/
+  data_entities:
+    output: true
+    permalink: /data-entities/:name/
+  kpis:
+    output: true
+    permalink: /kpis/:name/
+  governance:
+    output: true
+    permalink: /governance/:name/
+  playbooks:
+    output: true
+    permalink: /playbooks/:name/
+  guides:
+    output: true
+    permalink: /guides/:name/
+  decision_guides:
+    output: true
+    permalink: /decision-guides/:name/
+  vendor_implementations:
+    output: true
+    permalink: /vendor-implementations/:name/
+  demonstrations:
+    output: true
+    permalink: /demonstrations/:name/
+  videos:
+    output: true
+    permalink: /videos/:name/
+  meta:
+    output: true
+    permalink: /meta/:name/
 
+# `layer` is the vendor-neutrality layer (vision.md §11). Injected here so
+# authors never restate it, and so CI can enforce it later.
 defaults:
-  - scope:
-      path: ""
-      type: "personas"
-    values:
-      layout: "blueprint"
-      kind: "Persona"
-      collection_key: "personas"
-  - scope:
-      path: ""
-      type: "use_cases"
-    values:
-      layout: "blueprint"
-      kind: "Use Case"
-      collection_key: "use_cases"
-  - scope:
-      path: ""
-      type: "processes"
-    values:
-      layout: "blueprint"
-      kind: "Process"
-      collection_key: "processes"
-  - scope:
-      path: ""
-      type: "app_experiences"
-    values:
-      layout: "blueprint"
-      kind: "App Experience"
-      collection_key: "app_experiences"
-  - scope:
-      path: ""
-      type: "agent_skills"
-    values:
-      layout: "blueprint"
-      kind: "Agent Skill"
-      collection_key: "agent_skills"
+  - scope: { path: "", type: industries }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: domains }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: capabilities }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: maturity_rubrics }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: personas }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: processes }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: data_models }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: data_entities }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: kpis }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: governance }
+    values: { layout: blueprint, layer: 1 }
+  - scope: { path: "", type: patterns }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: ai_opportunities }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: ai_agents }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: architectures }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: playbooks }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: guides }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: decision_guides }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: vendor_implementations }
+    values: { layout: blueprint, layer: 3 }
+  - scope: { path: "", type: demonstrations }
+    values: { layout: blueprint }
+  - scope: { path: "", type: videos }
+    values: { layout: blueprint }
+  - scope: { path: "", type: meta }
+    values: { layout: blueprint }
+
+# Depth ladder. Coverage is partial by design; the tier is shown on the page so
+# a stub is never mistaken for an omission. See .design/vision.md §7.0.
+depth_levels:
+  named:    { label: Named,    note: "Defined in one line on the capability map. No page yet." }
+  defined:  { label: Defined,  note: "Purpose, outcomes, and the key processes, roles, entities and measures named." }
+  detailed: { label: Detailed, note: "Plus current state, business rules, standards mappings, and a full relationship graph." }
+  complete: { label: Complete, note: "Plus its own process, data, measure and governance artifacts." }
+
+# Maturity levels — a lens applied over described capabilities, not the
+# organizing spine. See .design/vision.md §8.1.
+maturity_levels:
+  - { level: 1, name: Manual }
+  - { level: 2, name: Digitized }
+  - { level: 3, name: Integrated }
+  - { level: 4, name: Intelligent }
+  - { level: 5, name: Adaptive }
+
+# A guide is a curated traversal of the graph for a stated reader goal. The
+# shape determines the traversal, not the type: `engagement` goes deep through
+# one capability in the order a working session needs it; `briefing` goes wide
+# and shallow across a reader's whole remit.
+guide_shapes:
+  engagement: { label: Engagement guide,   note: "One capability, everything, in the order you need it in the room." }
+  briefing:   { label: Executive briefing, note: "A whole remit, thin — what exists, where the gaps are, what AI changes." }
+
+government_levels: [federal, state, county, municipal, tribal]
+
+sass:
+  style: compressed
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor
+  - .design
+  - tools

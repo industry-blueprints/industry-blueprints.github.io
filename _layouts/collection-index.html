@@ -4,15 +4,74 @@ layout: default
 <section class="section">
   <div class="wrap">
     <div class="section-head">
-      <span class="eyebrow">{{ page.title }}</span>
-      <h2>{{ page.intro_title | default: page.title }}</h2>
-      {% if page.description %}<p class="muted">{{ page.description }}</p>{% endif %}
+      <span class="eyebrow">{{ page.eyebrow | default: "Blueprint library" }}</span>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
     </div>
-    <div class="card-grid">
-      {% assign entries = site[page.collection_key] %}
-      {% for entry in entries %}
-        {% include blueprint-card.html entry=entry %}
+
+    {{ content }}
+
+    {% assign entries = site[page.collection_key] | sort: "title" %}
+    {% if entries.size > 0 %}
+      {%- comment -%}
+        Coverage is partial by design, so a flat alphabetical list buries the
+        finished work among the stubs. Group by depth when the collection
+        actually spans tiers; render flat when it doesn't, so a uniform
+        collection isn't given headings that say nothing.
+      {%- endcomment -%}
+      {% assign tiers = "complete,detailed,defined,named" | split: "," %}
+      {% assign tiers_present = 0 %}
+      {% for tier in tiers %}
+        {% assign group = entries | where: "depth", tier %}
+        {% if group.size > 0 %}{% assign tiers_present = tiers_present | plus: 1 %}{% endif %}
       {% endfor %}
-    </div>
+
+      {% if tiers_present > 1 %}
+        {% assign remaining = entries.size %}
+        {% for tier in tiers %}
+          {% assign group = entries | where: "depth", tier %}
+          {% if group.size > 0 %}
+            {% assign remaining = remaining | minus: group.size %}
+            <div class="depth-group">
+              <h2 class="depth-group-title">
+                {{ site.depth_levels[tier].label }}
+                <span class="depth-group-count">{{ group.size }}</span>
+              </h2>
+              <p class="depth-group-note">{{ site.depth_levels[tier].note }}</p>
+            </div>
+            <div class="card-grid">
+              {% for entry in group %}
+                {% include blueprint-card.html entry=entry %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endfor %}
+
+        {% if remaining > 0 %}
+          <div class="depth-group">
+            <h2 class="depth-group-title">
+              Other <span class="depth-group-count">{{ remaining }}</span>
+            </h2>
+            <p class="depth-group-note">Artifacts the depth ladder does not apply to.</p>
+          </div>
+          <div class="card-grid">
+            {% for entry in entries %}
+              {% unless entry.depth %}{% include blueprint-card.html entry=entry %}{% endunless %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <div class="card-grid">
+          {% for entry in entries %}
+            {% include blueprint-card.html entry=entry %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% else %}
+      <p class="muted empty-state">
+        Nothing published here yet. This collection is scaffolded and awaiting content —
+        see the <a href="{{ '/browse/' | relative_url }}">library index</a> for what exists today.
+      </p>
+    {% endif %}
   </div>
 </section>

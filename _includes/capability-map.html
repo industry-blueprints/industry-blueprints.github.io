@@ -1,0 +1,33 @@
+{% comment %}
+  The capability map. Named capabilities live in the domain's frontmatter and
+  render as text; those with a page (Defined or deeper) render as links.
+  Promoting a capability = writing its file and adding a `target`.
+  Params: domains (optional; defaults to all, ordered by map_order).
+{% endcomment %}
+{% assign map_domains = include.domains | default: site.domains | sort: "map_order" %}
+
+<div class="capability-map">
+  {% for domain in map_domains %}
+    <section class="cap-domain">
+      <div class="cap-domain-head">
+        <h3><a href="{{ domain.url | relative_url }}">{{ domain.title }}</a></h3>
+        <span class="cap-domain-type is-{{ domain.domain_type }}">{{ domain.domain_type }}</span>
+        <span class="cap-domain-count">{{ domain.capabilities | size }} capabilities</span>
+      </div>
+      <p class="cap-domain-desc">{{ domain.description }}</p>
+      <ul class="cap-list">
+        {% for cap in domain.capabilities %}
+          {% assign target_url = site.data.bundle_urls[cap.target] %}
+          <li class="cap-item{% if target_url %} is-linked{% endif %}">
+            {% if target_url %}
+              <a href="{{ target_url | relative_url }}">{{ cap.title }}</a>
+            {% else %}
+              <span class="cap-name">{{ cap.title }}</span>
+            {% endif %}
+            <span class="cap-def">{{ cap.definition }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>

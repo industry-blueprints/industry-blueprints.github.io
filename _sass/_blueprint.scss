@@ -1,0 +1,600 @@
+// Blueprint pages: derived badges, the maturity spine, the relationship
+// panel, provenance. Everything here renders state computed in _plugins/,
+// never state an author typed by hand.
+
+// ── Badges ───────────────────────────────────────────────────────────
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.badge::before {
+  content: "";
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  background: currentcolor;
+  flex: none;
+}
+
+.badge-status.is-draft { color: var(--status-draft); }
+.badge-status.is-stable { color: var(--status-stable); }
+.badge-status.is-deprecated { color: var(--status-deprecated); }
+
+.badge-trust.is-human-reviewed { color: var(--trust-human-reviewed); }
+.badge-trust.is-machine-confirmed { color: var(--trust-machine-confirmed); }
+.badge-trust.is-unverified { color: var(--trust-unverified); }
+
+.badge-fresh.is-current { color: var(--fresh-current); }
+.badge-fresh.is-review-due { color: var(--fresh-review-due); }
+.badge-fresh.is-stale { color: var(--fresh-stale); }
+
+// A stale artifact should be uncomfortable to look at.
+.badge-fresh.is-stale {
+  border: 1px solid var(--fresh-stale);
+  padding: 0.2em 0.6em;
+}
+
+.badge-level {
+  color: var(--accent-soft);
+}
+.badge-level::before { display: none; }
+
+.badge-meta {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.gov-badge {
+  font-size: 0.66rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 0.2em 0.55em;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  flex: none;
+}
+.dot-human-reviewed { background: var(--trust-human-reviewed); }
+.dot-machine-confirmed { background: var(--trust-machine-confirmed); }
+.dot-unverified { background: var(--trust-unverified); }
+
+// ── Maturity spine ───────────────────────────────────────────────────
+
+.maturity-scale {
+  margin-top: var(--space-3);
+  border: 1px solid var(--line);
+  padding: var(--space-2) var(--space-3);
+}
+
+.maturity-caption {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--space-1);
+}
+
+.maturity-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.maturity-step {
+  flex: 1 1 5.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4em;
+  padding: 0.5em 0.7em;
+  background: var(--surface);
+  border-top: 2px solid var(--line);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.maturity-step.is-on {
+  background: var(--surface-raised);
+  border-top-color: var(--accent);
+  color: var(--text);
+}
+
+.maturity-num {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.maturity-step.is-on .maturity-num { color: var(--accent); }
+
+// ── Depth grouping on collection indexes ─────────────────────────────
+// Partial coverage is the normal state, so listings say which tier the
+// reader is looking at rather than letting a stub and a finished artifact
+// sit side by side unlabelled.
+
+.depth-group {
+  margin: var(--space-6) 0 var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--line);
+}
+
+.depth-group:first-of-type { margin-top: var(--space-4); }
+
+.depth-group-title {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+
+.depth-group-count {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.depth-group-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+// ── Guide header ─────────────────────────────────────────────────────
+// A guide is addressed to a reader, not about a subject. Naming the reader
+// and the traversal shape up front is how someone decides in three seconds
+// whether this page is for them.
+
+.guide-meta {
+  border-left: 3px solid var(--accent);
+  padding-left: var(--space-3);
+  margin: var(--space-3) 0;
+}
+
+.guide-shape {
+  font-size: 0.95rem;
+  margin-bottom: var(--space-1);
+}
+
+.guide-audience {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+.guide-audience-label {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  color: var(--accent-soft);
+  margin-right: 0.4em;
+}
+
+// ── Two-column entry ─────────────────────────────────────────────────
+
+.entry-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 42rem) minmax(0, 20rem);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+@media (max-width: 62rem) {
+  .entry-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
+  }
+}
+
+.entry-aside {
+  position: sticky;
+  top: var(--space-3);
+}
+
+@media (max-width: 62rem) {
+  .entry-aside { position: static; }
+}
+
+// ── Relationships ────────────────────────────────────────────────────
+
+.related-heading {
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-bottom: var(--space-1);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: var(--space-2);
+}
+
+.related-group { margin-bottom: var(--space-3); }
+
+.related-group h3 {
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  margin-bottom: var(--space-1);
+}
+
+// Inbound edges are generated from other pages' frontmatter — shown in a
+// quieter register so the distinction stays legible.
+.related-group.is-inbound h3 { color: var(--muted); }
+
+.related-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.related-group li { background: var(--line); }
+
+.related-group a {
+  display: block;
+  background: var(--bg);
+  padding: 0.6em 0.8em;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.related-group a:hover { background: var(--surface); }
+
+.related-group .kind-label {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.15em;
+}
+
+.related-note {
+  display: block;
+  padding: 0.3em 0.8em 0.6em;
+  background: var(--bg);
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+// ── Sources & provenance ─────────────────────────────────────────────
+
+.sources {
+  margin-top: var(--space-5);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line);
+}
+
+.sources h2 {
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--space-2);
+}
+
+.source-list {
+  padding-left: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  font-size: 0.9rem;
+}
+
+.source-meta {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-left: 0.5em;
+}
+
+.entry-foot {
+  margin-top: var(--space-6);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line);
+}
+
+.provenance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin: 0 0 var(--space-3);
+}
+
+.provenance dt {
+  font-size: 0.65rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.2em;
+}
+
+.provenance dd {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.entry-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+// ── Body content inside blueprints ───────────────────────────────────
+
+.entry-body h2 {
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-2);
+  padding-bottom: var(--space-1);
+  border-bottom: 1px solid var(--line);
+}
+
+.entry-body h3 {
+  font-size: 1.1rem;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-1);
+}
+
+.entry-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: var(--space-3);
+  font-size: 0.88rem;
+}
+
+.entry-body th,
+.entry-body td {
+  border: 1px solid var(--line);
+  padding: 0.6em 0.8em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.entry-body th {
+  background: var(--surface);
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.entry-body blockquote {
+  border-left: 3px solid var(--line);
+  padding-left: var(--space-3);
+  color: var(--muted);
+  margin-block: var(--space-3);
+}
+
+// Wide content must scroll inside its own box, never the page.
+.table-scroll {
+  overflow-x: auto;
+  margin-block: var(--space-3);
+}
+
+.mermaid {
+  margin-block: var(--space-4);
+  overflow-x: auto;
+}
+
+// ── Misc ─────────────────────────────────────────────────────────────
+
+.lede {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 44rem;
+  margin-top: var(--space-2);
+}
+
+.empty-state {
+  border: 1px dashed var(--line);
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.card-eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+// ── Depth ladder ─────────────────────────────────────────────────────
+
+.badge-depth {
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 0.2em 0.6em;
+}
+.badge-depth::before { display: none; }
+.badge-depth.is-detailed,
+.badge-depth.is-complete { color: var(--accent-soft); border-color: var(--accent-soft); }
+
+// ── Capability map ───────────────────────────────────────────────────
+
+// Domains stack full width and their capabilities flow beneath them.
+//
+// This was previously a grid of equal domain cells, which fails once domains
+// differ in size — 10 capabilities beside 17 leaves dead space in the short
+// cell, and a ninth domain orphans an entire row to itself. Stacking makes
+// domain count irrelevant to the layout and gives every capability the same
+// column width regardless of which domain it sits in.
+.capability-map {
+  margin-block: var(--space-4);
+  border-top: 1px solid var(--line);
+}
+
+.cap-domain {
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cap-domain-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+.cap-domain-head h3 {
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  margin: 0;
+  margin-right: auto; // pushes the badges to the far edge
+}
+
+.cap-domain-count {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+.cap-domain-head a { text-decoration: none; color: var(--text); }
+.cap-domain-head a:hover { color: var(--accent-soft); }
+
+.cap-domain-type {
+  font-size: 0.6rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 0.15em 0.45em;
+  flex: none;
+}
+
+.cap-domain-type.is-enterprise { color: var(--accent-soft); border-color: var(--accent-soft); }
+
+.cap-domain-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  max-width: 50rem;
+  margin: 0 0 var(--space-3);
+}
+
+// Capabilities flow into as many columns as the viewport allows, so a domain
+// with 17 occupies proportionally more height rather than being compressed.
+.cap-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: var(--space-2) var(--space-4);
+  align-items: start;
+}
+
+.cap-item {
+  font-size: 0.85rem;
+  padding-left: 0.75em;
+  border-left: 2px solid var(--line);
+}
+
+// A capability with a page is visibly different from one that is only Named —
+// coverage is partial by design and should look it.
+.cap-item.is-linked { border-left-color: var(--accent); }
+
+.cap-item a { text-decoration: none; color: var(--accent-soft); font-weight: 600; }
+.cap-item a:hover { color: #fff; }
+.cap-name { color: var(--text); font-weight: 500; }
+
+.cap-def {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: var(--space-3);
+}
+
+.map-legend span { display: inline-flex; align-items: center; gap: 0.5em; }
+
+.map-legend .swatch {
+  width: 2px;
+  height: 1em;
+  background: var(--line);
+}
+.map-legend .swatch.is-linked { background: var(--accent); }
+
+// Artifacts whose content is inherently wide — capability maps, entity
+// tables — opt out of the 42rem measure.
+.entry-layout.is-wide {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.entry-layout.is-wide .entry-body {
+  max-width: none;
+}
+
+.entry-layout.is-wide .entry-aside {
+  position: static;
+  max-width: 100%;
+}
+
+.entry-layout.is-wide .related {
+  columns: 3 18rem;
+  column-gap: var(--space-4);
+}
+
+.entry-layout.is-wide .related-heading { column-span: all; }
+.entry-layout.is-wide .related-group { break-inside: avoid; }
+
+.entity-list {
+  columns: var(--entity-cols, 2) 16rem;
+  column-gap: var(--space-4);
+  display: block;
+}
+
+.entity-list .cap-item {
+  break-inside: avoid;
+  margin-bottom: 0.6em;
+}

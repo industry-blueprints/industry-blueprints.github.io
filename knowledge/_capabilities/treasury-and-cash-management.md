@@ -1,0 +1,103 @@
+---
+type: Capability
+title: Treasury & Cash Management
+description: Knowing where the cash is, where it will be, and making sure the
+  organization can pay what it owes on the day it owes it.
+resource: https://industry-blueprints.github.io/capabilities/treasury-and-cash-management/
+tags: [capability, treasury, cash, banking, investments, liquidity]
+
+generated: { by: human:jhofmann, at: 2026-07-27T20:00:00Z }
+status: draft
+stale_after: 2027-07-27
+depth: defined
+
+industry: public-sector
+government_levels: [federal, state, county, municipal]
+
+relationships:
+  - predicate: part_of
+    target: /domains/fund.md
+  - predicate: has_participant
+    target: /personas/budget-director.md
+    note: Owns the liquidity position and the consequences of getting it wrong
+---
+
+## Purpose
+
+To manage the organization's cash position — forecasting inflows and outflows, maintaining
+sufficient liquidity, investing surplus within permitted limits, and executing disbursements
+securely.
+
+**Public treasury is constrained investment.** The objectives are ordered: safety, then liquidity,
+then yield — and the permitted instruments are usually set by statute rather than by policy. An
+investment strategy that would be unremarkable commercially can be unlawful here.
+
+## Desired outcomes
+
+- A cash forecast reliable enough to act on
+- Liquidity sufficient for obligations without excessive idle balances
+- Investments within statutory limits, with concentration and maturity managed
+- Collateralization of deposits above insured limits
+- Disbursement controls that survive a determined social-engineering attempt
+- Bank reconciliation current, not quarterly
+
+## Key processes
+
+Cash position monitoring and forecasting · bank account structure and rationalization · investment
+policy compliance and execution · collateral monitoring · payment run preparation and release ·
+positive pay and fraud controls · bank reconciliation · merchant services and card acceptance ·
+escheatment of unclaimed property · short-term borrowing
+
+## Key data
+
+Bank account inventory with signatories and purpose · daily cash position by fund · cash forecast
+with assumptions · investment portfolio with instrument, maturity, and counterparty · collateral
+pledges · payment files and release approvals · reconciliation status by account
+
+## Measures
+
+| Measure | Class |
+|---|---|
+| Cash forecast variance against actual | Process |
+| Idle balances above operating requirement | Input |
+| Portfolio yield against benchmark, within constraints | Outcome |
+| Investments outside policy limits | Process |
+| Accounts reconciled within the target window | Process |
+| Payments released without dual authorization | Process |
+| Deposits above insured limits without collateral | Process |
+
+## Level variance
+
+- **Federal.** Centralized disbursement and collection through the national treasury function,
+  with agencies managing appropriated authority rather than a cash position in the local sense.
+- **State.** A state treasurer's office managing a substantial portfolio, frequently operating a
+  local government investment pool that municipalities may participate in.
+- **County / municipal.** Statutorily constrained investment lists, deposits requiring
+  collateralization, and an elected treasurer in many jurisdictions — meaning treasury reports to
+  the electorate rather than to the administration, which changes how the function is governed.
+  Smaller jurisdictions frequently rely on a state or county pool rather than investing directly.
+
+## Where it goes wrong
+
+**No forecast, only a balance.** Managing to today's position invites either an unnecessary
+short-term borrowing or a large idle balance earning nothing.
+
+**Bank accounts nobody can enumerate.** Departments open accounts for specific purposes over
+decades. The inventory is the first thing an auditor asks for and frequently cannot be produced.
+
+**Signatories who left.** Authorization records at the bank updated less often than the staff
+change, which is a control failure that persists silently for years.
+
+**Payment fraud through remittance change.** A supplier's bank details updated on the strength of
+an email. The most successful fraud against public organizations, and the control is procedural —
+see [supplier eligibility and payment
+integrity](/governance/supplier-eligibility-and-payment-integrity/).
+
+**Reconciliation deferred until year-end.** Errors and unauthorized activity discovered eleven
+months late, past any practical recovery window.
+
+**Investment policy older than the statute.** Written once, never revised against amendments to
+the permitted instrument list.
+
+**Yield pursued ahead of liquidity.** Locking maturity to improve return, then borrowing
+short-term to make payroll — a net loss achieved through an activity that looked like optimization.
