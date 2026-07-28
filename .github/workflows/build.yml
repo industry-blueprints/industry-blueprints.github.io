@@ -3,6 +3,8 @@ name: Build and deploy
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -26,9 +28,14 @@ jobs:
           bundler-cache: true
 
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
 
       # strict_relationships turns unresolvable relationship targets into a
-      # build failure in CI, while local authoring only warns.
+      # build failure in CI, while local authoring only warns. On pull requests
+      # this is the whole point of the job: the validator catches unknown
+      # predicates, unresolvable targets, duplicate edges, broken map targets,
+      # bundle-path body links, and resource URL drift — all of which render
+      # fine locally and are only visible at build.
       - name: Build
         run: bundle exec jekyll build --trace
         env:
@@ -36,8 +43,10 @@ jobs:
           JEKYLL_STRICT_RELATIONSHIPS: "true"
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:

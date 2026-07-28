@@ -10,5 +10,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
 end
 
-# Windows / JRuby timezone data
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Windows / JRuby timezone data. Linux ships its own zoneinfo, so this stays
+# platform-scoped rather than becoming an unconditional dependency in CI.
+gem "tzinfo-data", platforms: [:windows, :jruby]
