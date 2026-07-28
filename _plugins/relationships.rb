@@ -60,7 +60,31 @@ module IndustryBlueprints
 
       validate_map_targets(site, index)
       validate_body_links(site)
+      validate_resource_urls(site)
       report
+    end
+
+    # `resource` is the canonical published URL, authored by hand on every
+    # artifact, and it drifts silently — a `.md` suffix copied from a bundle
+    # path, or a stale slug after a rename. Unlike a broken link it renders
+    # fine, and it is the identifier an OKF consumer keys on, so a wrong one
+    # is worse than a dead href. Derived comparison, exact match.
+    def validate_resource_urls(site)
+      base = site.config["url"].to_s.chomp("/")
+      return if base.empty?
+
+      site.collections.each_value do |collection|
+        collection.docs.each do |doc|
+          declared = doc.data["resource"]
+          next if declared.nil?
+
+          expected = "#{base}#{doc.url}"
+          next if declared == expected
+
+          @errors << "#{doc.relative_path}: resource '#{declared}' " \
+                     "does not match published URL '#{expected}'"
+        end
+      end
     end
 
     # Body prose uses ordinary site links in Phase 0; bundle paths (.md) are

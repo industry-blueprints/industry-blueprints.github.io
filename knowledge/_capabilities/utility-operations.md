@@ -18,7 +18,8 @@ relationships:
   - predicate: part_of
     target: /domains/build-and-operate.md
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/utility-operator.md
+    note: Certified, personally accountable, and frequently the only one
   - predicate: has_participant
     target: /personas/constituent.md
     note: Ratepayer and customer, with no alternative supplier and an affordability limit

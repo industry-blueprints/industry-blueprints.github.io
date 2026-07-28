@@ -18,7 +18,8 @@ relationships:
   - predicate: part_of
     target: /domains/build-and-operate.md
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/public-works-director.md
+    note: Buildings sit in the same estate and compete for the same renewal funding
   - predicate: has_participant
     target: /personas/constituent.md
     note: Public buildings are service locations, and their accessibility is a service attribute

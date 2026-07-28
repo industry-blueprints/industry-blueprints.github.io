@@ -18,7 +18,7 @@ relationships:
   - predicate: part_of
     target: /domains/build-and-operate.md
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/fleet-manager.md
   - predicate: has_participant
     target: /personas/budget-director.md
     note: A replacement reserve either exists or the fleet ages — there is no third option

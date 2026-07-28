@@ -23,7 +23,8 @@ relationships:
     target: /personas/elected-official.md
     note: Approves the programme, and is accountable on a shorter horizon than the assets
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/public-works-director.md
+    note: Owns the estate the programme renews, and the backlog it does not
 ---
 
 ## Purpose

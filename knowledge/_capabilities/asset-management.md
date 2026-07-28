@@ -9,7 +9,7 @@ tags: [capability, asset-management, condition, lifecycle, infrastructure, criti
 generated: { by: human:jhofmann, at: 2026-07-28T11:15:00Z }
 status: draft
 stale_after: 2027-07-28
-depth: defined
+depth: complete
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
@@ -18,7 +18,8 @@ relationships:
   - predicate: part_of
     target: /domains/build-and-operate.md
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/asset-manager.md
+    note: Owns the register and the reconciliation between three views of it
   - predicate: has_participant
     target: /personas/budget-director.md
     note: Asset condition is a financial position, and is reported as one or not at all
@@ -51,14 +52,23 @@ registers — finance's, engineering's, and the maintenance system's — that di
 - Asset data captured at construction handover rather than reconstructed later
 - Disposal recorded, so the register reflects what is actually owned
 
-## Key processes
+## Processes
 
-Asset identification, classification, and hierarchy definition · register establishment and
-reconciliation across systems · condition assessment and rating · criticality and consequence-of-
-failure assessment · remaining useful life estimation · valuation and depreciation for financial
-reporting · renewal and replacement forecasting · level-of-service linkage · data capture at
-handover from [construction](/capabilities/project-delivery-and-construction-management/) ·
-disposal and retirement · register audit and verification
+[Asset Inventory & Condition Assessment](/processes/asset-inventory-and-condition-assessment/) ·
+[Failure Analysis & Renewal Referral](/processes/failure-analysis-and-renewal-referral/)
+
+Also: valuation and depreciation for financial reporting · level-of-service linkage · data capture
+at handover from [construction](/capabilities/project-delivery-and-construction-management/) ·
+disposal and retirement · register audit
+
+## Data
+
+[Asset & Work Management Data Model](/data-models/asset-and-work-management-data-model/), extending
+the [core model](/data-models/core-public-sector-model/).
+[Asset](/data-entities/asset/) is promoted from a core definition to a full entity here, because
+this is the capability that needs its attributes — and the modelling decision that matters most is
+that **Condition Assessment is a dated entity, not a field.** Overwritten each survey, deterioration
+rate is invisible and the rating cannot be compared against the failure that followed it.
 
 ## Key data
 
@@ -73,11 +83,11 @@ accumulated depreciation · warranty and manufacturer data · spatial geometry f
 
 | Measure | Class |
 |---|---|
-| Assets in the register with a condition assessment newer than the cycle | Process |
+| [Condition assessment currency](/kpis/condition-assessment-currency/) | Process |
+| [Renewal rate against replacement value](/kpis/renewal-rate-against-replacement-value/) | Outcome |
 | Register reconciliation variance between financial and operational views | Process |
 | Assets past assessed useful life, by criticality | Outcome |
 | Replacement value of assets in poor or failed condition | Outcome |
-| Renewal funding requirement forecast over ten years | Input |
 | New assets registered at handover rather than later | Process |
 | Failures on assets rated good condition | Outcome |
 
@@ -125,3 +135,21 @@ management](/capabilities/technology-service-management/).
 
 **No link to level of service.** Condition reported in engineering terms with no statement of what
 it means for the service the public receives, so it cannot compete for funding.
+
+## Governance
+
+[Asset Data Integrity & Handover](/governance/asset-data-integrity-and-handover/) — which assigns
+the accountability nobody currently holds, and states the sharpest requirement in the cluster:
+**a capital project is not complete when the facility opens, it is complete when the asset data is
+in the register.** Where that data is a payment milestone with retainage attached, it arrives.
+
+## AI opportunities
+
+[Condition assessment from imagery](/ai-opportunities/condition-assessment-from-imagery/) ·
+[Failure prediction from work history](/ai-opportunities/failure-prediction-from-work-history/)
+
+**The order matters more than either technique.** Register, then condition, then prediction — which
+is the reverse of the order it is usually attempted in. A model over a register nobody trusts
+produces confident wrong answers, and the resulting initiative discredits the approach locally for
+years. Imagery addresses surface and linear assets only; it does not touch buried infrastructure,
+which is where the largest renewal exposure sits.

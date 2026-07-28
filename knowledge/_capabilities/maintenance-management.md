@@ -9,7 +9,7 @@ tags: [capability, maintenance, preventive, work-orders, reliability, backlog]
 generated: { by: human:jhofmann, at: 2026-07-28T11:30:00Z }
 status: draft
 stale_after: 2027-07-28
-depth: defined
+depth: complete
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
@@ -18,7 +18,8 @@ relationships:
   - predicate: part_of
     target: /domains/build-and-operate.md
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/maintenance-planner.md
+    note: Owns the programme, and watches reactive demand consume it
   - predicate: has_participant
     target: /personas/constituent.md
     note: Frequently the source of the corrective request, through a service request
@@ -45,14 +46,24 @@ without temporarily funding both.
 - Backlog measured, aged, and reported rather than absorbed
 - Failure causes analysed for the recurring ones
 
-## Key processes
+## Processes
 
-Preventive maintenance programme definition · maintenance strategy selection by asset criticality ·
-work request intake from staff, public, and condition monitoring · triage and prioritization · work
-order planning — labour, parts, access, permits · scheduling and crew assignment · dispatch and
-execution · completion recording and asset history update · backlog management · failure analysis ·
-parts and [inventory](/capabilities/supply-and-inventory-management/) coordination · contractor
-maintenance oversight
+[Preventive Maintenance Planning](/processes/preventive-maintenance-planning/) ·
+[Work Order Planning & Scheduling](/processes/work-order-planning-and-scheduling/) ·
+[Field Execution & Completion](/processes/field-execution-and-completion/) ·
+[Failure Analysis & Renewal Referral](/processes/failure-analysis-and-renewal-referral/)
+
+Also: backlog management · parts and
+[inventory](/capabilities/supply-and-inventory-management/) coordination · contractor maintenance
+oversight
+
+## Data
+
+[Asset & Work Management Data Model](/data-models/asset-and-work-management-data-model/). The
+entity that matters most here is [Work Order](/data-entities/work-order/) — specifically that
+**completion requires actual labour, parts, findings, and condition observed.** Recorded as a
+status flag, the asset accumulates no history, planning estimates from guesswork permanently, and
+failure analysis is impossible.
 
 ## Key data
 
@@ -66,9 +77,9 @@ crew capacity and assignment
 
 | Measure | Class |
 |---|---|
-| Preventive versus reactive work, as a share of labour hours | Outcome |
+| [Preventive-to-reactive ratio](/kpis/preventive-to-reactive-ratio/) | Outcome |
 | Preventive work completed on schedule | Process |
-| Backlog size and age, by priority | Outcome |
+| [Work backlog age](/kpis/work-backlog-age/) | Process |
 | Time from request to completion, by priority | Process |
 | Work orders completed on first visit | Process |
 | Repeat failures on the same asset | Outcome |
@@ -116,3 +127,33 @@ the coordination failure between this capability and
 [supply and inventory](/capabilities/supply-and-inventory-management/).
 
 **No failure analysis.** The same pump fails four times and is repaired four times.
+
+## Governance
+
+[Work Authorization & Safety Prerequisites](/governance/work-authorization-and-safety-prerequisites/)
+· [Asset Data Integrity & Handover](/governance/asset-data-integrity-and-handover/)
+
+## Patterns
+
+[Criticality-Based Maintenance Strategy](/patterns/criticality-based-maintenance-strategy/) at
+`minimum_level: 2` — deliberately the lowest bar available. Criticality tiering can be done in a
+workshop with the people who know which failures hurt, recorded in a spreadsheet, and applied by
+setting different intervals per class. **The step from uniform to tiered is where almost all the
+value is**, and it does not require a system.
+
+Run-to-failure is part of the pattern and the part most often omitted. Organizations already ration
+preventive maintenance implicitly, under pressure, at seven in the morning; doing it explicitly
+produces the same rationing with a basis that can be explained afterwards.
+
+## AI opportunities
+
+[Failure prediction from work history](/ai-opportunities/failure-prediction-from-work-history/) at
+`minimum_level: 4`, and the prerequisite is the record rather than the model. An organization whose
+completion is a status flag cannot do this, and no amount of modelling effort substitutes.
+
+Two boundaries worth stating. **Criticality is not learnable from failure history** — an asset that
+has never failed may be the one whose failure would be catastrophic, so prediction and consequence
+stay independent inputs. And renewal driven by failure history concentrates investment where assets
+have historically been maintained *and recorded*, which can systematically under-prioritize
+neighbourhoods with poorer historical record-keeping. Compare predicted investment distribution
+against population before acting on the ranking.

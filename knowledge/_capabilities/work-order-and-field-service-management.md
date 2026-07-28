@@ -9,7 +9,7 @@ tags: [capability, work-orders, field-service, dispatch, mobile, crews, scheduli
 generated: { by: human:jhofmann, at: 2026-07-28T12:45:00Z }
 status: draft
 stale_after: 2027-07-28
-depth: defined
+depth: complete
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
@@ -18,10 +18,10 @@ relationships:
   - predicate: part_of
     target: /domains/build-and-operate.md
   - predicate: has_participant
-    target: /personas/program-manager.md
+    target: /personas/public-works-director.md
   - predicate: has_participant
-    target: /personas/caseworker.md
-    note: The field worker — inspector, technician, crew lead — with the same mobile constraints
+    target: /personas/field-crew-lead.md
+    note: Runs the crew, and is the last chance to capture what happened
   - predicate: uses_data
     target: /data-entities/location.md
 ---
@@ -52,30 +52,34 @@ separately four or five times.
 - Requesters able to see status without calling
 - Actual labour, materials, and equipment captured for costing
 
-## Key processes
+## Processes
 
-Work request intake from multiple sources · work order creation and classification · skill,
-certification, and equipment requirement matching · scheduling and route optimization · crew
-assignment and dispatch · mobile delivery of work packet and asset history · permit, traffic
-control, and safety prerequisite verification · locate request coordination before excavation ·
-field execution and evidence capture · completion recording with labour, materials, and findings ·
-offline synchronization · requester notification · cost roll-up · timesheet integration
+[Work Request Intake & Triage](/processes/work-request-intake-and-triage/) ·
+[Work Order Planning & Scheduling](/processes/work-order-planning-and-scheduling/) ·
+[Field Execution & Completion](/processes/field-execution-and-completion/)
 
-## Key data
+Also: skill and certification matching · route optimization · locate request coordination · offline
+synchronization · cost roll-up · timesheet integration
 
-Work orders with type, priority, location, asset, and status · crew and individual skills,
-certifications, and availability · equipment and vehicle assignment · schedule and route plans ·
-mobile capture — photographs, measurements, signatures, and readings with time and place ·
-completion records with actual labour, materials, and equipment hours · locate tickets and
-responses · safety and permit prerequisites per work type · requester contact and notification
-history
+## Data
+
+[Asset & Work Management Data Model](/data-models/asset-and-work-management-data-model/), extending
+the [core model](/data-models/core-public-sector-model/). The structural decision:
+[Work Order](/data-entities/work-order/) attaches to the
+[Asset](/data-entities/asset/), not to an address — and **completion requires actual labour, parts,
+and findings, not a status flag.** Everything downstream in this domain depends on those two.
+
+Also held: crew skills, certifications, and availability · equipment and vehicle assignment ·
+schedule and route plans · mobile capture with time and place · locate tickets and responses ·
+requester contact and notification history
 
 ## Measures
 
 | Measure | Class |
 |---|---|
 | Schedule adherence — work completed as planned | Process |
-| First-visit completion rate | Outcome |
+| [First-visit completion rate](/kpis/first-visit-completion-rate/) | Outcome |
+| [Work backlog age](/kpis/work-backlog-age/) | Process |
 | Travel time as a share of crew time | Input |
 | Work recorded in the field versus re-entered later | Process |
 | Wrench time — productive field hours per crew day | Input |
@@ -127,3 +131,26 @@ service that failed to close the loop.
 
 **Actual cost never captured.** Labour, materials, and equipment estimated rather than recorded, so
 no service can be costed and no comparison with contracting out is possible.
+
+## Governance
+
+[Work Authorization & Safety Prerequisites](/governance/work-authorization-and-safety-prerequisites/)
+— and the distinction that carries it: **arranging a prerequisite during planning is not verifying
+it at execution.** Locates expire, marks wash away, isolation gets reinstated by another crew.
+
+## Patterns
+
+[Offline-First Field Capture](/patterns/offline-first-field-capture/) at
+`minimum_level: 2` — a design constraint rather than a technology tier, and the enabler for
+everything above it. An organization at level 3 without offline capture accumulates no usable
+history, and the analytical capabilities built on top underperform for reasons that get attributed
+to the wrong cause.
+
+## AI opportunities
+
+[Work request triage and duplicate detection](/ai-opportunities/work-request-triage-and-duplicate-detection/)
+
+The boundary here is narrow and specific: **classify and link, never merge or close.** A duplicate
+link is reversible; a merge is not, and a wrongly merged report means a second real defect goes
+unrecorded. Priority stays with the published rule rather than the model — a model that learns
+priority from historical decisions learns triage-by-visibility and encodes it as policy.
