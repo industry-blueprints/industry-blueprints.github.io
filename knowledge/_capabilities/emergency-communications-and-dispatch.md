@@ -99,36 +99,38 @@ below staffing cannot meet an answer standard however good its technology is.
 - **Tribal.** Own dispatch or served by county, with jurisdictional determination adding a step at
   exactly the wrong moment.
 
-## Where it goes wrong
+## What to get right
 
-**Location as the first failure.** Wireless and indoor calls where the device location is imprecise
-and the caller cannot say where they are. Everything else is downstream of establishing it, and it
-depends on the authoritative address and parcel data described in
+**Nail location first — everything else depends on it.** Wireless and indoor calls where the device
+location is imprecise and the caller cannot say where they are put the whole response downstream of
+establishing it, and doing so depends on the authoritative address and parcel data described in
 [geospatial information management](/capabilities/geospatial-information-management/).
 
-**One response type for every call.** Behavioural health crisis, welfare check, and non-injury
-report all dispatched as a police response because that is what exists — which consumes field
-capacity and produces poor outcomes at both ends.
+**Match the response to the need, not just to what exists.** Behavioural health crisis, welfare
+check, and non-injury report deserve a response suited to them rather than a default police
+response — dispatching all three as police consumes field capacity and produces poor outcomes at
+both ends.
 
-**Transfer between centres mid-call.** The caller repeats everything, having already waited, and
-the clock has been running throughout.
+**Keep the caller with one centre, not transferred mid-call.** A transfer means the caller repeats
+everything, having already waited, while the clock keeps running.
 
-**Interoperability assumed.** Radio systems that cannot talk to the neighbouring agency, discovered
-during the mutual aid incident rather than during an exercise — the same untested-assumption
-pattern as backup power in
+**Test interoperability with an exercise, not with the incident.** Radio systems that cannot talk to
+the neighbouring agency need to be discovered during an exercise, not during the mutual aid incident
+— the same untested-assumption pattern as backup power in
 [critical infrastructure resilience](/capabilities/critical-infrastructure-resilience/).
 
-**Staffing modelled on average demand.** Demand is peaked and non-negotiable; a centre staffed to
+**Staff to peak demand, not the average.** Demand is peaked and non-negotiable; a centre staffed to
 the mean fails at exactly the times it matters.
 
-**Cumulative exposure unaddressed.** Telecommunicators experience the worst calls repeatedly with
-no scene resolution and no closure, are frequently classified administratively rather than as first
-responders, and leave — see [employee health, safety and
+**Address cumulative exposure directly.** Telecommunicators experience the worst calls repeatedly
+with no scene resolution and no closure, and are frequently classified administratively rather than
+as first responders; supporting them and classifying the role accurately helps retention — see
+[employee health, safety and
 wellbeing](/capabilities/employee-health-safety-and-wellbeing/).
 
-**Language capability on the emergency line treated as an enhancement.** Interpretation that takes
-minutes to reach is not available in the calls that need it — see
+**Treat language capability on the emergency line as core, not an enhancement.** Interpretation
+needs to reach the call in seconds, not minutes, for the calls that need it — see
 [language access](/capabilities/language-access/).
 
-**Premise hazard flags never reviewed.** Warnings attached years ago, never revalidated, biasing
-the response to an address indefinitely.
+**Revalidate premise hazard flags on a schedule.** Warnings attached years ago and never
+revalidated bias the response to an address indefinitely.

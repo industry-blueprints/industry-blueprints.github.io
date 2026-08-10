@@ -85,24 +85,25 @@ organization is believed the next time.
   relationship and the constituent-service relationship blur, and the referral is frequently the
   most common transaction.
 
-## Where it goes wrong
+## What to get right
 
-**Discovering a bill after it has moved.** Tracking that depends on someone reading a list
-manually means the organization responds to what already passed committee.
+**Track bills systematically rather than by someone reading a list manually.** Reliable tracking
+catches a bill before it moves, instead of after it has already passed committee.
 
-**Fiscal notes written to a conclusion.** Understating cost to avoid opposing a popular bill, or
-overstating it to kill one. Both are detected eventually, and the credibility loss applies to
-every subsequent note.
+**Write fiscal notes to the honest number, not to a conclusion.** Understating cost to avoid
+opposing a popular bill, or overstating it to kill one, is detected eventually, and the credibility
+loss applies to every subsequent note.
 
-**Multiple positions from one organization.** Two departments testify differently on the same
-bill. It happens whenever position clearance is informal, and it is remembered.
+**Clear one organizational position before testimony, not two.** Two departments testifying
+differently on the same bill happens whenever position clearance is informal, and it is remembered.
 
-**Commitments made in a hearing and lost.** "We'll get back to you with that figure." Nobody
-records it, the follow-up never comes, and the next hearing opens with it.
+**Record commitments made in a hearing and track them to follow-up.** "We'll get back to you with
+that figure" needs an owner, or the follow-up never comes and the next hearing opens with it still
+outstanding.
 
-**Mandates arriving without implementation ownership.** The bill passes, the effective date is in
-six months, and nobody is assigned until month five.
+**Assign implementation ownership as soon as a mandate passes.** A six-month effective date with
+nobody assigned until month five leaves too little runway.
 
-**Council referrals handled outside the case system.** An elected member emails a director
-directly; the request bypasses [constituent service](/capabilities/constituent-service-management/)
-entirely and is invisible to any measure of demand or resolution.
+**Route council referrals through the case system.** An elected member emailing a director directly
+bypasses [constituent service](/capabilities/constituent-service-management/) entirely and becomes
+invisible to any measure of demand or resolution.

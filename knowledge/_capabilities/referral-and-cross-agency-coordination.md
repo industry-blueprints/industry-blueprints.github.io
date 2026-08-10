@@ -92,29 +92,33 @@ records that the organization stopped being responsible, not that the person got
   [constituent service](/capabilities/constituent-service-management/) and a community information
   line, holding a directory of services it does not itself provide.
 
-## Where it goes wrong
+## What to get right
 
-**Referral as a phone number.** The person is given a number and the case is closed. Counted as a
-successful referral, and the connection rate for cold referrals is poor.
+**Make the handoff warm, not a phone number.** Given a number instead of a connection, the case
+still gets closed and counted as a successful referral, even though the connection rate for cold
+referrals is poor.
 
-**No loop closure.** The referring worker never learns whether it worked, so they cannot tell a
-good destination from a bad one and the directory never improves.
+**Close the loop back to the referrer.** When the referring worker learns whether it worked, they
+can tell a good destination from a bad one and the directory improves; without that feedback,
+neither happens.
 
-**Directory maintained by nobody.** Contacts, eligibility, and capacity out of date, so people are
-sent to programmes that closed or are full.
+**Keep the directory current.** Contacts, eligibility, and capacity that go unmaintained send
+people to programmes that closed or are full.
 
-**Consent as an obstacle rather than a design input.** Either sharing is blocked entirely, or it
-happens informally without a basis. The answer is a scoped, time-limited consent captured once —
-which is a [privacy](/capabilities/privacy-management/) design decision, not a workflow one.
+**Design consent as a scoped, time-limited capture at the point of first contact.** Treating
+consent as an obstacle leads to sharing that's either blocked entirely or handled informally
+without a basis — a [privacy](/capabilities/privacy-management/) design decision, not a workflow
+one.
 
-**The person as the integration layer.** Told to contact four organizations, repeat their situation
-four times, and reconcile four sets of conflicting advice themselves.
+**Let the organizations do the integration work, not the person.** Otherwise they're contacting
+four organizations, repeating their situation four times, and reconciling four sets of
+conflicting advice themselves.
 
-**Case conferencing without a shared record.** A meeting where everyone brings their own partial
-view and nothing agreed is recorded anywhere all parties can see.
+**Give case conferencing a shared record.** Without one, everyone brings their own partial view
+and nothing agreed gets recorded anywhere all parties can see.
 
-**Unmet need unrecorded.** The most valuable data this capability generates — where people
-repeatedly need something that does not exist — is discarded because there is no field for it.
+**Capture unmet need as data.** Where people repeatedly need something that does not exist is the
+most valuable data this capability generates — it needs a field, or it gets discarded.
 
-**Coordination depending on individual relationships.** Two workers who know each other make it
-work; both leave, and it stops.
+**Build coordination into the process, not into individual relationships.** Two workers who know
+each other can make it work informally, but it stops the moment both leave.

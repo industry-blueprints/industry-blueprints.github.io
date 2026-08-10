@@ -99,31 +99,34 @@ producing them is an ordinary reporting task rather than a special study.
 - **Tribal.** Tribal police with jurisdiction varying by offence, offender, and victim, requiring
   cross-deputization arrangements to work in practice.
 
-## Where it goes wrong
+## What to get right
 
-**Every call gets the same response type.** Cold reports, non-injury collisions, and administrative
-matters consuming sworn field capacity that could be handled online, by telephone, or by a
-non-sworn responder.
+**Match response type to actual call type.** Cold reports, non-injury collisions, and
+administrative matters can be handled online, by telephone, or by a non-sworn responder, freeing
+sworn field capacity for calls that need it.
 
-**Reports written at the end of a twelve-hour shift.** Rushed, incomplete, and the basis of a
-prosecution decision months later — and the most common reason a case is declined.
+**Write reports close to the incident, not at the end of a twelve-hour shift.** Reports written
+under time pressure at shift's end are more often rushed and incomplete, and they become the basis
+of a prosecution decision months later — the most common reason a case is declined.
 
-**Report writing on a laptop in a car with no connectivity.** Field capture that assumes a
+**Design report writing for the connectivity officers actually have.** Field capture that assumes a
 connection fails where the work happens, which is the same constraint described in
 [work order and field service management](/capabilities/work-order-and-field-service-management/).
 
-**Discretion undocumented.** The decision not to act is as consequential as the decision to act and
-is rarely recorded, which makes consistency unmeasurable and disparity indefensible.
+**Document discretion, not just action.** The decision not to act is as consequential as the
+decision to act; recording it makes consistency measurable and disparity defensible.
 
-**Recording policy without activation monitoring.** Cameras deployed, activation compliance never
-audited, and the missing recording surfaces during the complaint.
+**Audit recording activation, not just recording policy.** Cameras deployed without activation
+compliance audits let a missing recording surface for the first time during a complaint.
 
-**Disparity analysis as an occasional external study.** Produced under pressure, contested on
-methodology, and not repeated — rather than a standing report the department runs itself.
+**Run disparity analysis as a standing report, not an occasional study.** Produced only under
+pressure, it gets contested on methodology and not repeated; run by the department itself on a
+regular cycle, it holds up.
 
-**No uncommitted time.** A department at full call saturation cannot do problem-solving, follow-up,
-or community work, and every such activity is displaced by the next call.
+**Preserve uncommitted patrol time.** A department at full call saturation cannot do
+problem-solving, follow-up, or community work — protecting that time is what makes those activities
+possible.
 
-**Behavioural health calls with no alternative.** Officers as the default responder to crisis, which
-is a design outcome of not funding an alternative and is measured as police workload rather than as
-an unmet health need.
+**Fund an alternative responder for behavioural health calls.** Without one, officers become the
+default responder to crisis by default, and the need shows up as police workload instead of as the
+unmet health need it is.

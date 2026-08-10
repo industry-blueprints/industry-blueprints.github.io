@@ -95,31 +95,32 @@ approval is the highest-leverage change available and the hardest politically.
   planner or a contracted consultant, and the review timeline is bounded by how often the
   commission meets.
 
-## Where it goes wrong
+## What to get right
 
-**Comprehensive plan and zoning contradicting each other.** The plan adopted, the ordinance never
-amended to implement it, and decisions made under the ordinance.
+**Amend the zoning ordinance to implement the adopted plan.** When the plan and the ordinance
+disagree, decisions are made under the ordinance, and the plan stops governing anything.
 
-**Sequential department review.** Planning, engineering, fire, and utilities each reviewing in turn,
-each returning comments, and each cycle restarting the clock — the single largest recoverable
-source of delay.
+**Review concurrently across departments rather than in sequence.** Planning, engineering, fire,
+and utilities reviewing in turn, each returning comments and each cycle restarting the clock, is
+the single largest recoverable source of delay.
 
-**Everything discretionary.** Common development requiring a hearing, which adds months and makes
-the outcome depend on who attends.
+**Reserve discretionary review for development that actually needs it.** Requiring a hearing for
+common, plan-consistent development adds months and makes the outcome depend on who attends.
 
-**Notice reaching only immediate neighbours.** The people who would live in the housing are not
-notified, cannot be, and are absent from every hearing — a structural asymmetry, not an oversight.
+**Extend notice beyond immediate neighbours.** The people who would live in the housing are not
+notified under a neighbours-only notice model, and are absent from every hearing — a structural
+asymmetry worth designing around, not just an oversight to note.
 
-**Conditions of approval never verified.** Attached to the decision, recorded in the minutes, and
-checked by nobody. The [obligation tracking](/patterns/obligation-tracking/) failure again, in a
-fifth domain.
+**Verify conditions of approval to completion.** Attached to the decision and recorded in the
+minutes is not the same as checked by someone. This is the
+[obligation tracking](/patterns/obligation-tracking/) discipline again, in a fifth domain.
 
-**Zoning map maintained separately from GIS.** The official map and the parcel layer disagree, and
-zoning verification depends on which one someone consulted — a
-[geospatial](/capabilities/geospatial-information-management/) authority problem.
+**Keep the zoning map and GIS as one authoritative source.** Maintained separately, the official
+map and the parcel layer disagree, and zoning verification depends on which one someone
+consulted — a [geospatial](/capabilities/geospatial-information-management/) authority problem.
 
-**Impact fees unreviewed.** Set once, never updated against actual infrastructure cost, either
-under-funding capacity or blocking development on stale figures.
+**Review impact fees against actual infrastructure cost.** Set once and left alone, they either
+under-fund capacity or block development on stale figures.
 
-**No buildable land inventory.** The jurisdiction cannot say where growth can physically be
-accommodated, so plan and capacity conversations proceed without evidence.
+**Maintain a buildable land inventory.** Without one, the jurisdiction cannot say where growth can
+physically be accommodated, and plan and capacity conversations proceed without evidence.

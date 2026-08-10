@@ -94,26 +94,27 @@ is**, and it is the same argument as
 |---|---|
 | **2** | An asset list, and consequence-of-failure judgment from people who know the estate |
 | **3** | An asset register with classes, and condition assessment for the classes where it is worth it |
-| **4** | Meter readings or sensor data, and enough failure history to model — see [failure prediction](/ai-opportunities/failure-prediction-from-work-history/) |
+| **4** | Meter readings or sensor data, and enough failure history to model — see [failure prediction](/ai-integrations/failure-prediction-from-work-history/) |
 
-## How it goes wrong
+## What to get right
 
-**Criticality proxied by replacement cost.** The most common error, and it inverts the answer for
-exactly the assets the pattern exists to protect — a cheap valve whose failure floods a district.
+**Base criticality on consequence, not replacement cost.** Proxying one for the other is the most
+common error, and it inverts the answer for exactly the assets the pattern exists to protect — a
+cheap valve whose failure floods a district.
 
-**Tiering done once.** Criticality changes when the service changes, when redundancy is removed, or
-when a downstream dependency appears. A tier set at implementation and never revisited is a
-snapshot presented as a policy.
+**Revisit tiering, don't set it once.** Criticality changes when the service changes, when
+redundancy is removed, or when a downstream dependency appears. Treat the tier as a living
+judgment, not a snapshot set at implementation and left alone.
 
-**Run-to-failure applied without saying so.** Organizations already ration preventive maintenance
-implicitly, under pressure, at seven in the morning. Doing it explicitly produces the same
-rationing with a defensible basis — the difference is entirely in whether it can be explained
-afterwards.
+**Say the quiet part out loud when run-to-failure is the strategy.** Organizations already ration
+preventive maintenance implicitly, under pressure, at seven in the morning. Doing it explicitly
+produces the same rationing with a defensible basis — the difference is entirely in whether it can
+be explained afterwards.
 
-**No feedback from failures.** Failures on assets under a preventive strategy are the evidence that
-the strategy or the interval is wrong, and
+**Feed failures back into the tiering.** Failures on assets under a preventive strategy are the
+evidence that the strategy or the interval needs adjusting, and
 [failure analysis](/processes/failure-analysis-and-renewal-referral/) is the loop that closes it.
-Without it the tiering is a one-time guess.
+Closing it turns tiering from a one-time guess into something that improves.
 
-**Predictive attempted first.** A model over a register nobody trusts produces confident wrong
-answers. Register, then condition, then prediction.
+**Build the register and condition picture before the predictive model.** A model over a register
+nobody trusts produces confident wrong answers. Register, then condition, then prediction.

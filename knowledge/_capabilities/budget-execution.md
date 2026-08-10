@@ -73,20 +73,21 @@ level of granularity, not that execution is undisciplined.
 - **County / municipal.** Council or board approval typically required for transfers above a
   threshold or between funds, which makes execution partly a public process.
 
-## Where it goes wrong
+## What to watch for
 
-**Encumbrances not maintained.** Commitments not recorded, so available balance is overstated and
-the overspend is discovered at close.
+**Keep encumbrances current.** Commitments not recorded overstate the available balance, and the
+overspend surfaces only at close.
 
-**Vacancy savings as a management tool.** Holding positions vacant to balance the year is the most
-common lever and the least visible. It degrades service on a delay, and nothing in the financial
-record shows why.
+**Make vacancy savings visible when they are used as a management tool.** Holding positions vacant
+to balance the year is the most common lever and the least visible one. It degrades service on a
+delay, and nothing in the financial record shows why unless it is tracked.
 
-**Spend visible a month late.** Monthly close cycles mean managers steer using a picture that has
-already changed.
+**Shorten the lag between spend and visibility.** Monthly close cycles mean managers are steering
+using a picture that has already changed.
 
-**Transfers without recorded authority.** The amount moves; the basis does not. This is the single
-most common audit finding in this capability — see [Internal Auditor](/personas/internal-auditor/).
+**Record the authority behind every transfer.** The amount moving without a recorded basis is the
+single most common audit finding in this capability — see [Internal Auditor](/personas/internal-auditor/).
 
-**Year-end spend-down.** Use-it-or-lose-it rules producing low-value purchases in the final weeks,
-which is a rational response to a structural incentive rather than a discipline problem.
+**Recognize year-end spend-down as an incentive problem, not just a discipline one.** Use-it-or-
+lose-it rules produce low-value purchases in the final weeks — a rational response to the
+structure, which is where the fix belongs.

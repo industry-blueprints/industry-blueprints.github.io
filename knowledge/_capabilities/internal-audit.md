@@ -87,26 +87,27 @@ alongside high acceptance rates is a specific and diagnosable failure.
 - **County / municipal.** Frequently no internal audit function at all; assurance comes from the
   external financial audit alone, which tests financial statements rather than operations.
 
-## Where it goes wrong
+## What to get right
 
-**Evidence that does not exist.** An approval that happened in a hallway; a threshold changed with
-no record of who or why. Not misconduct — just systems that record state and not transitions.
-This is why modelled status transitions appear as a requirement on
+**Design systems to record transitions, not just state.** An approval that happened in a hallway, or
+a threshold changed with no record of who or why, leaves no evidence to examine — not misconduct,
+just a system that never captured the transition. This is why modelled status transitions appear as
+a requirement on
 [Case](/data-entities/case/) and [Agreement](/data-entities/agreement/).
 
-**Sampling because population testing is infeasible.** Data extraction takes weeks, so conclusions
-rest on samples and cannot be generalized. Complete population extraction should be a designed
-capability, not a reporting feature.
+**Build complete population extraction as a designed capability.** Extracting the full population,
+rather than relying on samples because extraction takes weeks, lets conclusions generalize instead
+of resting on a subset.
 
-**Compliance testing crowding out effectiveness.** Testing whether the form was signed is easy;
-testing whether the control prevented anything is not.
+**Test effectiveness, not just compliance.** Testing whether the control actually prevented
+something, not only whether the form was signed, is what compliance testing alone misses.
 
-**Findings accepted and not implemented.** Management agrees, nothing changes, the finding recurs.
+**Track findings through to implementation, not just acceptance.** Following through until
+something changes is what keeps a finding from recurring after management agrees to it.
 
-**Independence eroded by proximity.** A small organization where the auditor and the audited work
-in the same corridor.
+**Structure independence deliberately in a small organization.** Where the auditor and the audited
+work in the same corridor, deliberate structural safeguards keep independence real.
 
-**AI as an unauditable black box.** A recommendation influenced a decision and cannot be
-reproduced. This does not merely complicate the audit — it prevents its completion, which is why
-reproducibility is a requirement in
+**Keep AI decisions reproducible.** A recommendation that influenced a decision needs to be
+reproducible for the audit to complete at all, which is why reproducibility is a requirement in
 [AI governance](/capabilities/ai-governance-and-delivery/).

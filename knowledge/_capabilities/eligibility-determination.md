@@ -95,32 +95,34 @@ reported because it requires estimating the denominator.
 - **Municipal.** Smaller local programmes — utility assistance, fee waivers, housing — usually with
   simple criteria and no verification infrastructure.
 
-## Where it goes wrong
+## What to get right
 
-**Procedural denial as the dominant failure mode.** A meaningful share of denials are for missing
+**Deny on merit, not on missing paperwork.** A meaningful share of denials are for missing
 documents, missed appointments, or an unreturned form — not for ineligibility. The same pattern
 appears in [grants](/capabilities/grants-management-outbound/), where applications are screened out
 administratively rather than on merit.
 
-**Verification of facts already held.** Asking an applicant to prove something in the
-organization's own records, because the systems do not talk — the practical cost of the
+**Verify from records the organization already holds.** Asking an applicant to prove something
+already in the organization's own records reflects a system that does not talk to itself — the
+practical cost of the
 [integration](/capabilities/application-and-integration-management/) gap.
 
-**Criteria ambiguous in real cases.** Clear on paper, indeterminate in half of actual
-circumstances, so interpretation lands on the caseworker and consistency becomes impossible. This
-is a [policy development](/capabilities/policy-development/) defect surfacing downstream.
+**Write criteria that hold up in real cases, not just on paper.** Criteria clear on paper but
+indeterminate in half of actual circumstances push interpretation onto the caseworker and make
+consistency impossible. This is a [policy development](/capabilities/policy-development/) defect
+surfacing downstream.
 
-**Notices that state the outcome and not the reason.** "You do not qualify" gives the applicant
-nothing to correct and no basis for appeal.
+**State the reason, not just the outcome.** "You do not qualify" gives the applicant nothing to
+correct and no basis for appeal; a specific reason gives them both.
 
-**Churn at redetermination.** Eligible households losing benefit because a form arrived at a stale
-address, then reapplying and being reinstated — which costs the programme more than continuous
-enrolment would.
+**Keep eligible households enrolled through redetermination.** Losing benefit because a form
+arrived at a stale address, then reapplying and being reinstated, costs the programme more than
+continuous enrolment would.
 
-**Error rate measured, take-up not.** Both are quality measures; only one carries a financial
-penalty, so only one gets managed.
+**Manage take-up with the same rigor as error rate.** Both are quality measures; only one carries a
+financial penalty, so make sure both get managed.
 
-**Automation crossing into the decision.** Extraction, matching, and completeness checking are
-sound uses. Determining eligibility is a decision affecting a person's entitlement and requires the
-boundary set out in
+**Keep automation to extraction and checking, and leave the decision to a person.** Extraction,
+matching, and completeness checking are sound uses. Determining eligibility is a decision affecting
+a person's entitlement and requires the boundary set out in
 [AI disclosure and human review](/governance/ai-disclosure-and-human-review/).

@@ -76,7 +76,7 @@ markers on generated content · audit log of inputs, outputs, and approvals
 | Public trust in automated interactions | Outcome |
 
 **Override rate near zero is a warning, not a success.** It usually means review has become
-rubber-stamping — see [contact summarization](/ai-opportunities/contact-summarization/).
+rubber-stamping — see [contact summarization](/ai-integrations/contact-summarization/).
 
 ## Level variance
 
@@ -88,23 +88,25 @@ rubber-stamping — see [contact summarization](/ai-opportunities/contact-summar
   records, privacy, accessibility, and language access duties apply to AI output exactly as to
   any other. Absence of policy is a gap, not a permission.
 
-## Where it goes wrong
+## What good governance looks like
 
-**The inventory is incomplete by construction.** Staff use general-purpose tools individually.
-The registered inventory reflects funded projects; actual use is much broader and includes
-constituent information pasted into consumer products.
+**Assume the inventory is incomplete, and go looking for what is missing.** Staff use
+general-purpose tools individually. The registered inventory reflects funded projects; actual use
+is much broader and includes constituent information pasted into consumer products.
 
-**Governance designed as a gate at the end.** A review board that sees systems after they are
-built and announced, whose only options are yes or crisis.
+**Design governance into the build, not as a gate at the end.** A review board that only sees
+systems after they are built and announced has two options left: yes or crisis.
 
-**Uniform review requirements.** "A human reviews everything" is ignored under load and wastes
-capacity on trivial output. Tier by consequence — see
+**Tier review by consequence rather than applying it uniformly.** "A human reviews everything" is
+ignored under load and wastes capacity on trivial output. Tier by consequence — see
 [AI disclosure and human review](/governance/ai-disclosure-and-human-review/).
 
-**Evaluated once, at launch.** Content, models, and populations drift; nothing is re-measured.
+**Keep evaluating after launch, not just at it.** Content, models, and populations drift; nothing
+gets re-measured if evaluation stops at go-live.
 
-**Aggregate accuracy accepted as sufficient.** A system can be accurate overall and materially
+**Evaluate by segment, not just in aggregate.** A system can be accurate overall and materially
 worse for non-native speakers or a particular channel. Segmented evaluation is the control.
 
-**No reproducibility.** A recommendation influenced a decision and cannot be reconstructed, which
-is not merely an explainability concern — it makes the audit impossible to complete.
+**Build in reproducibility from the start.** A recommendation that influenced a decision and
+cannot be reconstructed is not merely an explainability gap — it makes the audit impossible to
+complete.

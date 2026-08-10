@@ -15,7 +15,12 @@ description: Everything published so far, grouped by artifact type, with trust a
       </p>
     </div>
 
-    {% assign order = "guides,industries,domains,capabilities,maturity_rubrics,processes,personas,ai_opportunities,patterns,kpis,governance,playbooks,architectures,ai_agents,data_models,data_entities,decision_guides,vendor_implementations,demonstrations,videos,meta" | split: "," %}
+    {% comment %}
+      Layer order: the map, then layer 1 business knowledge, then layer 2 architecture
+      and AI, then layers 3–4. Conversation types trail — they assert no facts and
+      are no longer the reason to be here. See .design/vision.md §11.
+    {% endcomment %}
+    {% assign order = "industries,domains,capabilities,processes,personas,kpis,governance,domain_modules,data_models,data_entities,patterns,architectures,ai_integration_catalogs,ai_integrations,ai_agents,demonstrations,vendor_implementations,maturity_rubrics,playbooks,guides,decision_guides,videos,meta" | split: "," %}
 
     {% for key in order %}
       {% comment %}Depth first, then title — finished work above stubs within each type.{% endcomment %}

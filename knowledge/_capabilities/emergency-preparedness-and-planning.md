@@ -94,31 +94,30 @@ rather than change — the same pattern as
   neighbouring jurisdictions as the primary surge mechanism. Small jurisdictions frequently have an
   emergency manager who holds the role alongside a full-time job elsewhere in the organization.
 
-## Where it goes wrong
+## What to get right
 
-**Plans written by a consultant and never read.** Adopted to satisfy a requirement, comprehensive,
-and unknown to the people named in it.
+**Write plans the named people actually read.** A plan drafted by a consultant, adopted to satisfy
+a requirement, and comprehensive on paper still needs to be known to the people named in it.
 
-**Exercises designed to succeed.** A scenario scoped so the plan works, which produces a good
-report and no learning.
+**Design exercises that are allowed to fail.** A scenario scoped so the plan works produces a good
+report and no learning; scope it to find the gaps instead.
 
-**After-action findings without owners.** Recorded, published, and unassigned, so the next exercise
-finds them again.
+**Assign an owner and a due date to every after-action finding.** A finding recorded and published
+without an owner surfaces again at the next exercise.
 
-**Contact rosters as the first failure.** Almost every real activation discovers the list is out of
-date, because verifying it is nobody's scheduled task.
+**Verify contact rosters on a schedule, before the activation.** Almost every real activation
+discovers the list is out of date, because verifying it was nobody's scheduled task.
 
-**Mutual aid negotiated during the event.** Cost, liability, and command relationships settled
-under pressure rather than in advance, which delays help and produces reimbursement disputes for
-years.
+**Negotiate mutual aid in advance, not during the event.** Settling cost, liability, and command
+relationships ahead of time avoids delaying help and producing reimbursement disputes for years.
 
-**Stockpiles held until expiry.** Purchased, stored, discarded, repurchased — the rotation problem
-described in
+**Rotate stockpiles through normal use.** Purchased, stored, and discarded without rotation repeats
+the problem described in
 [supply and inventory management](/capabilities/supply-and-inventory-management/).
 
-**Access and functional needs as an annex.** Planning for people with disabilities, no transport,
-or limited English treated as a supplement rather than as a design input, so evacuation and shelter
-plans do not work for them.
+**Design for access and functional needs from the start, not as an annex.** Planning for people with
+disabilities, no transport, or limited English as a core design input, rather than a supplement,
+makes evacuation and shelter plans work for them too.
 
-**Preparedness capacity funded entirely by grants.** The programme scales with grant availability
-rather than with risk, and contracts when the grant ends.
+**Fund preparedness capacity to match risk, not just grant cycles.** A programme that scales with
+grant availability rather than with risk contracts when the grant ends.

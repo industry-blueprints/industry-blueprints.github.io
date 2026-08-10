@@ -82,27 +82,28 @@ owners · rating history and agency correspondence · capital plan with funding 
   the municipal securities market is a federal securities obligation despite being a local
   activity — a mismatch that is the single most common source of trouble.
 
-## Where it goes wrong
+## What to watch for
 
-**Continuing disclosure lapsing quietly.** The obligation persists for decades; the staff do not.
-Missed filings surface at the next issuance, when they are expensive.
+**Keep continuing disclosure current across staff turnover.** The obligation persists for decades;
+the staff do not, and missed filings surface at the next issuance, when they are expensive.
 
-**Obligations with no owner.** Covenants, rebate calculations, and spend-down deadlines recorded
-in the official statement and nowhere operational. This is the
+**Give every obligation a named owner.** Covenants, rebate calculations, and spend-down deadlines
+recorded in the official statement and nowhere operational are the
 [obligation tracking](/patterns/obligation-tracking/) problem with a thirty-year tail and
 securities-law consequences.
 
-**Borrowing past the asset life.** Twenty-year debt on equipment replaced in eight, so the
-jurisdiction pays for two generations of the asset at once.
+**Match borrowing term to asset life.** Twenty-year debt on equipment replaced in eight has the
+jurisdiction paying for two generations of the asset at once.
 
-**Deferred maintenance financed as new capital.** Cheaper to bond a replacement than to fund
-upkeep from operations, which is a rational response to budget structure and a poor outcome — see
-[build and operate](/domains/build-and-operate/).
+**Fund upkeep from operations rather than bonding deferred maintenance as new capital.** Bonding a
+replacement is cheaper in the moment than funding upkeep, which is a rational response to budget
+structure and a poor outcome — see [build and operate](/domains/build-and-operate/).
 
-**Proceeds unspent past the required period**, triggering rebate liability nobody anticipated.
+**Spend proceeds within the required period.** Left unspent past it, they trigger rebate liability
+nobody anticipated.
 
-**Rating engagement as a one-off.** Contact only when issuing, so the narrative is assembled under
-deadline rather than maintained.
+**Maintain the rating narrative continuously, not just at issuance.** Contact only when issuing
+means the narrative gets assembled under deadline rather than maintained.
 
-**Affordability assessed per issuance.** Each one affordable alone; the aggregate position
-unexamined until a rating agency examines it.
+**Assess affordability at the aggregate level, not just per issuance.** Each issuance can look
+affordable alone while the aggregate position goes unexamined until a rating agency examines it.

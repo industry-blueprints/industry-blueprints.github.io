@@ -86,31 +86,32 @@ exist and where the line is. An organization with no advice requests does not ha
   discipline, not pretending the relationships do not exist. Frequently no dedicated ethics
   function, so the duty sits with an attorney or clerk alongside other work.
 
-## Where it goes wrong
+## What to get right
 
-**Disclosure collected and not read.** Filed, stored, never reviewed against actual decisions.
-The obligation is satisfied and the purpose is not.
+**Review disclosures against actual decisions, not just collect them.** Filed and stored but never
+reviewed, a disclosure satisfies the obligation without serving its purpose.
 
-**Generic declarations.** "I have no conflicts" signed annually tells you nothing about the
-specific award decided in March. This is why
+**Declare conflicts against the actual matter, not in the abstract.** "I have no conflicts" signed
+annually tells you nothing about the specific award decided in March. This is why
 [competition and evaluation integrity](/governance/competition-and-evaluation-integrity/) and
 [merit review integrity](/governance/merit-review-integrity/) both require declaration against the
 actual list of parties.
 
-**Recusal on paper only.** The person steps out of the vote and remains in the discussion, or
-retains system access to the matter. A recusal without a screen is a record, not a control.
+**Back recusal with an effective screen.** A person who steps out of the vote but remains in the
+discussion, or retains system access to the matter, hasn't actually recused — a screen is what turns
+the record into a control.
 
-**Investigations that drift.** Months without determination damages the subject, the reporter, and
-confidence in the process at once. Ethics allegations are investigated as
+**Move investigations to a determination promptly.** Months without one damages the subject, the
+reporter, and confidence in the process at once. Ethics allegations are investigated as
 [investigations](/capabilities/investigations/) — including the employee-rights sequencing, which
 applies here in full and is frequently missed because an ethics matter is treated as a personnel
 question rather than a potentially criminal one.
 
-**Reporter identity leaking.** Once it happens, reporting stops, and the organization's ability to
+**Protect reporter identity.** Once it leaks, reporting stops, and the organization's ability to
 detect anything internally goes with it.
 
-**Ethics treated as annual training.** A completion statistic, no advice channel, and no
-recollection of the content by the time it matters.
+**Make ethics guidance something people can actually use in the moment.** A completion statistic
+from annual training, with no advice channel, leaves nothing for people to draw on when it matters.
 
-**No post-employment rules.** The staff member who administered a contract joins the supplier, and
-nobody had a basis to say anything.
+**Set post-employment rules.** Without them, the staff member who administered a contract can join
+the supplier with nobody having had a basis to say anything.

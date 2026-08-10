@@ -94,32 +94,33 @@ the utility in thirty years.
   the same regulatory obligations as a large utility, a few hundred connections to spread costs
   across, and frequently one certified operator.
 
-## Where it goes wrong
+## What to get right
 
-**Rates set to avoid an increase.** Deferring the rate study, funding operations only, and
-capitalizing the shortfall as deferred renewal — the most common financial decision in this
-capability and the most consequential.
+**Set rates to the renewal requirement, not just to avoid an increase.** Funding operations only
+and capitalizing the shortfall as deferred renewal is the most common financial decision in this
+capability, and setting rates to cover the full requirement is what avoids its consequences.
 
-**Renewal deferred until failure.** Emergency main replacement costs several times planned
-replacement and comes with service interruption and property damage attached.
+**Renew assets ahead of failure.** Emergency main replacement costs several times planned
+replacement and comes with service interruption and property damage attached — planned renewal
+avoids all three.
 
-**Non-revenue loss unmeasured.** Water produced and not billed, at a level nobody has quantified,
-which is simultaneously a revenue problem and a leak-detection signal.
+**Measure non-revenue loss.** Quantifying water produced and not billed turns an unknown revenue
+gap into both a revenue answer and a leak-detection signal.
 
-**Meters aging past accuracy.** Under-registering meters systematically understate consumption,
-which reads as a revenue gap of unknown origin.
+**Replace meters before accuracy degrades.** Aging, under-registering meters understate
+consumption in a way that otherwise reads as a revenue gap of unknown origin.
 
-**Buried asset condition unknown.** Install dates and materials unrecorded, so renewal
-prioritization is by age estimate — the exposure noted in
+**Record buried asset condition.** Capturing install dates and materials is what lets renewal be
+prioritized by real condition rather than age estimate — the exposure noted in
 [asset management](/capabilities/asset-management/).
 
-**Assistance programmes with low take-up.** Available, unadvertised, requiring an application, and
-reaching a fraction of eligible households — the same
-[eligibility](/capabilities/eligibility-determination/) take-up problem.
+**Advertise assistance programmes and simplify the application.** Reaching a fraction of eligible
+households is the default when a programme is unadvertised and requires an application — the same
+[eligibility](/capabilities/eligibility-determination/) take-up problem, solved the same way.
 
-**Shutoff policy applied without an affordability step.** Disconnection for non-payment of an
-essential service, which creates a public health consequence and a debt that is now harder to
-collect.
+**Build an affordability step into shutoff policy.** Disconnection for non-payment of an essential
+service creates a public health consequence and a debt that is harder to collect — an
+affordability step before disconnection heads that off.
 
-**Operator certification concentrated in one person.** A single certified operator whose absence
-puts the system out of compliance.
+**Certify more than one operator.** Depending on a single certified operator puts the system out
+of compliance the moment that person is unavailable.

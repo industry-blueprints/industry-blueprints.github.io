@@ -81,26 +81,27 @@ routes spend to large national suppliers.
   cooperatives are widely used, and reliance is greatest exactly where in-house due-diligence
   capacity is least — which is the tension in this capability.
 
-## Where it goes wrong
+## Getting this right
 
-**Authority assumed.** Statutes differ on whether and how a jurisdiction may piggyback. The
-determination is frequently made once, informally, and relied on for a decade.
+**Confirm authority before relying on it.** Statutes differ on whether and how a jurisdiction may
+piggyback, and a determination made once, informally, should not be relied on for a decade
+unchecked.
 
-**No due diligence on the underlying competition.** Relying on a contract without reading the
-solicitation that produced it. If the original scope does not cover the purchase, the shortcut is
-the exposure.
+**Read the underlying solicitation before relying on the contract.** If the original scope does
+not cover the purchase, skipping that due diligence is the exposure.
 
-**Price assumed advantageous.** A cooperative price is not automatically a good price, and
-verification is rarely performed because the point of the vehicle was to save effort.
+**Verify that the price is actually advantageous.** A cooperative price is not automatically a good
+price, and verification is worth the small effort the vehicle was meant to save.
 
-**Scope stretched.** Buying something adjacent to what the vehicle covers, which is a
-sole-source award without the documentation.
+**Keep purchases within the vehicle's actual scope.** Buying something adjacent to what it covers
+is a sole-source award without the documentation.
 
-**Local suppliers designed out.** Every purchase routed nationally, and the local supply base
-erodes — a slow effect, visible only in the trend, and difficult to reverse.
+**Track the effect on local suppliers.** Routing every purchase nationally erodes the local supply
+base — a slow effect, visible only in the trend, and difficult to reverse once established.
 
-**Hosted contracts administered for the lead agency only.** Other participants' performance
-problems go unrecorded, so the supplier's history is incomplete for everyone.
+**Administer hosted contracts for the whole user population.** Recording performance only for the
+lead agency leaves other participants' problems unrecorded, so the supplier's history is incomplete
+for everyone.
 
-**Administrative fees unexamined.** Built into the price, funding the cooperative, and rarely
-compared against the cost of competing directly.
+**Compare administrative fees against the cost of competing directly.** Built into the price and
+funding the cooperative, they are rarely examined against that alternative.

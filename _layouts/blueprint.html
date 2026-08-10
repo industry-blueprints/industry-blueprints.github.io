@@ -22,6 +22,19 @@ layout: default
         {% include maturity-scale.html from=page.minimum_level to=5 caption="Viable from" %}
       {% endif %}
 
+      {% if page.ai_modality %}
+        {% assign modality = site.ai_modalities[page.ai_modality] %}
+        {% assign task = site.ai_task_types[page.ai_task_type] %}
+        <div class="ai-facets">
+          <p class="ai-modality">
+            <strong>{{ modality.label | default: page.ai_modality }}</strong>
+            {% if modality.axes %}<span class="ai-axes">{{ modality.axes }}</span>{% endif %}
+            {% if task %}<span class="ai-task">{{ task.label }}</span>{% endif %}
+          </p>
+          {% if modality.note %}<p class="ai-modality-note">{{ modality.note }}</p>{% endif %}
+        </div>
+      {% endif %}
+
       {% if page.shape %}
         {% assign shape = site.guide_shapes[page.shape] %}
         <div class="guide-meta">
@@ -46,7 +59,17 @@ layout: default
       </div>
 
       <aside class="entry-aside">
-        {% include related.html %}
+        {%- comment -%}
+          Capabilities are the browse entry point, so they group related content
+          by layer — the question a reader arrives with. Every other type keeps
+          predicate grouping, which is the more precise view and the right one
+          once you are already inside the graph.
+        {%- endcomment -%}
+        {% if page.collection == 'capabilities' %}
+          {% include layers-panel.html %}
+        {% else %}
+          {% include related.html %}
+        {% endif %}
       </aside>
     </div>
 
@@ -64,7 +87,8 @@ layout: default
           <div><dt>Review due</dt><dd>{{ page.stale_after_date | date: "%B %-d, %Y" }}</dd></div>
         {% endif %}
         {% if page.layer %}
-          <div><dt>Layer</dt><dd>{{ page.layer }} — {% case page.layer %}{% when 1 %}operating-model knowledge{% when 2 %}vendor-neutral design{% when 3 %}vendor implementation{% endcase %}</dd></div>
+          {% assign layer_def = site.layers[page.layer] %}
+          <div><dt>Layer</dt><dd title="{{ layer_def.note }}">{{ page.layer }} — {{ layer_def.label }}</dd></div>
         {% endif %}
       </dl>
 

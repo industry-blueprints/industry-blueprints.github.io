@@ -80,22 +80,25 @@ the complaints, appeals, and statutory breaches come from.
 - **County / municipal.** Widest variety of case types per organization, from a pothole to a child
   welfare matter, frequently in unconnected systems.
 
-## Where it goes wrong
+## What to watch for
 
-**Case per department for one matter.** The same issue opened three times because three units
-touched it. Related-case linking mitigates; it does not fix.
+**Link related cases across departments, or better, avoid opening the same matter three times.**
+Three units touching one issue and each opening their own case is mitigated by related-case
+linking, not fixed by it.
 
-**Queue ownership without individual ownership.** Everyone can see it; nobody is accountable.
-This is precisely how cases age invisibly.
+**Assign individual ownership, not just queue visibility.** Everyone able to see a case and nobody
+accountable for it is precisely how cases age invisibly.
 
-**Status with no modelled transitions.** Any state to any state, so the record shows where a case
-is and not how it got there — which is the question audit and appeal both ask.
+**Model status transitions rather than allowing any state to any state.** Without them, the record
+shows where a case is but not how it got there — which is the question audit and appeal both ask.
 
-**No "awaiting requester" state.** The clock runs while the organization is not the blocker, so
-staff close prematurely to protect their numbers, and it returns as a reopen.
+**Give the workflow an "awaiting requester" state.** Without one, the clock runs while the
+organization is not the blocker, staff close prematurely to protect their numbers, and the case
+returns as a reopen.
 
-**Disposition as free text.** Makes every meaningful measure uncomputable, which is why so many
-organizations report resolution from a checkbox instead.
+**Code disposition, don't leave it as free text.** Free text makes every meaningful measure
+uncomputable, which is why so many organizations end up reporting resolution from a checkbox
+instead.
 
-**Backlog discovered by escalation.** The first signal a queue is aging is a complaint to an
-elected official — see [Elected Official](/personas/elected-official/).
+**Surface an aging backlog before it escalates.** Otherwise the first signal a queue is aging is a
+complaint to an elected official — see [Elected Official](/personas/elected-official/).

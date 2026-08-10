@@ -90,27 +90,31 @@ average.
 - **Municipal.** Property tax where not county-collected, plus local sales, lodging, utility, and
   business licence taxes. Also the level where enforcement is most visible to residents.
 
-## Where it goes wrong
+## What to get right
 
-**Regressive assessment nobody measures.** Reported accuracy is fine on average and systematically
-wrong by value band. Only a segmented ratio study reveals it.
+**Measure assessment uniformity by value band.** Reported accuracy can look fine on average while
+being systematically wrong by band, and only a segmented ratio study reveals it.
 
-**Exemptions that must be applied for.** Eligible households — often the ones the exemption exists
-for — do not know it exists. Take-up becomes a function of information access.
+**Grant exemptions without requiring an application.** Eligible households — often the ones the
+exemption exists for — do not know it exists, so take-up ends up a function of information access
+rather than eligibility.
 
-**Stale valuations.** Reassessment deferred for political reasons, then a large correction lands
-at once and the resulting shock is blamed on the correction rather than the deferral.
+**Reassess on schedule.** Deferring reassessment for political reasons lets a large correction
+land all at once, and the resulting shock gets blamed on the correction rather than the deferral
+that caused it.
 
-**Notices nobody can read.** Statutorily compliant, procedurally correct, incomprehensible — which
-suppresses legitimate appeals and generates avoidable contacts to
+**Write notices people can actually read.** Statutorily compliant and procedurally correct is not
+the same as comprehensible, and an incomprehensible notice suppresses legitimate appeals and
+generates avoidable contacts to
 [constituent service](/capabilities/constituent-service-management/).
 
-**Delinquency escalating automatically to enforcement.** Penalties and interest compounding past
-the point of recoverability, converting a collectible debt into a lien and, eventually, a
-displaced household.
+**Give delinquency a proportionate, staged response.** Left to escalate automatically, penalties
+and interest compound past the point of recoverability, converting a collectible debt into a lien
+and, eventually, a displaced household.
 
-**Payment channels that cost the payer.** Card fees passed through so the cheapest route is a
-cheque, which is also the most expensive route for the organization to process.
+**Keep the cheapest payment channel cheap for the organization too.** Passing card fees through
+makes cheque the cheapest route for the payer — and the most expensive route for the organization
+to process.
 
-**Identity unresolved across taxes.** The same person as three taxpayers, so total position and
-hardship are both unanswerable.
+**Resolve identity across taxes.** The same person recorded as three separate taxpayers makes
+total position and hardship both unanswerable.

@@ -92,31 +92,32 @@ somebody else carries.** A form that generates a phone call has moved work, not 
   solicitation validated by nobody. See
   [needs definition](/capabilities/needs-definition-and-acquisition-planning/).
 
-## Where it goes wrong
+## What good looks like here
 
-**Accessibility as an audit at the end.** Findings arrive after launch, remediation competes with
-new work, and the backlog persists indefinitely.
+**Build accessibility in from the start, not as an audit at the end.** Findings that arrive only
+after launch compete with new work, and the backlog persists indefinitely.
 
-**Conformance without testing.** An automated scan passes and the service is unusable with a screen
-reader, because automated tools detect a minority of real barriers.
+**Test with assistive technology, not just an automated scan.** A scan can pass while the service
+is unusable with a screen reader, because automated tools detect only a minority of real barriers.
 
-**The form as the service.** The paper form reproduced as a web form, preserving every question
-asked for the organization's convenience — the digitization that defines maturity level 2.
+**Redesign the service, not just the form.** Reproducing the paper form as a web form, preserving
+every question asked for the organization's convenience, is the digitization that defines maturity
+level 2 rather than a real redesign.
 
-**Plain language treated as dumbing down.** Statutory terminology reproduced verbatim because it is
-precise, in a service used by people who have never encountered it.
+**Write in plain language without losing precision.** Statutory terminology reproduced verbatim
+because it is precise leaves a service used by people who have never encountered it.
 
-**Translation of the words, not the service.** Content translated, the process and the supporting
-channels available only in English.
+**Translate the service, not just the words.** Content translated while the process and supporting
+channels stay English-only leaves the service itself untranslated.
 
-**Digital-only as a saving.** The people who cannot use the digital route are the people who most
-need the service, and removing the alternative transfers the cost to them and to the contact
-centre.
+**Keep an alternative to digital-only.** The people who cannot use the digital route are the people
+who most need the service, and removing the alternative transfers the cost to them and to the
+contact centre.
 
-**Research with the reachable.** Usability testing recruited from staff and volunteers, never with
-the population the service is hardest for.
+**Recruit research participants from the hardest-served population.** Usability testing recruited
+only from staff and volunteers misses the population the service is hardest for.
 
-**Content published and abandoned.** No owner, no review date, and answers that were correct three
-policy changes ago — the problem
+**Give published content an owner and a review date.** Without them, answers can go uncorrected for
+years after the policy changed — the problem
 [knowledge management](/capabilities/knowledge-management/) exists to solve, appearing on the
 public side.

@@ -80,20 +80,21 @@ rules and results · sharing agreements · classification scheme · master data 
   higher levels depend on — with the least capacity to steward it. That inversion is the defining
   structural problem.
 
-## Where it goes wrong
+## Getting this right
 
-**Governance as documentation.** A policy, a glossary nobody reads, a committee that meets
-quarterly. No change in behaviour, because nothing in anyone's daily work depends on it.
+**Make governance operational, not just documentation.** A policy, a glossary nobody reads, and a
+quarterly committee change nothing in behaviour unless something in daily work actually depends on
+them.
 
-**Stewardship assigned to people without capacity.** A name in a register is not a steward.
+**Give stewards the capacity to do the job.** A name in a register is not a steward.
 
-**Identity resolution deferred indefinitely** because it is hard and unglamorous, which caps the
+**Invest in identity resolution early.** Deferred because it is hard and unglamorous, it caps the
 value of every analytics and AI investment made afterwards.
 
-**Quality measured where it is easy** rather than where errors are consequential.
+**Measure quality where errors are consequential**, not just where it is easy.
 
-**Sharing agreements negotiated per exchange.** Legal review each time, so the analysis takes
-three weeks and the agreement takes nine months, and people stop asking.
+**Build reusable sharing agreement templates.** Negotiating legal review per exchange stretches a
+three-week analysis into a nine-month agreement, and people stop asking.
 
-**Starting with a tool.** A catalog product purchased before the stewardship model exists,
-producing an inventory of data nobody owns.
+**Establish the stewardship model before buying a tool.** A catalog product purchased first
+produces an inventory of data nobody owns.

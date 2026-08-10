@@ -103,34 +103,35 @@ later informs the historical record.
   with no publication mechanism at all beyond inspection at the clerk's counter** — which is where
   the disclosure gap is widest and least examined.
 
-## Where it goes wrong
+## What makes disclosure work
 
-**Disclosure published as images.** Scanned paper or flat PDFs, unsearchable and unaggregatable, so
-the data exists and no one can analyse it. Structured electronic filing is the single change that
-makes this capability effective.
+**Publish disclosure as structured data, not images.** Scanned paper or flat PDFs are unsearchable
+and unaggregatable, so the data exists and no one can analyse it. Structured electronic filing is
+the single change that makes this capability effective.
 
-**Publication after the election.** A deadline that falls close enough to election day, plus a
-processing interval, means the last and largest reports are public after voting.
+**Set deadlines and processing times that land before the election.** A deadline that falls close
+enough to election day, plus a processing interval, means the last and largest reports would
+otherwise become public only after voting.
 
-**Receipt mistaken for oversight.** Reports collected, filed, and never examined — so limits,
-prohibited sources, and arithmetic errors go unchecked, and the deterrent effect is nil.
+**Examine filings, not just receive them.** Reports collected, filed, and never examined leave
+limits, prohibited sources, and arithmetic errors unchecked, and the deterrent effect nil.
 
-**Petition verification too slow to challenge.** Signatures verified right up to the deadline,
-leaving no window for the challenge the process assumes is available.
+**Verify petitions with enough time left to challenge.** Signatures verified right up to the
+deadline leave no window for the challenge the process assumes is available.
 
-**Verification sampling methodology unpublished.** A sample-based check whose method is not stated,
-so both acceptance and rejection are contestable.
+**Publish the verification sampling methodology.** A sample-based check whose method is not stated
+leaves both acceptance and rejection contestable.
 
-**Requirements that only an incumbent can navigate.** Filing rules, deadlines, and report formats
-that assume prior experience or a compliance professional, which is a real barrier to first-time
-candidates and rarely counted as one.
+**Write filing rules a first-time candidate can navigate.** Rules, deadlines, and report formats
+that assume prior experience or a compliance professional are a real barrier to first-time
+candidates and are rarely counted as one.
 
-**Enforcement by the officials' own colleagues.** Where campaign finance enforcement sits with an
-office accountable to the people it regulates, the independence problem is structural — the same
-issue as [investigations reviewed by the chain](/capabilities/investigations/).
+**Keep enforcement independent of the officials it covers.** Where campaign finance enforcement
+sits with an office accountable to the people it regulates, the independence problem is
+structural — the same issue as [investigations reviewed by the chain](/capabilities/investigations/).
 
-**Advisory opinions unindexed.** The same question researched repeatedly, and candidates given
-inconsistent answers.
+**Index advisory opinions for reuse.** Leaving them unindexed means the same question gets
+researched repeatedly, and candidates get inconsistent answers.
 
-**Local disclosure that does not exist in practice.** Paper filings in a drawer, available on
-request during office hours, which is compliance with the letter and absence of the function.
+**Make local disclosure real, not nominal.** Paper filings in a drawer, available on request during
+office hours, is compliance with the letter and absence of the function.

@@ -24,7 +24,7 @@ module IndustryBlueprints
       "participates_in" => ["has_participant", "Participates in",  "Participants"],
       "uses_data"       => ["used_by",         "Uses data",        "Used by"],
       "measured_by"     => ["measures",        "Measured by",      "Measures"],
-      "has_opportunity" => ["opportunity_for", "AI opportunities", "Opportunity for"],
+      "has_integration" => ["integration_for", "AI integrations", "Integration for"],
       "assists"         => ["assisted_by",     "Assists",          "Assisted by"],
       "automates"       => ["automated_by",    "Automates",        "Automated by"],
       "implements"      => ["implemented_by",  "Implements",       "Implemented by"],
@@ -34,7 +34,13 @@ module IndustryBlueprints
       "explains"        => ["explained_by",    "Explains",         "Explained by"],
       "demonstrated_by" => ["demonstrates",    "Demonstrated by",  "Demonstrates"],
       "maps_to"         => ["mapped_from",     "Maps to",          "Mapped from"],
-      "supersedes"      => ["superseded_by",   "Supersedes",       "Superseded by"]
+      "supersedes"      => ["superseded_by",   "Supersedes",       "Superseded by"],
+      # Blueprint composition (vision.md §5, §6). `composed_of` has a user today
+      # — a blueprint declaring its domain modules; `covers` waits for the first
+      # Blueprint artifact. Both are declared now so the vocabulary, the type
+      # registry, and this table describe one model rather than three.
+      "composed_of"     => ["composes",        "Composed of",      "Composes"],
+      "covers"          => ["covered_by",      "Covers",           "Covered by"]
     }.freeze
 
     # Every authorable form => [canonical forward predicate, inverse?]
@@ -53,6 +59,8 @@ module IndustryBlueprints
         collection.docs.each { |doc| link(doc, index) }
       end
 
+      build_layer_index(site, index)
+
       # Bundle path => published URL, for templates that reference artifacts
       # outside the relationship graph — notably the capability map, where a
       # capability may be Named (no page) or Defined (a page to link to).
@@ -61,7 +69,36 @@ module IndustryBlueprints
       validate_map_targets(site, index)
       validate_body_links(site)
       validate_resource_urls(site)
+      validate_facets(site)
       report
+    end
+
+    # Facets declared as controlled vocabularies in _config.yml. `ai_task_type`
+    # was free text for its first twelve artifacts and had already drifted —
+    # "image classification" alongside "classification" — which is invisible
+    # until someone tries to group by it and gets two buckets meaning one thing.
+    # A vocabulary nobody enforces is a suggestion.
+    FACETS = {
+      "ai_modality"  => "ai_modalities",
+      "ai_task_type" => "ai_task_types"
+    }.freeze
+
+    def validate_facets(site)
+      FACETS.each do |field, config_key|
+        vocabulary = site.config[config_key]
+        next unless vocabulary.is_a?(Hash)
+
+        site.collections.each_value do |collection|
+          collection.docs.each do |doc|
+            value = doc.data[field]
+            next if value.nil?
+            next if vocabulary.key?(value)
+
+            @errors << "#{doc.relative_path}: #{field} '#{value}' is not in " \
+                       "#{config_key} (#{vocabulary.keys.sort.join(', ')})"
+          end
+        end
+      end
     end
 
     # `resource` is the canonical published URL, authored by hand on every
@@ -179,12 +216,97 @@ module IndustryBlueprints
 
     # Plain hashes rather than Document objects: keeps Liquid simple and avoids
     # dragging whole documents (and their content) into another page's data.
+    # What exists for a capability, across the four blueprint layers.
+    #
+    # One hop is not enough: a capability reaches its domain module directly,
+    # but the running software and the platform mapping hang off the *module*,
+    # so a one-hop view reports layers 3 and 4 as empty when they exist.
+    #
+    # Two unrestricted hops is too much, and in the opposite way — capability →
+    # persona → every other process that persona touches drags in most of the
+    # library sideways.
+    #
+    # Two rules, both needed:
+    #
+    #   1. The second hop may only travel to a DEEPER layer.
+    #   2. The second hop may only START from a layer 2 artifact.
+    #
+    # Rule 1 alone is not enough, which cost a debugging pass to notice: a
+    # persona sits at layer 1 and connects to everything, so "persona → AI
+    # integration" satisfies "deeper" while being about a different capability
+    # entirely. Layer 1 artifacts are shared hubs and are not routes downward.
+    # Layer 2 artifacts — the module, the entity, the architecture — are
+    # specific enough to carry the thread.
+    #
+    # Together they say exactly what the panel is for: how far down does this
+    # capability actually go. Lateral sprawl is blocked by construction, and
+    # the traversal is the one the toolkit build will need anyway.
+    def build_layer_index(site, index)
+      by_url = index.each_value.each_with_object({}) { |doc, acc| acc[doc.url] = doc }
+      capabilities = site.collections["capabilities"]
+      return unless capabilities
+
+      capabilities.docs.each do |cap|
+        found = {}
+
+        neighbors(cap, by_url).each do |first|
+          record(found, first, nil)
+
+          first_layer = first.data["layer"]
+          next unless first_layer && first_layer >= 2
+
+          neighbors(first, by_url).each do |second|
+            next if second.url == cap.url
+            second_layer = second.data["layer"]
+            next unless second_layer && second_layer > first_layer
+
+            record(found, second, first.data["title"])
+          end
+        end
+
+        entries = found.values.sort_by { |e| e["title"].to_s }
+        cap.data["layer_index"] = entries
+
+        # Per-layer counts and the deepest layer reached, so the coverage view
+        # can sort and render without recomputing the traversal in Liquid.
+        counts = (1..4).map { |n| entries.count { |e| e["layer"] == n } }
+        cap.data["layer_counts"] = counts
+        cap.data["layer_reach"]  = counts.rindex { |c| c > 0 }&.+(1) || 1
+      end
+    end
+
+    def neighbors(doc, by_url)
+      (Array(doc.data["outbound"]) + Array(doc.data["inbound"]))
+        .filter_map { |e| by_url[e["url"]] }
+    end
+
+    # First sighting wins, so a directly-related artifact is never relabelled as
+    # reached "via" something else.
+    def record(found, doc, via)
+      return if found.key?(doc.url)
+
+      found[doc.url] = {
+        "title"    => doc.data["title"],
+        "okf_type" => doc.data["type"],
+        "layer"    => doc.data["layer"],
+        "url"      => doc.url,
+        "summary"  => doc.data["description"],
+        "via"      => via
+      }
+    end
+
+    # `layer` is carried on the edge so a page can group its related content by
+    # blueprint layer rather than by predicate. Grouping by predicate is precise
+    # but asks the reader to know the vocabulary; grouping by layer answers the
+    # question people actually arrive with — what exists for this, and how far
+    # does it go.
     def edge(predicate, label, doc, note)
       {
         "predicate" => predicate,
         "label"     => label,
         "title"     => doc.data["title"],
         "okf_type"  => doc.data["type"],
+        "layer"     => doc.data["layer"],
         "url"       => doc.url,
         "summary"   => doc.data["description"],
         "note"      => note

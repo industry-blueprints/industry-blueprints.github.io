@@ -93,28 +93,32 @@ which is why it is deferred and why the deferral is expensive.
   jurisdictional seam is most acute here** — a state highway is a city main street, and both owners
   have legitimate and conflicting objectives for it.
 
-## Where it goes wrong
+## What to get right
 
-**Signals never retimed.** Plans from a decade ago against land use that has changed, producing
-delay that is then attributed to volume growth.
+**Retime signals on a regular interval.** Plans from a decade ago against land use that has since
+changed produce delay that then gets attributed to volume growth instead of the real cause.
 
-**Incident clearance measured from arrival rather than detection.** The response looks fast and the
-traveller's delay is unchanged, because most of it accrued before anyone knew.
+**Measure incident clearance from detection, not arrival.** Measuring from arrival makes the
+response look fast while the traveller's delay stays unchanged, because most of it accrued before
+anyone knew.
 
-**Traveller information that is wrong.** A real-time arrival that does not arrive is worse than no
-information — it destroys trust in the whole channel, including during emergencies.
+**Keep traveller information accurate.** A real-time arrival that does not arrive is worse than no
+information — accuracy is what keeps trust in the whole channel, including during emergencies.
 
-**Work zones permitted without cumulative impact assessment.** Three unrelated permits on parallel
-corridors in the same week, each individually reasonable.
+**Assess cumulative impact across work zone permits.** Three unrelated permits on parallel
+corridors in the same week can each be individually reasonable and still add up — checking the
+combination catches that.
 
-**Coordination stopping at the boundary.** Detour routed onto a neighbouring jurisdiction's road
-without notice; signals uncoordinated across a city line because two agencies own the corridor.
+**Coordinate across the jurisdictional boundary.** Notifying the neighbouring jurisdiction before
+routing a detour onto its road, and coordinating signals across a city line, keeps two owners of
+the same corridor working together instead of at odds.
 
-**Safety managed by enforcement alone.** Crashes concentrated at locations with a design cause,
-addressed with speed enforcement rather than a countermeasure.
+**Address safety at the design level, not just through enforcement.** Crashes concentrated at
+locations with a design cause call for a countermeasure, not speed enforcement alone.
 
-**Transit reliability reported as an average.** An on-time percentage that hides the routes and
-times where reliability is worst, which are usually the ones serving people with no alternative.
+**Report transit reliability by route and time, not just as an average.** An aggregate on-time
+percentage hides the routes and times where reliability is worst — usually the ones serving
+people with no alternative — so break it out.
 
-**Winter priorities set by complaint.** Route order adjusted in response to calls rather than by
-criticality — hospitals, arterials, and emergency access.
+**Set winter priorities by criticality.** Hospitals, arterials, and emergency access should
+determine route order, not the volume of complaint calls.

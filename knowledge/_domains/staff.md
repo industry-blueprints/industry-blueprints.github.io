@@ -89,6 +89,6 @@ transfer is listed as a capability rather than an activity.
 ## Where this domain connects
 
 Workforce capacity is the constraint that most often decides whether a capability improvement
-is achievable at all. It is also where AI opportunity is most politically sensitive: anything
+is achievable at all. It is also where AI integration is most politically sensitive: anything
 touching hiring assessment, performance evaluation, or discipline carries both legal exposure
 and a bargaining obligation.

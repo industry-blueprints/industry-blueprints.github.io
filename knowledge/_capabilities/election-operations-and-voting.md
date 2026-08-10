@@ -98,35 +98,36 @@ places with identifiable causes — too few machines, too few workers, or a cons
   same statutory obligations at a fraction of the capacity, and frequently the same clerk handling
   everything.
 
-## Where it goes wrong
+## What to get right
 
-**Ballot proofing errors.** A contest omitted, a candidate misspelled, a district combination wrong
-— discovered after printing, and every remedy is expensive and visible.
+**Proof every ballot style before it prints.** A contest omitted, a candidate misspelled, a district
+combination wrong — caught before printing costs a proofing pass; caught after is expensive and
+visible.
 
-**Polling place accessibility assumed.** A survey never done, or done years ago, so the accessible
-entrance is locked, the path is blocked, or the accessible unit is unplugged in a corner. Voting
-with assistance when independent private voting was required is a failure even when the ballot is
-cast.
+**Survey polling place accessibility, don't assume it.** A survey never done, or done years ago,
+leaves the accessible entrance locked, the path blocked, or the accessible unit unplugged in a
+corner. Voting with assistance when independent private voting was required is a failure even when
+the ballot is cast.
 
-**Consolidation that lengthens the queue.** Locations reduced for cost or for lack of workers, with
-the resulting wait falling unevenly and predictably.
+**Weigh consolidation against the queue it creates.** Locations reduced for cost or for lack of
+workers push the resulting wait to fall unevenly and predictably.
 
-**Poll worker training that does not cover the hard cases.** Provisional issue, identification
-requirements, and voter challenges are where errors change outcomes, and they get the least
-training time.
+**Train poll workers on the hard cases, not just the routine ones.** Provisional issue,
+identification requirements, and voter challenges are where errors change outcomes, and they
+typically get the least training time.
 
-**Mail ballot rejection for signature.** Signatures compared by non-experts against a specimen
-sometimes decades old, rejecting disproportionately among younger and older voters — and a cure
-process that only works if the voter is reached in time.
+**Give signature review real scrutiny, and a fast path to cure.** Signatures compared by
+non-experts against a specimen sometimes decades old reject disproportionately among younger and
+older voters — and the cure process only works if the voter is reached in time.
 
-**Cure notification that does not reach the voter.** A letter to a voter whose ballot was rejected,
-sent by mail, arriving after the deadline.
+**Get cure notifications to the voter before the deadline, not by mail alone.** A letter to a voter
+whose ballot was rejected, sent by mail, too often arrives after the deadline.
 
-**Language assistance nominally provided.** Translated materials present, no bilingual worker at
-the location, so the requirement is met on paper — see
+**Back translated materials with a bilingual worker on site.** Translated materials present with no
+bilingual worker at the location meet the requirement on paper only — see
 [language access](/capabilities/language-access/).
 
-**Contingency untested.** Power failure, equipment failure, or a location becoming unavailable, with
-no rehearsed fallback — the same untested-plan pattern as
+**Rehearse the contingency, not just document it.** Power failure, equipment failure, or a location
+becoming unavailable needs a rehearsed fallback — the same untested-plan pattern as
 [continuity of operations](/capabilities/continuity-of-operations/), with a deadline that cannot
 move.

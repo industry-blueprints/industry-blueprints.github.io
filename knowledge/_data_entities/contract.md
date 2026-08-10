@@ -102,27 +102,31 @@ retainage release, records retention, and lessons capture live. A model that tre
 closure has a closeout backlog it cannot see — the same defect described for
 [Grant Award](/data-entities/grant-award/).
 
-## Where it goes wrong
+## What to get right
 
-- **Obligations left as an attachment.** The root cause of most contract administration failure.
-- **Renewal date without lead time.** Stored expiry, no derived decision date, so extension by
-  default is structurally guaranteed.
-- **One value field.** Committed versus invoiced versus paid unanswerable.
-- **Amendments as overwrites.** Losing the ability to state what the terms were on a given date —
-  which is the question a dispute asks.
-- **Service levels without a measurement owner.** Supplier-reported performance recorded as fact.
-- **Acceptance criteria absent.** Deliverables accepted on impression, so rejection cannot be
-  defended.
-- **No named manager.** The contract is administered by whoever notices, which is nobody.
-- **Contract not linked to its solicitation**, so the evaluation record — the protest defence —
-  is disconnected from the thing it produced.
+- **Extract obligations out of the attachment**, into structured fields — the root fix for most
+  contract administration problems.
+- **Derive a decision date with lead time from the renewal date.** Stored expiry alone leaves
+  extension by default structurally guaranteed; a derived decision date gives someone time to act.
+- **Separate committed, invoiced, and paid into distinct fields**, so each is independently
+  answerable.
+- **Keep amendment history, don't overwrite it.** Preserving it lets the organization state what
+  the terms were on a given date — the question a dispute asks.
+- **Name a measurement owner for service levels**, rather than recording supplier-reported
+  performance as fact.
+- **Define acceptance criteria up front**, so deliverables are accepted against a standard and
+  rejection can be defended.
+- **Name a manager for every contract**, so administration has an owner rather than falling to
+  whoever notices.
+- **Link the contract to its solicitation**, so the evaluation record — the protest defence —
+  stays connected to the thing it produced.
 
 ## AI relevance
 
 Extracting obligations, service levels, key dates, and notice periods into structured, trackable
 form is the highest-value application in this part of the library. It is a good fit: high volume,
 tedious, and verifiable against a document that remains available. See
-[obligation extraction](/ai-opportunities/obligation-extraction/).
+[obligation extraction](/ai-integrations/obligation-extraction/).
 
 The cautions carry over from [Agreement](/data-entities/agreement/) and apply with force. Contract
 language is dense with conditionality — "unless," "except where," "provided that" — and flattening

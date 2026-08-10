@@ -126,9 +126,9 @@ That last measure is the one nobody tracks and the one that matters most.
 applies to this capability whenever the organization passes funds down, which for a state is
 always and for a county is often.
 
-## AI opportunities
+## AI integrations
 
-[Cross-report consistency](/ai-opportunities/cross-report-consistency/) — catching the same figure
+[Cross-report consistency](/ai-integrations/cross-report-consistency/) — catching the same figure
 disagreeing between two submissions before an auditor does. Also condition and obligation
 extraction from award documents; see [Grant Award](/data-entities/grant-award/).
 
@@ -154,23 +154,27 @@ is what makes *code once, report many* achievable.
   compliance burden. Small jurisdictions routinely decline funding they qualify for because they
   cannot carry the administration — a rational decision that looks like a failure.
 
-## Where it goes wrong
+## What to get right
 
-**Accepting funding without pricing the obligation.** Net cost is sometimes negative and rarely
-calculated.
+**Price the full obligation before accepting funding.** Net cost is sometimes negative, and
+calculating it before acceptance is what makes that visible in time to matter.
 
-**The cliff.** A three-year award creates a service and a team. Year four arrives. Either the
-general fund absorbs it unplanned, or the service ends and the staff leave.
+**Plan for the cliff before the award, not at year four.** A three-year award that creates a service
+and a team needs a year-four plan from the outset, so the general fund isn't absorbing it unplanned
+and the service isn't ending unexpectedly.
 
-**Chasing money away from mission**, so the organization delivers the funder's priorities.
+**Pursue funding that advances the mission.** Weighing fit against mission, not just availability,
+keeps the organization delivering its own priorities rather than the funder's.
 
-**Compliance knowledge in one person** who is not the one delivering the programme, and is often
-nearing retirement.
+**Spread compliance knowledge beyond one person.** Documenting it and involving the people
+delivering the programme protects against the knowledge leaving with one retirement.
 
-**Reporting assembled by hand** from systems that do not share definitions.
+**Build reporting from the accounting record, shared definitions and all.** Producing reports
+directly from the ledger, rather than assembling them by hand, keeps three funders' reports
+consistent with each other.
 
-**Match by in-kind that was never free.** Staff time counted as match is staff time not spent on
-something else.
+**Budget in-kind match as a real cost.** Staff time counted as match is staff time not spent on
+something else, so budgeting for it as a real cost keeps the match honest.
 
 ---
 

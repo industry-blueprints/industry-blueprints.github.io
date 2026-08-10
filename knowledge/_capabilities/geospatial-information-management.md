@@ -86,28 +86,31 @@ to it.
 - **Municipal.** Addressing authority within city limits, utility and street asset geometry, and
   zoning — with the strongest operational dependency on the county parcel layer.
 
-## Where it goes wrong
+## What to get right
 
-**Every system with its own address list.** Six copies, six spellings, none authoritative, and no
-ability to answer what is happening at one property — the identity resolution problem from the
+**Maintain one authoritative address list, not six.** A single authoritative source, rather than six
+copies with six spellings, is what lets anyone answer what is happening at one property — the
+identity resolution problem from the
 [core data model](/data-models/core-public-sector-model/) in its spatial form.
 
-**Addressing and parcel maintenance as batch work.** Updated quarterly, so new construction is
-unroutable for months and emergency dispatch has a gap.
+**Update addressing and parcel data continuously, not in batches.** Continuous maintenance keeps new
+construction routable immediately, closing the gap that otherwise shows up in emergency dispatch.
 
-**GIS as a map-making service.** Treated as a cartographic team producing PDFs rather than as the
-custodian of a shared data service, so integration never happens.
+**Run GIS as a shared data service, not a map-making shop.** Operating as the custodian of a shared
+service, rather than a cartographic team producing PDFs, is what makes integration actually happen.
 
-**Boundaries that disagree.** The service boundary, the tax district, and the zoning layer
-inconsistent at the edges, and each system authoritative for its own version.
+**Reconcile boundaries across layers.** Keeping the service boundary, the tax district, and the
+zoning layer consistent at the edges avoids each system being authoritative for its own
+disagreeing version.
 
-**Asset geometry maintained separately from the asset register.** The map and the maintenance
-system disagree on what exists and where — the recurring problem in
+**Maintain asset geometry from the asset register.** Keeping the map and the maintenance system in
+sync on what exists and where addresses the recurring problem in
 [build and operate](/domains/build-and-operate/).
 
-**Publishing spatial data without privacy assessment.** Parcel plus permit plus service history is
-frequently identifying, even when each layer alone is not — a
-[privacy](/capabilities/privacy-management/) failure created by an open data programme.
+**Assess privacy before publishing spatial data.** Parcel plus permit plus service history is
+frequently identifying even when each layer alone is not, so a privacy assessment ahead of
+publication protects an open data programme from creating a
+[privacy](/capabilities/privacy-management/) problem.
 
-**One person who knows the geodatabase.** Common, and a severe continuity exposure given how many
-systems depend on it.
+**Spread geodatabase knowledge beyond one person.** Given how many systems depend on it, documenting
+and cross-training closes a severe continuity exposure.

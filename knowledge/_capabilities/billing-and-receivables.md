@@ -84,29 +84,29 @@ programmes when it is finally computed, and it is rarely computed.
   billing separately, and collectively the most visible financial relationship most residents have
   with local government.
 
-## Where it goes wrong
+## What to get right
 
-**No single view of what a party owes.** Six systems, six bills, six collection actions against
-one household, and no ability to offer one arrangement.
+**Build one view of what a party owes, across systems.** Six systems, six bills, six collection
+actions against one household leave no ability to offer a single arrangement.
 
-**Bills that cause the contact.** Unclear charge descriptions and no explanation of how to
-challenge, producing avoidable volume in
+**Make bills clear enough that they don't generate the contact.** Unclear charge descriptions and
+no explanation of how to challenge produce avoidable volume in
 [constituent service](/capabilities/constituent-service-management/) — the cost lands in a
 different budget from the one that caused it.
 
-**Escalation with no ability-to-pay step.** Penalties compounding on debt that was never
-recoverable, which converts a small charge into a licence suspension, a lien, or a warrant.
+**Add an ability-to-pay step before escalation.** Without it, penalties compound on debt that was
+never recoverable, converting a small charge into a licence suspension, a lien, or a warrant.
 
-**Collection cost exceeding recovery.** Common for small balances, and invisible without the
+**Weigh collection cost against recovery.** Common for small balances, and invisible without the
 measure.
 
-**Debt carried forever.** Never written off because write-off requires an uncomfortable
-authorization, so the receivable balance overstates the position and the aging report is
-meaningless.
+**Write off debt that is genuinely uncollectible.** Leaving it on the books indefinitely because
+write-off requires an uncomfortable authorization makes the receivable balance overstate the
+position and the aging report meaningless.
 
-**Payment fees that steer the payer wrong.** A card surcharge making the cheapest channel for the
-payer the most expensive channel for the organization.
+**Set payment fees so the cheapest channel for the payer is also the cheapest for the
+organization.** A card surcharge that inverts this steers payers the wrong way.
 
-**Revenue targets on enforcement activity.** The most consequential failure. Once a fine is a
-budget line, the enforcement volume required to hit it stops being a function of the underlying
-behaviour.
+**Keep revenue targets off enforcement activity.** The most consequential thing to get right here:
+once a fine is a budget line, the enforcement volume required to hit it stops being a function of
+the underlying behaviour.

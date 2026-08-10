@@ -30,10 +30,10 @@ relationships:
     target: /patterns/obligation-tracking.md
   - predicate: measured_by
     target: /kpis/service-credit-realization.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/obligation-extraction.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/invoice-deliverable-matching.md
+  - predicate: has_integration
+    target: /ai-integrations/obligation-extraction.md
+  - predicate: has_integration
+    target: /ai-integrations/invoice-deliverable-matching.md
 ---
 
 ## Trigger and outcome
@@ -152,11 +152,11 @@ been briefed and the obligation register exists.
 
 **Obligations extracted at handover into a tracked register** with owners and dates — the single
 highest-value change in this process. See
-[obligation extraction](/ai-opportunities/obligation-extraction/); it is a strong AI fit because
+[obligation extraction](/ai-integrations/obligation-extraction/); it is a strong AI fit because
 the output is verifiable against a document that remains available.
 
 **Acceptance before payment, enforced by the workflow** rather than by policy — see
-[invoice-deliverable matching](/ai-opportunities/invoice-deliverable-matching/).
+[invoice-deliverable matching](/ai-integrations/invoice-deliverable-matching/).
 
 **Periodic performance recording on a schedule**, so a record exists before it is needed.
 

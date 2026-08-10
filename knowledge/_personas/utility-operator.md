@@ -79,7 +79,7 @@ which is simultaneously a revenue problem and the leak signal the operator could
 Anomaly detection on process and flow data for early excursion and leak detection is a strong case
 and one of the few in this library where the data volume genuinely supports it. It sits inside
 [failure prediction from work
-history](/ai-opportunities/failure-prediction-from-work-history/).
+history](/ai-integrations/failure-prediction-from-work-history/).
 
 **The boundary is firm: nothing decides a public notification.** Detection, alerting, and
 prioritization are appropriate; whether to issue a boil-water notice is a regulated judgment with

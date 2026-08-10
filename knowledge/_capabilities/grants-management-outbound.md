@@ -123,10 +123,10 @@ that can be its own parent, which is how federal → state → local pass-throug
 [Subrecipient Monitoring & Pass-Through Responsibility](/governance/subrecipient-monitoring/) ·
 [Merit Review Integrity](/governance/merit-review-integrity/)
 
-## AI opportunities
+## AI integrations
 
-[Application completeness screening](/ai-opportunities/application-completeness-screening/) ·
-[Subrecipient risk signals](/ai-opportunities/subrecipient-risk-signals/)
+[Application completeness screening](/ai-integrations/application-completeness-screening/) ·
+[Subrecipient risk signals](/ai-integrations/subrecipient-risk-signals/)
 
 **The boundary matters more here than almost anywhere else in this library.** Merit scoring and
 risk-tier assignment both determine who gets public money and who carries compliance burden.
@@ -158,24 +158,27 @@ threshold obtain an independent audit whose findings pass-through entities must 
   and therefore federal or state conditions attached.
 - **Municipal.** Less common as an awarder except for community and housing programmes.
 
-## Where it goes wrong
+## What to get right
 
-**Monitoring applied uniformly.** Every recipient treated identically regardless of size or risk —
-over-burdening small organizations and under-scrutinizing large ones.
+**Scale monitoring to risk, not apply it uniformly.** Sizing monitoring to size and risk keeps small
+organizations from being over-burdened and large ones from being under-scrutinized.
 
-**Conditions flowed down without translation.** Federal terms forwarded verbatim to a three-person
-non-profit with no capacity to interpret them.
+**Translate conditions flowed down, don't just forward them.** Translating federal terms for a
+three-person non-profit gives it a real chance to interpret and meet them.
 
-**Application burden that selects for grant-writing capacity** rather than delivery capacity, so
-funds concentrate with organizations good at applying.
+**Keep application burden proportionate to delivery capacity.** A process that doesn't select
+purely for grant-writing skill lets funds reach organizations strong at delivery, not just at
+applying.
 
-**Findings closed on receipt of a plan.** The failure
-[repeat finding rate](/kpis/repeat-finding-rate/) exists to expose.
+**Verify remediation before closing a finding.** Verifying, rather than closing on receipt of a
+plan, is exactly what
+[repeat finding rate](/kpis/repeat-finding-rate/) is designed to confirm is happening.
 
-**Closeout never happens.** Awards open years past their period, obscuring true committed position.
+**Close out awards at the end of the performance period.** Timely closeout keeps the true committed
+position visible instead of obscured by awards left open for years.
 
-**Performance reporting collected and never read.** Recipients spend real effort on reports nobody
-analyses — visible to them, and corrosive to the relationship.
+**Read the performance reports recipients submit.** Recipients spend real effort producing them;
+reading and analyzing that work protects the relationship and the value of the effort.
 
 ---
 

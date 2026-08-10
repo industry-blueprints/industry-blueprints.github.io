@@ -92,30 +92,31 @@ for its own processing delay.
   the delivery method is often a credit against a bill the organization itself issues, which is the
   cleanest mechanism available.
 
-## Where it goes wrong
+## Getting recovery right
 
-**Change reported and processed weeks later.** The overpayment is created by the processing delay
-and then recovered from the person who reported the change promptly.
+**Process a reported change before it becomes an overpayment.** Processing it weeks late creates
+the overpayment through delay, and then recovers it from the person who reported the change
+promptly.
 
-**Recovery at a flat percentage.** Applied uniformly regardless of household circumstances, which
-is administratively simple and produces evictions.
+**Set recovery against ability to pay, not a flat percentage.** A uniform rate regardless of
+household circumstances is administratively simple and produces evictions.
 
-**Waiver available in theory.** Provided for in the rules, never mentioned in the notice, and
-requested by almost nobody.
+**Put the waiver in the notice, not just in the rules.** Provided for in policy but never mentioned
+to the recipient, it gets requested by almost nobody.
 
-**Delivery methods that charge the recipient.** Card fees, ATM charges, and check-cashing costs
-taken out of a benefit calculated to a minimum standard.
+**Choose delivery methods that don't charge the recipient.** Card fees, ATM charges, and
+check-cashing costs come out of a benefit calculated to a minimum standard.
 
-**Termination for non-response to a letter.** Sent to a stale address, returned undelivered, and
-treated as failure to cooperate — which disproportionately affects people who move frequently, who
-are disproportionately the people the programme exists for.
+**Verify the address before treating non-response as non-cooperation.** A letter sent to a stale
+address and returned undelivered, then treated as failure to cooperate, disproportionately affects
+people who move frequently — who are disproportionately the people the programme exists for.
 
-**Fraud framing applied to error.** Recipient error and fraud treated identically in language and
-in process, which deters reporting and suppresses take-up more broadly than the cases it addresses.
+**Keep fraud and error separate in language and process.** Treating them identically deters
+reporting and suppresses take-up more broadly than the cases it addresses.
 
-**No reconciliation to the ledger.** Benefit issuance and
-[accounting](/capabilities/accounting-and-financial-reporting/) diverging, so the programme's
-actual expenditure is established retrospectively.
+**Reconcile benefit issuance to the ledger as it happens.** Left to diverge from
+[accounting](/capabilities/accounting-and-financial-reporting/), the programme's actual expenditure
+is only established retrospectively.
 
-**Replacement processes that assume bad faith.** A lost card or stolen benefit treated as
-presumptively fraudulent, leaving households without food or fuel while it is investigated.
+**Design replacement processes around good faith.** Treating a lost card or stolen benefit as
+presumptively fraudulent leaves households without food or fuel while it is investigated.

@@ -97,29 +97,30 @@ administrative tasks in
 - **Municipal / tribal.** First point of arrival for spontaneous volunteers and donated goods, and
   where community and faith-based organizations with the deepest local reach actually operate.
 
-## Where it goes wrong
+## What to get right
 
-**No plan, so response staff manage the surge.** Volunteers and goods arrive, and the people
-running the response spend the first day directing them.
+**Plan for the surge before it arrives.** Without a plan, the people running the response spend
+the first day directing volunteers and goods instead of the response itself.
 
-**Unsolicited goods as a second disaster.** Used clothing, expired food, and unusable items
-arriving by the truckload, requiring storage, sorting, and eventually paid disposal. Well
-intentioned, and a net cost.
+**Direct unsolicited goods toward cash from the start.** Used clothing, expired food, and unusable
+items arriving by the truckload require storage, sorting, and eventually paid disposal — a
+promoted cash channel keeps well-intentioned giving from becoming a net cost.
 
-**Cash donation channel not established early.** The public wants to help immediately; without a
-clear cash route promoted in the first hours, the impulse converts into goods.
+**Establish the cash donation channel early.** The public wants to help immediately; a clear cash
+route promoted in the first hours is what keeps the impulse from converting into goods instead.
 
-**Credentials unverified.** Medical and technical volunteers accepted on assertion, which is a
-liability exposure and occasionally a safety one.
+**Verify credentials before assigning.** Confirming medical and technical volunteers rather than
+accepting them on assertion is what closes the liability and occasional safety exposure.
 
-**Hours untracked.** Thousands of volunteer hours worked and undocumented, so the cost share
-benefit is lost — see above.
+**Track volunteer hours as they're worked.** Documenting hours is what captures the cost share
+benefit — see above — instead of losing it.
 
-**Coverage unresolved.** Whether a volunteer injured while working is covered by workers'
-compensation depends on registration and assignment records that were not created.
+**Resolve coverage through registration and assignment records.** Creating those records up front
+is what settles whether a volunteer injured while working is covered by workers' compensation.
 
-**Voluntary organizations uncoordinated.** Several organizations serving the same neighbourhood and
-none serving another, because no coordination structure existed before the event.
+**Coordinate voluntary organizations before the event.** A coordination structure in place ahead
+of time is what keeps several organizations from serving the same neighbourhood while another
+goes unserved.
 
-**Volunteers registered and never contacted.** People who offered help, were recorded, and heard
-nothing — which is the reliable way to ensure they do not offer next time.
+**Follow up with registered volunteers.** Contacting people who offered help is what keeps them
+willing to offer again next time.

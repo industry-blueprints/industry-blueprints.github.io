@@ -89,27 +89,29 @@ retention decisions — is corrupted.
   effect is that documentation quality determines outcomes, and supervisors are frequently promoted
   from the ranks with no training in it.
 
-## Where it goes wrong
+## What to get right
 
-**Every rating identical.** Rating inflation is rational for supervisors — a lower rating invites a
-grievance and a difficult conversation — and it destroys the instrument's usefulness for everyone.
+**Let ratings actually distinguish performance.** Rating inflation is rational for
+supervisors — a lower rating invites a grievance and a difficult conversation — but a distribution
+that spreads out is what keeps the instrument useful for everyone.
 
-**Documentation reconstructed at the point of action.** Three years of problems and an unblemished
-file, so the first adverse action fails and the employee is reinstated with back pay. The failure
-is not the due-process rule; it is the three years of undocumented tolerance.
+**Document as problems occur, not at the point of action.** Three years of problems behind an
+unblemished file makes the first adverse action fail, reinstating the employee with back pay. The
+due-process rule isn't the obstacle; contemporaneous documentation is what makes it work.
 
-**Improvement plans used as a dismissal formality.** Everyone including the employee recognizes it,
-so it becomes a procedural step rather than an attempt, and improvement never happens.
+**Use improvement plans as genuine attempts at improvement.** A plan everyone, including the
+employee, recognizes as a formality becomes a procedural step instead of a real chance to improve.
 
-**Annual as the only cadence.** A surprise in the review is a supervision failure that occurred
-months earlier.
+**Give feedback continuously, not just annually.** A surprise in the annual review means supervision
+should have caught it months earlier.
 
-**Expectations copied from the class specification.** Generic duties rather than what this person
-should accomplish this year.
+**Write expectations for this person and this year, not the class specification.** Specific,
+achievable duties give the employee something to act on; generic ones don't.
 
-**No calibration.** One supervisor's "exceeds" is another's "meets," so cross-department comparison
-is meaningless and perceived unfairness is well founded.
+**Calibrate ratings across supervisors.** Without it, one supervisor's "exceeds" is another's
+"meets," making cross-department comparison meaningless and perceived unfairness well founded.
 
-**Probation squandered.** The period with the fewest constraints is passed through automatically,
-and the organization inherits a permanent problem it could have avoided — see
+**Use probation deliberately.** The period with the fewest constraints is the easiest time to
+address a poor fit — passing through it automatically hands the organization a permanent problem it
+could have avoided — see
 [onboarding](/capabilities/onboarding/).

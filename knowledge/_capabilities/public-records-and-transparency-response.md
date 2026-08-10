@@ -79,25 +79,26 @@ release packages · appeal outcomes
 - **County / municipal.** Same state obligations, usually no dedicated staff, and requests handled
   by a clerk or attorney alongside their actual job.
 
-## Where it goes wrong
+## What to get right
 
-**Search is the bottleneck and nobody owns it.** Responsive material spread across mail, shared
-drives, case systems, phones, and collaboration tools, with no unified search. Staff are asked to
-self-search, which is neither complete nor defensible.
+**Give search a unified owner and system.** Responsive material spread across mail, shared drives,
+case systems, phones, and collaboration tools needs a search that covers all of them; asking staff
+to self-search is neither complete nor defensible.
 
-**Redaction is manual and unforgiving.** One missed identifier is a breach; systematic
-over-redaction is a denial of access. Both are common and only one gets noticed.
+**Treat redaction with equal care in both directions.** One missed identifier is a breach;
+systematic over-redaction is a denial of access. Both deserve attention, even though only one
+tends to get noticed.
 
-**No proactive publication.** The same material requested repeatedly, reviewed from scratch each
-time, when publishing it once would end the cycle.
+**Publish frequently requested material proactively.** Reviewing the same material from scratch
+each time a request comes in costs more than publishing it once and ending the cycle.
 
-**Clock starts before scoping.** A vague request consumes days in clarification while the
-statutory period runs.
+**Scope the request before the clock effectively starts.** A vague request left unclarified
+consumes days while the statutory period runs; scoping it early protects that time.
 
-**Exemption rationale not recorded.** The determination is made and the reasoning is not captured,
-so the appeal cannot be defended and the next similar request is decided differently.
+**Record the rationale behind every exemption determination.** Captured reasoning is what lets an
+appeal be defended and keeps the next similar request decided consistently.
 
-**AI as an appealing and dangerous shortcut.** Assisted search and redaction is one of the
-highest-value applications in this library and one of the highest cost of error. Any use requires
-human verification before release, without exception — see
+**Verify AI-assisted search and redaction with a human before release, every time.** It is one of
+the highest-value applications in this library and one of the highest cost of error, so human
+verification stays a firm requirement — see
 [AI disclosure and human review](/governance/ai-disclosure-and-human-review/).

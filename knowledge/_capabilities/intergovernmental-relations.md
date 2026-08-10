@@ -85,22 +85,27 @@ routes around it — usually by moving data in ways nobody approved.
 - **Tribal.** A government-to-government relationship with distinct legal standing that is
   frequently modelled incorrectly as a stakeholder relationship.
 
-## Where it goes wrong
+## What to get right
 
-**Unfunded mandates absorbed silently.** The cost lands in the operating budget with no line item,
-so it is never visible in the conversation about whether the mandate was worth it.
+**Give unfunded mandate costs a visible line item.** Naming the cost in the operating budget, rather
+than letting it land silently, keeps it visible in the conversation about whether the mandate was
+worth it.
 
-**Conditions forwarded verbatim.** Federal terms passed to a small jurisdiction or a three-person
-non-profit that has no capacity to interpret them. Translation is the actual work.
+**Translate conditions rather than forwarding them verbatim.** Translation is the actual work —
+without it, federal terms reach a small jurisdiction or a three-person non-profit with no capacity
+to interpret them.
 
-**Agreements that outlive their signatories.** An arrangement from twelve years ago that both
-parties still operate under and neither can produce.
+**Keep agreements current with a named owner.** Reviewing an arrangement periodically, rather than
+letting it outlive its signatories, keeps both parties able to produce and understand what they
+operate under.
 
-**Data sharing blocked by unresolved authority.** The lawful basis exists but nobody will assert
-it, so the sharing happens informally or not at all — the failure that shows up downstream as an
-identity resolution problem in the [core data model](/data-models/core-public-sector-model/).
+**Assert the lawful basis for data sharing directly.** A clearly asserted authority, instead of one
+nobody will claim, keeps sharing from happening informally or not at all — the alternative shows up
+downstream as an identity resolution problem in the
+[core data model](/data-models/core-public-sector-model/).
 
-**Joint services with joint accountability**, which is to say none. Every joint arrangement needs
-each part assigned to one party.
+**Assign each part of a joint service to one accountable party.** Explicit assignment is what
+joint accountability actually requires.
 
-**Relationships held by one person.** They retire, and two decades of context leaves with them.
+**Document relationships beyond one person.** Recording the context means it doesn't leave entirely
+when that person retires.

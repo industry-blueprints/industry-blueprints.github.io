@@ -118,19 +118,20 @@ The final step is the one most commonly missing entirely — see
 - All bidders debriefed with substantive reasons.
 - Complete record retained — it is the protest defence.
 
-## Where it goes wrong
+## What to get right
 
-- **Price opened early.** Once a panel knows the prices, technical scoring is no longer
-  independent, whatever anyone intends.
-- **Score compression.** Technical scores within a few points, so a weighting nominally 70/30
-  operates as 5/95 in practice. Worth testing on past competitions; the result is usually
-  uncomfortable.
-- **Generic conflict declarations**, signed before the bidder list is known.
-- **Negotiation dressed as clarification**, which is both a fairness problem and a protest exposure.
-- **Debriefs that recite scores.** The supplier learns nothing, bids the same way next time, and
-  concludes the process was decided in advance.
-- **The invisible tail.** Award to execution unmeasured, so weeks disappear where nobody is
-  accountable.
+- **Keep prices sealed until technical scoring is complete.** Once a panel knows the prices,
+  technical scoring is no longer independent, whatever anyone intends.
+- **Test whether the weighting survives contact with real scores.** Technical scores within a
+  few points compress a weighting nominally 70/30 into 5/95 in practice. Worth testing on past
+  competitions; the result is usually uncomfortable.
+- **Collect conflict declarations after the bidder list is known**, not before.
+- **Keep clarification separate from negotiation.** Blurring them is both a fairness problem and
+  a protest exposure.
+- **Debrief on substance, not just scores.** A supplier who learns nothing bids the same way next
+  time and concludes the process was decided in advance.
+- **Measure award-to-execution.** Leaving that stretch unmeasured lets weeks disappear where
+  nobody is accountable.
 
 ## AI boundary
 

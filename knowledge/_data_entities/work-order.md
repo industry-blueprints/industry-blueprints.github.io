@@ -88,22 +88,23 @@ optional in both directions and modelling it as mandatory breaks both cases.
 executions, not three work orders — otherwise first-visit completion is unmeasurable and the asset
 history triple-counts.
 
-## Where it goes wrong
+## What to get right
 
-**No asset on the work order.** The defect that makes the whole domain's data unusable, and it is
-usually optional at the point of capture.
+**Require an asset on the work order.** Making it mandatory rather than optional at capture is
+what keeps the whole domain's data usable.
 
-**Actuals never captured**, so [planning](/processes/work-order-planning-and-scheduling/) estimates
-from guesswork permanently.
+**Capture actuals**, so [planning](/processes/work-order-planning-and-scheduling/) can estimate
+from real data instead of guesswork.
 
-**Status recorded, findings not.** Discussed above.
+**Record findings alongside status.** Discussed above.
 
-**Free-text location.** Work that cannot be mapped, aggregated, or matched to prior work at the
-same place.
+**Structure location, don't leave it free text.** Structured location is what lets work be
+mapped, aggregated, and matched to prior work at the same place.
 
-**Safety prerequisites recorded at planning only.** Arranged is not verified; verification happens
-on site, by the crew, at the time — see
+**Verify safety prerequisites on site, not just at planning.** Verification by the crew, at the
+time, is what confirms an arranged prerequisite actually holds — see
 [work authorization and safety prerequisites](/governance/work-authorization-and-safety-prerequisites/).
 
-**Separate work order entities per department.** Water's, streets', facilities', and fleet's, with
-different fields and no shared history — which is why a crew working across two carries two devices.
+**Share one work order entity across departments.** A shared model with common fields and history
+is what lets a crew working across water, streets, facilities, and fleet carry one device instead
+of two.

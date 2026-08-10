@@ -109,17 +109,18 @@ deviation from the ranked order.**
 - Award approval follows delegated authority thresholds.
 - Every applicant receives the outcome and substantive feedback.
 
-## Where it goes wrong
+## What to get right
 
-- **No calibration.** Reviewers interpret a five-point scale differently; the resulting variance
-  is noise that discussion cannot fully remove.
-- **Conflicts declared generically.** "I have no conflicts" signed before anyone knows who applied.
-- **Unrecorded adjustment.** The most common audit finding in this process — a funded list that
-  differs from the scored list with no documented reason.
-- **Feedback that is a score.** Unsuccessful applicants learn they got 68 out of 100 and nothing
-  they can act on, which guarantees the same application next cycle.
-- **Review burden that limits the pool.** Only large applications get real scrutiny because
-  reviewer capacity is finite, so small awards are decided thinly.
+- **Calibrate reviewers before scoring.** Left uncalibrated, reviewers interpret a five-point
+  scale differently, and the resulting variance is noise that discussion cannot fully remove.
+- **Declare conflicts against the actual applicant list**, not "I have no conflicts" signed
+  before anyone knows who applied.
+- **Record the reason for every adjustment.** A funded list that differs from the scored list
+  needs a documented reason — the gap is the most common audit finding in this process.
+- **Give feedback applicants can act on.** A score of 68 out of 100 teaches nothing; substantive
+  feedback is what changes the next cycle's application.
+- **Size review capacity to the pool.** When reviewer capacity is finite, scrutiny concentrates
+  on large applications by default — plan capacity so small awards get real review too.
 
 ## AI in this process: a hard boundary
 

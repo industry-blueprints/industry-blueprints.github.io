@@ -4,12 +4,13 @@ title: Investigations
 description: Establishing whether a specific person or entity did a specific thing —
   to a standard that holds, without destroying the criminal case in the process.
 resource: https://industry-blueprints.github.io/capabilities/investigations/
-tags: [capability, investigations, oig, misconduct, fraud, whistleblower, evidence]
+tags: [capability, investigations, investigative-case-management, oig, inspector-general,
+  misconduct, fraud, program-integrity, whistleblower, evidence, case-management]
 
 generated: { by: human:jhofmann, at: 2026-07-28T16:00:00Z }
 status: draft
 stale_after: 2027-07-28
-depth: defined
+depth: detailed
 
 industry: public-sector
 government_levels: [federal, state, county, municipal, tribal]
@@ -17,6 +18,9 @@ government_levels: [federal, state, county, municipal, tribal]
 relationships:
   - predicate: part_of
     target: /domains/govern.md
+  - predicate: has_participant
+    target: /personas/investigator.md
+    note: Holds the decisions that cannot be taken back
   - predicate: has_participant
     target: /personas/internal-auditor.md
     note: Frequently housed with audit, and a distinct discipline from it
@@ -89,11 +93,13 @@ The spine below is common. What differs is the authority, the standard, and the 
 | **Regulatory and licensing complaint** | Licensing boards, regulators | Subject is a licensee, not an employee; consequence is the authorization |
 | **Procurement and contractor** | Procurement, inspector general | Supplier is the subject; suspension and debarment available |
 
-## Key processes
+## Processes
 
-Allegation intake — hotline, web, walk-in, referral, anonymous · complaint triage and predication
-assessment · jurisdiction and track determination · prosecutor consultation and coordination ·
-investigative planning · evidence identification, collection, and chain of custody · digital
+[Allegation Intake & Track Determination](/processes/allegation-intake-and-track-determination/) —
+the front of the discipline, and where the irreversible decision described above is either made
+deliberately or made by default.
+
+Also: investigative planning · evidence identification, collection, and chain of custody · digital
 evidence preservation and forensic imaging · document and data requests · witness interviews ·
 subject interview with rights advisement · surveillance and covert activity authorization ·
 analysis and finding formulation · report of investigation · referral for prosecution ·
@@ -116,7 +122,7 @@ recovery and debarment outcomes
 |---|---|
 | Time from allegation receipt to triage decision | Process |
 | Investigations opened with predication documented | Process |
-| Track determined before subject interview | Process |
+| [Track determined before subject contact](/kpis/track-determined-before-subject-contact/) | Process |
 | Median and outlier case age, by kind | Process |
 | Findings by disposition — substantiated, unsubstantiated, unfounded | Outcome |
 | Referrals accepted for prosecution, and their outcome | Outcome |
@@ -152,48 +158,62 @@ the reporter, and confidence in the process simultaneously, and medians conceal 
 - **Tribal.** Investigative authority under tribal law with jurisdictional questions that must be
   resolved case by case.
 
-## Where it goes wrong
+## What to get right
 
-**The administrative interview conducted first.** Discussed above, and the most consequential
-mistake available. Frequently made in good faith by an HR investigator who was never told the
-matter might be criminal.
+**Determine the track before the first interview.** Discussed above, and the single most
+consequential decision in the sequence. It is easy to miss in good faith when an HR investigator
+was never told the matter might be criminal — naming the track owner in policy closes that gap.
 
-**No predication requirement.** Investigations opened on any complaint, so capacity goes to matters
-with no basis and the ones that matter drift.
+**Require and record predication before opening.** A documented basis for opening keeps capacity
+directed at matters that warrant it, rather than spread thin across complaints with no basis while
+the ones that matter drift.
 
-**Investigations that drift.** Months without determination. The subject cannot clear their name,
-the reporter concludes nothing will happen, and the record degrades — memories fade and systems
-overwrite.
+**Move investigations to a determination promptly.** Reaching a finding in a reasonable period lets
+the subject clear their name, keeps the reporter's confidence that something will happen, and
+protects the record before memories fade and systems overwrite.
 
-**Reporter identity leaking.** Once it happens, reporting stops, and the organization's ability to
-detect anything internally goes with it. Small organizations are structurally exposed: an
-allegation with three possible sources identifies the source.
+**Protect reporter identity actively.** Protecting it is what keeps reporting flowing — once
+identity leaks, the organization's ability to detect anything internally goes with it. Small
+organizations need particular care here: an allegation with three possible sources can identify the
+source on its own.
 
-**Reprisal unaddressed.** The original allegation is investigated and the retaliation that follows
-is treated as an unrelated personnel matter — which is how organizations teach people not to
-report.
+**Investigate reprisal as its own matter.** Treating retaliation that follows a report as seriously
+as the original allegation is what teaches people that reporting is safe.
 
-**Evidence handled as documents.** Files copied to a shared drive with no chain of custody, so a
-matter that later becomes criminal or civil arrives with unusable evidence.
+**Handle evidence with a documented chain of custody.** Building the chain in from the start, rather
+than copying files to a shared drive, keeps evidence usable if the matter becomes criminal or
+civil.
 
-**Investigators with no data access.** Cross-system access is exactly what an investigation needs
-and exactly what role-based access control is designed to prevent, so investigators work from
-exported spreadsheets emailed by administrators — which is both a control gap and an evidence
-problem. Designing a lawful, logged, break-glass investigative access path is an
-[identity and access management](/capabilities/identity-and-access-management/) decision that
-almost nobody makes deliberately.
+**Give investigators a lawful, logged access path.** Designing deliberate break-glass access for
+cross-system investigative work, rather than leaving investigators to work from spreadsheets
+exported by administrators, closes both a control gap and an evidence problem. This is an
+[identity and access management](/capabilities/identity-and-access-management/) decision worth
+making deliberately.
 
-**Findings without a stated standard.** "Substantiated" with no statement of what standard was
-applied, which cannot support discipline that survives a grievance.
+**State the standard behind every finding.** Naming the standard applied when a finding is
+"substantiated" is what lets discipline survive a grievance.
 
-**Systemic causes never referred.** The individual is disciplined, the process that permitted the
-conduct is untouched, and the next person does the same thing — the same failure as
-[audit findings closed without addressing cause](/kpis/repeat-finding-rate/).
+**Refer systemic causes, not just individual conduct.** Referring the process that permitted the
+conduct, alongside disciplining the individual, is what keeps the next person from doing the same
+thing — the same discipline behind
+[audit findings closed only after addressing cause](/kpis/repeat-finding-rate/).
 
-**Investigative files in the personnel file.** Allegations that were unfounded, permanently
-accessible to future supervisors.
+**Keep investigative files out of the personnel file.** Restricting access, even for allegations
+that were unfounded, keeps them from being permanently visible to future supervisors.
 
-**Public records tension unresolved.** Investigative files are frequently exempt while open and
-disclosable when closed, and the interaction with
-[public records response](/capabilities/public-records-and-transparency-response/) is worked out
-during the first request rather than before it.
+**Resolve the public records question before the first request.** Working out in advance how
+investigative files move from exempt while open to disclosable when closed keeps the interaction
+with
+[public records response](/capabilities/public-records-and-transparency-response/) from being
+figured out under pressure.
+
+## Governance
+
+[Investigative Track & Rights Advisement](/governance/investigative-track-and-rights-advisement/)
+— the control around the decisions with no recovery path. It is unusual among the controls in
+this library in having **no remediation step**, because none is available: once the compelled
+interview has happened, no later process restores the prosecution.
+
+Its sharpest requirement costs nothing to implement. **Name the track owner in policy**, even
+where no investigative function exists. An unnamed owner does not mean the decision goes unmade;
+it means the decision is made by whoever moves first.

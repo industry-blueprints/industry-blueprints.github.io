@@ -84,26 +84,27 @@ producing correct entries, and everything else on this list degrades from there.
   accrual conversion performed once a year by the audit firm — which means the ledger in use
   through the year does not reconcile to the statements produced from it.
 
-## Where it goes wrong
+## What to get right
 
-**Coding corrected at reporting time.** Transactions posted to whatever code is convenient and
-reclassified during close, so no in-year report is trustworthy and the close takes weeks. This is
-the same failure that makes [grant reporting](/capabilities/grants-management-inbound/) manual.
+**Correct the code at the point of entry, not at close.** Transactions posted to whatever code is
+convenient and reclassified during close leave no in-year report trustworthy, and stretch the
+close to weeks. This is the same failure that makes [grant reporting](/capabilities/grants-management-inbound/) manual.
 
-**A chart of accounts that encodes the org chart.** Restructure the organization and the ledger
-breaks, or worse, the old structure persists in the codes for a decade.
+**Design a chart of accounts that survives a reorganization.** Tie it to the org chart and
+restructuring breaks the ledger — or worse, the old structure persists in the codes for a decade.
 
-**Reconciliations deferred.** Skipped for two months during a busy period, then unresolvable
-because the differences have compounded.
+**Reconcile on schedule, every period.** Skipping two months during a busy period makes the
+differences unresolvable once they have compounded.
 
-**Spreadsheets between the ledger and the statements.** Every adjustment made outside the system
-is an adjustment the auditor must trace and the organization cannot reproduce.
+**Keep every adjustment inside the system, not in a spreadsheet between the ledger and the
+statements.** An adjustment made outside the system is one the auditor must trace and the
+organization cannot reproduce.
 
-**Fund restrictions enforced by knowledge.** One person knows which fund may pay for what. When
-they retire, restricted money is spent on unrestricted purposes and found later.
+**Enforce fund restrictions in the system, not in one person's memory.** When that person
+retires, restricted money gets spent on unrestricted purposes and is found later.
 
-**Capital assets untracked between counts.** Additions and disposals recorded annually from a
-physical inventory rather than continuously, so the asset register and the ledger diverge all year.
+**Track capital assets continuously, not just at the count.** Recording additions and disposals
+only from an annual physical inventory lets the asset register and the ledger diverge all year.
 
-**Audit findings treated as an accounting problem.** Most repeat findings have an operational
-cause upstream — see [repeat finding rate](/kpis/repeat-finding-rate/).
+**Trace audit findings to their operational cause.** Treating them as an accounting problem misses
+that most repeat findings originate upstream — see [repeat finding rate](/kpis/repeat-finding-rate/).

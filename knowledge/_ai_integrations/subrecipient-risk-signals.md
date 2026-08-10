@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Surface Risk Signals Across a Recipient Portfolio
 description: Detect the patterns that should change how closely a recipient is
   monitored — and stop short of assigning the risk tier.
-resource: https://industry-blueprints.github.io/ai-opportunities/subrecipient-risk-signals/
+resource: https://industry-blueprints.github.io/ai-integrations/subrecipient-risk-signals/
 tags: [ai, grants, anomaly-detection, monitoring, risk, oversight]
 
 generated: { by: human:jhofmann, at: 2026-07-27T14:00:00Z }
@@ -13,7 +13,8 @@ depth: defined
 
 industry: public-sector
 government_levels: [federal, state, county]
-ai_task_type: anomaly detection
+ai_modality: queue
+ai_task_type: anomaly_detection
 minimum_level: 4
 
 relationships:

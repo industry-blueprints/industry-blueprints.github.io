@@ -85,30 +85,33 @@ approval, and the count tracks the health of everything upstream.
   rules, seasonal and part-time staff, and elected officials on separate arrangements — frequently
   administered by a very small team.
 
-## Where it goes wrong
+## What to get right
 
-**Time reconstructed at period end.** Entered from memory near the deadline, approved without
-review, and used to charge grants — where it becomes an audit finding under the time-and-effort
-requirements referenced in
+**Capture time at source, close to when the work happens.** Entered from memory near the deadline
+and approved without review, it becomes an audit finding once used to charge grants, under the
+time-and-effort requirements referenced in
 [cost allocation](/capabilities/cost-allocation-and-chargeback/).
 
-**Labour reallocated after the fact.** Charged to a default code, journalled to the grant later.
-The same defect described in
+**Charge labour to the right fund when it is incurred, not after the fact.** Charged to a default
+code and journalled to the grant later is the same defect described in
 [accounting](/capabilities/accounting-and-financial-reporting/), and the reason grant financial
 reports are assembled by hand.
 
-**Bargaining terms implemented in spreadsheets.** A differential rule too complex for the system,
-maintained in parallel by one person, and applied inconsistently the moment they are on leave.
+**Build bargaining terms into the system, not a parallel spreadsheet.** A differential rule too
+complex for the system and maintained by one person gets applied inconsistently the moment they are
+on leave.
 
-**Retroactive settlements as manual campaigns.** A contract settled eighteen months late, and
-thousands of adjustments computed by hand.
+**Process retroactive settlements systematically, not as a manual campaign.** A contract settled
+eighteen months late still needs thousands of adjustments computed reliably, which a manual process
+struggles to do.
 
-**Overpayments found in an annual reconciliation.** By which point recovery is legally constrained
-and practically difficult, and the employee has budgeted around the money.
+**Detect overpayments quickly, not at an annual reconciliation.** Found early, recovery is more
+straightforward; found late, it is legally constrained and the employee has already budgeted around
+the money.
 
-**Position and employee conflated.** Vacancy, funding, and reclassification are properties of the
-[position](/capabilities/position-and-classification-management/), not the person — collapse them
-and workforce reporting stops working.
+**Keep position and employee as distinct records.** Vacancy, funding, and reclassification are
+properties of the [position](/capabilities/position-and-classification-management/), not the
+person — keeping them distinct is what keeps workforce reporting working.
 
-**Payroll excluded from continuity planning.** The one process that absolutely cannot miss a
-cycle, and often the last one tested.
+**Include payroll in continuity planning and test it.** It is the one process that absolutely
+cannot miss a cycle, which makes it worth testing rather than leaving for last.

@@ -9,7 +9,7 @@ tags: [capability, facilities, buildings, space, energy, security, operations]
 generated: { by: human:jhofmann, at: 2026-07-28T11:30:00Z }
 status: draft
 stale_after: 2027-07-28
-depth: defined
+depth: detailed
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
@@ -23,6 +23,12 @@ relationships:
   - predicate: has_participant
     target: /personas/constituent.md
     note: Public buildings are service locations, and their accessibility is a service attribute
+  - predicate: has_participant
+    target: /personas/facilities-manager.md
+    note: Owns the building day to day, across nearly every process on this page
+  - predicate: has_participant
+    target: /personas/building-occupant.md
+    note: Reports what's wrong before anyone else notices it
 ---
 
 ## Purpose
@@ -45,13 +51,20 @@ opening hours are all service design decisions as much as facilities ones.
 - Compliance obligations — fire, accessibility, air quality, elevators — tracked with dates
 - Leased and owned space decisions made on total cost, not on capital availability
 
-## Key processes
+## Processes
 
-Space inventory and allocation · utilization measurement · move, add, and change management ·
-occupant request handling · security operations, access control, and screening · energy and utility
-management and procurement · cleaning and janitorial service delivery · grounds and snow operations
-· building systems operation · compliance inspection scheduling — fire, elevator, backflow,
-accessibility · emergency preparedness for the building · lease administration in coordination with
+[Occupant Request Intake and Resolution](/processes/occupant-request-intake-and-resolution/) — how
+a report gets from an occupant to whoever can act on it, and why safety and comfort can't share a
+queue.
+
+[Compliance Inspection Scheduling and Certification Tracking](/processes/compliance-inspection-scheduling-and-certification-tracking/) —
+keeping fire, elevator, backflow, and accessibility certifications current across every building
+the organization runs.
+
+Also: space inventory and allocation · utilization measurement · move, add, and change management ·
+security operations, access control, and screening · energy and utility management and procurement
+· cleaning and janitorial service delivery · grounds and snow operations · building systems
+operation · emergency preparedness for the building · lease administration in coordination with
 [property management](/capabilities/right-of-way-and-property-management/)
 
 ## Key data
@@ -89,29 +102,34 @@ usually extremely uneven, and two or three buildings account for most of the opp
   structures. **Many are decades past their design life and hold no replacement funding**, and
   historic status frequently constrains the cheapest accessibility and efficiency remedies.
 
-## Where it goes wrong
+## What to get right
 
-**Space allocated historically.** Departments hold the footprint they had before a reorganization,
-and utilization is never measured, so the estate is simultaneously over-occupied and half empty.
+**Allocate space against measured utilization, not history.** Departments holding the footprint
+they had before a reorganization, with utilization never measured, leave the estate simultaneously
+over-occupied and half empty — measuring it lets allocation catch up.
 
-**Accessibility conformant on paper.** A compliant ramp at a locked side entrance, an accessible
-counter used for storage. The audit passes and the building does not work.
+**Make accessibility work in practice, not just on paper.** A compliant ramp at a locked side
+entrance, or an accessible counter used for storage, passes the audit while the building still
+doesn't work for the people who need it.
 
-**Security theatre at the entrance.** Screening that inconveniences every visitor without a threat
-assessment behind it, which suppresses use of a public building.
+**Size security to an actual threat assessment.** Screening backed by a real threat assessment
+protects without suppressing lawful use of a public building.
 
-**Energy unmetered per building.** One aggregated utility bill, so nobody can identify the
-buildings worth acting on.
+**Meter energy per building.** Per-building metering, rather than one aggregated utility bill, is
+what lets anyone identify the buildings worth acting on.
 
-**Occupant requests through personal relationships.** Whoever knows the facilities manager gets
-served first, and there is no record of demand.
+**Route occupant requests through one visible system.** A single route with a visible status, not
+personal relationships with the facilities manager, gives every request a fair place in line and
+gives the organization a record of demand.
 
-**Compliance inspections tracked on a wall calendar.** Elevator, fire, and backflow certifications
-lapsing, discovered during an incident.
+**Track compliance inspections in a system, not a wall calendar.** A tracked system catches
+elevator, fire, and backflow certifications before they lapse, instead of during an incident.
 
-**Deferred building renewal invisible.** Roof and system replacement needs held in facilities and
-never entering the [capital
-programme](/capabilities/capital-planning-and-programming/) as a quantified backlog.
+**Feed deferred renewal into the capital programme as a quantified backlog.** Roof and system
+replacement needs need to reach the [capital
+programme](/capabilities/capital-planning-and-programming/) as a number, not stay invisible inside
+facilities.
 
-**Lease decisions driven by capital availability.** Leasing long-term because capital is
-unavailable, at a total cost well above ownership, and never recorded as such.
+**Decide lease versus own on total cost.** Basing the decision on total cost, rather than on
+capital availability alone, avoids leasing long-term at a cost well above ownership without
+recording the tradeoff.

@@ -78,10 +78,10 @@ decayed within two years because nobody owned the data.
 
 ## Where AI actually helps
 
-[Condition assessment from imagery](/ai-opportunities/condition-assessment-from-imagery/) is the
+[Condition assessment from imagery](/ai-integrations/condition-assessment-from-imagery/) is the
 change that makes continuous condition data affordable, and continuous condition data is the
 prerequisite for everything else in this domain.
-[Failure prediction](/ai-opportunities/failure-prediction-from-work-history/) is the higher-value
+[Failure prediction](/ai-integrations/failure-prediction-from-work-history/) is the higher-value
 and much higher-prerequisite case.
 
 The boundary worth stating: **a model over a register nobody trusts produces confident wrong

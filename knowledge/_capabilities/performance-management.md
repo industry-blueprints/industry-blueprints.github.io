@@ -76,24 +76,25 @@ Measuring the measurement capability, which is less circular than it sounds:
 - **County / municipal.** Council or board-driven, frequently tied to the budget cycle, and
   usually reporting outputs because outcome data is not available.
 
-## Where it goes wrong
+## What to get right
 
-**Outputs reported as outcomes.** "4,200 permits issued" answers a question nobody asked. See the
-[measurement framework](/meta/measurement-framework/) for the ladder and why government clusters
-at the bottom of it.
+**Report outcomes, not just outputs.** "4,200 permits issued" answers a question nobody asked. See
+the [measurement framework](/meta/measurement-framework/) for the ladder and why government
+clusters at the bottom of it.
 
-**Measures chosen for availability.** What the system already emits, rather than what matters —
-so the organization optimizes what it happens to be able to count.
+**Choose measures for what matters, not what the system already emits.** Choosing by availability
+means the organization optimizes what it happens to be able to count.
 
-**Annual cadence, daily operations.** Measurement built for the annual report helps nobody manage
-on Tuesday, so operational teams build a shadow set and the two never reconcile.
+**Match measurement cadence to operational cadence, not just the annual report.** A yearly cycle
+helps nobody manage on Tuesday, so operational teams build a shadow set and the two never
+reconcile.
 
-**Targets without their gaming counterpart.** Any target under pressure will be optimized. Publish
-the paired measure that detects it — the pairs are listed in the
+**Pair every target with a measure that detects gaming.** Any target under pressure will be
+optimized; the paired measure is what catches it — the pairs are listed in the
 [measurement framework](/meta/measurement-framework/).
 
-**Review meetings with no decision rights.** Performance reviewed by people who cannot reallocate
-anything, producing discussion and no change.
+**Give review meetings real decision rights.** Performance reviewed by people who can reallocate
+something is what turns discussion into change.
 
-**Aggregate only.** A measure can look healthy while a specific population is served badly, and
-the aggregate is what gets reported.
+**Report segments, not just the aggregate.** A measure can look healthy in aggregate while a
+specific population is served badly, so the aggregate alone is not enough.

@@ -119,9 +119,9 @@ substantially the same control as
 [merit review integrity](/governance/merit-review-integrity/) for grants, plus the price-specific
 controls that grants does not need.
 
-## AI opportunities
+## AI integrations
 
-[Specification competition review](/ai-opportunities/specification-competition-review/) — the
+[Specification competition review](/ai-integrations/specification-competition-review/) — the
 lowest-barrier opportunity in this library, available to organizations with no data platform at all.
 
 **The evaluation boundary is the same as grants.** This decides who receives public money, so
@@ -147,22 +147,25 @@ meets a qualitative requirement.
   Award frequently requires a public vote. Cooperative purchasing matters most here, because
   running a full competition can cost more than the purchase.
 
-## Where it goes wrong
+## What to get right
 
-**Specifications written as solutions**, arriving from a department already demonstrated to.
-Competition becomes theatre and the protest risk is real.
+**Write specifications as outcomes, not as the solution a department was already shown.** Starting
+from a demonstrated product turns competition into theatre and creates real protest risk.
 
-**No pre-market engagement**, so requirements are written without understanding what the market can
-do. The single largest cause of failed procurements — and often a misreading, since the rule is
-that engagement must be *equal and recorded*, not that it is forbidden.
+**Engage the market before finalizing requirements.** Written without that understanding,
+requirements miss what the market can actually do — the single largest cause of failed
+procurements. The rule is that engagement must be *equal and recorded*, not that it is forbidden,
+so engage deliberately rather than skip it.
 
-**Prices opened early**, invalidating technical evaluation whatever anyone intends.
+**Keep prices sealed until technical evaluation is complete.** Opening them early invalidates the
+technical evaluation whatever anyone intends.
 
-**Score compression**, so a published 70/30 weighting operates as price-only. Testable in advance
-against past competitions, and the result is usually uncomfortable.
+**Test published weightings against past competitions.** A published 70/30 weighting can still
+operate as price-only in practice; testing it in advance catches score compression before award.
 
-**Emergency procurement as a habit** — poor planning presenting as urgency, eroding competition one
-justified exception at a time.
+**Reserve emergency procurement for real emergencies.** Using it as a habit for poor planning
+presenting as urgency erodes competition one justified exception at a time.
 
-**Award treated as the finish line**, with nothing planned for the years of
-[contract administration](/capabilities/contract-administration/) that follow.
+**Plan past the award decision.** The years of
+[contract administration](/capabilities/contract-administration/) that follow need a plan too, not
+just the award itself.

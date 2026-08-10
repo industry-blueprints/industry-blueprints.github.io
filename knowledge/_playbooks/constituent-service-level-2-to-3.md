@@ -25,9 +25,9 @@ the one that cannot be skipped: every level-4 capability — assisted answers, a
 routing, summarization — depends on a case record that spans channels and a knowledge base
 with owners.
 
-**This playbook contains no AI.** That is deliberate. Organizations that attempt level 4 from
-level 2 do not fail because the models are inadequate; they fail because there is nothing
-coherent to ground them in.
+There's no AI anywhere in this plan, on purpose. Organizations that try to add AI assistance
+before this work is done don't fail because the models are inadequate — they fail because
+there's nothing coherent yet to ground the models in.
 
 ## Objective
 
@@ -78,10 +78,9 @@ identity is resolved. What happens to departmental systems that will not integra
 director having seen and objected to it. Unvoiced objections surface during migration, at
 ten times the cost.
 
-> **The most common failure is here.** Organizations that begin with procurement buy a system
-> that implements whatever record model the vendor ships, then spend two years negotiating
-> the ownership question they should have settled in week three — now with sunk costs
-> constraining the answer.
+> **This is the step that pays off the most.** Settling the ownership question in week three,
+> before any buying starts, avoids two years of renegotiating a record model that a vendor's
+> system already shipped with sunk costs attached.
 
 ### Phase 2 — Fix the taxonomy (4–8 weeks, parallel)
 
@@ -160,16 +159,18 @@ That last gate is the one that matters for what comes next. Do not pass it on a 
 Step 3 does more work than the rest combined. Abstract discussion of integration produces
 agreement in principle; a real case on a wall produces agreement in practice.
 
-## Risks
+## What to get right
 
-- **Procurement precedes definition.** The default failure. Buying before Phase 1 concludes
-  imports the vendor's record model as your operating model.
-- **Departments withhold.** Mitigated only by executive sponsorship applied early, not by
-  escalation applied late.
-- **The measurement dip triggers cancellation.** Pre-commit in writing during Phase 1.
-- **Knowledge governance gets cut.** Then level 4 is unreachable and nobody understands why.
-- **Scope inflation on the minimum record.** Every additional field is another department's
-  approval and another migration mapping.
+- **Finish Phase 1 before procurement starts.** Definition first means the operating model
+  comes from the organization, not from whatever record model a vendor's system ships with.
+- **Bring executive sponsorship in early.** It works far better applied at the start than as
+  escalation applied later, once departments have already dug in.
+- **Pre-commit to the measurement dip, in writing, during Phase 1.** That's what keeps the
+  programme funded through the months when the numbers look worse before they look better.
+- **Protect knowledge governance.** It's the foundation level 4 depends on, so it's worth
+  guarding especially when the schedule gets tight.
+- **Keep the minimum record minimal.** Every additional field is another department's approval
+  and another migration mapping, so it's worth resisting deliberately.
 
 ## Exit criteria for the whole transition
 

@@ -92,31 +92,33 @@ pressure in exactly the wrong direction.
   here**, because the enforcing jurisdiction is often the direct beneficiary of the penalty, and the
   burden falls hardest on low-income property owners and tenants.
 
-## Where it goes wrong
+## What to get right
 
-**Penalty before assistance.** A property owner who cannot afford the repair receives escalating
-fines that make the repair less affordable, and the violation persists indefinitely.
+**Offer assistance before penalty.** A property owner who cannot afford the repair needs help, not
+escalating fines that make the repair less affordable and let the violation persist indefinitely.
 
-**Notices nobody can act on.** A code section cited, no plain description of what is wrong, no
-statement of what would resolve it.
+**Write notices a respondent can act on.** State the plain description of what is wrong and what
+would resolve it, not just the code section cited.
 
-**Service that does not reach the respondent.** Posted to an address of record, unreceived, and the
-first the person knows is a lien — one of the most common grounds on which enforcement is later
-overturned.
+**Confirm service actually reaches the respondent.** Posting to an address of record is not enough
+if the notice goes unreceived — a lien as the person's first notification is one of the most common
+grounds on which enforcement is later overturned.
 
-**Hearings before the enforcing department.** However conscientiously run, structurally unable to
-produce confidence, and the credibility problem described in
+**Hold hearings genuinely independent of the enforcing department.** However conscientiously an
+in-house hearing is run, it is structurally unable to produce confidence — the same credibility
+problem described in
 [protest and dispute resolution](/capabilities/protest-and-dispute-resolution/) applies identically.
 
-**Inconsistency across officers and districts.** The same condition enforced in one neighbourhood
-and not another, which is the pattern that turns code enforcement into an equity finding.
+**Apply the standard consistently across officers and districts.** The same condition needs the
+same response everywhere; enforcing it in one neighbourhood and not another turns code enforcement
+into an equity finding.
 
-**Orders issued and never followed up.** Abatement unverified, so the violation continues and the
-enforcement record shows it resolved.
+**Follow up on orders and verify abatement.** Verifying that the violation actually resolved keeps
+the enforcement record honest.
 
-**No pattern analysis.** Repeated violations of the same standard across many respondents indicate
-the requirement is unclear or the population needs assistance, not that everyone is separately
-non-compliant.
+**Analyze patterns across respondents.** Repeated violations of the same standard across many
+respondents usually mean the requirement is unclear or the population needs assistance, not that
+everyone is separately non-compliant.
 
-**Revenue targets.** Discussed above, and worth restating: it is the failure that makes every other
-item on this list worse.
+**Keep penalty revenue out of the enforcing unit's budget.** As discussed above, this is the single
+choice that determines whether every other item on this list gets easier or harder.

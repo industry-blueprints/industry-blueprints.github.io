@@ -1,7 +1,8 @@
 title: Industry Blueprints
 description: >-
-  A vendor-neutral blueprint toolkit for public-sector transformation — work out
-  where an organization is today, where it could go, and what it takes to get there.
+  How should important business systems actually work? An open, vendor-neutral
+  body of knowledge — capabilities, processes, domain models, architecture, and
+  AI — with running reference software behind it.
 url: "https://industry-blueprints.github.io"
 baseurl: ""
 lang: en
@@ -38,6 +39,9 @@ collections:
   capabilities:
     output: true
     permalink: /capabilities/:name/
+  domain_modules:
+    output: true
+    permalink: /domain-modules/:name/
   maturity_rubrics:
     output: true
     permalink: /maturity-rubrics/:name/
@@ -50,9 +54,12 @@ collections:
   patterns:
     output: true
     permalink: /patterns/:name/
-  ai_opportunities:
+  ai_integrations:
     output: true
-    permalink: /ai-opportunities/:name/
+    permalink: /ai-integrations/:name/
+  ai_integration_catalogs:
+    output: true
+    permalink: /capabilities/:path/ai-integration/
   ai_agents:
     output: true
     permalink: /ai-agents/:name/
@@ -93,62 +100,97 @@ collections:
     output: true
     permalink: /meta/:name/
 
-# `layer` is the vendor-neutrality layer (vision.md §11). Injected here so
-# authors never restate it, and so CI can enforce it later.
+# `layer` is the blueprint layer (vision.md §5.1). Extended from three values to
+# four: the executable layer is new, and vendor implementations moved 3 → 4.
+# Injected here so authors never restate it, and so CI can enforce the
+# neutrality rule later: no layer 1 or 2 artifact may hold an outbound edge to a
+# layer 4 artifact.
+#
+# Conversation types — playbooks, guides, decision guides — carry NO layer on
+# purpose. Layers describe how deep a blueprint goes; facilitation is orthogonal
+# to that, and giving it a number would imply it sits in the stack.
 defaults:
   - scope: { path: "", type: industries }
     values: { layout: blueprint, layer: 1 }
   - scope: { path: "", type: domains }
     values: { layout: blueprint, layer: 1 }
+  # Capabilities are the browse entry point, so the four-layer panel belongs in
+  # the main flow at full width rather than in a 20rem sidebar. `wide` drops the
+  # two-column split; the panel renders below the prose as four columns.
   - scope: { path: "", type: capabilities }
-    values: { layout: blueprint, layer: 1 }
+    values: { layout: blueprint, layer: 1, wide: true }
   - scope: { path: "", type: maturity_rubrics }
     values: { layout: blueprint, layer: 1 }
   - scope: { path: "", type: personas }
     values: { layout: blueprint, layer: 1 }
   - scope: { path: "", type: processes }
     values: { layout: blueprint, layer: 1 }
-  - scope: { path: "", type: data_models }
-    values: { layout: blueprint, layer: 1 }
-  - scope: { path: "", type: data_entities }
-    values: { layout: blueprint, layer: 1 }
   - scope: { path: "", type: kpis }
     values: { layout: blueprint, layer: 1 }
   - scope: { path: "", type: governance }
     values: { layout: blueprint, layer: 1 }
+  # The domain model is layer 2, not layer 1 — entities, relationships, and state
+  # models describe how the system is structured, not how the business runs.
+  - scope: { path: "", type: domain_modules }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: data_models }
+    values: { layout: blueprint, layer: 2 }
+  - scope: { path: "", type: data_entities }
+    values: { layout: blueprint, layer: 2 }
   - scope: { path: "", type: patterns }
-    values: { layout: blueprint, layer: 2 }
-  - scope: { path: "", type: ai_opportunities }
-    values: { layout: blueprint, layer: 2 }
-  - scope: { path: "", type: ai_agents }
     values: { layout: blueprint, layer: 2 }
   - scope: { path: "", type: architectures }
     values: { layout: blueprint, layer: 2 }
-  - scope: { path: "", type: playbooks }
+  - scope: { path: "", type: ai_integrations }
     values: { layout: blueprint, layer: 2 }
-  - scope: { path: "", type: guides }
+  - scope: { path: "", type: ai_integration_catalogs }
     values: { layout: blueprint, layer: 2 }
-  - scope: { path: "", type: decision_guides }
+  - scope: { path: "", type: ai_agents }
     values: { layout: blueprint, layer: 2 }
-  - scope: { path: "", type: vendor_implementations }
-    values: { layout: blueprint, layer: 3 }
   - scope: { path: "", type: demonstrations }
+    values: { layout: blueprint, layer: 3 }
+  - scope: { path: "", type: vendor_implementations }
+    values: { layout: blueprint, layer: 4 }
+  - scope: { path: "", type: playbooks }
+    values: { layout: blueprint }
+  - scope: { path: "", type: guides }
+    values: { layout: blueprint }
+  - scope: { path: "", type: decision_guides }
     values: { layout: blueprint }
   - scope: { path: "", type: videos }
     values: { layout: blueprint }
   - scope: { path: "", type: meta }
     values: { layout: blueprint }
 
+# Rollout focus. Listed capabilities lead the indexes; everything else is
+# collapsed behind a disclosure rather than removed.
+#
+# Nothing is unpublished. Every page still builds, every relationship still
+# resolves, and every URL still works — unpublishing would break the graph
+# (the case management module alone supports five capabilities) and would gut
+# the capability map. This changes what the indexes lead with, nothing more.
+#
+# Empty this list to show everything again.
+focus_capabilities:
+  - /capabilities/case-management/
+
+# The four layers a blueprint develops through. See vision.md §5.1.
+layers:
+  1: { label: Business Blueprint,       note: "The domain, independent of technology — problem, personas, terminology, processes, rules, lifecycle, policy." }
+  2: { label: Information & Architecture, note: "How the system is structured — domain model, entities, state models, events, security, integration, AI interaction points." }
+  3: { label: Executable Reference,     note: "Working software that makes the architecture concrete, explorable, and testable." }
+  4: { label: Platform Mappings,        note: "How the architecture maps onto implementation platforms. Removable by design." }
+
 # Depth ladder. Coverage is partial by design; the tier is shown on the page so
-# a stub is never mistaken for an omission. See .design/vision.md §7.0.
+# a stub is never mistaken for an omission. See .design/vision.md §8.1.
 depth_levels:
   named:    { label: Named,    note: "Defined in one line on the capability map. No page yet." }
   defined:  { label: Defined,  note: "Purpose, outcomes, and the key processes, roles, entities and measures named." }
   detailed: { label: Detailed, note: "Plus current state, business rules, standards mappings, and a full relationship graph." }
   complete: { label: Complete, note: "Plus its own process, data, measure and governance artifacts." }
 
-# Maturity levels — a lens applied over described capabilities, not the
-# organizing spine. See .design/vision.md §8.1.
+# Maturity levels — an optional lens over a described capability. Demoted from
+# organizing spine; retained where written. See .design/vision.md §11.
 maturity_levels:
   - { level: 1, name: Manual }
   - { level: 2, name: Digitized }
@@ -156,13 +198,48 @@ maturity_levels:
   - { level: 4, name: Intelligent }
   - { level: 5, name: Adaptive }
 
-# A guide is a curated traversal of the graph for a stated reader goal. The
-# shape determines the traversal, not the type: `engagement` goes deep through
-# one capability in the order a working session needs it; `briefing` goes wide
-# and shallow across a reader's whole remit.
+# A guide is a curated traversal of the graph for a stated reader goal. `shape`
+# declares when it is used relative to the room — the two `before` shapes are
+# read alone; the three in-room shapes are worked through with other people and
+# divide by what they produce: understanding, decisions, a record.
 guide_shapes:
   engagement: { label: Engagement guide,   note: "One capability, everything, in the order you need it in the room." }
   briefing:   { label: Executive briefing, note: "A whole remit, thin — what exists, where the gaps are, what AI changes." }
+  discovery:  { label: Discovery session,  note: "Questions that establish where an organization actually is — and how to hear the answers." }
+  workshop:   { label: Working session,    note: "A timed agenda that moves a group from options to a decision they will stand behind." }
+  canvas:     { label: Capture canvas,     note: "One sheet the group fills in together, and takes away." }
+
+# How an AI integration is deployed, on the two axes that determine governance,
+# data requirements, and accountability: who initiates it, and who commits the
+# effect. Deliberately NOT a technique list — technique is `ai_task_type` below,
+# and it is orthogonal (a prediction model can sit in `queue` or in `autonomous`).
+ai_modalities:
+  assist:
+    label: Assist
+    axes: "Person initiates · person commits"
+    note: "The person asks, reads, and decides. Chat, drafting, review before send. Needs no integration, which is why it is the only modality reachable at level 2."
+  delegate:
+    label: Delegate
+    axes: "Person initiates · system commits"
+    note: "Agentic. A goal is set, the system plans and uses tools, and effects land before anyone reviews them. In government this is viable only where effects are reversible, low-consequence, and internal."
+  queue:
+    label: Queue
+    axes: "Event initiates · person commits"
+    note: "Something happens, the system detects, scores, or extracts, and a person works the result. The dominant modality in public-sector work, and the one the accountability constraint pushes everything toward."
+  autonomous:
+    label: Autonomous
+    axes: "Event initiates · system commits"
+    note: "It happens without a person in the loop, and a person may never see it. Requires that the effect be reversible or trivially small, and requires the governance to say so in advance."
+
+# What the model actually does, independent of how it is deployed. Kept separate
+# from modality on purpose: these compose, they do not substitute.
+ai_task_types:
+  classification: { label: Classification }
+  extraction:     { label: Extraction }
+  summarization:  { label: Summarization }
+  generation:     { label: Generation }
+  prediction:     { label: Prediction }
+  anomaly_detection: { label: Anomaly detection }
 
 government_levels: [federal, state, county, municipal, tribal]
 
@@ -173,6 +250,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - vendor
+  # Trailing slash matters. Jekyll matches exclude entries as path prefixes, so
+  # a bare `vendor` also swallows `vendor-implementations/` — which silently
+  # dropped the layer 4 index page while the artifacts themselves still built.
+  - vendor/
   - .design
   - tools

@@ -95,30 +95,33 @@ forward unchanged through several update cycles.
 - **Municipal / tribal.** Participates in or adopts the plan, holds the land use authority that
   determines future exposure, and owns the critical facilities most at risk.
 
-## Where it goes wrong
+## What to get right
 
-**Assessment written for grant eligibility.** Adopted, filed, and never referenced in a decision —
-which is the most common outcome and makes every other item here moot.
+**Write the assessment to be used, not just to keep grant eligibility.** Referencing it in actual
+decisions is what makes every other item on this list matter.
 
-**History as the sole basis for likelihood.** No local precedent read as low risk, in a period when
-hazard frequency is changing and the record is short.
+**Weigh changing hazard frequency, not just the historical record.** Reading a short or absent local
+record alongside changing hazard frequency, rather than treating no-precedent as low risk, keeps
+the likelihood estimate current.
 
-**Exposure without vulnerability.** Flood extent mapped, and no assessment of which households have
-no vehicle, no insurance, no savings, and limited English — the information that determines who is
-actually harmed.
+**Assess vulnerability alongside exposure.** Flood extent mapping paired with which households have
+no vehicle, no insurance, no savings, or limited English gives the full picture of who is actually
+harmed.
 
-**Critical facility exposure unexamined.** The wastewater plant, the emergency operations centre,
-and the shelter located in the hazard area, which is common because those sites were chosen for
-other reasons decades ago.
+**Check critical facilities against the hazard area explicitly.** The wastewater plant, the
+emergency operations centre, and the shelter were often sited for other reasons decades ago, so
+checking them against current hazard maps catches exposure early.
 
-**Cascading dependencies ignored.** The hospital is outside the flood zone and its access road and
-power feed are not — the gap that
+**Trace cascading dependencies.** The hospital being outside the flood zone doesn't help if its
+access road and power feed are inside it — tracing the dependency is the gap that
 [critical infrastructure resilience](/capabilities/critical-infrastructure-resilience/) addresses.
 
-**Plan and land use decisions disconnected.** Risk assessed by emergency management, development
-approved by planning, and neither referencing the other.
+**Connect the plan to land use decisions.** Having emergency management's risk assessment and
+planning's development approvals reference each other keeps future exposure from growing
+unchecked.
 
-**Mitigation benefit-cost analysis skipped.** Funding requires it, so it is produced for
-applications rather than used to choose between actions.
+**Use benefit-cost analysis to choose between mitigation actions.** Funding requires it; using it to
+compare actions, not just to complete the application, gets the most value from it.
 
-**Updates as reformatting.** The five-year update reissuing the same actions with new dates.
+**Treat the update as a chance to revise, not reformat.** Revisiting the action list against current
+conditions each cycle keeps the plan from just reissuing the same actions with new dates.

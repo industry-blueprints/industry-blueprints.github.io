@@ -84,30 +84,33 @@ encountered something in the first weeks, and the cost of the whole
   training, and certification requirements — and, in small jurisdictions, an onboarding process
   that exists as a checklist in one person's head.
 
-## Where it goes wrong
+## What to get right
 
-**Provisioning starting on day one.** IT is notified when the person arrives, so the first week is
-spent waiting for an account. The commonest and most fixable failure in the whole domain.
+**Start provisioning before day one, not when the person arrives.** Notifying IT in advance means
+the first week is spent working, not waiting for an account — the commonest and most fixable fix
+available in the whole domain.
 
-**Prerequisites completed after start.** Background check pending while the person is already
-working, which is a control failure and occasionally a legal one.
+**Complete prerequisites before the start date.** A background check pending while the person is
+already working is a control failure and occasionally a legal one.
 
-**Access copied from a colleague.** "Give them the same as Dana" is fast and accumulates
-entitlements Dana acquired over eight years — the origin of most excess access found in later
-reviews. See [identity and access
+**Assign access by role, not by copying a colleague.** "Give them the same as Dana" is fast but
+carries forward entitlements Dana acquired over eight years — the origin of most excess access
+found in later reviews. See [identity and access
 management](/capabilities/identity-and-access-management/).
 
-**Orientation as a compliance day.** Eight hours of policy delivered in week one, retained by
-nobody, with the role-specific knowledge left to informal absorption.
+**Make orientation about the role, not just compliance.** Eight hours of policy delivered in week
+one is retained by nobody unless role-specific knowledge gets equal, deliberate attention rather
+than informal absorption.
 
-**No named buddy.** The hiring manager is busy, the new person has nobody to ask trivial questions,
-and the questions go unasked.
+**Assign a named buddy, separate from the hiring manager.** Without one, the new person has nobody
+to ask trivial questions, and the questions go unasked.
 
-**Probation as a formality.** Confirmed automatically at the end of the period. The probationary
-period is the one moment when due-process constraints are lightest, and it is routinely wasted.
+**Use probation as a genuine check-in, not a formality.** The probationary period is the one moment
+when due-process constraints are lightest, which makes it worth using deliberately rather than
+confirming automatically at the end.
 
-**Credential expiry captured once.** Licence verified at hire, expiry recorded nowhere that
-watches it, and the lapse discovered during an audit.
+**Track credential expiry continuously, not just at hire.** A licence verified once and never
+watched afterward means the lapse is discovered during an audit instead of before it.
 
-**No feedback loop.** Nobody asks the person who just went through it, so the same defects persist
-for years.
+**Close the loop by asking the new hire what worked.** Without that feedback, the same defects
+persist for years.

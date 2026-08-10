@@ -110,17 +110,20 @@ sit in boilerplate nobody reads. See [renewal lead time](/kpis/renewal-lead-time
 - **Owners leave.** Obligations need reassignment on staff change, or the register quietly becomes
   a list of orphans.
 
-## Anti-patterns
+## What to get right
 
-- **Extract once, never maintain.** Amendments change obligations; a register that does not track
-  them misleads with authority.
-- **A register nobody sees.** Held in a system the owner does not open daily.
-- **Obligations without direction.** Cannot drive either a work queue or a monitoring plan.
-- **No source citation.** An obligation you cannot trace back to its clause cannot be enforced or
-  defended.
-- **Automated extraction accepted unverified.** Conditionality gets flattened, and the flattened
-  version becomes the operational truth — see
-  [obligation extraction](/ai-opportunities/obligation-extraction/).
+- **Maintain the register as amendments happen**, not just at initial extraction. A register that
+  does not track amendments misleads with authority.
+- **Put the register where the owner already works.** Held in a system the owner opens daily, it
+  stays current; held elsewhere, it drifts.
+- **Give every obligation a direction.** Tying it to a work queue or a monitoring plan is what
+  makes it actionable.
+- **Cite the source clause for every obligation.** Traceable back to its clause, it can be
+  enforced and defended.
+- **Verify automated extraction before relying on it.** Conditionality can get flattened in
+  extraction, and verifying against the source clause is what keeps the flattened version from
+  becoming the operational truth — see
+  [obligation extraction](/ai-integrations/obligation-extraction/).
 
 ## Implementation checklist
 

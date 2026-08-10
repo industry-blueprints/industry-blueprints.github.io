@@ -77,27 +77,30 @@ pledges · payment files and release approvals · reconciliation status by accou
   the electorate rather than to the administration, which changes how the function is governed.
   Smaller jurisdictions frequently rely on a state or county pool rather than investing directly.
 
-## Where it goes wrong
+## What to get right
 
-**No forecast, only a balance.** Managing to today's position invites either an unnecessary
-short-term borrowing or a large idle balance earning nothing.
+**Forecast cash, don't just track the balance.** Managing to today's position invites either an
+unnecessary short-term borrowing or a large idle balance earning nothing — a reliable forecast
+avoids both.
 
-**Bank accounts nobody can enumerate.** Departments open accounts for specific purposes over
-decades. The inventory is the first thing an auditor asks for and frequently cannot be produced.
+**Keep a current inventory of bank accounts.** Departments open accounts for specific purposes
+over decades; maintaining the inventory as they do is what lets it be produced when an auditor
+asks for it.
 
-**Signatories who left.** Authorization records at the bank updated less often than the staff
-change, which is a control failure that persists silently for years.
+**Update signatory records as staff change.** Authorization records at the bank that lag behind
+staff turnover become a control failure that persists silently for years.
 
-**Payment fraud through remittance change.** A supplier's bank details updated on the strength of
-an email. The most successful fraud against public organizations, and the control is procedural —
+**Verify remittance changes out of band.** A supplier's bank details updated on the strength of an
+email is the most successful fraud against public organizations, and the control is procedural —
 see [supplier eligibility and payment
 integrity](/governance/supplier-eligibility-and-payment-integrity/).
 
-**Reconciliation deferred until year-end.** Errors and unauthorized activity discovered eleven
-months late, past any practical recovery window.
+**Reconcile accounts on a short cycle, not at year-end.** Reconciling promptly is what surfaces
+errors and unauthorized activity while recovery is still practical.
 
-**Investment policy older than the statute.** Written once, never revised against amendments to
-the permitted instrument list.
+**Keep investment policy current with the statute.** Revising it as the permitted instrument list
+is amended keeps the policy usable rather than stale.
 
-**Yield pursued ahead of liquidity.** Locking maturity to improve return, then borrowing
-short-term to make payroll — a net loss achieved through an activity that looked like optimization.
+**Prioritize liquidity ahead of yield.** Locking maturity to improve return and then borrowing
+short-term to make payroll is a net loss dressed up as optimization — sequencing liquidity first
+avoids it.

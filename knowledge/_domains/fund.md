@@ -95,6 +95,6 @@ examination.
 ## Where this domain connects
 
 Funding touches everything: procurement commits it, human capital consumes most of it,
-programs deliver it, and audit examines it. It is also the domain where AI opportunity is
+programs deliver it, and audit examines it. It is also the domain where AI integration is
 most constrained by explainability requirements — a recommendation nobody can trace is not
 usable in a process that must be defended to an auditor.

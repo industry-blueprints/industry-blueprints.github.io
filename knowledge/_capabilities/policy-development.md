@@ -79,23 +79,23 @@ been implemented.
 - **County / municipal.** Ordinances adopted in public session, constrained by what state law
   permits the jurisdiction to do — the authority question is more often decisive than the merits.
 
-## Where it goes wrong
+## What to get right
 
-**Written without knowledge of the caseload.** Criteria that are unambiguous on paper and
-ambiguous in half of real cases, which pushes interpretation onto
+**Write from knowledge of the caseload, not just the paper case.** Criteria unambiguous on paper
+and ambiguous in half of real cases pushes interpretation onto
 [caseworkers](/personas/caseworker/) and produces inconsistency the policy then gets blamed for.
 
-**No implementation lead time.** Effective immediately, against systems that cannot be changed
-for six months, so staff run manual workarounds that become permanent.
+**Give implementation a real lead time.** Effective immediately against systems that cannot change
+for six months forces manual workarounds that tend to become permanent.
 
-**Consultation as a formality.** Published for comment, comments filed, text unchanged. Detectable,
-corrosive, and the reason participation declines.
+**Make consultation genuinely change the text.** Published for comment with comments filed and the
+text unchanged is detectable, corrosive, and the reason participation declines.
 
-**Consulting only the reachable.** Responses from organized stakeholders and nobody affected who
-lacks a representative.
+**Reach beyond the organized stakeholders.** Responses limited to those with a representative miss
+everyone affected who lacks one.
 
-**Guidance arriving after the effective date**, so the first weeks are decided by improvisation
-that then hardens into precedent.
+**Issue guidance before the effective date.** Guidance arriving late leaves the first weeks decided
+by improvisation that then hardens into precedent.
 
-**No post-implementation review.** Nobody checks whether it worked, so the same defect is
+**Check whether the policy worked after implementation.** Without that review, the same defect gets
 reproduced in the next revision.

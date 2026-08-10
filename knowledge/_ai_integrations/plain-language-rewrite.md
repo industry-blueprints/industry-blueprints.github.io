@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Rewrite Published Guidance to Plain Language
 description: Turn policy-derived public content into something a person can act on,
   at a target reading level, in the languages the community actually speaks.
-resource: https://industry-blueprints.github.io/ai-opportunities/plain-language-rewrite/
+resource: https://industry-blueprints.github.io/ai-integrations/plain-language-rewrite/
 tags: [ai, generation, plain-language, accessibility, language-access]
 
 generated: { by: human:jhofmann, at: 2026-07-26T15:00:00Z }
@@ -12,6 +12,7 @@ stale_after: 2027-07-26
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
+ai_modality: assist
 ai_task_type: generation
 minimum_level: 2
 

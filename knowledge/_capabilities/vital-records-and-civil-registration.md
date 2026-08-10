@@ -103,35 +103,36 @@ whether they can ever obtain housing, employment, or benefits.
 - **Municipal.** Town and city clerks act as registrars in some states, particularly in the
   Northeast, holding records going back centuries.
 
-## Where it goes wrong
+## What to get right
 
-**No route for people with no record.** Delayed registration procedures that require documentation
-the person does not have precisely because they were never registered — a circular requirement that
-is the single most consequential failure here.
+**Give people with no record a real route to get one.** Delayed registration procedures that
+require documentation the person does not have, precisely because they were never registered,
+create a circular requirement — a genuine alternative route is the single most consequential fix
+here.
 
-**Fraud controls that exclude the entitled.** Identity requirements for obtaining a birth
-certificate that themselves require a birth certificate, or a photo identification the applicant
-cannot get without one. The same structural trap described in
-[identity and access management](/capabilities/identity-and-access-management/), with no
-alternative route.
+**Design fraud controls with an alternative path for the entitled.** Identity requirements for
+obtaining a birth certificate that themselves require a birth certificate, or a photo
+identification the applicant cannot get without one, recreate the same structural trap described
+in [identity and access management](/capabilities/identity-and-access-management/) — an
+alternative route is what breaks the loop.
 
-**Death data reaching downstream systems slowly.** Benefit payments continuing, voter records
-remaining, and identity misuse of the deceased — all preventable by prompt supply to the systems
-that need it, and dependent on registration speed.
+**Supply death data to downstream systems promptly.** Fast supply is what stops benefit payments
+continuing, voter records remaining, and identity misuse of the deceased.
 
-**Cause of death certified without query.** Vague or implausible causes accepted, degrading the
-public health statistics that [surveillance](/capabilities/public-health-protection/) depends on.
+**Query implausible causes of death before certifying.** Vague or implausible causes, checked
+before acceptance, are what keeps the public health statistics that
+[surveillance](/capabilities/public-health-protection/) depends on accurate.
 
-**Amendment requiring a court order for a clerical error.** A misspelling on a fifty-year-old record
-treated as a legal contest.
+**Give clerical errors a clerical fix.** A misspelling on a fifty-year-old record should not need
+a court order to correct.
 
-**Fees as a barrier.** An essential document priced beyond people who need it for a benefit
-application, with waivers unadvertised.
+**Keep fees within reach and advertise waivers.** An essential document priced beyond people who
+need it for a benefit application needs both a reasonable fee and a visible waiver path.
 
-**Records held in one place.** Permanent records — sometimes the only copy — in a basement with no
-imaging and no off-site duplicate, against a flood risk that
+**Keep permanent records in more than one place.** Imaging and an off-site duplicate protect the
+archive against the flood risk that
 [hazard assessment](/capabilities/hazard-identification-and-risk-assessment/) has usually already
 identified.
 
-**Access rules unclear at the counter.** Entitlement applied inconsistently by different clerks, so
-outcomes depend on who is working.
+**Make access rules explicit and consistent at the counter.** Clear, consistently applied
+entitlement rules keep outcomes from depending on who is working.

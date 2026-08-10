@@ -28,8 +28,8 @@ relationships:
     note: Receives the renewal case, and has to fund it against new construction
   - predicate: measured_by
     target: /kpis/renewal-rate-against-replacement-value.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/failure-prediction-from-work-history.md
+  - predicate: has_integration
+    target: /ai-integrations/failure-prediction-from-work-history.md
 ---
 
 ## Trigger and outcome

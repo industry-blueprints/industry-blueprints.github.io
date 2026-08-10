@@ -96,35 +96,36 @@ maintains a good number while the actual interval grows.
 - **Tribal.** Own departments or service by agreement, frequently across long distances with the
   transport interval dominating the response.
 
-## Where it goes wrong
+## What to get right
 
-**A deployment model designed for a different call mix.** Engines and crews configured for
-structural fire responding to a workload that is overwhelmingly medical, because changing station
-locations and apparatus is politically costly and the standards reinforce the existing model.
+**Match the deployment model to the actual call mix.** Engines and crews configured for structural
+fire, responding to a workload that is overwhelmingly medical, need station locations, apparatus,
+and staffing standards revisited to fit the real demand — a politically hard change, but the one
+that matches deployment to the workload.
 
-**Response time reported from dispatch.** Call processing excluded, so the published interval is not
-the interval the patient experienced.
+**Report response time from call answer, including call processing.** Reporting the full interval,
+not just from dispatch, keeps the published number matched to what the patient actually
+experienced.
 
-**Hospital handover delay consuming unit availability.** Ambulances held at emergency departments
-waiting to transfer patients, removing units from service — a health system constraint that
-presents as an EMS capacity problem and cannot be solved inside EMS.
+**Address hospital handover delay directly.** Ambulances held at emergency departments waiting to
+transfer patients lose availability — recognizing this as a health system constraint, not an EMS
+capacity problem, is the first step toward fixing it outside EMS.
 
-**No alternative to transport.** Every call resulting in an ambulance and an emergency department
-visit because that is the only funded pathway, including for patients who need something else
-entirely.
+**Build an alternative to ambulance-and-ED for calls that don't need it.** A funded pathway other
+than transport serves patients who need something else entirely.
 
-**Medical direction as protocol issuance.** Protocols published, clinical quality review not
-performed, so nobody knows whether care matched them.
+**Back medical direction with clinical quality review, not just protocols.** Reviewing care against
+the published protocols is what tells you whether care actually matched them.
 
-**Patient outcome never obtained.** Care delivered, patient handed over, and no feedback from the
-hospital — so the system cannot tell whether any of it worked. This requires a data-sharing
-arrangement that is entirely achievable and usually absent.
+**Get patient outcome feedback from the hospital.** A data-sharing arrangement that returns outcome
+information — entirely achievable, and worth building — lets the system learn whether care worked.
 
-**Exposure controls treated as optional.** Decontamination after fires, gear cleaning, and health
-surveillance skipped under operational pressure, against a well-documented occupational cancer risk
-— and presumptive coverage means the cost lands on the jurisdiction later. See
+**Treat exposure controls as non-negotiable.** Decontamination after fires, gear cleaning, and
+health surveillance protect against a well-documented occupational cancer risk, and skipping them
+under operational pressure lands the cost on the jurisdiction later through presumptive coverage.
+See
 [employee health, safety and wellbeing](/capabilities/employee-health-safety-and-wellbeing/).
 
-**Aggressive transport billing.** Balance billing and collection practices that deter people from
-calling an ambulance, which is the most direct way to make an emergency medical system less
-effective.
+**Set transport billing so it doesn't deter calling an ambulance.** Billing and collection practices
+that avoid deterring people from calling keep the emergency medical system effective for everyone
+who needs it.

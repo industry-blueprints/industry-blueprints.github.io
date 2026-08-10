@@ -95,30 +95,33 @@ from the utility to the road budget.
   made right-of-way management materially more consequential**, with state statutes in many
   jurisdictions now limiting what local governments may charge or require.
 
-## Where it goes wrong
+## What to get right
 
-**No property inventory.** The jurisdiction cannot list what it owns, so parcels are maintained,
-insured, and taxed-exempt without anyone knowing why they are held.
+**Maintain a complete property inventory.** Without one, the jurisdiction cannot list what it
+owns, and parcels get maintained, insured, and taxed-exempt without anyone knowing why they are
+held.
 
-**Right-of-way permits without restoration follow-up.** The cut is made, the trench settles, the
-warranty expires unclaimed, and the road fails early — see
+**Follow up on right-of-way restoration.** Once the cut is made, tracking the trench settlement
+and the warranty against expiry is what keeps the road from failing early — see
 [obligation tracking](/patterns/obligation-tracking/).
 
-**Encroachments left to establish.** A fence, a structure, or a use in the right of way, tolerated
-for long enough to become a legal claim.
+**Resolve encroachments before they establish.** A fence, a structure, or a use in the right of
+way, caught early, doesn't get the chance to become a legal claim.
 
-**Easements known only from the project file.** Acquired for a specific utility run, recorded but
-not inventoried, and discovered when the next project needs to know.
+**Inventory easements, not just the project file.** Acquired for a specific utility run and
+recorded but not inventoried, an easement only surfaces when the next project needs to know —
+inventorying it up front avoids that.
 
-**Leases that auto-renew unnoticed.** Below-market rent extended for another term because the
-renewal date was in a document nobody was watching — the same failure as
+**Track lease renewal dates actively.** A renewal date left in a document nobody is watching lets
+below-market rent extend for another term unnoticed — the same discipline as
 [renewal lead time](/kpis/renewal-lead-time/) in contracts.
 
-**Franchise fees unverified.** Calculated by the payer on a basis nobody audits, despite the
-agreement providing audit rights.
+**Audit franchise fees against the agreement.** The agreement provides audit rights; using them
+catches fees calculated by the payer on a basis nobody has checked.
 
-**Surplus disposed of without internal offer.** One department sells land another was about to
-purchase.
+**Offer surplus property internally before disposal.** Checking with other departments first
+avoids one department selling land another was about to purchase.
 
-**Acquisition beginning at design completion.** Right-of-way needs identified late, so acquisition
-becomes the critical path and condemnation becomes the schedule-driven option.
+**Start acquisition planning early in design.** Identifying right-of-way needs at design
+completion instead of earlier makes acquisition the critical path and condemnation the
+schedule-driven option — starting sooner keeps both in reserve.

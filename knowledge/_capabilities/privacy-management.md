@@ -88,31 +88,36 @@ register with cause, scope, and notification record
   [public records obligations](/capabilities/public-records-and-transparency-response/) is at its
   sharpest here, because the same small team handles both.
 
-## Where it goes wrong
+## What to get right
 
-**Collecting because the form has a field.** Social security numbers, dates of birth, and
-demographic detail gathered by default and never used, which converts an unnecessary field into a
-permanent liability.
+**Collect only the data a field is actually used for.** Social security numbers, dates of birth,
+and demographic detail gathered by default and never used converts an unnecessary field into a
+permanent liability; collecting deliberately avoids that.
 
-**Notices written for lawyers.** Compliant, comprehensive, and read by nobody — so they satisfy the
-obligation and inform no one.
+**Write notices for the person reading them, not for lawyers.** A notice that is compliant,
+comprehensive, and read by nobody satisfies the obligation and informs no one; plain language does
+both.
 
-**Impact assessment after go-live.** Performed as a documentation exercise once the design is
-fixed, when the findings cannot be acted on.
+**Perform impact assessment before go-live, while findings can still change the design.** Done
+afterward as a documentation exercise, the findings arrive too late to act on.
 
-**Sharing on relationship rather than agreement.** Two agencies exchanging data because they always
-have, with no written purpose limitation — and no way to stop it when the purpose changes.
+**Govern sharing by written agreement, not by relationship.** Two agencies exchanging data because
+they always have, with no written purpose limitation, leaves no way to stop it when the purpose
+changes.
 
-**De-identification assumed.** A dataset published as anonymous and re-identifiable from three
-fields, most often when combined with a
-[geospatial](/capabilities/geospatial-information-management/) attribute.
+**Verify de-identification rather than assuming it.** A dataset published as anonymous can be
+re-identifiable from three fields, most often when combined with a
+[geospatial](/capabilities/geospatial-information-management/) attribute — checking catches that
+before publication.
 
-**Retention deferred indefinitely.** Storage is cheap, deletion requires a decision, and the
-holding grows until a breach makes its size the story.
+**Set and act on a retention schedule.** Storage is cheap and deletion requires a decision; without
+one, the holding grows until a breach makes its size the story.
 
-**Breach response invented during the breach.** No plan, no notification template, no decision
-authority — and the clock running.
+**Prepare a breach response plan before a breach happens.** A plan, a notification template, and
+clear decision authority in place ahead of time are what let the response run well once the clock
+is running.
 
-**Privacy and transparency treated as opposed.** They are both obligations on the same record and
-must be reconciled at the record level, which is a
-[data governance](/capabilities/data-governance-and-stewardship/) decision.
+**Reconcile privacy and transparency at the record level, not as opposing goals.** They are both
+obligations on the same record, and reconciling them is a
+[data governance](/capabilities/data-governance-and-stewardship/) decision rather than a trade-off
+to pick a side of.

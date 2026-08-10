@@ -96,32 +96,38 @@ land on a budget with no provision for them.
   standard with no grants staff, and are the most likely to have costs disallowed. Emergency
   procurement conducted under pressure is the single most common source of later de-obligation.
 
-## Where it goes wrong
+## What to get right
 
-**Documentation to the wrong standard.** Force account labour, equipment hours, and contracts
-recorded operationally but not in the form reimbursement requires — established at audit, years
-later.
+**Document to the reimbursement standard from the start.** Force account labour, equipment hours,
+and contracts recorded operationally but not in the form reimbursement requires get caught at
+audit, years later — capture them in the required form as the work happens.
 
-**Emergency procurement without the exception documented.** Non-competitive awards made lawfully
-under emergency provisions, with no record of the justification, so the cost is disallowed.
+**Record the justification alongside every emergency procurement.** Non-competitive awards made
+lawfully under emergency provisions still need the justification on record, or the cost gets
+disallowed.
 
-**Assistance navigated by the household.** Several programmes, different eligibility, different
-documentation, different deadlines, and the burden of coordination on people who have just lost
-their home — the
-[referral](/capabilities/referral-and-cross-agency-coordination/) failure at its most consequential.
+**Coordinate assistance so the household doesn't have to.** Several programmes, different
+eligibility, different documentation, different deadlines — carrying that coordination burden for
+people who have just lost their home is the
+[referral](/capabilities/referral-and-cross-agency-coordination/) capability at its most
+consequential.
 
-**Assistance favouring the documented.** Clear title, insurance, and records are prerequisites for
-most programmes, and heirs' property, informal ownership, and renters are systematically
-disadvantaged. Measurable, and rarely measured.
+**Watch for assistance that favours the documented.** Clear title, insurance, and records are
+prerequisites for most programmes, and heirs' property, informal ownership, and renters are
+systematically disadvantaged as a result. Measurable, and rarely measured.
 
-**Rebuilding to prior condition.** Restoring the same asset in the same place to the same standard,
-because mitigation requires a separate funding stream and more time.
+**Build mitigation into rebuilding rather than restoring to prior condition.** Restoring the same
+asset in the same place to the same standard is the default when mitigation requires a separate
+funding stream and more time — plan for that stream early.
 
-**Recovery capacity released too early.** Surge staff return to normal duties at month three, and
-the grant administration that runs for five years is left to one person.
+**Keep recovery capacity in place for the long haul.** Surge staff return to normal duties at
+month three; the grant administration that runs for five years needs more than the one person
+usually left holding it.
 
-**Duplication of benefits unchecked.** Insurance and assistance both received, discovered at audit,
-and recovered from the household.
+**Check for duplication of benefits before closeout, not at audit.** Insurance and assistance
+both received and discovered at audit gets recovered from the household — catching it earlier
+avoids that outcome.
 
-**No long-term recovery structure.** Housing, economic, and social recovery left to individual
-agencies with no coordination once the immediate response ends.
+**Stand up a long-term recovery structure.** Housing, economic, and social recovery left to
+individual agencies with no coordination once the immediate response ends misses the connections
+only a shared structure catches.

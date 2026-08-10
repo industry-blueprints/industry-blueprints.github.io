@@ -25,7 +25,7 @@ relationships:
   - predicate: constrains
     target: /capabilities/grants-management-outbound.md
   - predicate: constrains
-    target: /ai-opportunities/subrecipient-risk-signals.md
+    target: /ai-integrations/subrecipient-risk-signals.md
 ---
 
 > **Verify before relying on this.** The control objective and the failure modes below are stable,
@@ -98,23 +98,26 @@ conditions · dated risk assessments with basis · monitoring plans and completi
 findings with corrective actions and **verification evidence** · audit follow-up records ·
 escalation decisions
 
-## Where organizations fail this control
+## What organizations need to get right
 
-**Uniform monitoring documented as risk-based.** A risk tier assigned at award, and everyone
-receiving the same desk review regardless. The assessment exists; it does not drive anything.
+**Let the risk tier actually drive monitoring intensity.** A risk tier assigned at award should
+change what happens next; if everyone receives the same desk review regardless, the assessment
+exists without driving anything.
 
-**Findings closed on receipt of a plan.** The most common failure, and the one
-[repeat finding rate](/kpis/repeat-finding-rate/) exposes.
+**Close findings on verified remediation, not on receipt of a plan.** Verification is the step
+that [repeat finding rate](/kpis/repeat-finding-rate/) is built to check for, and it is the one
+most worth getting right.
 
-**Conditions flowed down verbatim.** Federal terms forwarded to a three-person non-profit, which
-is technically compliant and practically a guarantee of non-compliance downstream.
+**Scale conditions to the recipient**, rather than flowing federal terms down verbatim to a
+three-person non-profit — verbatim terms are technically compliant and practically a guarantee of
+non-compliance downstream.
 
-**Risk attached to the award rather than the recipient**, so a recipient's history in another
-programme is invisible — a [data model](/data-models/grants-data-model/) failure showing up as an
-oversight failure.
+**Attach risk to the recipient, not just the award**, so a recipient's history in another
+programme stays visible — this is a [data model](/data-models/grants-data-model/) decision that
+shows up directly in oversight quality.
 
-**No escalation path.** Findings recur because the only options are a letter or termination, and
-neither is proportionate.
+**Build an escalation path with proportionate steps**, so findings that recur have an option
+between a letter and termination.
 
 ## Level variance
 

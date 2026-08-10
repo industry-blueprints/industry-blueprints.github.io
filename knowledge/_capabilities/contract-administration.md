@@ -122,11 +122,11 @@ organization allowed to be paid, was the thing delivered, and are we paying the 
 A spreadsheet with owners and dates beats a PDF, and the step from nothing to something is where
 nearly all the value is.
 
-## AI opportunities
+## AI integrations
 
-[Obligation extraction](/ai-opportunities/obligation-extraction/) — the strongest extraction case
+[Obligation extraction](/ai-integrations/obligation-extraction/) — the strongest extraction case
 in the library, and the one most exposed to flattening conditionality ·
-[Invoice-deliverable matching](/ai-opportunities/invoice-deliverable-matching/)
+[Invoice-deliverable matching](/ai-integrations/invoice-deliverable-matching/)
 
 Neither may decide. Acceptance is a judgement with contractual and financial consequence, and
 payment approval is a financial control with segregation requirements.
@@ -141,25 +141,26 @@ payment approval is a financial control with segregation requirements.
   administration without training, capacity, or recognition. The handover gate matters most at
   exactly the level least likely to have it.
 
-## Where it goes wrong
+## What to get right
 
-**The handover that never happens.** Root cause of nearly everything else in this capability, and
+**Run the handover.** It is the root cause of nearly everything else in this capability, and
 fixable in an afternoon per contract.
 
-**Auto-renewal by inattention.** The date passes, the term extends, and the chance to renegotiate
-is gone for another cycle.
+**Act on the renewal date deliberately, not by inattention.** Left to pass unattended, the term
+extends and the chance to renegotiate is gone for another cycle.
 
-**Payment against invoice rather than delivery.** The most common control weakness in the domain.
+**Pay against confirmed delivery, not just the invoice.** Paying on invoice alone is the most
+common control weakness in the domain.
 
-**Scope drift by accumulation** — a series of small unpriced changes that would never have been
-approved as one amendment.
+**Price cumulative change against the original award.** A series of small unpriced changes,
+assessed individually, would never have been approved as one amendment.
 
-**Unclaimed entitlements.** Real money, contractually owed, never invoked because nobody tracked
-the trigger.
+**Track entitlement triggers and invoke them.** Real money, contractually owed, goes unclaimed when
+nobody is tracking the trigger.
 
-**Performance problems undocumented until termination**, so when action is needed there is no
-contemporaneous basis for it.
+**Document performance as it happens, not just at termination.** Without a contemporaneous record,
+there is no basis for action when action is needed.
 
-**No portfolio view.** Contracts, grants, licences, and permits in separate systems, so total
-exposure to a supplier is unanswerable — the problem
+**Build a portfolio view across contracts, grants, licences, and permits.** Kept in separate
+systems, total exposure to a supplier is unanswerable — the problem
 [Agreement](/data-entities/agreement/) exists to solve.

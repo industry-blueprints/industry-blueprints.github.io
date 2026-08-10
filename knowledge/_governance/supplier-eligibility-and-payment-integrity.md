@@ -20,7 +20,7 @@ relationships:
   - predicate: constrains
     target: /capabilities/vendor-and-supplier-management.md
   - predicate: constrains
-    target: /ai-opportunities/invoice-deliverable-matching.md
+    target: /ai-integrations/invoice-deliverable-matching.md
 ---
 
 ## Control objective
@@ -96,19 +96,21 @@ tracking · acceptance records linked to payments · three-way match exceptions 
 remittance change log with verification channel and personnel · first-payment-after-change
 confirmations · duplicate detection results
 
-## Where organizations fail this control
+## What organizations need to get right
 
-**Screening once, at registration.** A supplier debarred two years later continues to be paid.
-Eligibility is a state that changes, not an onboarding step — see
+**Re-screen eligibility on a cadence, not just at registration.** Eligibility is a state that
+changes; rechecking it periodically catches a supplier debarred after onboarding — see
 [Supplier](/data-entities/supplier/).
 
-**Payment against invoice, not delivery.** Approval means "the amount looks right," not "we
-received this."
+**Approve payment against delivery, not just invoice.** Confirming "we received this," not only
+"the amount looks right," is what approval should mean.
 
-**Remittance as an editable field.** No verification requirement, no segregation, no history.
+**Require verification, segregation, and history on remittance changes**, rather than leaving
+remittance as a plain editable field.
 
-**Duplicate suppliers defeating duplicate detection.** The same invoice paid twice under two
-supplier records, which the duplicate check cannot see because the records look distinct.
+**Resolve supplier identity before relying on duplicate detection.** Consolidating records that
+look distinct but are the same supplier is what lets duplicate detection catch the same invoice
+paid twice.
 
 **Certification expiry unwatched**, so diverse-supplier reporting counts lapsed certifications
 and the figure is overstated.

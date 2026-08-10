@@ -108,26 +108,28 @@ Capability-specific models extend rather than replace:
 The shared spine — identifier, type, parties, ownership, lifecycle, disposition, retention — stays
 constant, which is what lets one contact centre see across all of them.
 
-## Where it goes wrong
+## What to get right
 
-- **Case per department.** The same matter opened three times because three units touched it.
-  Related-case linking is a mitigation, not a fix.
-- **Status as an enum with no transitions.** Any state to any state, so the audit trail cannot
-  explain how something got where it is.
-- **No distinction between reopened and new.** Destroys resolution measurement and hides repeat
-  contact — the single most useful signal in the whole domain.
-- **Retention implied by the system.** Works until migration, then silently doesn't.
-- **Anonymous cases excluded from measurement.** They cannot be linked to a party, so they are
-  quietly dropped from denominators and every rate looks better than it is.
+- **Share one case across departments**, rather than opening the same matter three times because
+  three units touched it. Related-case linking is a mitigation for when this slips, not a
+  substitute for it.
+- **Define status as a transition model**, not an enum any state can jump to any other from, so
+  the audit trail can explain how something got where it is.
+- **Distinguish reopened from new.** The distinction is what makes resolution measurement honest
+  and surfaces repeat contact — the single most useful signal in the whole domain.
+- **Model retention explicitly**, rather than leaving it implied by the system, so it survives
+  migration.
+- **Include anonymous cases in measurement.** Linking them where possible keeps them in the
+  denominator, so every rate reflects reality rather than looking better than it is.
 
 ## AI relevance
 
 Cases are where most AI in this library lands, because the record is text-heavy, high volume, and
 consequential:
 
-- [Intent classification](/ai-opportunities/intent-classification-and-routing/) sets case type,
+- [Intent classification](/ai-integrations/intent-classification-and-routing/) sets case type,
   the field everything downstream depends on
-- [Contact summarization](/ai-opportunities/contact-summarization/) writes the resolution
+- [Contact summarization](/ai-integrations/contact-summarization/) writes the resolution
   summary — the field most often skipped
 - Duplicate and related-case linking, which is otherwise done by memory
 - Backlog triage against age, priority, and statutory deadline

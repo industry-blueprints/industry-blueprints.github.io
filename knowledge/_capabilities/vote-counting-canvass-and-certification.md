@@ -95,36 +95,37 @@ supportable — and reconciliation is a clerical discipline, not a technical one
   results before transmission to the state.
 - **Municipal.** Counts and canvasses where the function sits locally, under state procedure.
 
-## Where it goes wrong
+## What to get right
 
-**Reconciliation deferred.** Counting proceeds without balancing ballots issued against ballots
-returned, so a discrepancy found later cannot be located to a stage or a location.
+**Reconcile at every stage as counting proceeds.** Balancing ballots issued against ballots
+returned throughout, rather than deferring it, is what lets a later discrepancy be located to a
+stage or a location.
 
-**Results reported without explaining what is outstanding.** An early total that shifts as mail and
-provisional ballots are added, with no advance statement of how many remain and when they will be
-counted — which is entirely predictable and, unexplained, reads as irregularity.
+**Explain what remains outstanding when reporting results.** An early total that shifts as mail
+and provisional ballots are added is entirely predictable — stating in advance how many remain
+and when they will be counted is what keeps it from reading as irregularity.
 
-**No audit of the physical record.** Tabulation checked only against itself, so an error in the
-equipment or its configuration is undetectable. A meaningful audit compares the count to the
-voter-verifiable paper record.
+**Audit against the physical record.** Comparing the count to the voter-verifiable paper record,
+not just checking tabulation against itself, is what makes an equipment or configuration error
+detectable.
 
-**Audits sized without regard to margin.** A fixed small percentage provides little assurance in a
-close contest and wastes effort in a wide one; risk-limiting methods size the sample to the margin
-and are the current best practice.
+**Size audits to the margin.** Risk-limiting methods that size the sample to the margin are
+current best practice; a fixed small percentage gives little assurance in a close contest and
+wastes effort in a wide one.
 
-**Adjudication without a published standard.** Ambiguous marks resolved by individual judgment,
-inconsistently, and the decisions are exactly what a recount will examine.
+**Publish the adjudication standard before using it.** A published standard for ambiguous marks is
+what keeps decisions consistent and defensible — exactly what a recount will examine.
 
-**Provisional ballots rejected on process.** Resolvable questions never resolved because the
-resolution step is unstaffed after a long election night.
+**Staff provisional resolution through the full election night.** Keeping the resolution step
+staffed is what lets resolvable questions actually get resolved.
 
-**Chain of custody informally maintained.** Ballots and media moved without documented transfer —
-the same discipline as
-[evidence and property management](/capabilities/evidence-and-property-management/), and the first
-thing a contest examines.
+**Maintain a documented chain of custody.** Documenting every transfer of ballots and media is the
+same discipline as
+[evidence and property management](/capabilities/evidence-and-property-management/), and the
+first thing a contest examines.
 
-**Observation permitted but not workable.** Observers admitted to a location from which nothing is
-visible, which satisfies the rule and defeats its purpose.
+**Make observation genuinely workable, not just permitted.** Positioning observers where the
+process is actually visible is what fulfills the purpose of the rule, not just its letter.
 
-**Records retention miscounted.** Federal and state retention periods differ by material; disposing
-early is unlawful and forecloses any later review.
+**Track retention periods by material.** Federal and state retention periods differ by material;
+tracking them accurately is what keeps disposal lawful and preserves the record for later review.

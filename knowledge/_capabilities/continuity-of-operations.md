@@ -94,28 +94,33 @@ restore is a number, not a commitment — the same point as untested backups in
   the permitting system. Succession provisions for elected officials frequently exist in charter;
   operational succession usually does not exist at all.
 
-## Where it goes wrong
+## Getting this right
 
-**Continuity treated as IT disaster recovery.** Systems recovered, and the staff, facility, and
-paper-process dependencies unaddressed — so the system is available and the function still stops.
+**Address staff, facility, and paper-process dependencies, not just IT recovery.** Recovering
+systems alone leaves the function stopped even when the system is available.
 
-**Everything declared essential.** A list that includes most of what the organization does provides
-no prioritization, which is the only thing the list is for.
+**Prioritize the essential-function list, don't just declare everything essential.** A list that
+includes most of what the organization does provides no prioritization, which is the only thing
+the list is for.
 
-**Objectives set by aspiration.** Recovery times chosen because they sound responsible, never
-tested, and discovered to be impossible during the event.
+**Set recovery objectives from evidence, then validate them by test.** Times chosen because they
+sound responsible, and never tested, tend to turn out impossible during the actual event.
 
-**Single points of failure known and accepted silently.** One person able to perform a function,
-recognized by everyone, and never recorded as a continuity risk with a named alternate.
+**Record known single points of failure with a named alternate.** One person able to perform a
+function, recognized by everyone but never logged as a continuity risk, stays a silent
+vulnerability until it is written down.
 
-**Vital records identified but inaccessible.** Listed in the plan, held on a network share reachable
-only from the office that is unavailable.
+**Make vital records reachable from the alternate location, not just listed in the plan.** Held on
+a network share reachable only from the office that is unavailable, they are not actually
+accessible when needed.
 
-**Alternate facilities designated on paper.** No connectivity, no equipment, no access arrangement,
-and never visited.
+**Equip and visit alternate facilities before they're needed.** Designated on paper with no
+connectivity, no equipment, and no access arrangement, they don't function as alternates when
+called on.
 
-**Third-party dependencies unassessed.** The continuity plan assumes suppliers and other agencies
-continue operating, which is exactly what fails in a regional event.
+**Assess third-party dependencies rather than assuming continuity.** A plan that assumes suppliers
+and other agencies keep operating is assuming away exactly what fails in a regional event.
 
-**Plans exercised separately from emergency response.** Two plans, two exercise programmes, and no
-test of the situation where both apply at once — which is every real disruption.
+**Exercise continuity and emergency response together.** Two plans and two exercise programmes that
+never test the situation where both apply at once miss every real disruption, since that is what a
+real disruption looks like.

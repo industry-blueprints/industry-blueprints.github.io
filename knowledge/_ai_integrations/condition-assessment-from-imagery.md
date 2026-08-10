@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Assess Asset Condition from Imagery
 description: Turn a periodic, sampled, expensive survey into a continuous one — for the
   surface and linear assets where condition is actually visible.
-resource: https://industry-blueprints.github.io/ai-opportunities/condition-assessment-from-imagery/
+resource: https://industry-blueprints.github.io/ai-integrations/condition-assessment-from-imagery/
 tags: [ai, assets, condition, computer-vision, pavement, inspection]
 
 generated: { by: human:jhofmann, at: 2026-07-29T13:30:00Z }
@@ -13,7 +13,8 @@ depth: defined
 
 industry: public-sector
 government_levels: [state, county, municipal]
-ai_task_type: image classification
+ai_modality: queue
+ai_task_type: classification
 minimum_level: 3
 
 relationships:
@@ -98,17 +99,18 @@ agreement with inspectors is unmeasured is an assertion.
 require blurring before retention, and the retention period needs a decision — see
 [privacy management](/capabilities/privacy-management/).
 
-## Where it goes wrong
+## What to get right
 
-**Deployed without the register**, producing observations that cannot be attached to an asset.
+**Deploy against an existing register**, so observations can be attached to an asset.
 
-**Method mixing**, described above, which fabricates a trend.
+**Keep the scoring method consistent**, described above, rather than mixing methods and
+fabricating a trend.
 
-**Treated as a replacement for inspection** on classes where condition is not visual, which is most
-mechanical plant and all buried assets.
+**Use it alongside inspection, not as a replacement**, on classes where condition is not visual,
+which is most mechanical plant and all buried assets.
 
-**Vendor-scored, unvalidated.** A service returning scores on a proprietary scale, never compared
-against local inspection, and used to rank a capital programme.
+**Validate vendor scores against local inspection** before using a proprietary scale to rank a
+capital programme.
 
-**Imagery retained indefinitely** with no privacy review, creating an incidental surveillance
-dataset from an asset management programme.
+**Set a retention period for imagery** and review it for privacy, so an asset management programme
+doesn't become an incidental surveillance dataset.

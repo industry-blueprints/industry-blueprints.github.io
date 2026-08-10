@@ -90,31 +90,33 @@ usually large and nobody has computed it.
   frequently lapse rather than close, and the first time anyone looks is during an audit or a
   dispute.
 
-## Where it goes wrong
+## What to watch for
 
-**Closeout happens when someone notices.** The same failure as grant closeout in
+**Trigger closeout from the end date automatically.** Leaving it to someone noticing is the same
+failure as grant closeout in
 [grants management](/capabilities/grants-management-outbound/), from the same cause: no automatic
 trigger on the end date.
 
-**Entitlements never claimed.** Service credits accrued and unclaimed, because claiming them
-requires knowing they exist — which requires the obligations to have been extracted at handover.
-See [obligation tracking](/patterns/obligation-tracking/).
+**Claim entitlements as soon as they're owed.** Service credits accrue and go unclaimed unless
+someone knows they exist — which requires the obligations to have been extracted at handover. See
+[obligation tracking](/patterns/obligation-tracking/).
 
-**Encumbrances left open.** Budget shown as committed against contracts that ended years ago,
-understating available funds.
+**Liquidate encumbrances at closeout.** Left open, budget stays shown as committed against
+contracts that ended years ago, understating available funds.
 
-**Data left with the supplier.** No return, no destruction certificate, no access revocation.
-Discovered at the supplier's breach, not at the organization's closeout.
+**Confirm data return and destruction before closing out.** Without a return, a destruction
+certificate, and access revocation, the gap is discovered at the supplier's breach rather than at
+the organization's closeout.
 
-**Access that outlives the contract.** Supplier accounts still active months after the work
-ended — a finding in nearly every access review that looks for it.
+**Revoke supplier access when the contract ends.** Accounts still active months later are a
+finding in nearly every access review that looks for it.
 
-**No performance record.** The last chance to record how the supplier actually did, missed. The
-next evaluation panel awards to them with no history — the failure described in
-[vendor and supplier management](/capabilities/vendor-and-supplier-management/).
+**Record final performance while it's fresh.** Missing this last chance to record how the supplier
+actually did leaves the next evaluation panel awarding to them with no history — the failure
+described in [vendor and supplier management](/capabilities/vendor-and-supplier-management/).
 
-**Lessons captured nowhere reusable.** A debrief meeting, some notes, and a fresh set of the same
-mistakes in the successor acquisition.
+**Capture lessons somewhere reusable.** A debrief meeting and some notes that go nowhere reusable
+produce a fresh set of the same mistakes in the successor acquisition.
 
-**The retention clock never started.** Records held indefinitely or disposed of early, both
+**Start the retention clock at closeout.** Records held indefinitely or disposed of early are both
 defensible only if someone recorded the classification at closeout.

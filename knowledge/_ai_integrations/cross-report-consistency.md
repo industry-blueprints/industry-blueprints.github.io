@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Check Consistency Across Reports and Funders
 description: Catch the same figure disagreeing between two submissions before an
   auditor does — a reconciliation nobody currently performs.
-resource: https://industry-blueprints.github.io/ai-opportunities/cross-report-consistency/
+resource: https://industry-blueprints.github.io/ai-integrations/cross-report-consistency/
 tags: [ai, grants, reporting, quality, reconciliation]
 
 generated: { by: human:jhofmann, at: 2026-07-27T14:00:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [state, county, municipal]
+ai_modality: queue
 ai_task_type: classification
 minimum_level: 3
 

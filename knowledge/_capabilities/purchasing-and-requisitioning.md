@@ -83,26 +83,29 @@ enforcement.
   therefore effectively lowered by inflation each year — which steadily pushes routine purchases
   into formal processes designed for larger ones.
 
-## Where it goes wrong
+## What to get right
 
-**Thresholds fixed in nominal terms.** A limit set fifteen years ago now captures ordinary
-supplies, so formal procedure is applied to trivial spend and everything slows.
+**Keep thresholds current in real terms.** A limit set fifteen years ago and never adjusted now
+captures ordinary supplies, so formal procedure ends up applied to trivial spend and everything
+slows.
 
-**After-the-fact purchase orders.** Goods received, invoice arrives, order raised retrospectively
-to make the system agree. The control is a formality and the encumbrance data is fiction.
+**Raise the order before the goods arrive.** Raising the order retrospectively, after goods are
+received and the invoice arrives, just to make the system agree, turns the control into a
+formality and the encumbrance data into fiction.
 
-**Split purchases.** Two orders just under the threshold. Almost always a response to a process
-that is too slow rather than an attempt to conceal.
+**Size thresholds to actual need rather than inviting splits.** Two orders just under the
+threshold are almost always a response to a process that is too slow rather than an attempt to
+conceal, so the fix is usually the threshold, not enforcement.
 
-**Receipting by the wrong person.** Confirmed centrally by whoever holds the invoice, which
-collapses the separation between ordering, receiving, and paying.
+**Have the receiving person confirm receipt.** Confirmation by whoever holds the invoice instead
+of whoever received the goods collapses the separation between ordering, receiving, and paying.
 
-**Card programmes reviewed annually.** A sample examined twelve months late, when neither recovery
-nor correction is practical.
+**Reconcile card programmes close to the transaction.** A sample examined twelve months late
+leaves neither recovery nor correction practical.
 
-**Off-contract buying that is easier than on-contract buying.** If the catalogue is out of date and
-the contracted route takes three weeks, staff will use a card — and the negotiated pricing in
+**Make on-contract buying the easy path.** If the catalogue is out of date and the contracted
+route takes three weeks, staff will use a card instead — and the negotiated pricing in
 [vendor and supplier management](/capabilities/vendor-and-supplier-management/) goes unused.
 
-**Encumbrances never liquidated.** Old commitments left open, so available budget is understated
-and year-end brings a scramble to clear them.
+**Liquidate encumbrances as commitments close.** Old commitments left open understate available
+budget and turn year-end into a scramble to clear them.

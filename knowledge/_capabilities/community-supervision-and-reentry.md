@@ -95,36 +95,38 @@ population it exists to prevent.
 - **Tribal.** Tribal probation with limited service availability locally and supervision transfers
   that cross jurisdictional lines awkwardly.
 
-## Where it goes wrong
+## What to get right
 
-**Conditions imposed uniformly.** A standard set applied regardless of assessment, so a low-risk
-person carries a dozen ways to fail and the officer's time is spent on compliance monitoring rather
-than on the high-risk cases.
+**Set conditions from the individual assessment, not a standard set.** Applied uniformly
+regardless of risk, they leave a low-risk person with a dozen ways to fail and put the officer's
+time into compliance monitoring rather than the high-risk cases.
 
-**Caseloads that preclude supervision.** At two hundred cases, contact is a signature, and neither
-enforcement nor support happens.
+**Keep caseloads at a level where supervision can actually happen.** At two hundred cases, contact
+is a signature, and neither enforcement nor support happens.
 
-**Referral without availability.** Treatment ordered as a condition, waiting lists of months, and
-non-compliance recorded against the person for a service that did not exist.
+**Confirm services are available before ordering them as a condition.** Treatment ordered with a
+waiting list of months leaves non-compliance recorded against the person for a service that did not
+exist.
 
-**Revocation as the first response.** No graduated sanctions, so a missed appointment escalates to
-custody — expensive, and it removes employment and housing that were the actual protective factors.
+**Use graduated sanctions before revocation.** Without them, a missed appointment escalates
+straight to custody — expensive, and it removes employment and housing that were the actual
+protective factors.
 
-**Supervision fees charged to the supervised.** Payment as a condition, non-payment as a violation,
-and the people least able to pay held under supervision longest.
+**Keep supervision fees from falling hardest on people least able to pay.** Payment as a condition
+and non-payment as a violation holds the people least able to pay under supervision longest.
 
-**Reentry planning starting at the gate.** Identification, benefits, medication, and housing
-arranged after release rather than before, during the period when overdose and reoffending risk are
+**Start reentry planning before release, not at the gate.** Identification, benefits, medication,
+and housing arranged only after release miss the period when overdose and reoffending risk are
 highest — the same failure described in
 [custody and detention](/capabilities/custody-and-detention-operations/).
 
-**Jail reentry ignored entirely.** Prison release gets planning; county jail release, which is far
-higher in volume, usually gets none.
+**Plan for jail reentry as seriously as prison release.** Prison release gets planning; county jail
+release, which is far higher in volume, usually gets none.
 
-**Discharge not happening on time.** Terms running past their expiry because review requires an
-action nobody is prompted to take.
+**Prompt discharge review before terms expire.** Left to a manual trigger nobody is prompted to
+pull, terms run past their expiry.
 
-**Collateral consequences unaddressed.** Licences, employment bars, and record barriers that make
-the required employment unobtainable — and record relief that requires a petition most people never
+**Address collateral consequences directly.** Licences, employment bars, and record barriers make
+the required employment unobtainable when record relief requires a petition most people never
 file, as in
 [court administration](/capabilities/court-administration-and-adjudication/).

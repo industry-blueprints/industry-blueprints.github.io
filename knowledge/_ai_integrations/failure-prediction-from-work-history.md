@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Predict Failures from Work History and Sensor Data
 description: Identify which assets are likely to fail next — the highest-value case in
   the domain, and the one with the strictest prerequisite.
-resource: https://industry-blueprints.github.io/ai-opportunities/failure-prediction-from-work-history/
+resource: https://industry-blueprints.github.io/ai-integrations/failure-prediction-from-work-history/
 tags: [ai, assets, prediction, reliability, maintenance, sensors, anomaly-detection]
 
 generated: { by: human:jhofmann, at: 2026-07-29T13:30:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [state, county, municipal]
+ai_modality: queue
 ai_task_type: prediction
 minimum_level: 4
 
@@ -92,21 +93,22 @@ investment distribution against population and against historical investment —
 class of check as segmented [assessment
 uniformity](/capabilities/revenue-and-taxation/) in taxation.
 
-## Where it goes wrong
+## What to get right
 
-**Attempted before the register exists.** The most common failure, and it produces a model whose
-outputs nobody trusts and an initiative that discredits the technique locally for years.
+**Build the register before attempting this.** Attempting it first is the most common misstep,
+and it produces a model whose outputs nobody trusts and an initiative that discredits the
+technique locally for years.
 
-**Trained on repair records without cause codes**, so the model learns which assets get attention
-rather than which fail.
+**Train on repair records with cause codes**, so the model learns which assets fail rather than
+which assets get attention.
 
-**Presented as certainty.** A ranked list read as a prediction of specific failures, then judged
-against the ones it missed.
+**Present output as a ranking, not certainty.** A ranked list is a prioritization tool; reading it
+as a prediction of specific failures sets up a comparison against the ones it missed.
 
-**Sensor data without the work history.** Telematics and SCADA alone detect anomalies; they do not
-know what happened next unless the repair was recorded against the asset.
+**Pair sensor data with work history.** Telematics and SCADA alone detect anomalies; work history
+is what tells you what happened next, once the repair is recorded against the asset.
 
-**No validation against holdout.** Performance claimed from the training period, never tested
-against subsequent actual failures — which is the check that
+**Validate against holdout data.** Testing performance against subsequent actual failures, not
+just the training period, is the check that
 [failure analysis](/processes/failure-analysis-and-renewal-referral/) would naturally provide if
 the loop were closed.

@@ -25,8 +25,8 @@ relationships:
     target: /kpis/first-contact-resolution.md
   - predicate: implemented_by
     target: /patterns/grounded-knowledge-retrieval.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/contact-summarization.md
+  - predicate: has_integration
+    target: /ai-integrations/contact-summarization.md
   - predicate: constrained_by
     target: /governance/ai-disclosure-and-human-review.md
 ---

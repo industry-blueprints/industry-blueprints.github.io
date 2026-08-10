@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Match Invoices to Deliverables Before Payment
 description: Verify that what is being invoiced was actually accepted — closing the
   most common control gap in contract administration.
-resource: https://industry-blueprints.github.io/ai-opportunities/invoice-deliverable-matching/
+resource: https://industry-blueprints.github.io/ai-integrations/invoice-deliverable-matching/
 tags: [ai, contracts, payments, controls, verification]
 
 generated: { by: human:jhofmann, at: 2026-07-27T16:00:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
+ai_modality: queue
 ai_task_type: classification
 minimum_level: 3
 

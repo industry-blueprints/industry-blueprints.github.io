@@ -127,16 +127,34 @@ which argues for staged delivery with standalone value at every stage.
 **Capacity is the binding constraint far more often than technology.** Particularly below the
 state level, where one person may hold three of the capabilities on this map.
 
+## What gets depth, and what stays as it is
+
+**Defined is a destination, not a waypoint.** Taking a capability to Complete costs roughly nine
+supporting artifacts — its processes, a data model and entities, measures defined precisely enough
+to implement, governance controls, patterns, AI integrations. Applied across this map that is
+close to a thousand artifacts, which is not a plan, and pursuing it would produce a library that
+is uniformly shallow instead of usefully uneven.
+
+So the target is deliberate: **depth where conversations run, breadth as the map.** Roughly a third
+of these capabilities are the ones people actually start work on, and those go to Complete. The
+rest stay Defined on purpose, and they earn their place doing three jobs — giving the map its
+shape, holding the level-variance and failure-mode content that is genuinely useful on its own,
+and being one link away when someone in a session asks what else sits in their remit. Reference
+material gets read in fragments, on demand, mid-sentence. Defined is the right depth for that.
+
+Which capabilities get chosen is therefore demand-driven rather than a coverage exercise, and the
+demand signal is which sessions people need to run.
+
 ## Where the library is deepest today
 
 **The map is complete at Defined.** Every capability in every domain has a page with purpose,
-outcomes, processes, data, measures, level variance, and the failure modes named. Depth beyond that
-is concentrated in three clusters:
+outcomes, processes, data, measures, level variance, and what to get right named. Depth beyond
+that is concentrated in four clusters:
 
 [Constituent Service Management](/capabilities/constituent-service-management/) in the
 [Serve](/domains/serve/) domain, taken end to end — processes with current and target state,
 personas, a measure defined precisely enough to implement, a governance control, a solution
-pattern, AI opportunities, and a transition playbook. It exists to prove the artifact stack
+pattern, AI integrations, and a transition playbook. It exists to prove the artifact stack
 generalizes.
 
 **Grants Management**, [inbound](/capabilities/grants-management-inbound/) and
@@ -150,3 +168,12 @@ lifecycle, three levels, one genuine handoff. It has an
 [contract administration](/capabilities/contract-administration/). Building it immediately after
 grants surfaced that competitive award is one shape with two vocabularies — recorded as a promotion
 candidate in the [core data model](/data-models/core-public-sector-model/).
+
+**The field service spine** — [work order and field service](/capabilities/work-order-and-field-service-management/),
+[asset](/capabilities/asset-management/), and [maintenance](/capabilities/maintenance-management/)
+management, taken together because they are one operational system that most organizations
+implement four or five times. It is the widest cluster in the library and the one that produced the
+most reusable modelling: **work attaches to the asset, not to the address**, and **completion is
+not a status**. It was also the first cluster written processes-first, which produced a role —
+the [maintenance planner](/personas/maintenance-planner/) — that appears in no capability's
+participant list and turns out to be pivotal to the whole domain.

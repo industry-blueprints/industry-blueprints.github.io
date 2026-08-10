@@ -29,8 +29,8 @@ relationships:
     note: Applicant — and the participant whose experience determines who applies at all
   - predicate: measured_by
     target: /kpis/first-time-applicant-share.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/application-completeness-screening.md
+  - predicate: has_integration
+    target: /ai-integrations/application-completeness-screening.md
 ---
 
 ## Trigger and outcome
@@ -144,7 +144,7 @@ staff effort to merit.
 held once per organization and reused across opportunities, rather than re-submitted per application.
 
 **Screen completeness automatically, with a cure period.** See
-[application completeness screening](/ai-opportunities/application-completeness-screening/) —
+[application completeness screening](/ai-integrations/application-completeness-screening/) —
 an appropriate use because it identifies missing items rather than judging merit.
 
 **Measure who does not apply.** Notice views against applications started against applications

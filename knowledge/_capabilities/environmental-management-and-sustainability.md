@@ -96,32 +96,37 @@ usually why the milestone is absent.
   dedicated capacity — and the level where climate risk to assets is most concrete, because the
   assets are the water plant, the treatment works, and the roads.
 
-## Where it goes wrong
+## What to get right
 
-**Permit conditions in the permit and nowhere else.** Monitoring frequencies, reporting dates, and
-operational limits living in a PDF, so compliance depends on one person remembering. The
+**Track permit conditions in a system, not just the permit itself.** Monitoring frequencies,
+reporting dates, and operational limits need somewhere other than a PDF to live, so compliance does
+not depend on one person remembering. The
 [obligation tracking](/patterns/obligation-tracking/) pattern applies directly and is rarely
 applied here.
 
-**Reporting as a periodic emergency.** Data assembled from operations records days before the
-deadline, with errors that become the violation.
+**Assemble reporting data continuously, not in a scramble before the deadline.** Data pulled from
+operations records well ahead of the deadline leaves room to catch errors before they become the
+violation.
 
-**Sustainability staffed from compliance capacity.** One team, statutory obligations first, and the
-target work happens when nothing is due.
+**Give sustainability its own capacity, not compliance's leftovers.** A single team that puts
+statutory obligations first will only get to target work when nothing else is due — dedicated
+capacity is what makes the target work happen on schedule.
 
-**Targets without a costed plan.** A commitment adopted by resolution, no baseline methodology, no
-milestone, no funding line — and reporting that describes activity rather than progress.
+**Back targets with a costed plan and interim milestones.** A commitment adopted by resolution needs
+a baseline methodology, a milestone, and a funding line behind it, so reporting can describe
+progress rather than just activity.
 
-**Emissions inventories not comparable year to year.** Boundary and methodology changed between
-inventories, so the trend is uninterpretable.
+**Keep emissions inventory methodology consistent year to year.** A stable boundary and methodology
+between inventories is what makes the trend interpretable.
 
-**Climate risk assessed and not used.** A vulnerability study produced, filed, and absent from the
-next [capital
-programme](/capabilities/capital-planning-and-programming/) — which is the only place it would have
-mattered.
+**Feed climate risk assessments into the capital programme.** A vulnerability study only pays off if
+it reaches the next [capital
+programme](/capabilities/capital-planning-and-programming/) — the one place it can actually change
+a decision.
 
-**Environmental review starting late.** Treated as a permit to obtain rather than an analysis to
-conduct, so it becomes the critical path and is blamed for the delay it discovered.
+**Start environmental review early, as analysis rather than a permit to obtain.** Starting it early
+keeps it from becoming the project's critical path and from being blamed for a delay it only
+discovered.
 
-**Contamination discovered during construction.** Legacy sites unassessed until a project breaks
-ground, at which point the remediation cost lands on the project budget.
+**Assess legacy sites before a project breaks ground.** Assessing contamination ahead of
+construction keeps the remediation cost from landing unexpectedly on the project budget.

@@ -82,20 +82,22 @@ simultaneously — and which ones changed last year matters for anything retrosp
 break is on a segment. A wildfire is a polygon. Models that require an address force staff to
 invent one, and "123 Main St (approx)" is how location data quality dies.
 
-## Where it goes wrong
+## What to get right
 
-- **Address as a string on every record.** No two spellings match, so nothing aggregates. The
-  single most common and most expensive modelling error in local government.
-- **Geocoding on read instead of on write.** The coordinate changes silently as the geocoder is
-  updated, so last year's map cannot be reproduced.
-- **Jurisdiction derived on the fly, never stored.** After an annexation, historical records
-  report against today's boundaries, which quietly falsifies every trend.
-- **Parcel treated as identity.** Parcels split and merge; a parcel number is a version, not a
-  permanent key.
-- **Confidence discarded.** A rooftop-accurate geocode and a city-centroid fallback stored in the
-  same two columns, indistinguishable — so a crew is dispatched to the middle of town.
-- **Access notes as free text in a case.** The information that keeps a field worker safe, buried
-  in the notes of a case closed three years ago.
+- **Normalize address into a structured reference**, not a string repeated on every record.
+  Structuring it is what makes aggregation possible — a string field is the single most common
+  and most expensive modelling error in local government.
+- **Geocode on write, not on read.** Storing the coordinate at write time means last year's map
+  can still be reproduced, even after the geocoder is updated.
+- **Store jurisdiction at the time of record**, rather than deriving it on the fly. Stored
+  jurisdiction survives an annexation without falsifying historical trends.
+- **Treat parcel number as a version, not identity.** Parcels split and merge, so modelling the
+  number as a version keeps history intact.
+- **Keep confidence as its own field.** Distinguishing a rooftop-accurate geocode from a
+  city-centroid fallback in separate columns keeps a crew from being dispatched to the middle of
+  town.
+- **Give access notes a structured field**, not free text buried in a case closed three years ago
+  — visibility here is what keeps a field worker safe.
 
 ## Level variance
 

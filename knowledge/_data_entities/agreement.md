@@ -112,19 +112,19 @@ state, disciplinary history, reciprocity with other jurisdictions, renewal cycle
 **Permit** — site and parcel, scope of authorized work, required inspections and their outcomes,
 associated plan documents, occupancy or completion certification.
 
-## Where it goes wrong
+## What to get right
 
-- **Four systems, four truths.** The most common state. Nobody owns the union, so nobody asks
-  the cross-cutting questions.
-- **Value as a signed number.** Direction of money is a property of the agreement type, not an
-  arithmetic sign; conflating them breaks reporting the first time a contract has a credit.
-- **Amendments as overwrites.** Losing the amendment history destroys the ability to answer what
-  the terms were on a given date, which is the question litigation and audit both ask.
-- **Parties as free text.** An agreement with a vendor name string rather than a
-  [Party](/data-entities/) reference cannot be rolled up, and cannot be checked against
-  debarment.
-- **Expiry without notification.** Modelling the date without an obligation to act on it is why
-  organizations discover lapses from the other party.
+- **Own the union across systems.** Four systems with four separate truths is the most common
+  state; naming an owner is what makes the cross-cutting questions askable.
+- **Model money's direction as a property of the agreement type**, not an arithmetic sign —
+  conflating them breaks reporting the first time a contract has a credit.
+- **Keep amendment history, don't overwrite it.** Preserving it is what lets the organization
+  answer what the terms were on a given date, the question litigation and audit both ask.
+- **Reference Party, not free text.** An agreement with a
+  [Party](/data-entities/) reference rather than a vendor name string can be rolled up, and
+  checked against debarment.
+- **Pair expiry dates with an obligation to act on them.** Modelling the date alone is why
+  organizations discover lapses from the other party instead of ahead of them.
 
 ## AI relevance
 
@@ -136,5 +136,5 @@ Two cautions. Extracted obligations that nobody verified become the basis for co
 decisions, so provenance marking is essential. And obligation language is dense with
 conditionality — "unless," "except where," "provided that" — which is exactly what extraction
 tends to flatten. The same failure described in
-[plain-language rewrite](/ai-opportunities/plain-language-rewrite/) applies here with more
+[plain-language rewrite](/ai-integrations/plain-language-rewrite/) applies here with more
 direct financial consequence.

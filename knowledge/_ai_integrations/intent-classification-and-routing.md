@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Classify Intent and Route at Intake
 description: Determine what a contact is actually about and route it correctly on
   arrival, instead of asking the constituent to classify themselves.
-resource: https://industry-blueprints.github.io/ai-opportunities/intent-classification-and-routing/
+resource: https://industry-blueprints.github.io/ai-integrations/intent-classification-and-routing/
 tags: [ai, classification, routing, triage, constituent-service]
 
 generated: { by: human:jhofmann, at: 2026-07-26T15:00:00Z }
@@ -12,6 +12,7 @@ stale_after: 2027-07-26
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
+ai_modality: autonomous
 ai_task_type: classification
 minimum_level: 3
 ---

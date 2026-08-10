@@ -58,9 +58,9 @@ non-functional constraints, and can be supported by the people who will inherit 
 
 ## What this persona needs from a blueprint
 
-Exactly what this library's Layer 2 is for: a vendor-neutral logical design with components,
-data flow, identity model, and stated non-functional requirements — then vendor implementations
-as a separate, removable layer. Also design decisions **with their alternatives and tradeoffs**,
+Exactly what this library's layer 2 is for: a vendor-neutral logical design with components,
+data flow, identity model, and stated non-functional requirements — then platform mappings as a
+separate, removable layer. Also design decisions **with their alternatives and tradeoffs**,
 because reusing a decision requires knowing what it was weighed against.
 
 ## Typical questions

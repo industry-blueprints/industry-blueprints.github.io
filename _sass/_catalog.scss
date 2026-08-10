@@ -1,15 +1,21 @@
 // The catalog: card grids, blueprint entry layout.
 
+// Hairlines are drawn by the cards, not by the container. Previously the grid
+// carried `background: var(--line)` and let it show through a 1px gap — which
+// works only while every cell is filled. Any short final row rendered its empty
+// cells as solid blocks of line colour, so a section with three cards in a
+// four-column grid grew a grey slab, and a single-card section grew three.
+// A 1px outset ring per card produces the same hairline (adjacent rings overlap
+// inside the 1px gap) and empty cells simply draw nothing.
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   gap: 1px;
-  background: var(--line);
-  border: 1px solid var(--line);
 }
 
 .blueprint-card {
   background: var(--bg);
+  box-shadow: 0 0 0 1px var(--line);
   padding: var(--space-3);
   display: flex;
   flex-direction: column;
@@ -33,11 +39,16 @@
   flex: 1;
 }
 
+// Wraps, because the badge count is data, not layout. A card carrying status,
+// depth, a level range and four government levels overflowed a 16rem column and
+// spilled its last badges outside the grid. `space-between` also mis-set the
+// row whenever it did fit, pushing the status badge away from the level badges
+// it belongs with.
 .blueprint-card .meta-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2);
+  gap: var(--space-1) var(--space-2);
   margin-top: var(--space-1);
 }
 

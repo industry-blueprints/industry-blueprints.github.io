@@ -85,29 +85,29 @@ against a comparison they made with incomplete information.
   retiree health liability is the dominant long-term financial exposure for many jurisdictions**,
   and it is set here.
 
-## Where it goes wrong
+## What to watch for
 
-**Market surveys against the wrong comparators.** Benchmarked to neighbouring jurisdictions that
-benchmark back, so the whole group drifts from the actual labour market — most visibly in
-technology and clinical roles.
+**Benchmark against the actual labour market, not just neighbouring jurisdictions.** Jurisdictions
+that benchmark against each other drift together from the real market — most visibly in technology
+and clinical roles.
 
-**Compression ignored.** New hires brought in near the rate of ten-year staff to meet the market.
-Rational per hire, corrosive in aggregate, and the resulting attrition is attributed to something
-else.
+**Watch for compression as new hires approach tenured pay.** Bringing new hires in near the rate of
+ten-year staff to meet the market is rational per hire and corrosive in aggregate, and the
+resulting attrition often gets attributed to something else.
 
-**Total reward never communicated.** The pension and health contribution are large, real, and
-absent from every conversation with a candidate.
+**Communicate total reward, not just salary.** The pension and health contribution are large and
+real; leaving them out of every conversation with a candidate hides most of the actual offer.
 
-**Leave liability unvalued.** Accrued balances carried at scale, cashed out at separation at
-current rates, and never appearing as a managed liability until they do.
+**Value leave liability as it accrues.** Balances carried at scale and cashed out at separation at
+current rates need to appear as a managed liability well before they come due.
 
-**Benefit administration in three systems.** Elections in one, payroll deductions in another,
-carrier eligibility in a third, reconciled by hand — and the failure surfaces as an employee
-discovering at the pharmacy that their coverage did not transmit.
+**Consolidate benefit administration instead of reconciling three systems by hand.** Elections in
+one system, payroll deductions in another, carrier eligibility in a third — reconciled manually —
+is how an employee ends up discovering at the pharmacy that their coverage did not transmit.
 
-**Differentials that accumulate.** Premiums added over decades by successive agreements, each
-justified, collectively producing a compensation structure nobody can explain.
+**Review accumulated differentials periodically.** Premiums added over decades by successive
+agreements, each individually justified, can add up to a compensation structure nobody can explain.
 
-**Pension cost deferred.** Contribution holidays and optimistic return assumptions that move cost
-to a future administration, which is the most consequential decision in this capability and the
+**Fund pension cost as it is incurred.** Contribution holidays and optimistic return assumptions
+move cost to a future administration — the most consequential decision in this capability and the
 least visible.

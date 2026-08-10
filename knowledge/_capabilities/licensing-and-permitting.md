@@ -109,27 +109,35 @@ licensing is a partial third vote, not a whole one** — it is a minority of lic
 recommendation stands at watch rather than promote. Where a jurisdiction runs a capped regime, the
 merit review and competition integrity controls apply unchanged.
 
-## Where it goes wrong
+## What to get right
 
-**Completeness established by a human opening documents.** Days of staff effort per cycle, and the
-applicant learns of a missing form weeks after submitting.
+**Screen completeness systematically rather than by a human opening documents one at a time.**
+Automated screening saves days of staff effort per cycle and tells the applicant about a missing
+form immediately rather than weeks after submitting.
 
-**Conditions written into the authorization document and nowhere else.** Invisible to every queue
-and calendar, so nothing monitors them — the
-[obligation tracking](/patterns/obligation-tracking/) failure, in a third domain.
+**Attach conditions somewhere that monitors them, not just the authorization document.** Written
+into the document and nowhere else, conditions are invisible to every queue and calendar — the
+[obligation tracking](/patterns/obligation-tracking/) discipline again, in a third domain.
 
-**Renewal by the holder remembering.** No prompt, an expiry that lapses, and enforcement against
-someone who would have renewed.
+**Prompt renewal before expiry rather than relying on the holder to remember.** A prompt turns a
+lapse into a renewal instead of enforcement against someone who would have renewed.
 
-**A system per permit type.** Building in one, food service in another, alcohol in a third, so a
-restaurant with three authorizations is three unrelated parties.
+**Model authorizations as one system across permit types.** Building in one system, food service in
+another, alcohol in a third means a restaurant with three authorizations looks like three unrelated
+parties.
 
-**Timelines unpublished and unmeasured.** The applicant cannot plan and cannot escalate, and the
-organization cannot see which type is slow.
+**Publish and measure timelines by type.** A published, measured timeline lets the applicant plan
+and escalate, and lets the organization see which type is slow.
 
-**Fees unrelated to cost.** Set decades ago, never reviewed, either subsidizing the activity or
-functioning as a barrier to entry nobody intended.
+**Review fees against the actual cost of administering them.** Set decades ago and left alone, fees
+either subsidize the activity or function as a barrier to entry nobody intended.
 
-**Revocation without proportionate process.** The consequence is frequently someone's livelihood,
-which is exactly when due process matters most — see
+**Scale revocation process to the consequence.** The consequence is frequently someone's
+livelihood, which is exactly when proportionate due process matters most — see
 [appeals](/capabilities/appeals-and-grievance-handling/).
+
+## AI integration
+
+Ways AI could help across this capability, from what one reviewer could try tomorrow to what the
+whole authorization register can be asked, with enough on each to decide whether it's worth trying:
+**[AI Integration for Licensing & Permitting](/capabilities/licensing-and-permitting/ai-integration/)**.

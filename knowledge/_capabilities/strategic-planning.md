@@ -74,27 +74,30 @@ The third measure is the honest one. A portfolio in which nothing is ever stoppe
   with public engagement built in, but constrained by a two-to-four year electoral cycle and
   limited capacity to run engagement well.
 
-## Where it goes wrong
+## What to get right
 
-**Too many objectives.** Thirty priorities is none. The count is the tell.
+**Keep the objective count small.** Thirty priorities is none — the count itself is the tell of
+whether the plan is real.
 
-**Objectives no observation could falsify.** "Improve service quality" cannot be missed, so it
-cannot be managed. Compare a real measure like
+**Write objectives an observation could falsify.** "Improve service quality" cannot be missed, so
+it cannot be managed. Compare a real measure like
 [first contact resolution](/kpis/first-contact-resolution/).
 
-**No stop list.** Everything is added and nothing removed, so capacity is over-committed on the
-day the plan is adopted, and the constraint surfaces as slippage rather than as a decision.
+**Keep a stop list alongside the plan.** Deliberately removing things as they're added keeps
+capacity from being over-committed on the day the plan is adopted, catching the constraint as a
+decision rather than as later slippage.
 
-**Plans commissioning initiatives longer than the horizon.** A five-year transformation under a
-four-year administration needs standalone value at each stage or it will be cancelled at the
+**Stage initiatives to deliver value within the horizon.** A five-year transformation under a
+four-year administration needs standalone value at each stage, or it risks cancellation at the
 handover with nothing delivered.
 
-**Cascade by copy-paste.** Departmental plans that restate the corporate objectives verbatim
-create the appearance of alignment and none of the substance.
+**Cascade objectives into department-specific commitments.** Departmental plans that restate the
+corporate objectives verbatim create the appearance of alignment and none of the substance —
+translating them into real commitments is what closes that gap.
 
-**Planning divorced from budget.** A plan adopted in one process and a budget set in another
+**Link planning to the budget process.** A plan adopted in one process and a budget set in another
 produces a document with no consequences. This is why the link to
 [budget formulation](/capabilities/budget-formulation/) is the load-bearing one.
 
-**No re-baselining.** Assumptions change, the plan does not, and it quietly becomes a historical
-document everyone stops referring to.
+**Re-baseline as assumptions change.** Otherwise the plan stays fixed while reality moves, and it
+quietly becomes a historical document everyone stops referring to.

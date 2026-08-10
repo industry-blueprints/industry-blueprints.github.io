@@ -96,30 +96,32 @@ routinely disallowed, and the jurisdiction absorbs costs it was entitled to reco
   jurisdictions relying on the county for coordination capacity. Tribal governments coordinate
   government-to-government and may request federal assistance directly.
 
-## Where it goes wrong
+## What to get right
 
-**Documentation deferred until after.** The response is the priority and the cost record is
-reconstructed weeks later from memory and partial timesheets — the most expensive single failure in
-this capability.
+**Capture cost as the event unfolds, not weeks later.** Reconstructing the cost record afterwards
+from memory and partial timesheets, once the response has moved on, is the most expensive single
+failure in this capability — building the record contemporaneously avoids it.
 
-**No common operating picture.** Each agency maintaining its own status, reconciled verbally on
-conference calls, so the picture is always an hour old and never shared.
+**Maintain one common operating picture, shared, not reconciled by phone.** Each agency maintaining
+its own status and reconciling verbally on conference calls leaves the picture always an hour old
+and never truly shared.
 
-**Activation as a judgment call every time.** Without criteria, activation is late, because the
-person deciding is also the person managing the early response.
+**Set activation criteria in advance.** Without criteria, activation is left to a judgment call made
+by the same person who is also managing the early response, which makes it late.
 
-**Untrained people in operations centre positions.** Positions filled by whoever is available,
-learning the role during the event.
+**Staff operations centre positions with people trained for them.** Filling positions with whoever
+is available means learning the role during the event.
 
-**Resource requests without tracking.** Ordered, arriving, unassigned, and unaccounted for — and
-still on the payroll days after the need ended.
+**Track every resource request from order to demobilization.** Untracked, a resource can arrive
+unassigned and unaccounted for — and stay on the payroll days after the need ended.
 
-**Decision log absent.** No record of what was decided, when, or on whose authority, which matters
+**Keep a decision log.** A record of what was decided, when, and on whose authority matters
 enormously in the review that always follows.
 
-**Public information disconnected from the response.** The operations centre knows the road is
-closed and the public channel does not — see
+**Connect public information directly to the response.** The operations centre needs to feed the
+public channel in real time — knowing the road is closed does no good if the public channel does
+not know it too. See
 [public warning](/capabilities/public-warning-and-emergency-communication/).
 
-**Demobilization neglected.** Resources retained past need because releasing them requires a
-decision nobody is prompted to make.
+**Prompt demobilization as a deliberate decision.** Resources retained past need because releasing
+them requires a decision nobody is prompted to make cost money for no benefit.

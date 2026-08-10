@@ -78,21 +78,24 @@ steps, and organizations that measure only the total optimize the wrong ones.
 - **County / municipal.** Merit rules apply with a much smaller HR function. Competes directly
   with neighbouring jurisdictions for the same small labor pool.
 
-## Where it goes wrong
+## What to get right
 
-**Classification written for a job that no longer exists.** Recruiting a data engineer against a
-1990s systems analyst specification, at that specification's pay band.
+**Keep classifications current with the job.** Recruiting a data engineer against a 1990s systems
+analyst specification, at that specification's pay band, undersells the role before it is even
+posted.
 
-**Delay concentrated in the invisible steps.** Waiting for authorization, waiting for a panel to
-convene, waiting for clearance. Rarely measured, so rarely fixed.
+**Measure and manage the invisible steps.** Waiting for authorization, waiting for a panel to
+convene, waiting for clearance is where delay concentrates, and it stays unfixed until it is
+measured.
 
-**Announcements written for compliance, not candidates.** Accurate, exhaustive, and unreadable —
-which suppresses applications from exactly the candidates with other options.
+**Write announcements for candidates, not just for compliance.** Accurate and exhaustive is not
+the same as readable, and an unreadable posting suppresses applications from exactly the
+candidates with other options.
 
-**Eligible lists expiring unused**, so the whole process is re-run for the next vacancy in the
-same role.
+**Keep eligible lists current and put them to use** before they expire unused, so the whole
+process doesn't have to be re-run for the next vacancy in the same role.
 
-**Assessment automation as a high-risk shortcut.** Automated screening in a merit system carries
-adverse-impact exposure, challenge risk, and usually a bargaining obligation, simultaneously.
-Attractive on paper and rarely worth it without substantial validation — see
+**Validate assessment automation before relying on it.** Automated screening in a merit system
+carries adverse-impact exposure, challenge risk, and usually a bargaining obligation,
+simultaneously. Attractive on paper and rarely worth it without substantial validation — see
 [HR Director](/personas/hr-director/).

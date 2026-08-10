@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Extract Obligations and Key Dates from Agreements
 description: Turn contract and award prose into a tracked register — the highest-value
   extraction task in the library, and the one most exposed to flattening conditionality.
-resource: https://industry-blueprints.github.io/ai-opportunities/obligation-extraction/
+resource: https://industry-blueprints.github.io/ai-integrations/obligation-extraction/
 tags: [ai, extraction, contracts, grants, obligations, agreements]
 
 generated: { by: human:jhofmann, at: 2026-07-27T16:00:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
+ai_modality: queue
 ai_task_type: extraction
 minimum_level: 3
 
@@ -48,9 +49,9 @@ drafted automatically, verified by a person, tracked thereafter.
 - **Reusable across four Agreement subtypes.** Contracts, grant awards, licences, and permits share
   the shape, so the work is done once.
 
-## The failure mode that matters
+## The nuance that matters most
 
-**Conditionality gets flattened.**
+**Preserve conditionality — don't let it flatten.**
 
 Agreement language is dense with "unless," "except where," "provided that," "subject to," and
 "following written notice." These are exactly the constructions that summarization tends to drop,

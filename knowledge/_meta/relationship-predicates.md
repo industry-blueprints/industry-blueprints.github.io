@@ -34,7 +34,7 @@ deliberate addition, not by typo.
 | `participates_in` | `has_participant` | A persona participates in a process |
 | `uses_data` | `used_by` | A process uses data entities |
 | `measured_by` | `measures` | A process is measured by KPIs |
-| `has_opportunity` | `opportunity_for` | A process contains AI opportunities |
+| `has_integration` | `integration_for` | A process contains AI integrations |
 | `assists` | `assisted_by` | An AI agent assists a persona |
 | `automates` | `automated_by` | An AI agent performs part of a process |
 | `implements` | `implemented_by` | An architecture implements patterns |
@@ -45,6 +45,8 @@ deliberate addition, not by typo.
 | `demonstrated_by` | `demonstrates` | A pattern is demonstrated by a platform sample |
 | `maps_to` | `mapped_from` | A data entity maps to an external standard |
 | `supersedes` | `superseded_by` | A revised artifact replaces a deprecated one |
+| `composed_of` | `composes` | A blueprint is composed of domain modules |
+| `covers` | `covered_by` | A blueprint covers business capabilities |
 
 ## Authoring form
 
@@ -60,14 +62,15 @@ with its `.md` extension. It resolves mechanically to the published URL.
 
 ## The layering rule
 
-Artifacts belong to one of three layers: operating-model knowledge (1), vendor-neutral design
-(2), vendor implementation (3).
+Artifacts sit in one of four layers: business blueprint (1), information & architecture (2),
+executable reference implementation (3), platform mappings (4). See the
+[type registry](/meta/type-registry/).
 
-**No layer 1 or 2 artifact may hold an outbound edge to a layer 3 artifact.** The `realizes`
-edge always points upward, and vendor listings on vendor-neutral pages render from inbound
-edges. This is what makes the vendor layer removable rather than merely separable in principle.
+**No layer 1 or 2 artifact may hold an outbound edge to a layer 4 artifact.** The `realizes`
+edge always points upward, and platform listings on vendor-neutral pages render from inbound
+edges. This is what makes layer 4 removable rather than merely separable in principle.
 
-## The maturity spine
+## The maturity lens
 
 Maturity is not a predicate — it is an axis running through the graph, expressed as fields:
 
@@ -75,15 +78,19 @@ Maturity is not a predicate — it is an axis running through the graph, express
 |---|---|---|
 | `assesses` | Maturity Rubric | The capability this rubric scores |
 | `from_level` / `to_level` | Playbook | The transition this playbook delivers |
-| `minimum_level` | AI Opportunity, Solution Pattern | The level below which this is not viable |
+| `minimum_level` | AI Integration, Solution Pattern | The level below which this is not viable |
 
 ## Authoring conventions
 
 Where both directions read equally well, the house convention is:
 
-- **The process enumerates its participants and its AI opportunities.** Adding a process
+- **The process enumerates its participants and its AI integrations.** Adding a process
   should be a single-file change, not an edit across five persona files — and the note text
   describes the persona's role *in that process*, so it belongs on the process.
+- **An AI Integration Catalog declares `part_of` its capability**, not the reverse — the
+  capability's "Contains" panel picks it up from the inverse. The Catalog then declares
+  `has_integration` to whichever full `AI Integration` pages it links to, one level down from
+  where that edge used to sit on the capability itself.
 - **The playbook owns its own transition** (`transforms → capability`), not the capability.
 - **Governance declares what it constrains**, since a single control typically constrains
   several things.

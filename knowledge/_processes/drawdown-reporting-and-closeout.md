@@ -27,8 +27,8 @@ relationships:
     note: Whose payroll depends on the drawdown cycle
   - predicate: has_participant
     target: /personas/budget-director.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/cross-report-consistency.md
+  - predicate: has_integration
+    target: /ai-integrations/cross-report-consistency.md
 ---
 
 ## Trigger and outcome
@@ -127,7 +127,7 @@ flowchart TD
 **Code once, report many.** Expenditure captured against award and cost category at source, with
 each funder's report a different view of the same underlying record rather than a separate
 assembly. This is the change that removes most of the manual effort in this process — and see
-[cross-report consistency](/ai-opportunities/cross-report-consistency/) for catching what slips
+[cross-report consistency](/ai-integrations/cross-report-consistency/) for catching what slips
 through.
 
 **Advance or milestone payment where the recipient cannot carry cash**, with liquidation tracking

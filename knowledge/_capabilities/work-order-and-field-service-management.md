@@ -102,35 +102,37 @@ could have had before leaving.
   equipment across functions. Small jurisdictions run all of this on paper and radio, which works
   and produces no data.
 
-## Where it goes wrong
+## What to get right
 
-**A separate work order system per department.** Water, streets, parks, and facilities each with
-their own, so a crew working across two carries two devices and the organization has no combined
-view of field demand.
+**Share one work order system across departments.** A single system for water, streets, parks,
+and facilities is what lets a crew working across two carry one device and gives the organization
+a combined view of field demand.
 
-**Paper in the field, entry at the depot.** Detail lost, entry delayed by days, and the crew
-spending productive time on transcription.
+**Capture work in the field, at the point of work.** Recording detail as it happens, rather than
+on paper transcribed later at the depot, keeps detail intact and frees up crew time.
 
-**Mobile tools that require connectivity.** Field work happens in basements, vaults, rural
-stretches, and during outages. Anything requiring a live connection fails exactly when the work is
-most urgent.
+**Choose mobile tools that work offline.** Field work happens in basements, vaults, rural
+stretches, and during outages — tools that work without a live connection are what keep capture
+working exactly when it's most needed.
 
-**Dispatch without asset history.** The crew arrives, discovers what was done last time from the
-condition of the equipment, and returns for the right part.
+**Dispatch with asset history in hand.** Giving the crew what was done last time before they
+arrive is what lets them bring the right part the first time.
 
-**Scheduling that ignores travel.** Jobs assigned by geography-blind priority, so crews cross the
-jurisdiction twice a day.
+**Schedule with travel time in view.** Assigning jobs with geography in mind is what keeps crews
+from crossing the jurisdiction twice a day.
 
-**Location captured as free text.** "Corner of Main and 3rd" rather than a coordinate or an asset
-identifier, so the work cannot be mapped, aggregated, or matched to prior work.
+**Capture location as a coordinate or asset identifier.** Recording it that way, rather than as
+free text like "corner of Main and 3rd," is what lets the work be mapped, aggregated, and matched
+to prior work.
 
-**No completion notification.** The requester — resident or internal — calls to ask, generating
-contact volume that counts against
+**Notify the requester on completion.** Closing the loop proactively is what keeps the requester —
+resident or internal — from calling to ask, which otherwise counts as contact volume against
 [constituent service](/capabilities/constituent-service-management/) rather than against the
-service that failed to close the loop.
+service that closed the loop.
 
-**Actual cost never captured.** Labour, materials, and equipment estimated rather than recorded, so
-no service can be costed and no comparison with contracting out is possible.
+**Capture actual cost as the work happens.** Recording labour, materials, and equipment as used,
+rather than estimating them, is what makes a service costable and comparable against contracting
+out.
 
 ## Governance
 
@@ -146,9 +148,9 @@ everything above it. An organization at level 3 without offline capture accumula
 history, and the analytical capabilities built on top underperform for reasons that get attributed
 to the wrong cause.
 
-## AI opportunities
+## AI integrations
 
-[Work request triage and duplicate detection](/ai-opportunities/work-request-triage-and-duplicate-detection/)
+[Work request triage and duplicate detection](/ai-integrations/work-request-triage-and-duplicate-detection/)
 
 The boundary here is narrow and specific: **classify and link, never merge or close.** A duplicate
 link is reversible; a merge is not, and a wrongly merged report means a second real defect goes

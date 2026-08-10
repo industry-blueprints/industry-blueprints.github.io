@@ -88,29 +88,31 @@ unrepresented success rate is the measure that distinguishes them.
   governing body sitting in a quasi-judicial role — which mixes political and adjudicatory
   functions in one forum and is the structural weakness at this level.
 
-## Where it goes wrong
+## Getting this right
 
-**Appeal rights buried.** Present in the notice, in small print, in the last paragraph, phrased
-statutorily — technically given, practically not.
+**State appeal rights plainly, up front.** Present in the notice, in small print, in the last
+paragraph, phrased statutorily, they are technically given and practically not.
 
-**The record withheld until the hearing.** The appellant argues against a decision whose basis they
-have not seen, which makes the hearing a formality.
+**Give the appellant the record before the hearing.** Arguing against a decision whose basis they
+have not seen turns the hearing into a formality.
 
-**Review by the original decision-maker's supervisor.** Common, understandable in a small
-organization, and structurally insufficient — the same problem as
+**Route review away from the original decision-maker's chain.** A supervisor reviewing their own
+team's decision is common, understandable in a small organization, and structurally
+insufficient — the same problem as
 [protests decided by the awarding official](/capabilities/protest-and-dispute-resolution/).
 
-**Deadlines shorter than the time to understand the decision.** Ten days to appeal a notice written
-in terms the recipient cannot parse.
+**Set deadlines long enough to understand the decision.** Ten days to appeal a notice written in
+terms the recipient cannot parse is not a real opportunity to appeal.
 
-**No interim relief.** A benefit terminated, a licence suspended, and a hearing in eleven weeks —
-by which time the outcome is irrelevant because the harm is done.
+**Provide interim relief where waiting causes real harm.** A benefit terminated, a licence
+suspended, and a hearing in eleven weeks means the outcome arrives after the harm is done.
 
-**Overturns not analysed.** Each appeal handled as an isolated case, so a systematically wrong
-interpretation is corrected one appellant at a time and continues for everyone who did not appeal.
+**Analyse overturn patterns and feed them back.** Handling each appeal as an isolated case lets a
+systematically wrong interpretation get corrected one appellant at a time while it continues for
+everyone who did not appeal.
 
-**Complaints and appeals conflated.** A complaint about how someone was treated and an appeal
+**Keep complaints and appeals separate.** A complaint about how someone was treated and an appeal
 against a decision need different handling; merging them means one of the two is done badly.
 
-**Outcomes not implemented.** The appeal is upheld and the underlying record is never corrected, so
-the same decision is made again at the next review.
+**Implement outcomes, not just decisions.** An appeal upheld with the underlying record never
+corrected means the same decision gets made again at the next review.

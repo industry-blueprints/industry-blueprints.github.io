@@ -99,29 +99,33 @@ something, which is a valuable channel and not a system.
 - **Municipal / tribal.** Large cities operate their own health departments with full authority.
   Tribal health authorities operate under distinct arrangements with federal health services.
 
-## Where it goes wrong
+## What to get right
 
-**Reporting by fax.** Still widespread. Manual re-entry introduces delay and error at the point
-where speed matters most — a
-[integration](/capabilities/application-and-integration-management/) problem with a health outcome.
+**Receive reportable conditions electronically, not by fax.** Manual re-entry introduces delay and
+error at the point where speed matters most — an
+[integration](/capabilities/application-and-integration-management/) fix with a health outcome.
 
-**Surveillance data without denominators.** Case counts with no reliable population base, so rates
-cannot be computed and geographic comparison is meaningless.
+**Pair surveillance data with reliable population denominators.** Case counts without them cannot
+produce rates, and geographic comparison becomes meaningless.
 
-**Contact tracing capacity built and disbanded.** Stood up in an emergency, released afterwards,
-and rebuilt from nothing at the next one — with the trained people gone.
+**Keep contact tracing capacity standing rather than rebuilding it each time.** Stood up in an
+emergency and released afterward, it has to be rebuilt from nothing at the next one, with the
+trained people gone.
 
-**Immunization coverage reported in aggregate.** An acceptable countywide rate concealing
-neighbourhoods and schools well below the threshold where transmission is interrupted.
+**Report immunization coverage by neighbourhood and school, not just in aggregate.** An acceptable
+countywide rate can conceal pockets well below the threshold where transmission is interrupted.
 
-**Environmental health on a fixed calendar.** Annual inspection regardless of history, which is the
-uniform-monitoring failure described in [inspections](/capabilities/inspections/).
+**Set environmental health inspection frequency by risk, not a fixed calendar.** Annual inspection
+regardless of history is the uniform-monitoring gap described in
+[inspections](/capabilities/inspections/).
 
-**Confidentiality breached in a small community.** Case detail sufficient to identify someone in a
-sparsely populated area, published in a routine report — after which reporting and cooperation drop.
+**Protect confidentiality in small communities specifically.** Case detail sufficient to identify
+someone in a sparsely populated area, published in a routine report, costs reporting and
+cooperation once it happens.
 
-**Data sharing negotiated during the outbreak.** Agreements with hospitals, laboratories, and
-neighbouring jurisdictions arranged under time pressure, when they could have been standing.
+**Put data sharing agreements in place before an outbreak, not during one.** Agreements with
+hospitals, laboratories, and neighbouring jurisdictions arranged under time pressure work better
+when they are already standing.
 
-**Authority unclear across governance models.** In an emergency, whether the state or the county
-directs the local health department is discovered rather than known.
+**Clarify authority across governance models before an emergency.** Knowing in advance whether the
+state or the county directs the local health department beats discovering it during one.

@@ -83,32 +83,32 @@ they cost maintenance indefinitely, and nobody deletes them because somebody onc
   operational analytics on service delivery. Small jurisdictions typically have no analyst at all,
   and reporting is produced by the person who runs the service.
 
-## Where it goes wrong
+## What to watch for
 
-**Three numbers for one question.** Different definitions in different systems, and the meeting is
-spent reconciling rather than deciding — the failure
+**Agree one definition per question.** Different definitions in different systems turn the meeting
+into a reconciliation exercise instead of a decision — the failure
 [data governance](/capabilities/data-governance-and-stewardship/) exists to prevent.
 
-**Dashboards nobody opens.** Built to a specification gathered once, delivered, and never revisited
-against whether anyone used them.
+**Revisit dashboards against actual usage.** Building to a specification gathered once and never
+checking whether anyone opened it afterward leaves dead dashboards in place indefinitely.
 
-**Analysts as data assemblers.** Most of the capacity consumed extracting, cleaning, and joining,
-leaving little for the analysis that was the point.
+**Free analysts from data assembly.** When most of the capacity goes to extracting, cleaning, and
+joining, little is left for the analysis that was the point.
 
-**Measuring what is easy.** Volume, handle time, and throughput because they are in the system;
-resolution and outcome absent because they are not. See
+**Measure the outcome, not just what is easy to pull.** Volume, handle time, and throughput are in
+the system; resolution and outcome take more work to capture and are often skipped as a result. See
 [first contact resolution](/kpis/first-contact-resolution/) for what it takes to measure the harder
 one honestly.
 
-**Aggregates that hide the finding.** An acceptable average concealing a segment being failed —
-the same structural problem as regressive
+**Disaggregate before trusting an aggregate.** An acceptable average can conceal a segment being
+failed — the same structural problem as regressive
 [assessment](/capabilities/revenue-and-taxation/), and invisible without disaggregation.
 
-**Published performance nobody can interpret.** A page of numbers with no comparison, no trend, and
-no explanation of what good would look like.
+**Give published performance a comparison and a trend.** A page of numbers with neither, and no
+explanation of what good looks like, is not interpretable by the public it is published for.
 
-**Measures that never retire.** Reported for a decade past the decision they informed, consuming
-production effort each cycle.
+**Retire measures once the decision they informed is settled.** Left in place for a decade past
+that point, they keep consuming production effort each cycle for no return.
 
-**Reporting latency exceeding the decision cycle.** Monthly figures available on the twentieth of
-the following month, for decisions taken weekly.
+**Keep reporting latency inside the decision cycle.** Monthly figures available on the twentieth of
+the following month serve decisions taken monthly, not decisions taken weekly.

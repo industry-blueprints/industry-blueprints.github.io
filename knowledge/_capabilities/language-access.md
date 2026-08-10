@@ -91,31 +91,34 @@ same determinations, timelines, and resolutions is the actual question.
   two. Indigenous and refugee languages with few professional interpreters are the hardest case and
   are usually unaddressed.
 
-## Where it goes wrong
+## What to get right
 
-**Children interpreting for their parents.** Still routine, in medical, benefit, and enforcement
-settings. Harmful to the child, unreliable, and in many contexts unlawful.
+**Use qualified interpreters, never children, for medical, benefit, and enforcement encounters.**
+Children interpreting for their parents is still routine in these settings, and it is harmful to
+the child, unreliable, and in many contexts unlawful.
 
-**Translation of the document, not the service.** The application form is translated; the website
-explaining it, the phone line, the follow-up letter, and the appeal notice are not — so the person
-can start and cannot finish.
+**Translate the whole service, not just the document.** Translating the application form while
+leaving the website that explains it, the phone line, the follow-up letter, and the appeal notice
+in English lets a person start and never finish.
 
-**Preference captured and discarded.** Recorded at intake, not carried on the
-[Party](/data-models/core-public-sector-model/) record, so the next letter arrives in English and
-the person must ask again.
+**Carry language preference on the Party record, not just at intake.** Captured once and not
+carried on the [Party](/data-models/core-public-sector-model/) record, the next letter arrives in
+English and the person has to ask again.
 
-**Machine translation published unreviewed.** Fast, cheap, and wrong in exactly the high-stakes
-places — legal rights, medical instructions, deadlines. Usable as a drafting aid with qualified
-review; not usable as the output.
+**Route machine translation through qualified review before publishing.** Fast and cheap, it is
+also wrong in exactly the high-stakes places — legal rights, medical instructions, deadlines. It is
+usable as a drafting aid with qualified review; not usable as the output.
 
-**Bilingual staff used informally.** Pulled from their own work to interpret, unassessed for
-proficiency in the relevant terminology, and uncompensated for the skill.
+**Assess and compensate bilingual staff for the skill.** Used informally and pulled from their own
+work to interpret, they are unassessed for proficiency in the relevant terminology and
+uncompensated for the skill.
 
-**Interpretation available in theory.** A contract exists, staff do not know how to use it, and the
-line to obtain an interpreter takes longer than the appointment.
+**Make sure staff know how to obtain interpretation, and that the line is fast enough to use.** A
+contract that exists but that staff don't know how to use, with a wait longer than the
+appointment, is interpretation available only in theory.
 
-**Translated content that drifts.** English updated, translations not, so the two versions state
+**Keep translated content current with its English source.** Left to drift, the two versions state
 different requirements and the non-English one is wrong.
 
-**Threshold languages set once.** Population shifts, the list does not, and a growing community is
-served in a language it does not speak.
+**Revisit threshold languages as the population shifts.** A list set once and left alone means a
+growing community ends up served in a language it does not speak.

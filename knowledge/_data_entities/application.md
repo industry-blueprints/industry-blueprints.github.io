@@ -86,20 +86,20 @@ Draft → Submitted → Eligibility screen → { Ineligible | Eligible }
 funds run out, or a programmatic adjustment changes the list. That gap is exactly what has to be
 explainable, and a model that jumps from review to award has erased it.
 
-## Where it goes wrong
+## What to get right
 
-- **One status field.** Eligibility, completeness, review, and outcome collapsed, so nobody can
-  say why an application did not proceed.
-- **Applicant as free text.** Cannot link to prior awards, prior findings, or prior applications,
-  so a recipient's history is invisible at exactly the moment it is relevant.
-- **Budget as a single requested amount.** No cost-category structure, so budget review is a
-  human reading a PDF.
-- **Attachments unmapped to requirements.** Completeness cannot be checked automatically, so it
-  is checked by hand.
-- **Feedback not retained.** The organization cannot show what it told an unsuccessful applicant,
-  and cannot tell whether feedback improved later applications.
-- **Reviews stored outside the application.** Spreadsheets by email, so the link from score to
-  decision exists only in someone's inbox.
+- **Separate eligibility, completeness, review, and outcome into distinct fields**, so the
+  organization can always say why an application did or did not proceed.
+- **Link applicant to Party, not free text.** A linkable applicant surfaces prior awards, prior
+  findings, and prior applications at exactly the moment they are relevant.
+- **Structure budget by cost category**, not a single requested amount, so budget review does not
+  depend on a human reading a PDF.
+- **Map attachments to requirements**, so completeness can be checked automatically instead of by
+  hand.
+- **Retain feedback.** Keeping what an unsuccessful applicant was told lets the organization show
+  its reasoning and tell whether feedback improved later applications.
+- **Store reviews inside the application record.** Keeping the link from score to decision out of
+  spreadsheets and email keeps it visible to everyone who needs it, not just one inbox.
 
 ## AI relevance
 

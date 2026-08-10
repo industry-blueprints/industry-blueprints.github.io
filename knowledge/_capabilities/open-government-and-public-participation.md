@@ -89,30 +89,32 @@ almost never collected.
   thread. Also the level with the least capacity to run genuine engagement, and the most direct
   consequences when it is skipped.
 
-## Where it goes wrong
+## What to get right
 
-**Notice met, access not.** A packet published at the statutory minimum, three hundred pages, at
-five o'clock the night before.
+**Publish for genuine reading time, not just the statutory minimum.** A three-hundred-page packet
+posted at five o'clock the night before meets notice and defeats access in the same act.
 
-**Serial email as deliberation.** A quorum reaching agreement across a reply-all chain, which is a
-meeting in substance and frequently a violation in law.
+**Keep deliberation inside the noticed meeting.** A quorum reaching agreement across a reply-all
+chain is a meeting in substance and frequently a violation in law.
 
-**Executive session used as a default.** Grounds cited generically, with more discussed inside
-than the exemption covers.
+**Cite executive session grounds specifically, and hold to them.** Generic grounds invite
+discussion inside that the exemption does not cover.
 
-**Open data as a dumping ground.** Hundreds of stale datasets with no owners, published once and
-never refreshed, which is worse than publishing ten that are current — a
-[data governance](/capabilities/data-governance-and-stewardship/) failure wearing a transparency
+**Keep the open data inventory current and owned.** Hundreds of stale, unowned datasets published
+once and never refreshed are worse than ten that are current — a
+[data governance](/capabilities/data-governance-and-stewardship/) discipline wearing a transparency
 label.
 
-**Publishing without privacy review.** Re-identification from a dataset that looked anonymous, and
-a [privacy](/capabilities/privacy-management/) incident created by a transparency programme.
+**Run privacy review before publishing.** Skipping it risks re-identification from a dataset that
+looked anonymous, turning a transparency programme into a
+[privacy](/capabilities/privacy-management/) incident.
 
-**Consultation after the decision.** Preferred option already selected, comment period run,
-nothing changes. Detectable, and it is why participation rates fall.
+**Consult before the decision is made, while it can still change.** Running a comment period after
+the preferred option is already selected is detectable, and it is why participation rates fall.
 
-**Reaching only the organized.** Responses from associations and habitual attenders, none from the
-people most affected, and the result reported as community input.
+**Design outreach to reach beyond the already organized.** Responses from associations and
+habitual attenders alone leave out the people most affected, even when the result gets reported as
+community input.
 
-**Engagement designed around a weekday evening in a municipal building** — which selects for
-people with transport, childcare, and no second job.
+**Design engagement around when and where people can actually attend** — not just a weekday evening
+in a municipal building, which selects for people with transport, childcare, and no second job.

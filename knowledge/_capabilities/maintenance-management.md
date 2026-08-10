@@ -102,31 +102,33 @@ the capital budget shows.
   channels feed corrective work directly, which makes visible problems outrank consequential ones
   unless triage is deliberate.
 
-## Where it goes wrong
+## What to get right
 
-**Preventive intervals set uniformly.** Every asset on an annual cycle regardless of criticality or
-observed failure behaviour, which over-maintains the trivial and under-maintains the critical.
+**Set preventive intervals by criticality and observed failure behaviour, not a uniform cycle.** A
+single annual cycle for every asset over-maintains the trivial and under-maintains the critical.
 
-**Preventive deferred whenever reactive demand rises.** Individually rational each time, and it is
-the mechanism by which the spiral starts.
+**Protect the preventive schedule when reactive demand rises.** Deferring it is individually
+rational each time, and it is the mechanism by which the reactive spiral starts.
 
-**Triage by visibility.** The pothole photographed and posted jumps the valve that is about to
-fail, because one generates pressure and the other does not.
+**Triage by consequence, not visibility.** The pothole photographed and posted should not
+automatically jump the valve that is about to fail, because one generates pressure and the other
+does not.
 
-**Work orders without asset context.** The crew arrives without knowing the model, the history, or
-the parts required, and a second visit is needed.
+**Give work orders enough asset context to be actionable on the first visit.** Without the model,
+the history, and the parts required, the crew arrives unprepared and a second visit is needed.
 
-**Completion recorded as a status, not as history.** "Closed" with no findings, no parts, no
-labour, so the asset accumulates no usable record and failure analysis is impossible.
+**Record completion as history, not just a status.** "Closed" with findings, parts, and labour
+attached gives the asset a usable record and makes failure analysis possible.
 
-**Backlog absorbed rather than reported.** Held in the system, never aged or valued, so it is
-invisible in the budget conversation where it would matter.
+**Report and age the backlog rather than absorbing it.** Valued and visible, it becomes part of the
+budget conversation where it matters; held only in the system, it stays invisible there.
 
-**Parts and maintenance planned separately.** Work scheduled, parts unavailable, crew stood down —
-the coordination failure between this capability and
-[supply and inventory](/capabilities/supply-and-inventory-management/).
+**Coordinate parts availability with maintenance scheduling.** Planned separately, work gets
+scheduled with parts unavailable and the crew stood down — the coordination point between this
+capability and [supply and inventory](/capabilities/supply-and-inventory-management/).
 
-**No failure analysis.** The same pump fails four times and is repaired four times.
+**Analyse recurring failures, not just repair them.** The same pump failing four times calls for
+root-cause analysis, not a fifth repair.
 
 ## Governance
 
@@ -145,9 +147,9 @@ Run-to-failure is part of the pattern and the part most often omitted. Organizat
 preventive maintenance implicitly, under pressure, at seven in the morning; doing it explicitly
 produces the same rationing with a basis that can be explained afterwards.
 
-## AI opportunities
+## AI integrations
 
-[Failure prediction from work history](/ai-opportunities/failure-prediction-from-work-history/) at
+[Failure prediction from work history](/ai-integrations/failure-prediction-from-work-history/) at
 `minimum_level: 4`, and the prerequisite is the record rather than the model. An organization whose
 completion is a status flag cannot do this, and no amount of modelling effort substitutes.
 

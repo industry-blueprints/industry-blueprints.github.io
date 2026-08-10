@@ -102,26 +102,26 @@ The same constraint governs any work performed away from a desk:
 | [Law enforcement field operations](/capabilities/law-enforcement-field-operations/) | Rural coverage gaps, buildings, incidents |
 | [Referral and coordination](/capabilities/referral-and-cross-agency-coordination/) | Home visits, shelters, encampments |
 
-## How it goes wrong
+## What to get right
 
-**"Offline mode" bolted on.** A web application with a cache is not offline-first; it fails in
-novel ways at the boundary and crews learn not to trust it, which is harder to reverse than never
-having deployed it.
+**Design offline-first from the start, rather than bolting it on.** A web application with a
+cache is not offline-first; it fails in novel ways at the boundary and crews learn not to trust
+it, which is harder to reverse than never having deployed it.
 
-**Sync failures that are silent.** Data queued, never landed, and nobody notices until a record is
-needed. Sync state must be visible to the crew and monitored centrally.
+**Make sync state visible.** Data queued and never landed should be obvious to the crew and
+monitored centrally, not discovered silently when a record is needed.
 
-**Pre-loading everything.** Downloading the entire asset register to every device is slow, fragile,
-and usually unnecessary. Scope the download to the assignment and its geography.
+**Scope the download to the assignment and its geography.** Pre-loading the entire asset register
+to every device is slow and fragile; scoping it keeps the device fast and the sync reliable.
 
-**Photographs without compression policy.** A day of high-resolution images over a marginal
-connection fails, and the crew disables photo capture.
+**Set a compression policy for photographs.** A day of high-resolution images over a marginal
+connection fails without one, and a failure here is what gets photo capture disabled.
 
-**A device per department.** The offline design is correct and the crew still carries three,
-because water, streets, and facilities each procured their own — which is an
-[application portfolio](/capabilities/application-and-integration-management/) problem the pattern
-cannot solve on its own.
+**Give one device per worker, not one per department.** When water, streets, and facilities each
+procure their own, the crew carries three devices even though the offline design is correct —
+solving it is an [application portfolio](/capabilities/application-and-integration-management/)
+decision the pattern alone cannot make.
 
-**Capture burden ignored.** Offline is necessary and not sufficient. If completing the form takes
-fifteen minutes, it will be completed at the depot from memory whether or not the device worked on
-site.
+**Design for capture burden, not just offline access.** Offline is necessary and not sufficient.
+A form that takes fifteen minutes to complete gets filled in at the depot from memory whether or
+not the device worked on site — so keep the form fast.

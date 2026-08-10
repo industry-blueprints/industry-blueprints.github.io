@@ -76,7 +76,7 @@ council, so the case is never made in terms of the service the public receives.
 Condition assessment from imagery is the strongest case in the domain — it converts a periodic,
 expensive, sampled survey into a continuous one, which is what makes
 [risk-based renewal](/patterns/criticality-based-maintenance-strategy/) possible at all. See
-[condition assessment from imagery](/ai-opportunities/condition-assessment-from-imagery/).
+[condition assessment from imagery](/ai-integrations/condition-assessment-from-imagery/).
 
 What does not help: a failure prediction model over an asset register nobody trusts. The
 prerequisite is the register, not the model.

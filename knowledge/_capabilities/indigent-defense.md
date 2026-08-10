@@ -95,32 +95,32 @@ no amount of process improvement inside the defender office changes the constrai
 - **Tribal.** Right to appointed counsel applies in tribal court for certain sentences under
   federal law, and capacity to provide it is limited.
 
-## Where it goes wrong
+## What to get right
 
-**Appointment after the first appearance.** The bail decision, the initial plea offer, and the first
-detention period all occur before the person has a lawyer — and those are the decisions that shape
-the case.
+**Appoint counsel before the first appearance.** The bail decision, the initial plea offer, and the
+first detention period all shape the case, so counsel needs to be in place before they happen, not
+after.
 
-**Caseloads far above any standard, with no ability to decline.** Standards exist and are widely
-exceeded; without a mechanism to refuse further appointments, the standard is advisory and the
-overload is absorbed by clients.
+**Give caseloads a real ceiling, with a mechanism to decline.** Holding caseloads to published
+standards, backed by an actual ability to refuse further appointments, is what keeps the standard
+more than advisory.
 
-**Flat-fee contracts.** A fixed payment per case regardless of effort, which pays the attorney more
-for pleading quickly than for litigating — a structural conflict, not a question of professional
+**Pay for effort, not for speed.** A fee structure that doesn't reward pleading quickly over
+litigating removes a structural conflict that has nothing to do with any individual attorney's
 integrity.
 
-**No investigator, no expert.** Requests requiring judicial approval, disclosed to the court and
-sometimes the prosecution, and frequently denied — so the defense proceeds without the evidence it
-needed.
+**Get investigator and expert requests approved and funded.** Approving these requests promptly, not
+routinely denying them, gives the defense the evidence it needs.
 
-**Client contact at the courthouse.** First meeting minutes before a hearing, in a corridor, with a
-plea offer to advise on.
+**Make first client contact well before the courthouse.** Meeting the client ahead of the hearing,
+not minutes before it in a corridor, gives real time to advise on a plea offer.
 
-**Independence compromised by the appointing authority.** Where the judge who appoints counsel also
-controls the funding and the case calendar, zealous advocacy carries a cost.
+**Keep appointment and funding decisions independent of the case calendar.** Structuring
+independence from the judge who appoints counsel and controls funding is what lets zealous advocacy
+happen without a cost attached.
 
-**Continuity broken.** A different attorney at each appearance, so nobody holds the case and the
-client explains their situation repeatedly.
+**Keep one attorney on a case throughout.** Continuity means somebody holds the whole case, and the
+client isn't explaining their situation repeatedly to someone new each time.
 
-**Measured by dispositions.** Cases closed counted as productivity, which rewards exactly the
-behaviour the caseload problem already produces.
+**Measure outcomes, not just dispositions.** Measuring dismissals, acquittals, and sentences
+relative to offer, rather than cases closed, rewards the behavior that actually serves the client.

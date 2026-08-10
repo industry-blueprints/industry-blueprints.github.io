@@ -30,8 +30,8 @@ relationships:
   - predicate: has_participant
     target: /personas/supplier.md
     note: The market being researched — and constrained in how it can be engaged
-  - predicate: has_opportunity
-    target: /ai-opportunities/specification-competition-review.md
+  - predicate: has_integration
+    target: /ai-integrations/specification-competition-review.md
 ---
 
 ## Trigger and outcome
@@ -144,7 +144,7 @@ entirely because they have confused the two.
 
 **A requirement review gate** before publication: could a supplier we have never met respond to
 this? See
-[specification competition review](/ai-opportunities/specification-competition-review/) for
+[specification competition review](/ai-integrations/specification-competition-review/) for
 assisted detection of restrictive language, which is a good fit precisely because it flags for a
 human rather than deciding.
 

@@ -55,19 +55,20 @@ without requiring those people to understand how it is organized internally.
 - The organization can see, in aggregate, what people are asking for and how well it is responding.
 - Requests, decisions, and communications are retained as records.
 
-## What it is not
+## Where this capability ends
 
-Scoping matters here, because "constituent service" is a phrase that expands to fill any
-container:
+Being precise about scope matters here, because "constituent service" is a phrase that
+expands to fill any container:
 
-- **Not emergency dispatch.** 911 and NG911 share vocabulary with this capability and almost
-  nothing else — different standards, different latency and availability requirements,
-  different risk profile. Deliberately out of scope.
-- **Not eligibility determination.** Answering "what is the status of my benefit" is
-  constituent service. *Deciding* whether someone qualifies is a separate capability with
-  its own due-process obligations.
-- **Not marketing or public affairs.** Outbound communication to the general public is a
-  neighbouring capability; this one is about individual, tracked interactions.
+- **Emergency dispatch is a separate capability.** 911 and NG911 share vocabulary with this
+  one and almost nothing else — different standards, different latency and availability
+  requirements, different risk profile.
+- **Eligibility determination is a separate capability.** Answering "what is the status of my
+  benefit" is constituent service. *Deciding* whether someone qualifies belongs to
+  [eligibility determination](/capabilities/eligibility-determination/), with its own
+  due-process obligations.
+- **Marketing and public affairs is a neighbouring capability.** Outbound communication to the
+  general public belongs there; this one is about individual, tracked interactions.
 
 ## Common pain points
 

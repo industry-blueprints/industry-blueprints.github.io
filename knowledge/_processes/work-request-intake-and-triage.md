@@ -29,8 +29,8 @@ relationships:
     note: The contact centre is a major intake channel and rarely designed as one
   - predicate: measured_by
     target: /kpis/work-backlog-age.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/work-request-triage-and-duplicate-detection.md
+  - predicate: has_integration
+    target: /ai-integrations/work-request-triage-and-duplicate-detection.md
 ---
 
 ## Trigger and outcome

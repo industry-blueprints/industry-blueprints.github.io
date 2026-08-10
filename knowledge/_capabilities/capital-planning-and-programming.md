@@ -91,28 +91,29 @@ what the budget says.
   and debt. **Smallest jurisdictions frequently have no capital plan at all**, replacing assets on
   failure, which is the most expensive possible strategy.
 
-## Where it goes wrong
+## What to get right
 
-**No condition data behind the plan.** The programme is assembled from departmental requests and
-political priorities because nobody maintains the condition assessment that would rank them — the
+**Ground the programme in condition data.** Assembling it from departmental requests and political
+priorities instead means nobody is maintaining the condition assessment that would rank them — the
 dependency on [asset management](/capabilities/asset-management/) that makes this capability
 possible.
 
-**Deferred maintenance unquantified.** Known to be large, never expressed as a number with a risk
-attached, so it never competes for funding against a new facility.
+**Quantify deferred maintenance with a risk attached.** Known to be large but never expressed as a
+number, it never competes for funding against a new facility.
 
-**New construction with no operating budget.** A facility approved on capital cost alone, opening
-with no funded staffing or maintenance line, which creates the next backlog on day one.
+**Fund the operating budget alongside new construction.** A facility approved on capital cost alone
+opens with no funded staffing or maintenance line, creating the next backlog on day one.
 
-**Grant-driven programming.** Building what is fundable rather than what is needed, which is
+**Programme against need, not just what is fundable.** Building only what grants will pay for is
 rational under the constraint and produces an estate that does not match the service.
 
-**Estimates from a decade of escalation ago.** Programmed at an old cost, bid at current cost, and
-the difference absorbed by cutting scope on something else.
+**Keep cost estimates current.** Programmed at an old cost and bid at current cost, the difference
+gets absorbed by cutting scope on something else.
 
-**Projects inserted outside the process.** Priorities re-sequenced by advocacy, which is legitimate
-politically and corrosive if the scoring is then presented as objective.
+**Keep the prioritization scoring honest when projects are inserted outside the process.**
+Re-sequencing priorities by advocacy is legitimate politically and corrosive if the scoring is then
+presented as objective.
 
-**Capacity ignored.** A funded programme larger than the organization can design, procure, and
-inspect, so everything slips together — the same constraint as portfolio
+**Size the programme to delivery capacity.** A funded programme larger than the organization can
+design, procure, and inspect lets everything slip together — the same constraint as portfolio
 [capacity](/capabilities/enterprise-portfolio-and-investment-governance/) in the technology estate.

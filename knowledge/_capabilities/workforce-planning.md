@@ -75,20 +75,22 @@ separation reasons · recruitment lead time by role
 - **County / municipal.** Rarely a formal capability. The plan is the budget's position roster,
   and succession planning means hoping the incumbent gives notice.
 
-## Where it goes wrong
+## What to get right
 
-**Planning that is really budgeting.** Headcount by fund, with no view of skills, and no
-statement of what capability is being lost.
+**Plan for skills and capability, not just headcount.** Tracking what capability is at stake,
+rather than headcount by fund alone, is what makes the plan more than budgeting.
 
-**Retirement risk visible and unactioned.** Everyone knows three key people can retire within two
-years. Nothing is different because of it.
+**Act on retirement risk once it's visible.** Knowing three key people can retire within two years
+only helps if something changes because of it — succession planning is the follow-through.
 
-**Vacancy savings distorting the picture.** Positions held vacant for budget balance still count
-as capacity in every plan, so the gap between establishment and reality is invisible until
-service degrades.
+**Reconcile vacancy savings against real capacity.** Positions held vacant for budget balance
+still count as capacity in every plan unless that gap is tracked deliberately, so surfacing it
+early is what keeps service from degrading unnoticed.
 
-**Attrition treated as a rate rather than a set of causes.** Twelve percent tells you nothing.
-Twelve percent concentrated in a single unit, at eighteen months of tenure, tells you where to look.
+**Break attrition down by cause, not just rate.** Twelve percent concentrated in a single unit, at
+eighteen months of tenure, tells you where to look — segmenting the rate is what makes it
+actionable.
 
-**Knowledge transfer as an offboarding checklist item.** Two weeks of handover against fifteen
-years of undocumented judgement, which is the single most under-recognized risk in the domain.
+**Give knowledge transfer real time, not an offboarding checklist line.** Fifteen years of
+undocumented judgement needs more than two weeks of handover — planning for that transfer is the
+single most under-recognized opportunity in the domain.

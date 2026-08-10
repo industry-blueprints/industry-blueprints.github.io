@@ -105,34 +105,37 @@ because of a records failure between two agencies.
 - **Tribal.** Access to national systems where arrangements exist, with historic gaps that leave
   tribal records absent from checks and national records absent from tribal decisions.
 
-## Where it goes wrong
+## What to get right
 
-**Dispositions never reported.** The court decides, the repository is not updated, and the arrest
-stands alone on the record permanently. The most consequential data quality failure in government,
-measured by effect on individuals.
+**Get dispositions reported completely and promptly.** Updating the repository when the court
+decides is what keeps an arrest from standing alone on the record permanently — otherwise this is
+the most consequential data quality failure in government, measured by effect on individuals.
 
-**Identity unresolved across the chain.** Name-based matching across five systems, so the same
-person is several records and one person's record contains another's history — the
+**Resolve identity across the chain, not by name alone.** Matching biometrically across systems,
+rather than by name across five separate systems, keeps one person's record from splitting into
+several or absorbing another's history — the
 [identity resolution](/data-models/core-public-sector-model/) problem with liberty consequences.
 
-**Integration attempted as a purchase.** A shared system procured without the governance agreement
-about who owns what, who may see what, and who is accountable for accuracy. The agreement is the
-hard part and the system does not substitute for it.
+**Negotiate the governance agreement before procuring a system.** Settling who owns what, who may
+see what, and who is accountable for accuracy is the hard part; the system does not substitute for
+it.
 
-**Point-to-point interfaces between every pair of agencies.** Built individually, unmaintained, and
-failing silently — the pattern described in
-[application and integration management](/capabilities/application-and-integration-management/),
+**Build shared, maintained interfaces instead of point-to-point ones.** A maintained shared
+integration, rather than interfaces built individually between every pair of agencies, avoids the
+failing-silently pattern described in
+[application and integration management](/capabilities/application-and-integration-management/) —
 here with warrants and release orders flowing through it.
 
-**Sealing that does not propagate.** An expungement order executed against the state repository and
-not against the court system, the jail system, the local records system, or the commercial
-aggregators that already copied it. The relief is granted and the record persists.
+**Propagate sealing and expungement everywhere a record lives.** Executing the order against the
+court system, the jail system, the local records system, and the commercial aggregators that
+copied it, not just the state repository, is what makes the relief real.
 
-**Access controlled by policy, not by system.** Authorization documented, queries unaudited, and
-misuse found only when someone complains.
+**Control and audit access at the system level.** Logging and auditing every query, not just
+documenting authorization on paper, is what catches misuse before someone has to complain.
 
-**Warrant and protective order status stale.** An officer querying at the roadside gets an answer
-that is hours or days old, which is both a safety failure and a wrongful-arrest exposure.
+**Keep warrant and protective order status current in real time.** A roadside query answered from
+current status, not one hours or days old, protects both officer safety and against a wrongful
+arrest.
 
-**Correction with no route.** An individual who finds an error has no accessible way to challenge
-it, and the burden of proof falls on them.
+**Give individuals an accessible route to correct their record.** A clear challenge process, rather
+than leaving the burden of proof on the individual who finds the error, makes correction achievable.

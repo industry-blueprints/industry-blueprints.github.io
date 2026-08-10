@@ -99,17 +99,19 @@ and the **gap queue**.
 - **Governance cost is ongoing.** The corpus decays continuously and the pattern makes that
   decay operationally visible, which is a benefit that arrives as a workload.
 
-## Anti-patterns
+## What to get right
 
-- **Ground it in everything.** Pointing retrieval at a shared drive. Retrieves superseded
-  drafts, personal notes, and a 2019 policy that was replaced twice.
-- **Silent fallback.** Answering from model knowledge when retrieval finds nothing. Converts
-  a visible gap into an invisible error, and destroys the gap signal.
-- **Citations as decoration.** Links displayed but not bound to specific claims, so nobody
-  can verify anything and everybody assumes someone did.
-- **Skipping the human tier for anything "usually fine."** Consequence tiering is by worst
-  case, not typical case.
-- **Deploying at level 2** and treating the resulting inconsistency as a model problem.
+- **Curate the corpus, don't point retrieval at everything.** Grounding in a shared drive
+  retrieves superseded drafts, personal notes, and a 2019 policy that was replaced twice — scope
+  it to what is actually current.
+- **Answer from the corpus, or say so.** Falling back to model knowledge when retrieval finds
+  nothing turns a visible gap into an invisible error; surfacing the gap keeps the signal intact.
+- **Bind citations to specific claims.** Links displayed but not tied to a claim let nobody verify
+  anything while everybody assumes someone did — bind them so verification is possible.
+- **Keep the human tier for worst case, not typical case.** Consequence tiering should be set by
+  what could go wrong, not by what usually happens.
+- **Reach level 3 before deploying.** Inconsistency at level 2 is a maturity gap, not a model
+  problem — close the gap first.
 
 ## Variations
 

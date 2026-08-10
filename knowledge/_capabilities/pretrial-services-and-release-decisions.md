@@ -102,33 +102,35 @@ poverty, and most jurisdictions can compute it and do not.
 - **Tribal.** Pretrial practice under tribal law, with detention capacity frequently contracted to
   county facilities at a distance.
 
-## Where it goes wrong
+## What to get right
 
-**Release determined by money.** A financial condition set by schedule rather than by assessment,
-so two people with the same risk profile receive different outcomes based on resources — and the
-one detained is more likely to plead guilty.
+**Base release on assessed risk, not ability to pay.** A financial condition set by schedule rather
+than by assessment gives two people with the same risk profile different outcomes based on
+resources — and the one detained is more likely to plead guilty.
 
-**Assessment after the decision.** The first appearance occurs before verification is complete, so
-the decision is made on the arrest report alone.
+**Complete verification before the first appearance, not after.** Deciding on the arrest report
+alone happens when verification lags the hearing; finishing it first gives the court a real basis.
 
-**Instruments adopted without local validation.** A risk tool developed elsewhere applied to a
-different population, unvalidated, and unexamined for disparate impact — while producing a number
-that carries the authority of measurement. Any instrument informing a liberty decision needs the
-scrutiny set out in
+**Validate risk instruments locally and test for disparate impact.** A risk tool developed
+elsewhere and applied to a different population, unvalidated and unexamined for disparate impact,
+produces a number that carries the authority of measurement without earning it. Any instrument
+informing a liberty decision needs the scrutiny set out in
 [AI disclosure and human review](/governance/ai-disclosure-and-human-review/), whether or not it
 uses machine learning.
 
-**Conditions nobody could comply with.** Weekly in-person check-ins for someone with no car and a
-shift job; electronic monitoring with a daily fee charged to the defendant.
+**Set conditions the person can actually comply with.** Weekly in-person check-ins for someone with
+no car and a shift job, or a daily electronic-monitoring fee charged to the defendant, sets people
+up to fail conditions they might otherwise meet.
 
-**No court date reminders.** The cheapest and best-evidenced intervention available for improving
-appearance rates, and frequently absent — see
+**Send court date reminders.** The cheapest and best-evidenced intervention available for improving
+appearance rates, and worth making standard practice — see
 [court administration](/capabilities/court-administration-and-adjudication/).
 
-**Non-appearance treated as flight.** An automatic warrant for a missed date that was missed for
-transport or childcare, converting a scheduling problem into an arrest.
+**Treat non-appearance as a scheduling problem first.** An automatic warrant for a missed date that
+was missed for transport or childcare turns a scheduling problem into an arrest; checking the
+reason first keeps the response proportionate.
 
-**Detention time unmonitored.** Nobody holding the number for how long people are held pretrial, so
-the cost — to the person and to the county jail budget — is invisible.
+**Monitor time in pretrial custody.** Tracking the number keeps the cost — to the person and to the
+county jail budget — visible instead of hidden.
 
-**Findings not recorded.** Detention ordered without recorded reasons, which forecloses review.
+**Record findings for every detention decision.** Recorded reasons are what make review possible.

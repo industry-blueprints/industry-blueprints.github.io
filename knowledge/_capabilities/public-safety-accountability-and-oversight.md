@@ -112,38 +112,40 @@ community rather than counting cases.
   agreements frequently constraining what is possible.
 - **Tribal.** Tribal accountability structures with limited access to state decertification systems.
 
-## Where it goes wrong
+## What to get right
 
-**Complaint intake that deters complaints.** Requiring attendance at a police station, a sworn
-statement, or identification — and warning about penalties for false complaints at the point of
-intake.
+**Make complaint intake easy to use.** Requiring attendance at a police station, a sworn statement,
+or identification, and warning about penalties for false complaints at the point of intake, all
+deter complaints that a lower-friction intake would capture.
 
-**Investigation by colleagues, reviewed by the chain.** Whatever its actual quality, structurally
-unable to produce confidence in a complainant — the same independence problem as
+**Give investigation independence from the chain.** Investigation by colleagues, whatever its
+actual quality, is structurally unable to produce confidence in a complainant — the same
+independence need as
 [protests decided by the awarding official](/capabilities/protest-and-dispute-resolution/) and
 [appeals heard by the deciding unit](/capabilities/appeals-and-grievance-handling/).
 
-**Findings without consistency.** Similar allegations resolved differently across units or over
-time, which is the argument that wins the arbitration and the pattern the community notices first.
+**Resolve similar allegations consistently across units and over time.** Consistency is what
+survives arbitration and what the community notices first.
 
-**Discipline overturned at arbitration.** Imposed without the documentation or the procedural
-compliance to survive review, so the outcome is reinstatement and the accountability is nominal.
-The remedy is contemporaneous documentation and due process, not weaker protections — see
-[labor and employee relations](/capabilities/labor-and-employee-relations/).
+**Document contemporaneously so discipline survives arbitration.** Imposed without the documentation
+or the procedural compliance to survive review, the outcome is reinstatement and accountability
+stays nominal. The remedy is contemporaneous documentation and due process, not weaker
+protections — see [labor and employee relations](/capabilities/labor-and-employee-relations/).
 
-**Early intervention as a discipline trigger.** Systems designed to identify officers needing
-support that are experienced as punitive, so supervisors avoid using them and thresholds are set
-high enough never to fire.
+**Frame early intervention as support, not discipline.** Systems experienced as punitive get avoided
+by supervisors, who then set thresholds high enough never to fire; framed as support, they get
+used as intended.
 
-**Use of force reviewed individually and never in aggregate.** Each incident found within policy,
-and no analysis of whether the policy or the pattern is the problem.
+**Analyse use of force in aggregate, not just incident by incident.** Each incident found within
+policy on its own misses whether the policy or the pattern is the actual problem.
 
-**Data published only under pressure.** Released in response to a request or a controversy, in a
-form that is hard to use, which reads as concealment whether or not it is.
+**Publish data proactively, not only under pressure.** Released in response to a request or a
+controversy, and in a hard-to-use form, it reads as concealment whether or not it is; publishing on
+a schedule avoids that.
 
-**Decertification not pursued.** An officer resigns during an investigation, no finding is entered,
-no report is made to the state board, and they are hired elsewhere.
+**Pursue decertification even when an officer resigns mid-investigation.** Without a finding
+entered and reported to the state board, they can be hired elsewhere.
 
-**Oversight bodies without access or resource.** A civilian board with no subpoena power, no staff,
-and no access to the investigative file, which produces the appearance of oversight and consumes
-the demand for the real thing.
+**Give oversight bodies real access and resource.** A civilian board with no subpoena power, no
+staff, and no access to the investigative file produces the appearance of oversight while
+consuming the demand for the real thing.

@@ -71,20 +71,21 @@ historical actuals · capital project pipeline · grant funding schedules with e
 - **County / municipal.** Annual, adopted in public session, heavily constrained by state law on
   what may be taxed and at what rate. Frequently prepared by two or three people.
 
-## Where it goes wrong
+## Getting this right
 
-**Incrementalism disguised as analysis.** Last year's base is rarely re-examined, so the entire
-argument happens over the marginal few percent while the bulk of spending goes unquestioned.
+**Re-examine the base, not just the increment.** Skipping that re-examination confines the whole
+argument to the marginal few percent while the bulk of spending goes unquestioned.
 
-**Requests as narrative, decisions as numbers.** Departments describe need in prose. The budget
-office needs comparability and does not get it, so cuts land where they are easiest to defend
-rather than where they cost least.
+**Give the budget office numbers it can compare, not just narrative.** Departments describing need
+in prose leave cuts landing where they are easiest to defend rather than where they cost least.
 
-**No outcome information.** Cost per unit is known; whether the program works is not. See the
+**Pair cost with outcome information.** Cost per unit is easy to know; whether the program works
+takes more effort to establish and is often skipped. See the
 [measurement framework](/meta/measurement-framework/).
 
-**The spreadsheet is the real system.** The financial system models the adopted budget; the
-negotiation happens elsewhere, and the reconciliation between them is manual and fragile.
+**Keep the financial system as the real system, not a shadow spreadsheet.** When the financial
+system only models the adopted budget while the actual negotiation happens elsewhere, the
+reconciliation between them is manual and fragile.
 
-**Grant cliffs unmodelled.** Externally funded positions with an end date the budget does not
-represent, which arrives later as an unavoidable base increase.
+**Model grant cliffs before they arrive.** Externally funded positions with an end date the budget
+does not represent turn into an unavoidable base increase later.

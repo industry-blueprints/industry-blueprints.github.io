@@ -1,23 +1,41 @@
 # Industry Blueprints
 
-A vendor-neutral blueprint toolkit for public-sector transformation — work out where an
-organization is today, where it could go, and what it takes to get there. Federal, state,
-county, and municipal.
+An open, vendor-neutral body of knowledge answering one question: **how should important
+business systems actually work?**
 
-Built to be used in a working session, not read like a blog.
+Capabilities, processes, personas, domain models, architecture, governance, and AI — described
+precisely enough to build from, and paired with running reference software. Public sector is
+the content domain and the proving ground; the method is not specific to it.
 
 ## Design documents
 
 - [.design/vision.md](.design/vision.md) — what this is and why (product)
 - [.design/content-architecture.md](.design/content-architecture.md) — how it is built (implementation contract)
+- [.design/new-vision.md](.design/new-vision.md) — the wider professional-platform strategy this site sits inside. Source material, not a spec for this repo.
+
+## The companion repository
+
+The executable half of the project lives in a sibling repo, **Industry Modules Platform** — a
+composable application platform whose `core/` → `modules/` → `solutions/` layering is the
+implementation of the model described here. Several solutions run today, including constituent
+services, permitting, inspector general, and asset management.
+
+Neither repo depends on the other. The site stays readable without the platform, the platform
+stays runnable without the site, and the pairing is the value.
 
 ## Status
 
-**Phase 0 complete.** The scaffolding is in place and one capability — constituent service
-and case management — is threaded end to end to prove the model. Most artifacts are marked
-`draft` and `unverified`, which is accurate rather than modest.
+**Reframing in progress.** The vision was rewritten on 2026-08-10 around *blueprints* developed
+through four layers — business, information & architecture, executable reference implementation,
+and platform mappings. Site chrome, navigation, and the `layer` → `layer` rename are done.
 
-Next is Phase 1: content depth. See vision.md §14.2 for the inventory and §15 for the phasing.
+**Not yet done:** the `Blueprint` and `Domain Module` artifact types, the `covers` and
+`composed_of` predicates, and the first blueprint (Constituent Services). See vision.md §8 for
+the change list and §10 for the blueprint roadmap.
+
+The knowledge base itself is substantial and unaffected by the reframing: 113 capabilities
+across 9 domains, with processes, personas, measures, controls, and AI integrations. Most
+artifacts are marked `draft` and `unverified`, which is accurate rather than modest.
 
 ## How the content model works
 
@@ -34,9 +52,10 @@ Three things are computed rather than hand-written:
   badge; they add a `verified` entry, which is the auditable act.
 - **Inverse relationships.** Edges are authored once, in either direction, and both ends are
   generated (`_plugins/relationships.rb`). Declaring the same edge twice is a build error.
-- **The maturity spine.** `from_level` / `to_level` on playbooks and `minimum_level` on
-  patterns and AI opportunities render as a level scale, so guidance can be filtered to what
-  an organization can actually reach.
+- **The maturity lens.** `from_level` / `to_level` on playbooks and `minimum_level` on
+  patterns and AI integrations render as a level scale, so guidance can be filtered to what
+  an organization can actually reach. Demoted from organizing spine to optional lens
+  (vision.md §11); the fields stay because they cost nothing and the written rubric uses them.
 
 ## Local development
 

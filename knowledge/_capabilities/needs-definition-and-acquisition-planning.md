@@ -85,29 +85,30 @@ under-invested.
   written by the requesting department alone, from a vendor's material, because that is the only
   document available describing what the thing does.
 
-## Where it goes wrong
+## What to get right
 
-**The incumbent's documentation as the specification.** Copied because it exists and is precise.
-Competition is foreclosed at that moment and the procedural stages that follow cannot recover it —
-the failure that [specification competition
-review](/ai-opportunities/specification-competition-review/) exists to catch.
+**Write the specification from outcomes, not an incumbent's documentation.** Copying it because it
+exists and is precise forecloses competition at that moment, and no procedural stage that follows
+can recover it — the failure that [specification competition
+review](/ai-integrations/specification-competition-review/) exists to catch.
 
-**Requirements as a feature list.** Two hundred mandatory features, most of which describe how one
-product works, and the evaluation becomes a compatibility test.
+**Express requirements as outcomes, not a feature list.** Two hundred mandatory features, most of
+which describe how one product works, turn the evaluation into a compatibility test.
 
-**No market research.** The strategy is chosen from an assumption about the market, and the
-assumption is often a decade old.
+**Ground the strategy in current market research.** Choosing it from an old assumption about the
+market — often a decade stale — is what research is there to correct.
 
-**Purchase price as the estimate.** Implementation, integration, training, data migration, and
-five years of support excluded, so the budget is wrong before the solicitation is issued.
+**Estimate total cost of ownership, not just purchase price.** Including implementation,
+integration, training, data migration, and five years of support gets the budget right before the
+solicitation is issued.
 
-**Planning time consumed by an expiring contract.** The current agreement ends in eight weeks, so
-the strategy is "recompete as before" by default — the failure
+**Start planning before the current contract nears expiry.** Eight weeks out, "recompete as before"
+becomes the default strategy — the situation
 [renewal lead time](/kpis/renewal-lead-time/) is designed to make visible in advance.
 
-**Bundling that excludes smaller suppliers.** One large lot is easier to administer and reduces
-the field to those who can bid the whole thing.
+**Structure lots to keep smaller suppliers in the field.** One large lot is easier to administer
+but reduces the field to those who can bid the whole thing.
 
-**Funding unconfirmed.** A competition run, suppliers' bid costs incurred, and the award cancelled
-for lack of budget. Suppliers remember, and the next competition attracts fewer of them — see the
-[supplier](/personas/supplier/) view.
+**Confirm funding before running the competition.** Suppliers incur bid costs on the expectation of
+an award; cancelling for lack of budget is remembered, and the next competition attracts fewer of
+them — see the [supplier](/personas/supplier/) view.

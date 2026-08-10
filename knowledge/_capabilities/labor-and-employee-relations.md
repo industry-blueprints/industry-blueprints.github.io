@@ -91,27 +91,29 @@ than a dispute to keep winning.
   jurisdictions negotiations occur in public session, which changes the dynamics of every
   concession.
 
-## Where it goes wrong
+## What to get right
 
-**Change announced before the bargaining obligation is checked.** The initiative stops, the
-organization is exposed to an unfair labor practice charge, and the union's position hardens on
-the merits as well as the process.
+**Check the bargaining obligation before announcing a change.** Skipping the check stops the
+initiative anyway, exposes the organization to an unfair labor practice charge, and hardens the
+union's position on the merits as well as the process.
 
-**Settlements costed on year one.** Compounding, step progression, and the pension effect excluded,
-so the actual multi-year cost is discovered in the second budget after ratification.
+**Cost settlements over the full contract term.** Compounding, step progression, and the pension
+effect need to be in the year-one number, or the actual multi-year cost is discovered in the
+second budget after ratification.
 
-**Terms agreed and not implemented.** A new differential negotiated and never configured in
-[payroll](/capabilities/payroll/), producing retroactive corrections and a grievance about the
-correction.
+**Implement agreed terms in the systems that apply them.** A new differential negotiated and never
+configured in [payroll](/capabilities/payroll/) produces retroactive corrections and a grievance
+about the correction.
 
-**Grievances escalating by default.** No genuine attempt at step one, so volume accumulates at
-arbitration where it is slowest and most expensive for both sides.
+**Resolve grievances genuinely at the first step.** Treating step one as a formality lets volume
+accumulate at arbitration, where it is slowest and most expensive for both sides.
 
-**Past practice created inadvertently.** An informal accommodation extended for years becomes an
-enforceable term nobody agreed to.
+**Watch for past practice forming inadvertently.** An informal accommodation extended for years can
+become an enforceable term nobody agreed to.
 
-**Discipline inconsistent across units.** The same conduct treated differently in two departments,
-which is the argument that wins the arbitration.
+**Apply discipline consistently across units.** The same conduct treated differently in two
+departments is the argument that wins the arbitration.
 
-**The relationship engaged only in negotiation.** No standing labor-management forum, so every
-contact is adversarial and every operational change becomes a negotiation.
+**Keep the relationship engaged outside of negotiation.** A standing labor-management forum keeps
+contact from being purely adversarial and keeps ordinary operational change from becoming a
+negotiation.

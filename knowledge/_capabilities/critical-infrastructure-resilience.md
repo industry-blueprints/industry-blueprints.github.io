@@ -97,33 +97,34 @@ happen in a regional event.
   of this and has no authority over most of it, which makes standing relationships with operators
   the actual capability.
 
-## Where it goes wrong
+## Getting this right
 
-**Dependency mapping stopping at the first order.** The hospital has backup power; the fuel
-supplier that refills the tank does not, and neither does the road that reaches it.
+**Map dependencies past the first order.** The hospital has backup power; the fuel supplier that
+refills the tank may not, and neither may the road that reaches it — worth tracing further.
 
-**Operator relationships held by one person.** The utility liaison who knows who to call retires,
-and the relationship goes with them — the failure noted in
+**Hold operator relationships institutionally, not through one person.** A utility liaison who
+knows who to call and then retires takes the relationship along — the failure noted in
 [intergovernmental relations](/capabilities/intergovernmental-relations/), applied to private
 operators.
 
-**Restoration priorities negotiated during the outage.** Every entity claiming priority
-simultaneously, with no prior agreement about sequence.
+**Agree restoration priorities before the outage.** Negotiated during the event, every entity
+claims priority simultaneously, with no prior agreement about sequence.
 
-**Generators started, never load-tested.** A monthly start proves the engine runs and nothing about
-whether it carries the building.
+**Load-test generators, not just start them.** A monthly start proves the engine runs and nothing
+about whether it carries the building.
 
-**Fuel duration assumed rather than calculated.** Seventy-two hours of fuel and a resupply contract
-that competes with every other customer in a regional event.
+**Calculate fuel duration rather than assume it.** Seventy-two hours of fuel and a resupply
+contract that competes with every other customer in a regional event may not hold up under
+calculation.
 
-**Communications redundancy on the same physical path.** Two providers, one conduit — a common and
-invisible dependency until the conduit is cut.
+**Route communications redundancy through separate physical paths.** Two providers on one conduit
+is a common and invisible dependency until the conduit is cut.
 
-**Operational technology treated as an infrastructure problem or a cyber problem, never both.**
-The [cybersecurity](/capabilities/cybersecurity-operations/) team does not own the treatment plant
-controls and the engineering team does not track vulnerabilities, so nobody does.
+**Own operational technology jointly across infrastructure and cyber.** If the
+[cybersecurity](/capabilities/cybersecurity-operations/) team does not own the treatment plant
+controls and the engineering team does not track vulnerabilities, nobody does.
 
-**Analysis without investment.** Dependencies mapped, single points of failure listed, and no route
-into the [capital
-programme](/capabilities/capital-planning-and-programming/) — which is where the finding would have
-become a fix.
+**Connect analysis to investment.** Dependencies mapped and single points of failure listed need a
+route into the [capital
+programme](/capabilities/capital-planning-and-programming/) — which is where the finding becomes a
+fix.

@@ -92,26 +92,31 @@ explains it.
   statements being audited, which is a recognized independence concern and a common source of
   findings in itself.
 
-## Where it goes wrong
+## What to get right
 
-**Findings closed on receipt of a plan.** The single most common failure in oversight, and the
-reason [repeat finding rate](/kpis/repeat-finding-rate/) exists as a measure. A plan is a
-commitment, not a remediation.
+**Close findings on verified remediation, not on receipt of a plan.** This is the single most
+consequential discipline in oversight, and the reason
+[repeat finding rate](/kpis/repeat-finding-rate/) exists as a measure. A plan is a commitment, not
+a remediation.
 
-**Cause not identified.** The finding records what was wrong, the response fixes that instance,
-and the mechanism that produced it continues.
+**Identify the cause, not just the condition.** A finding that records what was wrong and fixes
+that instance still leaves the underlying mechanism free to produce it again — tracing the cause is
+what stops the recurrence.
 
-**Remediation assigned to whoever received the finding**, when the cause sits in another
-department entirely — most commonly in the operational process, not in finance.
+**Route remediation to where the cause actually sits.** The cause most commonly sits in the
+operational process, not in finance, so remediation belongs with the department that owns it, not
+just whoever received the finding.
 
-**Audit season as an annual crisis.** Six weeks of evidence assembly because nothing is maintained
-continuously. The cost is real and recurring and never appears as a line item.
+**Maintain evidence continuously, not in an annual scramble.** Continuous maintenance avoids six
+weeks of evidence assembly each audit season — a real, recurring cost that otherwise never appears
+as a line item.
 
-**Controls documented and not operating.** A narrative written for the auditor describing a
-process nobody follows. Detected the moment it is tested.
+**Keep documented controls actually operating.** A narrative written for the auditor describing a
+process nobody follows gets caught the moment it is tested — keeping the practice matched to the
+narrative avoids that.
 
-**Subrecipient findings received and filed.** The pass-through obligation is to follow up, not to
-collect — see [subrecipient monitoring](/governance/subrecipient-monitoring/).
+**Follow up on subrecipient findings, not just collect them.** The pass-through obligation is to
+follow up, not to collect — see [subrecipient monitoring](/governance/subrecipient-monitoring/).
 
-**Compliance requirements known only to the compliance officer.** The people who must actually
-satisfy them — programme staff, procurement, payroll — never see the matrix.
+**Put the compliance matrix in front of the people who must satisfy it.** Programme staff,
+procurement, and payroll need to see the matrix directly, not rely on the compliance officer alone.

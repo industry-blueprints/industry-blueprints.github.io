@@ -1,0 +1,67 @@
+{% comment %}
+  Related content grouped by blueprint layer rather than by predicate.
+
+  Same edges as related.html, asked a different question. Predicate grouping is
+  precise but requires knowing the vocabulary; layer grouping answers what a
+  reader actually arrives with — what exists for this, and how far does it go.
+
+  Empty layers render explicitly. A missing layer is information, and a panel
+  that silently omits it reads as though nothing is missing.
+{% endcomment %}
+{% assign all_edges = page.layer_index %}
+
+<nav class="layers-panel" aria-labelledby="layers-heading">
+  <h2 id="layers-heading" class="related-heading">Across the four layers</h2>
+
+  {% for layer in site.layers %}
+    {% assign n = layer[0] %}
+    {% assign def = layer[1] %}
+    {% assign items = all_edges | where: "layer", n | sort: "title" %}
+
+    <div class="layer-group{% if items.size == 0 %} is-empty{% endif %}">
+      <h3>
+        <span class="layer-group-num">{{ n }}</span>
+        {{ def.label }}
+        {% if items.size > 0 %}<span class="layer-group-count">{{ items.size }}</span>{% endif %}
+      </h3>
+
+      {% if items.size > 0 %}
+        <ul>
+          {% for edge in items %}
+            <li>
+              <a href="{{ edge.url | relative_url }}">
+                <span class="kind-label">{{ edge.okf_type }}</span>
+                <span class="related-title">{{ edge.title }}</span>
+              </a>
+              {% if edge.via %}<span class="related-note">via {{ edge.via }}</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="layer-group-empty">{{ def.note }}<br><em>Nothing written yet.</em></p>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  {%- comment -%}
+    Conversation types carry no layer on purpose (vision.md §8.2). They still
+    relate to the capability, so they get a home rather than disappearing.
+  {%- endcomment -%}
+  {% assign unlayered = all_edges | where_exp: "e", "e.layer == nil" | sort: "title" %}
+  {% if unlayered.size > 0 %}
+    <div class="layer-group is-unlayered">
+      <h3><span class="layer-group-num">·</span> Working through it</h3>
+      <ul>
+        {% for edge in unlayered %}
+          <li>
+            <a href="{{ edge.url | relative_url }}">
+              <span class="kind-label">{{ edge.okf_type }}</span>
+              <span class="related-title">{{ edge.title }}</span>
+            </a>
+            {% if edge.via %}<span class="related-note">via {{ edge.via }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</nav>

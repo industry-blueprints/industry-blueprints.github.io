@@ -23,9 +23,9 @@ government_levels: [federal, state, county, municipal]
 
 relationships:
   - predicate: constrains
-    target: /ai-opportunities/intent-classification-and-routing.md
+    target: /ai-integrations/intent-classification-and-routing.md
   - predicate: constrains
-    target: /ai-opportunities/contact-summarization.md
+    target: /ai-integrations/contact-summarization.md
   - predicate: constrains
     target: /patterns/grounded-knowledge-retrieval.md
 ---

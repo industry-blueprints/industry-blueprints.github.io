@@ -90,28 +90,31 @@ that exist and have never been restored are an assumption.
   Cyber insurance requirements have become a de facto control framework, and increasingly a
   precondition of coverage.
 
-## Where it goes wrong
+## What to get right
 
-**Operational technology outside the inventory.** SCADA, building management, and signal systems
-managed by an engineering department, unknown to IT, unpatched for a decade, and network-reachable.
+**Bring operational technology into the inventory.** SCADA, building management, and signal
+systems managed by an engineering department, unknown to IT, and unpatched for a decade stay
+network-reachable and invisible until they're added.
 
-**Backups on the same network.** Encrypted along with everything else, which is the difference
-between a bad week and an existential event.
+**Isolate backups from the production network.** Left on the same network, they get encrypted
+along with everything else — the difference between a bad week and an existential event.
 
-**Recovery objectives asserted, never tested.** A four-hour target on a system nobody has attempted
-to restore.
+**Validate recovery objectives by testing them.** A four-hour target on a system nobody has
+attempted to restore is an assertion, not a capability.
 
-**Alerts nobody reads.** Detection deployed, volume overwhelming, and no one funded to triage —
-so the alerting exists and the detection does not.
+**Fund alert triage, not just detection.** Detection deployed with overwhelming volume and no one
+funded to triage means the alerting exists and the detection effectively does not.
 
-**Patching blocked by vendor certification.** A common and genuine constraint, and the answer is a
-documented compensating control, not indefinite deferral.
+**Document a compensating control where patching is blocked.** Vendor certification delays are a
+common and genuine constraint, and the answer is a documented compensating control, not indefinite
+deferral.
 
-**Incident plan first opened during the incident.** Contact list stale, decision authority unclear,
-and the notification clock running under two regimes at once.
+**Rehearse the incident plan before the incident.** Opened for the first time during the event, the
+contact list is stale, decision authority is unclear, and the notification clock runs under two
+regimes at once.
 
-**Security spending driven by insurance renewal.** Controls implemented to answer a questionnaire
-rather than to address the actual exposure.
+**Size security spending to actual exposure, not the insurance questionnaire.** Controls
+implemented to answer a renewal form can miss the exposure they're meant to address.
 
-**No segmentation.** One compromised workstation reaching the treatment plant, because the network
-was built flat and never revisited.
+**Segment the network.** Built flat and never revisited, it lets one compromised workstation reach
+the treatment plant.

@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Review Specifications for Restrictive Language
 description: Flag requirements that foreclose competition before publication —
   when it is still cheap to fix, and while a human still decides.
-resource: https://industry-blueprints.github.io/ai-opportunities/specification-competition-review/
+resource: https://industry-blueprints.github.io/ai-integrations/specification-competition-review/
 tags: [ai, procurement, competition, requirements, classification]
 
 generated: { by: human:jhofmann, at: 2026-07-27T16:00:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
+ai_modality: assist
 ai_task_type: classification
 minimum_level: 2
 
@@ -57,7 +58,7 @@ offers, credentials narrower than the work requires, and timelines only an incum
 
 ## Minimum maturity level: 2
 
-**The lowest bar of any AI opportunity in this library**, and deliberately so. It needs a draft
+**The lowest bar of any AI integration in this library**, and deliberately so. It needs a draft
 specification and a person to review the flags. No integration, no data platform, no structured
 requirement register.
 

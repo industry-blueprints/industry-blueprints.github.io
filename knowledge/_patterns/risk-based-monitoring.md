@@ -99,17 +99,18 @@ rules · finding and corrective action tracking with verification · published t
 - **Requires cross-programme data** the organization may not have — which is a real prerequisite,
   not a nice-to-have.
 
-## Anti-patterns
+## What to get right
 
-- **Assess once, never revisit.** The most common failure. Tiering without reassessment.
-- **Risk attached to the award rather than the party**, so history is invisible.
-- **Risk as a proxy for size.** Large awards are not automatically high risk, and small recipients
-  are not automatically low risk — frequently the reverse.
-- **Tier used as a penalty.** If high risk feels punitive rather than supportive, parties conceal
-  the signals rather than disclose them.
-- **Automated scoring that decides.** Risk tier determines how intensively an organization is
-  scrutinized; a model may surface signals and rank attention, but the tier assignment is a
-  judgement a human owns — see
+- **Reassess risk on a cadence, not just once.** Tiering without reassessment is the most common
+  gap, and a schedule for revisiting it is the fix.
+- **Attach risk to the party, not just the award**, so history stays visible.
+- **Judge risk on its own signals, not size.** Large awards are not automatically high risk, and
+  small recipients are not automatically low risk — frequently the reverse.
+- **Frame tiering as support, not penalty.** When high risk feels punitive rather than supportive,
+  parties conceal signals instead of disclosing them; framing it as support keeps disclosure open.
+- **Keep tier assignment a human judgement.** Risk tier determines how intensively an
+  organization is scrutinized; a model may surface signals and rank attention, but the tier
+  assignment itself is a judgement a human owns — see
   [subrecipient monitoring](/governance/subrecipient-monitoring/).
 
 ## Implementation checklist

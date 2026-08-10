@@ -36,8 +36,8 @@ relationships:
     target: /kpis/subrecipient-monitoring-coverage.md
   - predicate: measured_by
     target: /kpis/repeat-finding-rate.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/subrecipient-risk-signals.md
+  - predicate: has_integration
+    target: /ai-integrations/subrecipient-risk-signals.md
 ---
 
 ## Trigger and outcome

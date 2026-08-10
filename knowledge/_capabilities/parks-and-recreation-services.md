@@ -97,36 +97,39 @@ existing [spatial data](/capabilities/geospatial-information-management/).
   recreation centres, pools, and the youth programming families depend on. Also frequently the
   first department cut in a downturn, and among the last restored.
 
-## Where it goes wrong
+## What to get right
 
-**Measured by acreage.** Total park land reported, distribution unexamined, so a jurisdiction with
-one large park and no neighbourhood provision reports well.
+**Measure distribution, not just acreage.** Total park land reported alone lets a jurisdiction with
+one large park and no neighbourhood provision look well served; walkable access by neighbourhood
+shows what acreage hides.
 
-**Programming set by history.** The same catalogue each season because it is what was run last
-season, with waitlists in one category and empty classes in another and no needs assessment
-between them.
+**Set programming from a current needs assessment, not last season's catalogue.** Running the same
+schedule because it is what ran before leaves waitlists in one category and empty classes in
+another.
 
-**Registration that rewards speed and connectivity.** Popular programmes filling in minutes online,
-which selects for households with a fast connection and a free morning.
+**Design registration so it does not reward speed and connectivity alone.** Popular programmes
+filling in minutes online selects for households with a fast connection and a free morning unless
+the process accounts for that.
 
-**Fee assistance behind an application nobody sees.** Available, unadvertised, requiring
-documentation, and claimed by a fraction of eligible families — the same
-[take-up](/capabilities/eligibility-determination/) failure as in benefits.
+**Advertise fee assistance and keep the application light.** Available but unadvertised and
+documentation-heavy assistance gets claimed by a fraction of eligible families — the same
+[take-up](/capabilities/eligibility-determination/) challenge as in benefits.
 
-**Accessibility as a facility question only.** A ramp at the recreation centre and no adaptive
-programming, no trained staff, and no inclusion support — so the building is accessible and the
-service is not.
+**Build accessibility into programming and staffing, not just the facility.** A ramp at the
+recreation centre needs adaptive programming, trained staff, and inclusion support alongside it, or
+the building is accessible and the service is not.
 
-**Cost recovery targets applied uniformly.** A recovery rate imposed across all programmes converts
-youth and senior programming into a pricing problem, and the participants lost are predictable.
+**Set cost recovery targets by programme, not uniformly.** A single recovery rate applied across
+all programmes turns youth and senior programming into a pricing problem, with predictable losses
+in participation.
 
-**Reservation systems that favour organized groups.** Leagues holding standing bookings for fields
-that sit empty, while informal community use has no route to book.
+**Design reservation systems that make room for informal use.** Leagues holding standing bookings
+for fields that sit empty leaves informal community use with no route to book unless the system is
+built to allow it.
 
-**Deferred maintenance presented as a parks problem.** Closed pools and unusable fields originating
-in the [capital
-programme](/capabilities/capital-planning-and-programming/), and attributed to the department that
-operates them.
+**Attribute deferred maintenance to its source.** Closed pools and unusable fields originate in the
+[capital programme](/capabilities/capital-planning-and-programming/); naming that keeps the
+department that operates them from absorbing blame that belongs upstream.
 
-**Seasonal staffing shortages unplanned.** Lifeguard and instructor certification pipelines that
-must be built months ahead, addressed in spring, and the pool does not open.
+**Plan seasonal staffing pipelines months ahead.** Lifeguard and instructor certification built well
+before spring is what keeps the pool open on schedule.

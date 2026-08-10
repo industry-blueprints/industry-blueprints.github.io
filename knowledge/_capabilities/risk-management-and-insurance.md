@@ -85,25 +85,27 @@ buying.
   brings loss-control requirements that function as de facto operational standards, which is a
   significant and under-recognized lever on local practice.
 
-## Where it goes wrong
+## What to get right
 
-**A register nobody revisits.** Compiled in a workshop, formatted, filed. Reviewed annually at
-best, and never during the decision it was meant to inform.
+**Keep the register live and use it in decisions.** A register compiled in a workshop, formatted,
+and filed only helps if it's revisited more than annually and actually consulted during the
+decision it was meant to inform.
 
-**Risks written at the wrong altitude.** "Cyber attack" as a single line is not actionable.
-Neither is a list of two hundred items.
+**Write risks at the right altitude.** "Cyber attack" as a single line is not actionable. Neither
+is a list of two hundred items — pitch each risk at a level someone can act on.
 
-**Owners who cannot act.** A risk assigned to someone with no authority over its cause is
-unmanaged and reported as managed.
+**Assign owners who can act on the cause.** A risk assigned to someone with no authority over its
+cause stays unmanaged even when it's reported as managed.
 
-**Insurance mistaken for treatment.** Financing an exposure is not reducing it, and premiums rise
-until someone notices the difference.
+**Treat insurance as financing, not as a reduction in exposure.** Recognizing the difference is
+what keeps premiums from rising until someone notices it.
 
-**Claims data uncoded by cause.** Loss runs that show cost by department but not by what happened,
-so nothing can be prevented.
+**Code claims data by cause.** Loss runs that show cost by department but not by what happened
+leave nothing preventable — coding by cause is what makes prevention possible.
 
-**Continuity plans never tested.** Written for an audit, filed, and first opened during the event
-they were written for — at which point the contact list is four years out of date.
+**Test continuity plans before the event.** A plan written for an audit, filed, and first opened
+during the event it was written for arrives with a contact list four years out of date — testing
+it catches that in advance.
 
-**Retained risk invisible in the budget.** Self-insured losses absorbed departmentally show up as
-overspend rather than as the cost of a risk decision.
+**Recognize retained risk in the budget.** Self-insured losses absorbed departmentally read as
+overspend unless they're recognized as the cost of a risk decision.

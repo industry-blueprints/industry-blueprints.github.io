@@ -86,23 +86,26 @@ rulemaking
   under open meeting law. The binding procedural constraint is more often the meeting notice
   requirement than a comment period.
 
-## Where it goes wrong
+## What to get right
 
-**Procedural defect that voids the rule.** Notice too short, comment period miscounted, a
-significant comment unaddressed. The substance may be sound and the rule still falls.
+**Get the procedure exactly right.** Notice too short, a comment period miscounted, a significant
+comment unaddressed — any of these can void a rule whose substance is otherwise sound.
 
-**Comments received and not analysed.** Volume becomes the reason — thousands of submissions, a
-short deadline, and a response written from a sample.
+**Analyse every significant comment, not just a sample.** Volume is a real constraint — thousands
+of submissions against a short deadline — but a response written from a sample is what a
+procedural challenge targets first.
 
-**Docket as a shared drive.** Comments in an inbox, disposition in someone's spreadsheet, and no
-retrievable record two years later when it is needed.
+**Keep the docket as a retrievable record.** Comments in an inbox and disposition in someone's
+spreadsheet won't be there two years later when it is needed — a real docket will.
 
-**Compliance date on publication date.** The regulated community learns of an obligation on the
-day it takes effect, which guarantees non-compliance that is then enforced against.
+**Give the regulated community lead time before the compliance date.** Learning of an obligation
+on the day it takes effect guarantees non-compliance that then gets enforced against — building in
+an interval avoids that.
 
-**Guidance doing the work of a rule.** Substantive obligations issued as guidance to avoid the
-procedure. Faster, and reversible for exactly that reason.
+**Use guidance to interpret rules, not to replace them.** Substantive obligations issued as
+guidance to avoid the procedure move faster, but they're just as easily reversed for the same
+reason.
 
-**No sunset or review.** Rules accumulate for decades. Nobody is resourced to repeal, because
-repeal means accepting the risk the rule was made for — the same accretion dynamic seen in
-[grants](/capabilities/grants-management-outbound/) compliance requirements.
+**Build in sunset and periodic review.** Rules that accumulate for decades need resourcing to
+repeal, because repeal means accepting the risk the rule was made for — the same accretion
+dynamic seen in [grants](/capabilities/grants-management-outbound/) compliance requirements.

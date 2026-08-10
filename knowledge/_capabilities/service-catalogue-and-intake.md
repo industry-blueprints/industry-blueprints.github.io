@@ -87,29 +87,30 @@ working, and it is usually attributed to the contact centre instead.
   catalogue: hundreds of distinct services across dozens of departments, with residents who do not
   know and should not need to know which department owns what.
 
-## Where it goes wrong
+## What to get right
 
-**No catalogue at all.** Services exist as departmental knowledge. Nobody can enumerate them, so
-nobody can improve the set, and every channel invents its own list.
+**Build one catalogue that enumerates every service.** Without it, services exist only as
+departmental knowledge, nobody can improve the set, and every channel invents its own list.
 
-**Catalogue written in organizational language.** Named after the statute or the internal team, so
-search fails for everyone who does not already know the answer.
+**Write the catalogue in the words people use.** Naming a service after the statute or the
+internal team makes search fail for everyone who does not already know the answer.
 
-**A form per service, designed independently.** The same identity and contact details requested
-repeatedly, each collection creating another record and another chance for the
-[identity resolution](/data-models/core-public-sector-model/) problem.
+**Design one form per service centrally, not independently per department.** Requesting the same
+identity and contact details repeatedly creates another record each time and another chance for
+the [identity resolution](/data-models/core-public-sector-model/) problem.
 
-**Fields collected because they might be useful.** Every unnecessary field costs completion and
-creates a retention obligation — see [privacy management](/capabilities/privacy-management/).
+**Collect only the fields a service actually needs.** Every unnecessary field costs completion
+and creates a retention obligation — see [privacy management](/capabilities/privacy-management/).
 
-**Channel disparity.** The online route resolves in two days, the phone route in three weeks, so
-the channel someone can use determines the outcome they get.
+**Hold channels to the same outcome.** When the online route resolves in two days and the phone
+route in three weeks, the channel someone can use ends up determining the outcome they get —
+parity closes that gap.
 
-**No acknowledgement or reference.** The person has no way to follow up, so they call again — which
-is counted as new demand.
+**Acknowledge every request with a reference.** Without one, the person has no way to follow up,
+so they call again — which then gets counted as new demand.
 
-**Catalogue published once.** Fees, timelines, and requirements from four years ago, still on the
-site, still quoted back by residents.
+**Keep the catalogue current.** Fees, timelines, and requirements need updating so residents
+aren't quoting back information from four years ago.
 
-**Retirement never happens.** Services listed that the organization stopped providing, discovered
-when someone requests one.
+**Retire services when they stop being offered.** Otherwise they stay listed until someone
+requests one that no longer exists.

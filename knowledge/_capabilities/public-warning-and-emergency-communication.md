@@ -93,30 +93,31 @@ a much easier question.
   remains the most reliable method for reaching people the electronic channels miss. Tribal
   governments hold their own alerting authority.
 
-## Where it goes wrong
+## What to get right
 
-**Over-targeting.** A polygon far larger than the risk area, warning people who are not affected —
-which produces unnecessary evacuation, road congestion, and a population that discounts the next
-alert.
+**Size the polygon to the risk area.** A polygon far larger than the risk area warns people who are
+not affected — which produces unnecessary evacuation, road congestion, and a population that
+discounts the next alert.
 
-**Messages that do not say what to do.** A hazard named with no protective action, no location
-detail, and no timing.
+**Say what to do.** Name the hazard together with the protective action, the location detail, and
+the timing — not the hazard alone.
 
-**Translation after issue.** English alert first, other languages an hour later, which is after the
-window in a fast-onset event. Pre-translated templates are the answer and require preparation, not
-technology — see [language access](/capabilities/language-access/).
+**Translate before the event, not after.** Issuing the English alert first and other languages an
+hour later misses the window in a fast-onset event. Pre-translated templates are the answer and
+require preparation, not technology — see [language access](/capabilities/language-access/).
 
-**Inaccessible formats.** Audio-only warnings for deaf residents, visual-only for blind residents,
-and no plan for either.
+**Plan for both audio and visual formats.** Audio-only warnings leave deaf residents uncovered,
+visual-only leaves blind residents uncovered, and a plan needs to cover both from the start.
 
-**One channel assumed sufficient.** Wireless alerts miss people without phones and people who
-disabled them; sirens are outdoor warning only; social media reaches followers.
+**Use multiple channels together.** Wireless alerts miss people without phones and people who
+disabled them; sirens are outdoor warning only; social media reaches followers. No single channel
+is sufficient alone.
 
-**Inconsistent messages across agencies.** Two jurisdictions issuing different guidance on the same
-event, which suspends action while people decide who to believe.
+**Coordinate messages across agencies.** When two jurisdictions issue different guidance on the
+same event, action suspends while people decide who to believe.
 
-**No all-clear.** The warning is issued and the resolution is not, so people either remain displaced
-or conclude alerts do not mean anything.
+**Issue the all-clear.** A warning without a matching resolution leaves people either remaining
+displaced or concluding alerts do not mean anything.
 
-**Credibility spent on low-stakes use.** The mass notification system used for routine
-announcements, so people opt out before the event it exists for.
+**Reserve the system for real warnings.** Using the mass notification system for routine
+announcements spends the credibility people opt out before the event it exists for.

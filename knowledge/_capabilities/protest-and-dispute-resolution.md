@@ -89,29 +89,29 @@ exist and nothing surfaces them.
   sometimes decided by the same official who made the award. Where the review is not independent,
   the credibility of the whole process depends on the debrief instead.
 
-## Where it goes wrong
+## What to get right
 
-**The record does not support the decision.** Scores without rationale, criteria adjusted after
-opening, an undocumented departure from the ranked outcome. The decision may have been correct and
-it cannot be shown — the reason
+**Build a record that supports the decision.** Scores with rationale, criteria fixed before
+opening, and any departure from the ranked outcome documented are what let a correct decision be
+shown to be correct — the reason
 [competition and evaluation integrity](/governance/competition-and-evaluation-integrity/) treats
 the record as the control.
 
-**Review by the awarding official.** Structurally unable to produce confidence, however
-conscientiously performed.
+**Have review conducted by someone independent of the award.** Review by the awarding official is
+structurally unable to produce confidence, however conscientiously performed.
 
-**Objections to solicitation terms deferred to protest.** A restrictive specification queried
-during the question period and dismissed becomes an award challenge that could have cost nothing
-to fix.
+**Resolve objections to solicitation terms during the question period, not at protest.** A
+restrictive specification queried and fixed early costs nothing; left to become an award challenge,
+it costs much more.
 
-**Windows too short to use.** Five days to file with the evaluation record unavailable, so only
-suppliers with standing counsel can participate.
+**Set filing windows long enough to use, with the record available.** Five days to file with the
+evaluation record unavailable means only suppliers with standing counsel can participate.
 
-**No pattern analysis.** Each protest handled as an isolated event, so the third one on the same
-ground is still a surprise.
+**Analyse protest grounds for pattern, not just case by case.** Handled as isolated events, the
+third protest on the same ground is still a surprise; analysed together, it isn't.
 
-**Fear of protest driving procurement design.** Lowest-price awards chosen because they are easy
-to defend, producing defensible decisions and poor outcomes.
+**Choose procurement design on outcomes, not fear of protest.** Lowest-price awards chosen because
+they are easy to defend produce defensible decisions and poor outcomes.
 
-**Contract claims escalating by default.** No structured negotiation step, so ordinary performance
-disagreements arrive as formal claims with legal cost attached on both sides.
+**Give contract disputes a structured negotiation step before escalation.** Without one, ordinary
+performance disagreements arrive as formal claims with legal cost attached on both sides.

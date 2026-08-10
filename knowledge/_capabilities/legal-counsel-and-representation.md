@@ -84,25 +84,27 @@ The last outcome measure is the one that turns a legal function from reactive to
   body rather than the administration, and in small jurisdictions may be a contracted firm on
   retainer — which makes "call legal early" a decision with a visible invoice attached.
 
-## Where it goes wrong
+## What to get right
 
-**Consulted after the decision.** Counsel asked to defend a commitment already made, when the
-cheap intervention was available three months earlier.
+**Consult counsel before the decision, not to defend it after.** The cheap intervention is
+available three months earlier, before the commitment is made.
 
-**Advice as a veto rather than a risk statement.** "You can't do that" ends the conversation;
-"this exposes you to X, mitigated by Y" lets a decision-maker choose. The second is harder and far
+**State advice as a risk, not a veto.** "You can't do that" ends the conversation; "this exposes
+you to X, mitigated by Y" lets a decision-maker choose. The second is harder to produce and far
 more useful.
 
-**Opinions that cannot be found.** The same question researched four times in six years because
-there is no indexed register.
+**Keep an indexed opinion register so answers can be found.** Without one, the same question gets
+researched four times in six years.
 
-**Legal holds that never end.** Applied on trigger, never released, so retention and
-[disposition](/capabilities/records-and-information-management/) silently stop working across the
-whole estate.
+**Release legal holds deliberately once the trigger has passed.** Applied and forgotten, they
+silently stop retention and
+[disposition](/capabilities/records-and-information-management/) from working across the whole
+estate.
 
-**Privilege asserted reflexively.** Over-assertion in response to
+**Assert privilege narrowly and deliberately.** Over-assertion in response to
 [public records requests](/capabilities/public-records-and-transparency-response/) is a common
 finding and erodes trust in every legitimate assertion.
 
-**Settlement patterns nobody analyses.** Repeated claims from one cause, each settled individually
-and none traced back to the practice producing them.
+**Analyze settlement patterns across matters, not just within one.** Repeated claims from one cause
+settled individually, with none traced back to the practice producing them, is a pattern going
+unread.

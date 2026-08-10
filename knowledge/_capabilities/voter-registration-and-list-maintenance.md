@@ -97,31 +97,34 @@ wrongly removed, wrong precinct — point directly at which part of this capabil
 - **Municipal.** Registration and list maintenance in states where towns and cities hold the
   function, frequently with very small offices carrying the same statutory obligations.
 
-## Where it goes wrong
+## What to get right
 
-**District assignment by approximation.** An address matched to the wrong precinct or split
-district, so the voter receives a ballot with the wrong contests — the failure that makes
-[authoritative parcel and address data](/capabilities/geospatial-information-management/) a
-democratic requirement rather than an operational nicety.
+**Assign districts from authoritative address data.** Matching an address precisely to the
+correct precinct and split district is what gives the voter a ballot with the right contests —
+the reason [authoritative parcel and address data](/capabilities/geospatial-information-management/)
+is a democratic requirement rather than an operational nicety.
 
-**List maintenance from unreliable matches.** Removals driven by name-and-birthdate matching across
-states, which over-matches on common names and disproportionately affects some communities. The
-statutory notice and waiting requirements exist precisely because the matching is imperfect.
+**Give list maintenance matching a wide enough margin, with notice and waiting periods honored.**
+Name-and-birthdate matching across states over-matches on common names and disproportionately
+affects some communities; the statutory notice and waiting requirements exist precisely because
+the matching is imperfect, and following them is what protects eligible voters.
 
-**Registrations submitted and never processed.** Received near a deadline, entered late, and the
-voter arrives to find no record — most common where registration volume peaks and staffing does not.
+**Staff for registration volume as it peaks, especially near deadlines.** Processing applications
+as they arrive, rather than letting them back up near a deadline, is what keeps a voter's record
+in place when they arrive to vote.
 
-**Verification by document burden.** Requiring documentation that eligible people do not have,
-rather than verifying against sources the state already holds.
+**Verify eligibility against sources the state already holds.** Verifying that way instead of
+requiring documentation eligible people do not have removes an unnecessary barrier.
 
-**Address changes not propagating.** A voter who moves within the jurisdiction, updates their
-address with one agency, and remains registered at the old one.
+**Propagate address changes across agencies.** Updating a voter's registration when they update
+their address elsewhere is what keeps them from remaining registered at the old one.
 
-**No accessible self-check.** A lookup that is hard to find or hard to use, so voters cannot
-discover a problem while there is still time to fix it.
+**Make self-check easy to find and use.** An accessible lookup is what lets voters discover a
+problem while there is still time to fix it.
 
-**Confidential records mishandled.** Address confidentiality programme participants appearing in a
-published roll or an extract — a safety failure with a narrow window to prevent.
+**Protect confidential records deliberately.** Keeping address confidentiality programme
+participants out of a published roll or extract is a safety requirement with a narrow window to
+get right.
 
-**Deadline-driven surge unplanned.** Registration volume in the final week is predictable every
-cycle and staffed for as though it were not.
+**Plan staffing for the predictable deadline-driven surge.** Registration volume in the final week
+is predictable every cycle; staffing for it is what keeps the surge from overwhelming the office.

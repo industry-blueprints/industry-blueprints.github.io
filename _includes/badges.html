@@ -4,10 +4,6 @@
   An author marks something reviewed by adding a `verified` entry, not by editing a badge.
 {% endcomment %}
 <div class="badge-row">
-  {% if page.status %}
-    <span class="badge badge-status is-{{ page.status }}">{{ page.status }}</span>
-  {% endif %}
-
   <span class="badge badge-trust is-{{ page.trust_tier }}">
     {% case page.trust_tier %}
       {% when 'human-reviewed' %}Human-reviewed

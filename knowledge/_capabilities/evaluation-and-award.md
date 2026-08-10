@@ -87,29 +87,30 @@ challenging is pointless.
   session, which introduces a political stage after the technical one — and is the most common
   point at which the funded outcome departs from the ranked outcome.
 
-## Where it goes wrong
+## What to get right
 
-**Criteria adjusted after opening.** Weightings revisited once the responses are visible.
-Sometimes innocent, always fatal in a challenge.
+**Lock criteria and weightings before opening, and hold them there.** Revisiting weightings once
+responses are visible is sometimes innocent but always fatal in a challenge.
 
-**Consensus that overwrites independence.** Scores discussed before individual assessment, so the
-panel converges on the loudest evaluator and the independent record does not exist.
+**Score independently before consensus.** Individual assessment ahead of discussion keeps the panel
+from converging on the loudest evaluator, and preserves an independent record.
 
-**Scores without rationale.** A number with no words attached cannot be defended, explained, or
-audited.
+**Back every score with written rationale.** A number with no words attached cannot be defended,
+explained, or audited.
 
-**Generic conflict declarations.** Signed annually, in the abstract, rather than against the
-actual list of bidders — the specific failure
+**Declare conflicts against the actual bidder list.** Signing an annual, abstract declaration
+misses the specific list of bidders — the exact gap
 [competition and evaluation integrity](/governance/competition-and-evaluation-integrity/)
 addresses.
 
-**Ranked list departed from silently.** The reasoning may be legitimate; unrecorded, it is
-indistinguishable from favouritism. The identical failure appears in
+**Record the reasoning whenever the outcome departs from the ranked list.** The reasoning may be
+entirely legitimate; unrecorded, it is indistinguishable from favouritism. The same discipline
+applies in
 [merit review](/governance/merit-review-integrity/) on the grants side.
 
-**Debriefs that say nothing.** "Your bid was not the most advantageous." The supplier learns
-nothing, cannot improve, and stops bidding — which shows up two cycles later as declining
-competition.
+**Write debriefs specific enough for a supplier to improve on.** "Your bid was not the most
+advantageous" gives the supplier nothing to act on, and suppliers who learn nothing stop bidding —
+which shows up two cycles later as declining competition.
 
-**Price evaluated separately from what was offered.** Lowest price on a non-comparable scope,
-which is a specification failure surfacing at evaluation.
+**Evaluate price against a comparable scope.** Comparing lowest price against what was actually
+offered avoids a specification failure surfacing at evaluation.

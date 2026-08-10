@@ -106,35 +106,37 @@ A high rate means the ratings are not predictive, and every plan built on them i
   whose condition can only be inferred, whose install dates are frequently unknown, and whose
   failure is the most disruptive event a small jurisdiction faces.
 
-## Where it goes wrong
+## What good looks like here
 
-**Three registers that disagree.** Finance tracks capitalized assets over a threshold, engineering
-tracks what it maintains, GIS tracks what has geometry. None is complete and no reconciliation
-exists.
+**Reconcile the three registers into one.** Finance tracks capitalized assets over a threshold,
+engineering tracks what it maintains, GIS tracks what has geometry. Left unreconciled, none is
+complete.
 
-**Condition assessed once.** An initial survey, then nothing, so ratings age and the plan built on
-them is describing a decade ago.
+**Reassess condition on a defined cycle, not once.** An initial survey followed by nothing lets
+ratings age until the plan built on them describes a decade ago.
 
-**Criticality proxied by cost.** A cheap valve whose failure floods a district treated as
-low-priority because its replacement value is small.
+**Set criticality by consequence of failure, not by cost.** A cheap valve whose failure floods a
+district needs to be treated as high-priority regardless of its small replacement value.
 
-**Buried assets estimated.** Install dates unknown, material unknown, condition inferred from age
-alone — which is defensible only as an interim measure and becomes permanent.
+**Invest in real data on buried assets rather than treating estimates as permanent.** Install
+dates unknown, material unknown, condition inferred from age alone is defensible only as an
+interim measure.
 
-**Handover data never captured.** The new facility is not in the register, so it is not maintained
-and not depreciated correctly — the failure described in
+**Capture handover data at construction completion.** A new facility missing from the register is
+not maintained and not depreciated correctly — the failure described in
 [project delivery](/capabilities/project-delivery-and-construction-management/).
 
-**Disposals unrecorded.** The register lists assets sold or demolished years ago, so counts and
-valuations are both wrong and the annual reconciliation is a large adjustment.
+**Record disposals as they happen.** A register listing assets sold or demolished years ago makes
+counts and valuations both wrong and turns the annual reconciliation into a large adjustment.
 
-**Asset management confused with software.** A system procured, populated during implementation,
-and decayed within two years because nobody owns the data — the same pattern as the configuration
-database in [technology service
+**Treat asset management as a data discipline, not a software purchase.** A system procured and
+populated during implementation decays within two years if nobody owns the data afterward — the
+same pattern as the configuration database in [technology service
 management](/capabilities/technology-service-management/).
 
-**No link to level of service.** Condition reported in engineering terms with no statement of what
-it means for the service the public receives, so it cannot compete for funding.
+**Link condition to level of service.** Reporting condition only in engineering terms, with no
+statement of what it means for the service the public receives, leaves it unable to compete for
+funding.
 
 ## Governance
 
@@ -143,10 +145,10 @@ the accountability nobody currently holds, and states the sharpest requirement i
 **a capital project is not complete when the facility opens, it is complete when the asset data is
 in the register.** Where that data is a payment milestone with retainage attached, it arrives.
 
-## AI opportunities
+## AI integrations
 
-[Condition assessment from imagery](/ai-opportunities/condition-assessment-from-imagery/) ·
-[Failure prediction from work history](/ai-opportunities/failure-prediction-from-work-history/)
+[Condition assessment from imagery](/ai-integrations/condition-assessment-from-imagery/) ·
+[Failure prediction from work history](/ai-integrations/failure-prediction-from-work-history/)
 
 **The order matters more than either technique.** Register, then condition, then prediction — which
 is the reverse of the order it is usually attempted in. A model over a register nobody trusts

@@ -18,7 +18,7 @@ relationships:
   - predicate: constrains
     target: /processes/merit-review-and-award-decision.md
   - predicate: constrains
-    target: /ai-opportunities/application-completeness-screening.md
+    target: /ai-integrations/application-completeness-screening.md
 ---
 
 ## Control objective
@@ -84,19 +84,20 @@ applicant list, dated · individual scores prior to consolidation · calibration
 reconciliation notes · deviation rationale · approval within delegated authority · feedback issued ·
 any AI assistance registered in the use-case inventory with its tier
 
-## Where organizations fail this control
+## What organizations need to get right
 
-**Generic advance conflict declarations**, signed before anyone knows who applied.
+**Collect conflict declarations against the actual applicant list**, not generically in advance
+before anyone knows who applied.
 
-**Unrecorded deviation from ranked order.** The most common audit finding in this process — a
-funded list that differs from the scored list, with the reasoning in someone's memory.
+**Record the reason for every deviation from ranked order.** A funded list that differs from the
+scored list needs a documented reason — the gap is the most common audit finding in this process.
 
-**Scoring criteria that were not published.** Portfolio balance, geographic spread, and prior
-relationship applied at the end, informally, because the rubric could not capture them. The fix
-is to publish them as criteria, not to stop considering them.
+**Publish every scoring criterion.** Portfolio balance, geographic spread, and prior relationship
+are legitimate factors; the fix when a rubric can't capture them informally is to publish them as
+criteria, not to stop considering them.
 
-**Feedback that is a number.** An applicant told they scored 68 learns nothing, applies again
-identically, and concludes the process is closed.
+**Give feedback beyond a number.** An applicant told they scored 68 learns nothing; substantive
+feedback is what keeps the next application from being identical.
 
 **Reviews held outside the system.** Spreadsheets emailed between reviewers, so the link from
 score to decision cannot be reconstructed.

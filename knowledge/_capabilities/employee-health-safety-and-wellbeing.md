@@ -91,26 +91,28 @@ the signal they most need.
   duty split between HR and [risk
   management](/capabilities/risk-management-and-insurance/).
 
-## Where it goes wrong
+## What to get right
 
-**Safety as documentation.** Training records complete, toolbox talks logged, hazards uncontrolled.
-Satisfies an inspection and prevents nothing.
+**Control hazards, not just document them.** Training records complete and toolbox talks logged
+satisfy an inspection but prevent nothing unless the underlying hazard is actually controlled.
 
-**Injuries reported late.** Delay worsens the medical outcome and the claim cost simultaneously,
-and usually reflects a culture where reporting has a consequence.
+**Report injuries immediately.** Prompt reporting improves the medical outcome and the claim cost
+alike; delay usually reflects a culture where reporting has a consequence, which is worth fixing
+directly.
 
-**Modified duty that does not exist.** A return-to-work programme with no genuine light duty
-available, so the only options are full duty or continued absence.
+**Make modified duty genuine, not nominal.** A return-to-work programme needs real light duty
+available — otherwise the only options are full duty or continued absence.
 
-**Accommodation as a form.** No interactive process, a slow determination, and a request that
-becomes a complaint.
+**Run accommodation as a real interactive process.** A prompt, substantive determination keeps a
+request from turning into a complaint.
 
-**Health data in the personnel file.** Medical information accessible to supervisors, which is both
-a legal exposure and the reason people stop disclosing.
+**Restrict health data to its own access tier, apart from the personnel file.** Keeping medical
+information away from supervisors closes a legal exposure and keeps people willing to disclose.
 
-**Cause coding absent.** Claims tracked by cost and department, not by what happened, so the same
-hazard produces injuries indefinitely — the same defect described in
+**Code the cause, not just the cost.** Tracking claims by cause as well as cost and department
+prevents the same hazard from producing injuries indefinitely — the same discipline described in
 [risk management](/capabilities/risk-management-and-insurance/).
 
-**Psychological support that requires self-identification to a supervisor.** Nobody in a public
-safety culture will use it, and utilization statistics are then read as low need.
+**Make psychological support available without going through a supervisor.** Support that requires
+self-identification to a supervisor won't be used in a public safety culture, and low utilization
+will then be misread as low need.

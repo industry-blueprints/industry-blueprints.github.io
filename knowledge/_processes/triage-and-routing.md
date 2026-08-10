@@ -30,8 +30,8 @@ relationships:
     note: Owns the routing rules and the queue structure
   - predicate: measured_by
     target: /kpis/first-contact-resolution.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/intent-classification-and-routing.md
+  - predicate: has_integration
+    target: /ai-integrations/intent-classification-and-routing.md
 ---
 
 Triage is where most of the damage is done. A request classified wrongly at minute one will

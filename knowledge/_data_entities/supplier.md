@@ -90,19 +90,20 @@ The model has to support the control: change history, out-of-band verification s
 requested, who verified, and a record that a verification actually occurred through a channel the
 requester did not supply.
 
-## Where else it goes wrong
+## What else to get right
 
-- **Supplier as a root entity** rather than a Party role, so the same organization's grant,
-  permit, and contract relationships never connect.
-- **Performance history attached to contracts**, invisible to the next evaluation panel — which is
-  how a supplier that failed one department wins from another.
-- **Certifications without expiry tracking**, so diverse-supplier reporting counts lapsed
-  certifications and overstates participation.
-- **Related parties unmodelled.** Concentration risk and conflicts of interest both need the
-  ownership graph, and neither is visible without it.
-- **Registration burden as an exclusion mechanism.** A heavy onboarding process deters exactly the
-  small and local suppliers a diversity programme is meant to reach — a data-capture decision with
-  a policy consequence.
+- **Model Supplier as a Party role**, not a root entity, so the same organization's grant, permit,
+  and contract relationships connect.
+- **Attach performance history to the supplier**, not just the contract, so the next evaluation
+  panel can see it — visibility here is what keeps a supplier that failed one department from
+  winning from another.
+- **Track certification expiry**, so diverse-supplier reporting reflects active certifications
+  rather than overstating participation with lapsed ones.
+- **Model related parties.** Building the ownership graph is what makes concentration risk and
+  conflicts of interest visible.
+- **Keep registration burden proportionate.** A lighter onboarding process is what lets the small
+  and local suppliers a diversity programme is meant to reach actually participate — a
+  data-capture decision with a real policy consequence.
 
 ## AI relevance
 

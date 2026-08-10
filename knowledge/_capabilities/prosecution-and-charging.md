@@ -102,33 +102,35 @@ who were detained, employed, or housed in the interim.
   offences frequently referred federally — and declination at that level leaving no prosecution at
   all.
 
-## Where it goes wrong
+## What to get right
 
-**Charging before screening.** Filed on the arrest report, evidence assessed weeks later, and
-dismissed — after the defendant has been detained, missed work, or lost housing.
+**Screen evidence before charging, not after.** Filing on the arrest report and assessing evidence
+weeks later means a dismissal that arrives after the defendant has been detained, missed work, or
+lost housing; screening first catches that earlier.
 
-**Reasoning unrecorded.** Declination and reduction decisions with no reason captured, so charging
-policy cannot be audited, evaluated, or applied consistently across a large office.
+**Record the reasoning behind declination and reduction.** Without it, charging policy cannot be
+audited, evaluated, or applied consistently across a large office.
 
-**Disclosure managed as a task rather than as an obligation.** Exculpatory material is disclosable
-from the outset and continuously; treating it as trial preparation is the most common cause of
-reversal — and it is the [obligation tracking](/patterns/obligation-tracking/) pattern with
-constitutional stakes.
+**Treat disclosure as a continuous obligation, not a trial-prep task.** Exculpatory material is
+disclosable from the outset and continuously; meeting that from the start is what the
+[obligation tracking](/patterns/obligation-tracking/) pattern requires here, with constitutional
+stakes attached.
 
-**Credibility disclosure not maintained.** No standing register of officers with sustained
-credibility findings, so the obligation is met case by case from memory.
+**Maintain a standing credibility disclosure register.** Meeting the obligation case by case from
+memory is what a register is built to replace.
 
-**Overcharging as negotiation.** Charges filed above what the evidence supports to create plea
-leverage, which produces pleas that reflect exposure rather than conduct.
+**Charge to the evidence, not to create plea leverage.** Charges filed above what the evidence
+supports produce pleas that reflect exposure rather than conduct.
 
-**Detention as the resolution mechanism.** A defendant held pretrial accepts a plea to be released.
-The plea is procedurally valid and tells you nothing about guilt — see
+**Resolve cases on merit, not on detention pressure.** A defendant held pretrial who accepts a plea
+to be released produces a procedurally valid plea that tells you nothing about guilt — see
 [pretrial services](/capabilities/pretrial-services-and-release-decisions/).
 
-**Diversion available and unused.** Eligibility never assessed because assessment is an extra step
-and the default is to proceed.
+**Assess diversion eligibility as a standard step.** Skipped as an extra step, the default becomes
+proceeding to charge even where diversion would serve better.
 
-**Victims informed after the decision.** Consulted as a formality once the plea is agreed.
+**Consult victims before the decision, not after.** Informing them once the plea is already agreed
+is consultation in name only.
 
-**No disparity analysis.** Charging and disposition data exists in the case system and is almost
-never analysed by the office that holds it.
+**Analyse charging and disposition data for disparity.** It exists in the case system already; the
+office that holds it is best placed to analyse it.

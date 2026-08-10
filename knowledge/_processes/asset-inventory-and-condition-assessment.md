@@ -29,8 +29,8 @@ relationships:
     note: The register is master data with three claimants
   - predicate: measured_by
     target: /kpis/condition-assessment-currency.md
-  - predicate: has_opportunity
-    target: /ai-opportunities/condition-assessment-from-imagery.md
+  - predicate: has_integration
+    target: /ai-integrations/condition-assessment-from-imagery.md
 ---
 
 ## Trigger and outcome
@@ -129,7 +129,7 @@ critical, which is the same misallocation
 **Make imagery-derived condition the default for linear and surface assets.** Pavement, roofs,
 signs, and vegetation can be assessed continuously from vehicle-mounted or aerial imagery at a
 fraction of the cost of a periodic survey — see
-[condition assessment from imagery](/ai-opportunities/condition-assessment-from-imagery/). It does
+[condition assessment from imagery](/ai-integrations/condition-assessment-from-imagery/). It does
 not replace inspection for buried or mechanical assets.
 
 **Close the loop from failures back to ratings.** Assets rated good that fail are the evidence that

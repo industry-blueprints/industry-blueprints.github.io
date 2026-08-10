@@ -95,33 +95,33 @@ something it cannot support.
   neighbourhood partnerships. Fire departments have moved substantially toward community risk
   reduction, which is the clearest example of prevention displacing response in public safety.
 
-## Where it goes wrong
+## Getting this right
 
-**Programmes untargeted.** Delivered where partners already operate rather than where harm
-concentrates, which is measurable and frequently unmeasured.
+**Target programmes to where harm concentrates.** Delivering them instead where partners already
+operate is measurable against concentration data and frequently left unmeasured.
 
-**Evidence base unexamined.** Programmes adopted because they are known, funded, or politically
-attractive, including some with evidence of no effect or of harm.
+**Examine the evidence base before adopting a programme.** Programmes chosen because they are
+known, funded, or politically attractive can include some with evidence of no effect or of harm.
 
-**Community organizations as subcontractors, not partners.** Contracted to deliver a design they
-had no part in, on terms and reporting requirements that exclude the smaller organizations with the
-most access — the same
+**Treat community organizations as delivery partners, not subcontractors.** Contracting them to
+deliver a design they had no part in, on terms and reporting requirements that exclude the smaller
+organizations with the most access, repeats the same
 [grants](/capabilities/grants-management-outbound/) burden problem.
 
-**Evaluation designed after the fact.** No baseline, no comparison, and a claim of effect that
-cannot be supported or refuted.
+**Design evaluation before the programme launches.** Without a baseline and a comparison, a claim
+of effect can be neither supported nor refuted.
 
-**Cross-agency coordination without a lawful basis.** Either sharing is blocked and coordination
-fails, or it happens informally and creates a
+**Establish a lawful basis for cross-agency coordination before it is needed.** Without one, either
+sharing is blocked and coordination fails, or it happens informally and creates a
 [privacy](/capabilities/privacy-management/) exposure — the same problem as
 [referral](/capabilities/referral-and-cross-agency-coordination/), with higher stakes.
 
-**Funding cycles shorter than the effect.** Three-year grants for outcomes that take longer, with
-the programme ending as its effect would become measurable.
+**Sustain funding beyond the cycle the effect takes to appear.** Three-year grants for outcomes
+that take longer end the programme just as its effect would become measurable.
 
-**Trust spent by enforcement.** Prevention programmes delivered by or alongside enforcement
-functions, so participation carries a perceived risk that suppresses the engagement the programme
-depends on.
+**Keep prevention separate from enforcement where trust is the dependency.** Prevention programmes
+delivered by or alongside enforcement functions give participation a perceived risk that suppresses
+the engagement the programme depends on.
 
-**Prevention cut first.** Under budget pressure, the non-event loses to the visible response
-capacity every time.
+**Protect prevention funding under budget pressure.** The non-event tends to lose to the visible
+response capacity every time unless it is deliberately protected.

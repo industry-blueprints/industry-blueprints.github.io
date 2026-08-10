@@ -85,29 +85,32 @@ costs, and it is the number that makes the case for doing anything about it.
   [case record](/data-entities/case/) hard, and the reason the level 2 to level 3
   [transition](/playbooks/constituent-service-level-2-to-3/) is where most organizations stall.
 
-## Where it goes wrong
+## What to get right
 
-**No portfolio.** Nobody can list the applications in use, so cost, risk, and duplication are all
+**Maintain a portfolio someone can actually list.** Without it, cost, risk, and duplication are all
 unanswerable and rationalization cannot start.
 
-**Integrations built inside projects and orphaned.** The project closes, the interface runs for a
-decade, and the first person to look at it is the one whose replacement project broke it.
+**Give every integration an owner beyond the project that built it.** Otherwise the project closes,
+the interface runs for a decade, and the first person to look at it is the one whose replacement
+project broke it.
 
-**Direct database integration.** One system reading another's tables, which makes the second system
-unupgradeable and the coupling invisible until it fails.
+**Integrate through defined interfaces, not direct database access.** One system reading another's
+tables makes the second system unupgradeable and the coupling invisible until it fails.
 
-**Point-to-point growth.** Each new connection built individually, and the count grows toward the
-square of the systems — which is how a modest estate becomes unmodifiable.
+**Manage integration growth through a pattern, not point-to-point connections.** Each new
+connection built individually grows the count toward the square of the systems — which is how a
+modest estate becomes unmodifiable.
 
-**End of support discovered at the incident.** The vendor stopped supporting the version four years
-ago, and nobody was tracking it.
+**Track end-of-support dates before the incident finds them.** A vendor that stopped supporting a
+version four years ago should already be on a plan, not a surprise.
 
-**Retirement that never finishes.** The replacement goes live, the old system stays up "for
-reporting," and it is still running six years later holding the only copy of historical data.
+**Finish retirements, including the data.** A replacement going live while the old system stays up
+"for reporting" tends to still be running six years later, holding the only copy of historical
+data.
 
-**Duplicate systems by department.** Three case management products because three departments
-procured independently — a governance failure that surfaces as an integration cost. See
-[enterprise portfolio governance](/capabilities/enterprise-portfolio-and-investment-governance/).
+**Consolidate duplicate systems across departments.** Three case management products because three
+departments procured independently is a governance failure that surfaces as an integration cost.
+See [enterprise portfolio governance](/capabilities/enterprise-portfolio-and-investment-governance/).
 
-**Technical debt described rather than quantified.** Known to be bad, never expressed as a position
-with a plan, so it never competes for funding.
+**Quantify technical debt as a position, not a description.** Known to be bad but never expressed
+with a number and a plan, it never competes for funding.

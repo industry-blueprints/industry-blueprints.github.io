@@ -86,26 +86,28 @@ into a figure, which is exactly the point made in
   enterprise funds. Small jurisdictions often use a de minimis rate rather than negotiating one,
   which is administratively cheaper and usually recovers less than actual cost.
 
-## Where it goes wrong
+## What to get right
 
-**Allocation bases chosen for availability.** Headcount used because headcount is easy, for a
-service consumed by transaction volume. Defensible until examined.
+**Choose allocation bases that reflect actual consumption.** Headcount is easy to use for a service
+actually consumed by transaction volume, but that choice is only defensible until someone examines
+it.
 
-**Statistics that never change.** Square footage or FTE counts from a survey five years old, still
-driving allocations after two reorganizations.
+**Refresh the statistics behind the allocation.** Square footage or FTE counts from a survey five
+years old should not still be driving allocations after two reorganizations.
 
-**Indirect capped by the funder and absorbed silently.** The most common form of the subsidy: the
-award allows ten percent, the actual rate is twenty-two, and the difference lands in the general
-fund with no visibility.
+**Make the capped-indirect subsidy visible.** The most common form of the subsidy: the award allows
+ten percent, the actual rate is twenty-two, and the difference should land in the general fund with
+visibility, not silently.
 
-**Time and effort certified retrospectively.** Signed at period end from memory, which is a
+**Certify time and effort as it happens, not at period end.** Signed from memory at close, it is a
 frequent audit finding and undermines every allocation built on it.
 
-**Chargeback rates set to recover a budget.** The internal service fund's costs divided by
-expected volume, so a department reducing consumption sees no saving and the incentive inverts.
+**Set chargeback rates to reflect actual usage, not to recover a fixed budget.** Dividing the
+internal service fund's costs by expected volume means a department reducing consumption sees no
+saving, and the incentive inverts.
 
-**No reconciliation to actual.** Rates applied all year, never trued up, so over- or under-recovery
+**Reconcile rates to actual cost.** Applied all year without truing up, over- or under-recovery
 compounds across periods.
 
-**Unallowable costs left in the pool.** Lobbying, certain legal costs, and entertainment flowing
-into an allocation base and thereby into a federal claim.
+**Keep unallowable costs out of the pool.** Lobbying, certain legal costs, and entertainment
+flowing into an allocation base flow into a federal claim with them.

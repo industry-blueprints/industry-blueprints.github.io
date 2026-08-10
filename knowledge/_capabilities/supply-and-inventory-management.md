@@ -82,27 +82,29 @@ that matter.
   supplies for emergency services, and election materials — high-consequence items in modest
   quantities, often managed on a spreadsheet by the person who also orders them.
 
-## Where it goes wrong
+## What to get right
 
-**Reorder points set once.** From a judgment made years ago, never revisited against actual
-consumption or current lead times.
+**Revisit reorder points against current consumption and lead times.** A judgment made years ago
+and never revisited drifts out of date as both change.
 
-**Issues untracked.** Staff take what they need from an open store. On-hand figures drift from
-reality within weeks and no consuming operation is ever charged.
+**Record issues at the point of issue.** Without that, staff take what they need from an open
+store, on-hand figures drift from reality within weeks, and no consuming operation is ever
+charged.
 
-**Annual count as the only count.** A full physical inventory that requires a shutdown, produces a
-large adjustment, and leaves the numbers wrong for the other fifty-one weeks. Cycle counting
-solves this and is resisted because it looks like more work.
+**Use cycle counting instead of relying on an annual count.** A full physical inventory that
+requires a shutdown produces a large adjustment and leaves the numbers wrong for the other
+fifty-one weeks; cycle counting keeps them accurate year-round, even though it looks like more
+work.
 
-**Emergency stock held until expiry.** Pandemic and disaster supplies purchased, stored, and
-discarded unused, then repurchased. Rotating them through normal consumption is the standard
-answer and requires the two inventories to be managed as one.
+**Rotate emergency stock through normal consumption.** Managing the two inventories as one is what
+keeps pandemic and disaster supplies from being purchased, stored, discarded unused, and
+repurchased.
 
-**No item standardization.** Six equivalent products across departments, none purchased in
-sufficient volume to matter, and no substitution possible during a shortage.
+**Standardize items across departments.** Consolidating six equivalent products into one purchased
+in real volume also creates a substitution option during a shortage.
 
-**Criticality unassessed.** Every item managed to the same service level, so the cheap consumable
-and the part that grounds an ambulance get identical treatment.
+**Assess criticality and size service levels accordingly.** Treating a cheap consumable and the
+part that grounds an ambulance the same way misses the distinction that actually matters.
 
-**Surplus disposed of without checking internal demand.** One department scraps what another is
-about to buy.
+**Check internal demand before disposing of surplus.** That's what keeps one department from
+scrapping what another is about to buy.

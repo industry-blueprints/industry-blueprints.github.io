@@ -87,30 +87,34 @@ logic as split purchases in
   public safety, utilities, libraries, schools in some structures — with twenty-four-hour
   obligations for dispatch and emergency services and no round-the-clock staffing to match.
 
-## Where it goes wrong
+## What to get right
 
-**Requests and incidents in one queue.** A password reset and a failed dispatch system prioritized
-by arrival order.
+**Separate requests from incidents into their own queues.** A password reset and a failed dispatch
+system need different handling, not prioritization by arrival order alone.
 
-**Priority set by the caller's seniority.** Rather than by service impact, which is measurable and
-defensible.
+**Set priority by service impact.** Measurable and defensible, unlike priority set by the caller's
+seniority.
 
-**Problem management as a spare-time activity.** Incidents closed efficiently, causes never
-investigated, and the same failure resolved two hundred times — the most expensive habit in this
-capability.
+**Give problem management dedicated time, not spare time.** Investigating causes rather than just
+closing incidents efficiently is what stops the same failure from being resolved two hundred
+times — the most expensive habit in this capability.
 
-**Change control that everyone routes around.** A weekly board with a five-day lead time, so real
-work is classified as emergency and the control becomes theatre.
+**Make the standard change path fast enough to use.** A weekly board with a five-day lead time
+pushes real work into the emergency category, which turns the control into theatre — fixing the
+path keeps it real.
 
-**A configuration database maintained by nobody.** Populated during an implementation, decayed
-within a year, and consulted during a major incident when it is wrong.
+**Keep the configuration database current.** Populated during an implementation and left to decay,
+it gets consulted during a major incident exactly when it's wrong — active maintenance is what
+keeps it trustworthy.
 
-**Knowledge in individual heads.** The same investigation repeated by whoever picks it up, and
-resolution time determined by which technician answered — see [grounded knowledge
-retrieval](/patterns/grounded-knowledge-retrieval/).
+**Govern knowledge instead of leaving it in individual heads.** Otherwise the same investigation
+gets repeated by whoever picks it up, and resolution time depends on which technician answered —
+see [grounded knowledge retrieval](/patterns/grounded-knowledge-retrieval/).
 
-**Service levels measured on the desk only.** Response time reported, restoration owned by teams
-outside the measure, so performance looks acceptable and the user's experience is not.
+**Measure service levels end to end, not just at the desk.** Response time alone can look
+acceptable while restoration, owned by teams outside the measure, leaves the user's experience
+worse than the numbers show.
 
-**Shadow IT treated as a discipline problem.** Departments buy their own systems when the central
-route is slow — which is a signal about the central route.
+**Read shadow IT as a signal about the central route, not a discipline problem.** Departments
+buying their own systems when the central route is slow are telling you something about that
+route.

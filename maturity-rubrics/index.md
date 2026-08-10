@@ -2,6 +2,6 @@
 layout: collection-index
 title: Maturity Rubrics
 collection_key: maturity_rubrics
-eyebrow: The spine
-description: Five levels, several dimensions, written to be scored out loud in a workshop with the people who do the work. Start here — guidance that assumes a capability you do not have is worse than no guidance.
+eyebrow: A lens, not the spine
+description: Five levels, several dimensions, written to be scored out loud with the people who do the work. A rubric is a lens laid over a capability that has already been described — written only where the level descriptions name something observable, which is why there is one rather than a hundred.
 ---

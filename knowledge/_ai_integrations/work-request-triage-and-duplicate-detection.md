@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Triage Work Requests and Detect Duplicates
 description: Turn eleven reports of one pothole into one work order and eleven
   notifications — the cheapest win in the domain.
-resource: https://industry-blueprints.github.io/ai-opportunities/work-request-triage-and-duplicate-detection/
+resource: https://industry-blueprints.github.io/ai-integrations/work-request-triage-and-duplicate-detection/
 tags: [ai, work-requests, triage, classification, deduplication, intake]
 
 generated: { by: human:jhofmann, at: 2026-07-29T13:45:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [state, county, municipal]
+ai_modality: autonomous
 ai_task_type: classification
 minimum_level: 3
 
@@ -99,17 +100,19 @@ asymmetry of consequences makes false positives cheap and false negatives unacce
 **Do not close on classification.** A request classified as another authority's asset is referred
 with the owner named — a terminal state the requester can see, not a silent close.
 
-## Where it goes wrong
+## What to get right
 
-**Deployed onto fragmented intake.** Six channels, six queues, and a classifier on one of them.
+**Unify intake before deploying.** A classifier on one of six channels leaves the other five
+unclassified; consolidating intake first is what makes triage complete.
 
-**Auto-merging.** Discussed above, and the failure is invisible: the second defect simply never
-existed as a record.
+**Surface merge candidates for review, don't auto-merge.** Discussed above — a reviewed merge
+keeps the second defect visible as a record instead of erasing it silently.
 
-**Learning priority from history**, encoding the existing bias as an automated rule.
+**Set priority from policy, not history.** Deriving it deliberately avoids encoding existing bias
+as an automated rule.
 
-**Location resolution without authoritative data.** A geocoder guessing against a stale address
-list produces confident wrong coordinates, and a crew sent to the wrong street.
+**Resolve location against authoritative data.** A geocoder checked against a current address
+list sends a crew to the right street instead of a confident wrong coordinate.
 
-**Notification without a preference.** Eleven residents notified through a channel they did not
-choose, which converts a good outcome into a complaint about contact.
+**Ask for a notification preference.** Notifying residents through the channel they chose turns a
+good outcome into a good experience, not a complaint about contact.

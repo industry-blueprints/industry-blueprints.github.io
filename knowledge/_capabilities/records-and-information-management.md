@@ -74,23 +74,25 @@ one that best describes actual exposure.
 - **County / municipal.** Same obligations, typically no dedicated records manager, and schedules
   inherited from the state that nobody has reconciled with reality.
 
-## Where it goes wrong
+## What to get right
 
-**Retention attached to systems, not records.** Migrate the data and the schedule is silently
-lost — the most common way retention obligations break, and it surfaces years later during a
-records request or litigation.
+**Attach retention to the record, not the system it happens to sit in.** Migrating the data
+without carrying the schedule is the most common way retention obligations break, and it
+surfaces years later during a records request or litigation.
 
-**Keep everything, dispose of nothing.** Deletion feels risky and retention feels safe, so
+**Dispose of what has met its schedule.** Deletion feels risky and retention feels safe, so
 volume grows and every extra year of retained email enlarges the disclosure and breach surface.
 
-**Records created in tools nobody governs.** A department adopts a collaboration platform; two
-years of records exist outside any schedule and nobody knows.
+**Bring new tools under a schedule before adoption spreads.** When a department adopts a
+collaboration platform without governance, two years of records can exist outside any schedule
+with nobody aware of it.
 
-**No definition staff can apply.** "Is this a record?" answered inconsistently by everyone,
-because the guidance is written for records professionals.
+**Give staff a definition they can actually apply.** "Is this a record?" gets answered
+inconsistently by everyone when the guidance is written for records professionals rather than for
+the people who have to use it.
 
-**Decommissioning without content transfer.** A system is retired; its records go with it, and
-the obligation does not.
+**Transfer content before decommissioning a system.** Retiring a system without moving its
+records first lets the records go with it while the obligation stays behind.
 
-**Holds applied by email.** No register, no confirmation, no way to demonstrate the hold was
-effective — which is exactly what gets tested when it matters.
+**Track holds in a register, not by email.** A register with confirmation is what lets you
+demonstrate a hold was effective — exactly what gets tested when it matters.

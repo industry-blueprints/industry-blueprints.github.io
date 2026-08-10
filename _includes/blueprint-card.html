@@ -8,9 +8,6 @@
   <h3>{{ include.entry.title }}</h3>
   <p class="summary">{{ include.entry.description }}</p>
   <div class="meta-row">
-    {% if include.entry.status %}
-      <span class="badge badge-status is-{{ include.entry.status }}">{{ include.entry.status }}</span>
-    {% endif %}
     {% if include.entry.depth %}
       {% assign d = site.depth_levels[include.entry.depth] %}
       <span class="badge badge-depth is-{{ include.entry.depth }}" title="{{ d.note }}">{{ d.label }}</span>

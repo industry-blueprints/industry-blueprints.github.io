@@ -93,30 +93,31 @@ investigation, or in owner decision-making.
   unless alternative delivery is specifically authorized, which removes the option most suited to
   complex or fast projects.
 
-## Where it goes wrong
+## What to get right
 
-**Bidding incomplete design.** Awarding on drawings at sixty percent to save time, then paying for
-the remaining forty percent as change orders at a price set without competition.
+**Bid complete design, not a partial one.** Awarding on drawings at sixty percent to save time means
+paying for the remaining forty percent as change orders at a price set without competition.
 
-**No site investigation.** The most reliably profitable investigation in construction, skipped
-because it delays the bid.
+**Invest in site investigation before bidding.** It is the most reliably profitable investigation
+in construction, and skipping it to save time on the bid costs more later.
 
-**Change orders unclassified.** Approved individually, never analysed by cause, so the same design
-gap recurs on the next project.
+**Classify every change order by cause.** Approved individually without analysis, the same design
+gap recurs on the next project; classified, it gets fixed.
 
-**Baseline schedules never updated honestly.** The published schedule showing on-time completion
-until two months before, when it does not.
+**Update baseline schedules honestly as the project proceeds.** A published schedule showing
+on-time completion until two months before it doesn't reflects a schedule that stopped being
+updated honestly.
 
-**Inspection by the contractor's own quality programme.** Cheaper, and it removes the independent
-check exactly where it matters.
+**Keep inspection independent of the contractor's own quality programme.** Relying on the
+contractor's programme is cheaper, but it removes the independent check exactly where it matters.
 
-**Handover without asset data.** The facility opens and the maintenance team has no equipment list,
-no serial numbers, no warranty dates, and no manuals — so
-[maintenance management](/capabilities/maintenance-management/) starts from nothing and the
-[asset register](/capabilities/asset-management/) never gets the new asset.
+**Hand over complete asset data at completion.** Without an equipment list, serial numbers,
+warranty dates, and manuals, [maintenance management](/capabilities/maintenance-management/) starts
+from nothing and the [asset register](/capabilities/asset-management/) never gets the new asset.
 
-**Warranties expiring unused.** Defects noticed after the period because nobody tracked the dates —
-the same [obligation tracking](/patterns/obligation-tracking/) failure as unclaimed service credits.
+**Track warranty dates and use them.** Defects noticed after the period because nobody tracked the
+dates is the same [obligation tracking](/patterns/obligation-tracking/) gap as unclaimed service
+credits.
 
-**Retainage and payment held down the chain.** The prime is paid, subcontractors are not, and the
-small firms the diversity programme exists to support are the ones financing the project.
+**Move retainage and payment down the chain promptly.** Paying the prime while subcontractors wait
+leaves the small firms the diversity programme exists to support financing the project.

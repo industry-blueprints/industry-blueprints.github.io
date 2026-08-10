@@ -100,36 +100,42 @@ is worse for the victim than a candid statement at the outset.
 - **Tribal.** Tribal victim services with jurisdictional complexity affecting which system responds
   at all — a particular concern in cases involving non-tribal offenders.
 
-## Where it goes wrong
+## What to get right
 
-**Notification that does not arrive.** Sent to a stale address or a disconnected number, with no
-delivery confirmation, so a release notification fails at the moment it matters most.
+**Confirm delivery, not just sending.** A notification sent to a stale address or a disconnected
+number with no delivery confirmation can fail at the moment it matters most — confirming delivery
+catches that in time.
 
-**A different advocate at every agency.** Police, prosecutor, court, and corrections each with their
-own contact, none holding the whole picture, and the person repeating their account to each — the
-[referral and coordination](/capabilities/referral-and-cross-agency-coordination/) failure applied
-to someone who has just been harmed.
+**Give the person one point of contact across agencies.** Police, prosecutor, court, and
+corrections each holding their own piece leaves the person repeating their account to each one —
+a single point of contact closes the
+[referral and coordination](/capabilities/referral-and-cross-agency-coordination/) gap for
+someone who has just been harmed.
 
-**Compensation requiring documentation the person cannot obtain.** Police reports, medical records,
-and employer letters within a filing deadline, and cooperation requirements that exclude people with
-good reasons not to participate.
+**Make compensation reachable with the documentation people actually have.** Police reports,
+medical records, and employer letters within a filing deadline, plus cooperation requirements,
+exclude people with good reasons not to participate — designing around that keeps the programme
+reachable.
 
-**Restitution ordered and forgotten.** No collection mechanism, no follow-up, and no explanation to
-the victim of what to expect — a
+**Follow through on restitution after it's ordered.** A collection mechanism, active follow-up,
+and a clear explanation to the victim of what to expect turn restitution into more than an order
+on paper — otherwise it becomes a
 [receivables](/capabilities/billing-and-receivables/) problem nobody owns.
 
-**Contact details disclosed through discovery.** Victim address and phone appearing in the case file
-provided to the defendant, which is a safety failure and a routine one.
+**Keep contact details out of discovery.** Victim address and phone should not appear in the case
+file provided to the defendant; protecting that is a routine safety requirement, not an edge case.
 
-**Services conditioned on participation.** Support offered only to victims who cooperate with
-prosecution, which withholds help from the people most at risk.
+**Make services available regardless of participation.** Support offered only to victims who
+cooperate with prosecution withholds help from the people most at risk — decoupling the two
+reaches them.
 
-**Consultation as notification after the fact.** Told about the plea once it is agreed, which is not
-consultation.
+**Consult before the decision, not after.** Being told about a plea once it is agreed is
+notification, not consultation — real consultation happens before.
 
-**Rights explained in a leaflet.** Handed over at a moment when nobody can absorb written
-information, never revisited.
+**Explain rights in a way people can actually absorb, and revisit them.** A leaflet handed over at
+a moment when nobody can absorb written information needs to be followed up, not treated as
+one-and-done.
 
-**Post-disposition notification dropping off.** Custody, supervision, and release events years later
-never reaching someone who registered once — because the registration did not follow the case
-between agencies.
+**Carry notification across the case's full lifecycle.** Registering someone once needs to follow
+the case between agencies, so custody, supervision, and release events years later still reach
+them.

@@ -86,28 +86,29 @@ negotiations.
   many single-incumbent classes, which makes the classification-versus-person distinction hardest
   to maintain precisely where it matters most.
 
-## Where it goes wrong
+## What to get right
 
-**Positions tracked in the payroll system only.** Unfunded and vacant positions become invisible,
-so the establishment cannot be reported and workforce planning has no baseline — the failure
-[workforce planning](/capabilities/workforce-planning/) inherits.
+**Track positions in the establishment, not just the payroll system.** Payroll alone leaves unfunded
+and vacant positions invisible, so the establishment cannot be reported and workforce planning has
+no baseline — the gap [workforce planning](/capabilities/workforce-planning/) inherits.
 
-**Class specifications describing work nobody does.** Written fifteen years ago, still requiring
-skills that are obsolete and omitting the ones now essential. Recruitment then screens on the wrong
-criteria.
+**Keep class specifications current with the work actually performed.** Written fifteen years ago
+and left alone, they require obsolete skills and omit the ones now essential, and recruitment then
+screens on the wrong criteria.
 
-**Reclassification as a pay mechanism.** The market rate has moved, the salary schedule has not, so
-the position is reclassified upward to fix pay. It works, and it corrupts the classification system
-permanently.
+**Fix pay through the salary schedule, not through reclassification.** Reclassifying a position
+upward because the market rate has moved and the schedule has not works once, and corrupts the
+classification system permanently.
 
-**Grading the incumbent.** A strong performer's position graded up, then filled at that grade by
-someone doing narrower work.
+**Grade the work, not the incumbent.** A strong performer's position graded up gets filled at that
+grade by someone doing narrower work once they leave.
 
-**Classification drift between studies.** Every new position placed by comparison to the nearest
-existing one, so error compounds until an external review resets it.
+**Anchor new positions to the classification standard, not the nearest existing one.** Placing by
+comparison to a neighbour lets error compound until an external review resets it.
 
-**No establishment control.** Departments create positions within their budget, and nobody holds
-the enterprise view until a hiring freeze requires one.
+**Hold an enterprise view of establishment control.** Without one, departments create positions
+within their own budget and nobody sees the whole picture until a hiring freeze forces the
+question.
 
-**Organizational structure maintained in a drawing.** The chart in a slide deck, the reporting
-relationships in the system, and the two disagreeing.
+**Keep the organizational chart and the system's reporting relationships as one source.** A chart
+maintained separately in a slide deck will disagree with the system sooner or later.

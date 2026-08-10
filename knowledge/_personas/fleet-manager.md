@@ -79,7 +79,7 @@ infrastructure, electrical capacity, and training.
 Telematics-driven fault prediction and duty-cycle analysis for right-sizing are the two genuine
 cases, and both depend on telematics data actually being collected and joined to work history —
 see [failure prediction from work
-history](/ai-opportunities/failure-prediction-from-work-history/).
+history](/ai-integrations/failure-prediction-from-work-history/).
 
 What does not help: a predictive model on a fleet with no maintenance history. The record is the
 prerequisite.

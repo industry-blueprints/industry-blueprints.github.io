@@ -97,34 +97,35 @@ failing.
   **Rural and small libraries** are often a single building with one or two staff and are the
   primary connectivity point for the area.
 
-## Where it goes wrong
+## What to get right
 
-**Licensed digital priced per circulation.** E-book and audiobook licensing terms that cost far more
-per use than print and expire after a set number of loans, so the digital collection consumes budget
-without accumulating an asset — the defining collection economics problem of the last decade.
+**Weigh licensed digital cost against print, not just convenience.** E-book and audiobook licensing
+terms that cost far more per use than print and expire after a set number of loans mean the digital
+collection consumes budget without accumulating an asset — the defining collection economics
+problem of the last decade, worth negotiating and budgeting for deliberately.
 
-**Public computing sized for a decade ago.** Demand concentrated at specific hours for tasks with
-deadlines — benefit applications, job applications, court forms — and no measurement of turned-away
-demand.
+**Size public computing to peak demand for deadline-driven tasks.** Benefit applications, job
+applications, and court forms concentrate demand at specific hours; measuring turned-away demand is
+what makes the right capacity visible.
 
-**Fines as a revenue line.** Overdue fines that cost more to administer than they collect, deter the
-households they are largest for, and remove access from the people who need it most. Many systems
-have eliminated them and seen return rates hold.
+**Reconsider fines as a revenue line.** Overdue fines often cost more to administer than they
+collect, deter the households they are largest for, and remove access from the people who need it
+most. Many systems have eliminated them and seen return rates hold.
 
-**Card registration requiring proof of address.** Excludes people without stable housing — again,
-the population that most needs the service.
+**Set card registration requirements that do not exclude people without stable housing.** A proof-
+of-address requirement excludes exactly the population that most needs the service.
 
-**Programming counted by attendance.** Total attendance rises by serving the already-engaged;
-reaching the segments who do not come is harder and is what the measure should track.
+**Measure programming reach, not just attendance.** Total attendance rises by serving the
+already-engaged; tracking the segments who do not come is what shows whether outreach is working.
 
-**Staff absorbing crisis work untrained and unsupported.** Public libraries encounter homelessness,
-overdose, and mental health crisis daily, and staff are frequently expected to manage it with no
-training, no protocol, and no social work support — see
+**Train and support staff for the crisis work they actually encounter.** Public libraries encounter
+homelessness, overdose, and mental health crisis daily, and staff need training, protocol, and
+social work support to do it well — see
 [employee health, safety and wellbeing](/capabilities/employee-health-safety-and-wellbeing/).
 
-**Government form help unrecorded.** Substantial hours spent helping people complete other agencies'
-processes, invisible in every statistic, so the cost is never attributed to the agency that caused
-it.
+**Record government form help as its own category.** Substantial hours spent helping people
+complete other agencies' processes should be visible in the statistics, so the cost can be
+attributed to the agency that caused it.
 
-**Broadband gap absorbed silently.** The library becomes the community's connectivity, with parking
-lot wireless use at night, and that dependency never appears in any digital inclusion plan.
+**Name the broadband gap the library is absorbing.** Parking lot wireless use at night is real
+demand; naming that dependency is what gets it into a digital inclusion plan.

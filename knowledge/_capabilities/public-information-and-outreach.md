@@ -89,31 +89,33 @@ broadcasting.** Aggregate reach reliably improves by talking more to people alre
   local government most relied on, and social platforms reach a self-selected audience — which
   makes trusted intermediaries the practical answer at this level.
 
-## Where it goes wrong
+## What to get right
 
-**Reach reported as success.** Impressions and followers counted; whether anyone applied, renewed,
-or complied is not.
+**Measure action taken, not just reach.** Impressions and followers are easy to count; whether
+anyone applied, renewed, or complied is the number that matters.
 
-**Channels chosen by staff preference.** A social post and a press release, for an audience that
-uses neither.
+**Choose channels by evidence about the audience, not staff preference.** A social post and a press
+release reach nobody if the audience uses neither.
 
-**Publishing instead of reaching.** Notice posted on the website, obligation deemed communicated,
-and the people affected never saw it.
+**Confirm the message reached people, not just that it was published.** A notice posted on the
+website meets the obligation on paper; checking whether the people affected actually saw it is what
+closes the gap.
 
-**Translation as the last step.** English campaign launched, translated versions arriving after the
-deadline, which is functionally not translating at all — see
+**Translate from the start, not as the last step.** Launching the English campaign first and
+letting translated versions arrive after the deadline is functionally not translating at all — see
 [language access](/capabilities/language-access/).
 
-**Deadline messaging arriving too late to act.** The notice is technically in advance and
-practically not, given how long the required action takes.
+**Send deadline messaging with enough lead time to act on it.** A notice that is technically in
+advance but practically too late, given how long the required action takes, needs an earlier send
+date.
 
-**Contradiction with the front line.** The campaign says one thing, the contact centre says
-another, because outward messaging and the internal knowledge base are maintained separately — see
-[knowledge management](/capabilities/knowledge-management/).
+**Keep outward messaging aligned with the front line.** The campaign and the contact centre need to
+say the same thing, which means maintaining outward messaging and the internal knowledge base
+together — see [knowledge management](/capabilities/knowledge-management/).
 
-**Reaching only the organized.** Community meetings and association mailings, which is the same
-selection problem described in
+**Reach beyond the already organized.** Community meetings and association mailings alone hit the
+same selection problem described in
 [open government and public participation](/capabilities/open-government-and-public-participation/).
 
-**Misinformation left to stand.** Corrected once on one channel while the incorrect version
-circulates on three others.
+**Correct misinformation on every channel it appears on.** Corrected once on one channel while the
+incorrect version circulates on three others leaves the correction incomplete.

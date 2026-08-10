@@ -116,17 +116,19 @@ an obligation it cannot meet.
 - Sustainability position stated: sustain, sunset, or absorb — decided, not deferred.
 - Award conditions reviewed against application assumptions before acceptance.
 
-## Where it goes wrong
+## What to get right
 
-- **The cliff, discovered at year four.** A service exists, staff exist, the funding does not.
-  Either the general fund absorbs an unplanned recurring cost or the community loses the service.
-- **Match by in-kind that was never free.** Staff time counted as match is staff time not spent
-  on something else.
-- **Indirect recovery below actual overhead**, so every award quietly subsidizes the funder.
-- **Chasing money away from mission.** Availability driving strategy, so the organization delivers
-  the funder's priorities.
-- **Conditions accepted unread.** Procurement restrictions, reporting frequency, or data-sharing
-  obligations discovered mid-performance.
+- **Name the cliff before year four.** A service and its staff can outlast the funding that
+  created them; deciding in advance whether the general fund absorbs the recurring cost or the
+  community loses the service beats discovering it under pressure.
+- **Count in-kind match as real cost.** Staff time counted as match is staff time not spent on
+  something else, and treating it that way from the start keeps the budget honest.
+- **Recover indirect cost at actual overhead**, so an award funds the mission instead of quietly
+  subsidizing it.
+- **Let mission drive strategy, not availability.** Choosing awards for fit keeps the
+  organization delivering its own priorities rather than the funder's.
+- **Read conditions before accepting.** Catching procurement restrictions, reporting frequency,
+  or data-sharing obligations up front avoids discovering them mid-performance.
 
 ## Recommended future state
 

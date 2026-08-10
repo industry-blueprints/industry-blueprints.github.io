@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Summarize the Contact into the Case Record
 description: Write the case note automatically from the conversation, removing the
   documentation step that gets skipped under queue pressure.
-resource: https://industry-blueprints.github.io/ai-opportunities/contact-summarization/
+resource: https://industry-blueprints.github.io/ai-integrations/contact-summarization/
 tags: [ai, summarization, case-management, documentation, constituent-service]
 
 generated: { by: human:jhofmann, at: 2026-07-26T15:00:00Z }
@@ -12,6 +12,7 @@ stale_after: 2027-07-26
 
 industry: public-sector
 government_levels: [federal, state, county, municipal]
+ai_modality: queue
 ai_task_type: summarization
 minimum_level: 3
 
@@ -36,7 +37,7 @@ was established, what was done, and what remains outstanding.
 
 ## Why this one is worth doing first
 
-Of the AI opportunities in this capability, this is the one a representative would notice
+Of the AI integrations in this capability, this is the one a representative would notice
 most and resist least. It removes work rather than adding a step, it does not require them
 to trust output they cannot verify — they were present for the conversation — and it improves
 a downstream problem they personally experience from the other side.

@@ -1,8 +1,10 @@
 # Content Architecture
 
-**Status:** Draft · **Last revised:** 2026-07-26 · **Targets:** Jekyll 4.x, OKF v0.2
+**Status:** Draft, mid-transition · **Last revised:** 2026-08-10 · **Targets:** Jekyll 4.x, OKF v0.2
 
 Implementation contract for [vision.md](vision.md). Covers the content model, how OKF is adopted, and what the build produces.
+
+> **Transition note.** [vision.md](vision.md) was rewritten on 2026-08-10 around blueprints and four layers. This document has had its cross-references, predicate vocabulary, and layer assignments reconciled, and its demoted sections (§5.2 maturity, §7 toolkits, §4b conversation layer) annotated in place. The `Domain Module` type and the `composed_of` / `covers` predicates landed on 2026-08-10 with the first domain module. **Not yet done:** the `Blueprint` type (§4), and per-type field schemas — which lived in the previous vision §7 and belong here now. Recover them with `git show HEAD:.design/vision.md`.
 
 ---
 
@@ -68,7 +70,7 @@ knowledge/                          # collections_dir
   _personas/
   _processes/
   _patterns/
-  _ai_opportunities/
+  _ai_integrations/
   _ai_agents/
   _architectures/
   _data_entities/
@@ -103,7 +105,7 @@ One mechanical rule connects every representation:
 | Site URL | `/<dir>/<slug>/` | `/capabilities/case-management/` |
 | Bundle path | `/<dir>/<slug>.md` | `/capabilities/case-management.md` |
 
-where `<dir>` = the collection label with the leading underscore stripped and remaining underscores converted to hyphens (`_ai_opportunities` → `ai-opportunities`). Jekyll collection labels must be valid Liquid identifiers, so they use underscores; URLs and bundle paths use hyphens. The mapping is total and reversible, which is what makes §7.3 mechanical.
+where `<dir>` = the collection label with the leading underscore stripped and remaining underscores converted to hyphens (`_ai_integrations` → `ai-integrations`). Jekyll collection labels must be valid Liquid identifiers, so they use underscores; URLs and bundle paths use hyphens. The mapping is total and reversible, which is what makes §7.3 mechanical.
 
 ---
 
@@ -119,28 +121,32 @@ Each collection holds exactly one OKF `type`. OKF doesn't centrally register typ
 | `maturity_rubrics` | `Maturity Rubric` | 1 | 0 |
 | `personas` | `Persona` | 1 | 0 |
 | `processes` | `Process` | 1 | 0 |
-| `data_models` | `Data Model` | 1 | 1 |
-| `data_entities` | `Data Entity` | 1 | 1 |
 | `kpis` | `KPI` | 1 | 1 |
 | `governance` | `Governance Control` | 1 | 1 |
+| `domain_modules` | `Domain Module` | 2 | 1 |
+| `data_models` | `Data Model` | 2 | 1 |
+| `data_entities` | `Data Entity` | 2 | 1 |
 | `patterns` | `Solution Pattern` | 2 | 1 |
-| `ai_opportunities` | `AI Opportunity` | 2 | 1 |
-| `ai_agents` | `AI Agent` | 2 | 1 |
 | `architectures` | `Reference Architecture` | 2 | 1 |
-| `playbooks` | `Playbook` | 2 | 1 |
-| `decision_guides` | `Decision Guide` | 2 | 1 |
-| `guides` | `Guide` | 2 | 0 |
-| `vendor_implementations` | `Vendor Implementation` | 3 | 1 |
-| `demonstrations` | `Demonstration` | — | 1 |
+| `ai_integrations` | `AI Integration` | 2 | 1 |
+| `ai_integration_catalogs` | `AI Integration Catalog` | 2 | 1 |
+| `ai_agents` | `AI Agent` | 2 | 1 |
+| `demonstrations` | `Demonstration` | 3 | 1 |
+| `vendor_implementations` | `Vendor Implementation` | 4 | 1 |
+| `playbooks` | `Playbook` | — | 1 |
+| `guides` | `Guide` | — | 0 |
+| `decision_guides` | `Decision Guide` | — | 1 |
 | `videos` | `Video` | — | 1 |
 | `meta` | `Meta` | — | 0 |
 | *(generated)* | `Attested Computation` | 1 | 3 |
 
-**Layer** is the vendor-neutrality layer from vision.md §11 — enforced in CI from Phase 2, honored by convention before that.
+**Layer** is the blueprint layer from vision.md §5.1, extended from three values to four (§8.2). Three assignments changed with it: the domain model moved from 1 to 2, because entities and state models describe how the system is structured rather than how the business runs; vendor implementations moved from 3 to 4; and the conversation types — `playbooks`, `guides`, `decision_guides` — lost their layer entirely, because layers measure blueprint depth and facilitation is orthogonal to it.
+
+The rule the column enforces is unchanged in substance: **no layer 1 or 2 artifact holds an outbound edge to a layer 4 artifact.** Enforced in CI from Phase 2, honored by convention before that. Values are injected from `_config.yml` defaults; no author restates one.
 
 ## 4a. Named concepts and the capability map
 
-The depth ladder (vision.md §7.0) needs a way to represent a concept that is **Named but has no page**. Creating ~90 near-empty capability files would be worse than the problem: they pollute search, the graph, and every directory listing.
+The depth ladder (vision.md §8.1) needs a way to represent a concept that is **Named but has no page**. Creating ~90 near-empty capability files would be worse than the problem: they pollute search, the graph, and every directory listing.
 
 Instead, Named concepts live as structured lists in the frontmatter of their parent:
 
@@ -168,7 +174,7 @@ Two properties make this work:
 
 ---
 
-## 4b. Guides — curated traversals for a reader goal
+## 4b. The conversation layer — curated traversals for a reader goal
 
 The library is authored for correctness, not for reading order. Someone about to run a discovery session with a customer needs the same 30 artifacts a browsing reader does, but sequenced, with the ones that matter in a first meeting separated from the ones that matter in month three. That sequence is real editorial work and it does not belong anywhere in a graph organized by subject.
 
@@ -180,22 +186,37 @@ A `Persona` is a **subject**; a `Guide` addresses a **reader**. A CIO is both, w
 
 Reader roles are therefore *not* a collection and *not* nodes in the graph. They are an attribute of a guide (`audience`) and a navigational concern of the site chrome.
 
-### `shape` determines the traversal
+### `shape` declares when it is used relative to the room
 
-Two shapes, one type. The difference is depth-versus-breadth, which is data:
+Five shapes, one type. The distinction that changes how one is written is *before the room* versus *in it* — a page read alone at a desk and a page worked through by six people around a table are different artifacts even when they cover identical subject matter.
 
-| `shape` | Traversal | Scoped to | Reader goal |
+| `shape` | When | Scoped to | Produces |
 |---|---|---|---|
-| `engagement` | Deep and ordered | One capability (or a tight cluster) | "I start work with this customer on Monday" |
-| `briefing` | Wide and shallow | An office's remit, spanning domains | "What else could I be doing?" |
+| `engagement` | Before — one reader | One capability (or a tight cluster) | Preparation |
+| `briefing` | Before — an executive | An office's remit, spanning domains | Orientation |
+| `discovery` | In the room | One capability | Understanding — where they actually are |
+| `workshop` | In the room | One capability or a decision | Decisions the group will stand behind |
+| `canvas` | In the room | One session | A record the customer keeps |
+
+The three in-room shapes divide by **output**, not by subject. Two shapes claiming the same output would be one shape, and that is the test to apply before adding a sixth.
 
 An executive's surface is **not** a domain — a CFO spans Fund, Acquire, and part of Govern — which is why `briefing` is scoped to a remit rather than reusing the domain page.
 
-### Guides add no facts
+### Conversation artifacts add no facts
 
-Every substantive claim in a guide belongs to an artifact it links to. A guide may sequence, frame, and say which of two things to do first; it may not introduce a process step, a measure, or a control that exists nowhere else. Without that rule, curated paths become a second copy of the library that diverges silently — the same failure mode hand-maintained bidirectional edges have, one layer up.
+Every substantive claim in a conversation artifact belongs to a reference artifact it links to. It may sequence, frame, time-box, and say which of two things to do first; it may not introduce a process step, a measure, or a control that exists nowhere else. Without that rule, curated paths become a second copy of the library that diverges silently — the same failure mode hand-maintained bidirectional edges have, one layer up.
 
-The practical test: **deleting every guide must lose navigation and lose nothing else.**
+The failure is asymmetric, which is why the rule is structural rather than editorial. Restating is *easier* than linking when writing an agenda at speed, and the restating copy is the one people actually read — so left to drift, the wrong copy wins.
+
+The practical test: **deleting every conversation artifact must lose facilitation and lose nothing else.**
+
+### Reference and conversation is a facet, not a hierarchy
+
+`Guide` is not the only conversational type. A `Maturity Rubric` is scored out loud with the people who do the work; a `Playbook` carries a workshop agenda. Both were conversation artifacts before the distinction was named.
+
+The split is therefore recorded as a **`Use` column in the type registry** and surfaced as a `/conversations/` front door that spans collections. Nothing moves. Filing conversational types into a collection of their own would break the subject organization that makes the graph navigable, in order to restate something a facet already says — and it would make `Guide` the name of a subset while the layer needs the general noun.
+
+This is also why the site keeps `/guides/` rather than renaming the collection: the word *conversation* belongs to the layer, which is wider than any one type.
 
 ### Prerequisite: `depth: complete`
 
@@ -272,13 +293,13 @@ Note the asymmetry that keeps Phase 0 cheap: **relationship targets use bundle p
 
 ### 5.2 Maturity fields
 
-The spine from vision.md §8.1, expressed as frontmatter:
+Maturity is demoted from organizing spine to optional lens (vision.md §11). These fields stay — they cost nothing, the one written rubric uses them, and removing them would rewrite artifacts for no gain — but nothing new is required to carry them:
 
 | Field | On type | Example |
 |---|---|---|
 | `assesses` *(relationship)* | Maturity Rubric | → the capability it scores |
 | `from_level` / `to_level` | Playbook | `2` / `3` |
-| `minimum_level` | AI Opportunity, Solution Pattern | `3` |
+| `minimum_level` | AI Integration, Solution Pattern | `3` |
 
 `minimum_level` is deliberately one field across both types rather than the
 `minimum_level` / `presumes_level` pair an earlier draft proposed. They meant the same
@@ -345,11 +366,38 @@ Edges are authored **once**, as structured frontmatter. The `target` is a bundle
 
 **Either direction of a predicate pair is a valid authoring form.** A process may declare `has_participant → persona`, or a persona may declare `participates_in → process`; the generator normalizes both to the same edge. This matters more than it sounds — forcing authors onto the "forward" side produces unnatural frontmatter (every persona restating which of a dozen processes it appears in) and, in practice, produces authoring errors instead.
 
-House convention where both read equally well: **the process enumerates its participants and its AI opportunities**, because adding a process should be a single-file change rather than an edit across five persona files. The note text also belongs there — it describes the persona's role *in that process*.
+House convention where both read equally well: **the process enumerates its participants and its AI integrations**, because adding a process should be a single-file change rather than an edit across five persona files. The note text also belongs there — it describes the persona's role *in that process*.
 
 ### 6.2 Predicate vocabulary
 
-The table in vision.md §8 is normative and published to `/meta/relationship-predicates.md` so agents can learn the graph schema from the content. Any predicate outside it is rejected — the vocabulary grows by deliberate addition, not by typo.
+**This table is normative.** It moved here from the product vision, because a vocabulary the generator enforces and the build publishes belongs with the machinery that does both — and because two copies of a controlled vocabulary is the failure this whole section exists to prevent. It is published to `/meta/relationship-predicates.md` so agents can learn the graph schema from the content, and it must stay identical to `PREDICATES` in [`_plugins/relationships.rb`](../_plugins/relationships.rb).
+
+Any predicate outside it is rejected — the vocabulary grows by deliberate addition, not by typo.
+
+| Predicate | Inverse | Example |
+|---|---|---|
+| `contains` | `part_of` | An industry contains capabilities |
+| `supports` | `supported_by` | A process supports a capability |
+| `assesses` | `assessed_by` | A maturity rubric assesses a capability |
+| `participates_in` | `has_participant` | A persona participates in a process |
+| `uses_data` | `used_by` | A process uses data entities |
+| `measured_by` | `measures` | A process is measured by KPIs |
+| `has_integration` | `integration_for` | A process contains AI integrations |
+| `assists` | `assisted_by` | An AI agent assists a persona |
+| `automates` | `automated_by` | An AI agent performs part of a process |
+| `implements` | `implemented_by` | An architecture implements patterns |
+| `realizes` | `realized_by` | A platform mapping realizes an architecture |
+| `constrains` | `constrained_by` | A governance control constrains an AI agent |
+| `transforms` | `transformed_by` | A playbook transforms a capability |
+| `explains` | `explained_by` | A video explains an artifact |
+| `demonstrated_by` | `demonstrates` | A pattern is demonstrated by running software |
+| `maps_to` | `mapped_from` | A data entity maps to an external standard |
+| `supersedes` | `superseded_by` | A revised artifact replaces a deprecated one |
+
+| `composed_of` | `composes` | A blueprint is composed of domain modules |
+| `covers` | `covered_by` | A blueprint covers business capabilities |
+
+The last two were added with the `Domain Module` type. `covers` has no author yet — it waits for the first `Blueprint` artifact — but both are declared together because a predicate pair introduced one half at a time is how a vocabulary acquires an asymmetry nobody meant.
 
 ### 6.3 Inverse generation *(implemented — `_plugins/relationships.rb`)*
 
@@ -374,7 +422,9 @@ This is the single most important piece of machinery on the site. Hand-maintaine
 
 ## 7. Toolkits *(Phase 2)*
 
-The deliverable behind vision.md §1.1 and §7.15: a capability, downloadable as a self-contained folder someone can open, edit, commit, or hand to an AI assistant.
+A capability, downloadable as a self-contained folder someone can open, edit, commit, or hand to an AI assistant.
+
+**Re-motivated and lowered in priority** by vision.md §11: the reason is now "hand it to an agent, or drop it into a project repo" rather than "carry it into a workshop." Scoping likely moves from per-capability to **per-blueprint** once that type exists, which is a better bundle — a blueprint is already the composition a reader wants. Everything below still holds; the traversal root changes.
 
 ### 7.1 A toolkit is a graph slice
 
@@ -386,7 +436,7 @@ capability C
 ├── supported_by      → processes                    (hop 1)
 │   ├── has_participant → personas                   (hop 2)
 │   ├── measured_by     → KPIs                       (hop 2)
-│   ├── has_opportunity → AI opportunities           (hop 2)
+│   ├── has_integration → AI integrations           (hop 2)
 │   ├── uses_data       → data entities              (hop 2)
 │   └── constrained_by  → governance controls        (hop 2)
 ├── implemented_by    → patterns, architectures      (hop 1)
@@ -402,10 +452,10 @@ Artifacts appear in multiple toolkits — a persona serves several capabilities.
 
 Each capability produces two downloads:
 
-* **Full** — includes Layer 3 vendor implementations
-* **Vendor-neutral** — Layers 1–2 only
+* **Full** — includes layer 4 platform mappings
+* **Vendor-neutral** — layers 1–2 only
 
-The second exists because vision.md §11 promises Layer 3 is removable, and a consultant walking into a customer who has already picked a stack (or explicitly hasn't) needs to be able to prove it.
+The second exists because vision.md §12 promises layer 4 is removable, and a reader who has already picked a stack — or deliberately hasn't — needs to be able to prove the neutral core stands alone.
 
 ### 7.3 Link reconciliation
 
@@ -437,7 +487,7 @@ constituent-service-management/
     relationship-predicates.md
 ```
 
-`/meta/*` is generated from the tables in §4 and vision.md §8 so the registries can't drift from the validator that enforces them.
+`/meta/*` is generated from the tables in §4 and §6.2 so the registries can't drift from the validator that enforces them.
 
 `log.md` is skipped. It's optional in OKF, and git-derived changelogs are noise until there's a reason for them.
 
@@ -470,7 +520,7 @@ SELECT ...
 ```
 ````
 
-Computations target the vendor-neutral data model (vision.md §7.10), not any vendor's schema — vendor bindings belong in Layer 3. Two or three KPIs prove the pattern before it's worth extending.
+Computations target the vendor-neutral domain model (vision.md §5.1, layer 2), not any vendor's schema — platform bindings belong in layer 4. Two or three KPIs prove the pattern before it's worth extending.
 
 Deferred to Phase 3 deliberately: it's the most distinctive thing the format enables and the least useful before the KPI definitions themselves are settled.
 
@@ -492,7 +542,7 @@ The `blueprint` layout **derives** display state rather than reading hand-set ba
 | Related components | generated inbound + outbound edges (§6.3) |
 | Download toolkit | capability slug → `/toolkits/<slug>/` *(Phase 2)* |
 
-Because badges are derived, an author can't mark something reviewed by editing a badge. They mark it reviewed by adding a `verified` entry, which is the auditable act. With single authorship (vision.md §20) this is self-attestation — honest labeling, not a control.
+Because badges are derived, an author can't mark something reviewed by editing a badge. They mark it reviewed by adding a `verified` entry, which is the auditable act. With single authorship (vision.md §15) this is self-attestation — honest labeling, not a control.
 
 ---
 
@@ -528,10 +578,10 @@ Because badges are derived, an author can't mark something reviewed by editing a
 * `status` ∈ `draft | stable | deprecated`
 * `stale_after` in the future — a stale artifact warns; a stale *governance* artifact fails
 * actor strings match OKF's convention (`human:<id>`, `<producer>/<version>`, `process:<id>`)
-* **layering:** no Layer 1 or 2 artifact holds an outbound edge to a Layer 3 artifact
+* **layering:** no layer 1 or 2 artifact holds an outbound edge to a layer 4 artifact
 * every artifact has ≥1 relationship
 * every capability has exactly one maturity rubric
-* every AI opportunity declares a `minimum_level`
+* every AI integration declares a `minimum_level`
 
 ---
 
@@ -543,7 +593,7 @@ Because badges are derived, an author can't mark something reviewed by editing a
 | `_processes` | → `knowledge/_processes`, plus required current-state sections |
 | `_use_cases` | No equivalent type. Folds into Capability and Process; retired |
 | `_agent_skills` | → `knowledge/_ai_agents`, expanded to the fuller schema |
-| `_app_experiences` | Held — see vision.md §20 "Still open" |
+| `_app_experiences` | Held. Reconsider against the platform repo's `experiences/` layer, which is the same idea implemented |
 | `related:` frontmatter | → `relationships:` with predicates and bundle-path targets |
 | `platform_ref` / `platform_url` | → `demonstrations` collection + `demonstrated_by` edges |
 | `_layouts/blueprint.html` | Extended: derived badges, grouped bidirectional relationships, maturity position, sources, level variance, toolkit download |

@@ -87,22 +87,24 @@ history, the failures, and the cost attached to it remain evidence about its cla
 **Contents are not the building.** Facilities registers routinely blur the structure, its systems,
 and the equipment inside it, which makes both maintenance and valuation wrong.
 
-## Where it goes wrong
+## What to get right
 
-**No authoritative source recorded.** Three systems, no statement of which one owns the record, so
-reconciliation is unresolvable by construction.
+**Record an authoritative source.** Naming which of several systems owns the record is what makes
+reconciliation resolvable.
 
-**Criticality proxied by replacement cost.** Discussed in the
+**Base criticality on consequence, not replacement cost.** Discussed in the
 [data model](/data-models/asset-and-work-management-data-model/), and the most consequential
-modelling error in the domain.
+modelling decision in the domain.
 
-**Condition as a field.** Overwritten each assessment, so deterioration rate is invisible and the
-rating cannot be compared against the failure that followed it.
+**Keep condition as a history, not a field.** Preserving each assessment rather than overwriting
+it makes deterioration rate visible and lets the rating be compared against the failure that
+followed it.
 
-**Assets that were never registered.** Delivered by
-[construction handover](/capabilities/project-delivery-and-construction-management/) and added at
-first failure — so they are unmaintained, undepreciated, and absent from the renewal forecast for
-their first several years.
+**Register assets at handover.** Registering assets delivered by
+[construction handover](/capabilities/project-delivery-and-construction-management/) as soon as
+they exist, rather than at first failure, keeps them maintained, depreciated, and in the renewal
+forecast from year one.
 
-**Disposals unrecorded.** The register lists assets demolished years ago; counts and valuations are
-both wrong and the annual reconciliation is a large unexplained adjustment.
+**Record disposals as they happen.** Keeping the register current avoids demolished assets
+lingering in counts and valuations, which is what turns the annual reconciliation into a large
+unexplained adjustment.

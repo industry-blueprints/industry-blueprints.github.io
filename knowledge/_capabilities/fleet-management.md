@@ -92,27 +92,32 @@ problem to fix than any of the others on this list.
   buses have long lead times and very high unit costs, which makes reserve funding essential and
   rare.
 
-## Where it goes wrong
+## What to get right
 
-**No replacement reserve.** Replacement competes annually with everything else, loses, and the
-fleet ages until a cliff forces a bond issue.
+**Fund replacement from a standing reserve.** A funded reserve keeps replacement from competing
+annually with everything else and losing, which is what ages a fleet toward a cliff that forces a
+bond issue.
 
-**Deferral justified by low mileage.** Age and duty cycle drive deterioration for most public fleet
-classes, and a low-mileage twenty-year plow is not a young asset.
+**Judge replacement by age and duty cycle, not just mileage.** Age and duty cycle drive
+deterioration for most public fleet classes, so a low-mileage twenty-year plow still isn't a young
+asset.
 
-**Utilization never measured.** Vehicles assigned permanently to departments, used occasionally,
-and invisible in any pool.
+**Measure utilization across the fleet.** Measuring it surfaces vehicles assigned permanently to
+departments but used only occasionally, so they can be reassigned or pooled instead of sitting
+idle.
 
-**Specification by preference.** Larger and more equipped than the work requires, because the
-specification is written by the requesting department with no standard.
+**Specify to the work, with a standard.** A specification built to what the work needs, rather than
+to department preference, keeps vehicles right-sized instead of larger and more equipped than
+necessary.
 
-**Maintenance deferred to keep vehicles available.** Which reduces availability within a year.
+**Keep preventive maintenance on schedule.** Staying current on preventive maintenance is what
+keeps availability high a year out — deferring it to boost short-term availability costs more later.
 
-**Total cost of ownership unknown.** Acquisition in capital, fuel in one operating line,
-maintenance in another, downtime nowhere — so replacement decisions are made on purchase price.
+**Track total cost of ownership per vehicle.** Bringing acquisition, fuel, maintenance, and downtime
+together lets replacement decisions be made on total cost rather than purchase price alone.
 
-**Electrification planned as a procurement.** Vehicles ordered before charging infrastructure,
-electrical capacity, and maintenance training exist, so the vehicles arrive and cannot be operated.
+**Plan charging and electrical infrastructure ahead of the vehicles.** Sequencing infrastructure
+before the order means the vehicles can actually be operated when they arrive.
 
-**Warranty and recall recovery missed.** Repairs paid for that the manufacturer owed — the same
-[obligation tracking](/patterns/obligation-tracking/) gap seen in construction warranties.
+**Track warranty and recall recovery.** Following up on repairs the manufacturer owed closes the
+same [obligation tracking](/patterns/obligation-tracking/) gap seen in construction warranties.

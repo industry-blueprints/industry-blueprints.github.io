@@ -102,34 +102,35 @@ unlawful detention.
 - **Tribal.** Tribal detention facilities where they exist, with many nations contracting custody to
   county facilities far from the community.
 
-## Where it goes wrong
+## What to watch for
 
-**Screening skipped or deferred at intake.** The highest-risk period for suicide is the first hours
-in custody, and screening delayed until the next shift is screening after the risk.
+**Screen at intake, not on the next shift.** The highest-risk period for suicide is the first hours
+in custody, and screening delayed that long is screening after the risk has already peaked.
 
-**Withdrawal management absent.** People arriving in withdrawal from alcohol or opioids, in a
-facility with no protocol and no clinician — one of the most common causes of in-custody death and
-entirely foreseeable at booking.
+**Put a withdrawal management protocol and clinician in place.** People arriving in withdrawal from
+alcohol or opioids, in a facility with neither, face one of the most common and most foreseeable
+causes of in-custody death.
 
-**Medication discontinued on entry.** Community prescriptions stopped because verification is slow,
-which destabilizes people who were stable and creates a management problem the facility then treats
-as behavioural.
+**Verify and continue community medication quickly.** Slow verification stops prescriptions for
+people who were stable and creates a management problem the facility then treats as behavioural.
 
-**Classification by bed availability.** Vulnerable people housed by convenience, which is how
-in-custody assaults happen.
+**Classify by risk and vulnerability, not bed availability.** Housing vulnerable people by
+convenience is how in-custody assaults happen.
 
-**Isolation used for mental illness.** Segregation as a management tool for people whose behaviour
-is a symptom, which worsens the condition reliably.
+**Treat mental illness clinically rather than with isolation.** Segregation as a management tool
+for behaviour that is a symptom reliably worsens the condition.
 
-**Release at midnight with nothing.** No identification, no medication, no transport, no benefits —
-and reoffending and overdose risk both peak in the days after release. Release planning is the
-cheapest intervention available and the first cut.
+**Plan release before the day it happens, not at midnight with nothing arranged.** Identification,
+medication, transport, and benefits matter most because reoffending and overdose risk both peak in
+the days after release. Release planning is the cheapest intervention available, and worth
+protecting from being the first cut.
 
-**Over-detention from missing dispositions.** Discussed above.
+**Transmit dispositions promptly to prevent over-detention.** See the justice information sharing
+dependency above.
 
-**Family contact priced as a revenue source.** Commission arrangements on calls and video, charged
-to families who are usually poor, funding facility operations — while contact is among the
-best-evidenced predictors of successful reentry.
+**Keep family contact affordable rather than a revenue source.** Commission arrangements on calls
+and video, charged to families who are usually poor, work against the fact that contact is among
+the best-evidenced predictors of successful reentry.
 
-**Length of stay unmanaged.** Nobody owning the number, so the population is treated as an input
-rather than as something the court, prosecutor, and jail could manage jointly.
+**Manage length of stay jointly with the court and prosecutor.** Without an owner for the number,
+population gets treated as an input rather than something the three can manage together.

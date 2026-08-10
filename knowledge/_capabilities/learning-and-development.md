@@ -84,27 +84,29 @@ demographic exposure in government is unusually concentrated — and it is almos
   jurisdictions frequently rely on state-provided or association training, which sets the
   effective curriculum.
 
-## Where it goes wrong
+## What to get right
 
-**Completion as the measure of everything.** Ninety-eight percent completion of a module nobody
-remembers. It satisfies the requirement and demonstrates nothing.
+**Measure capability change, not just completion.** Ninety-eight percent completion of a module
+nobody remembers satisfies the requirement and demonstrates nothing; track what someone can do
+differently afterward.
 
-**Certification expiry unwatched.** Captured at hire, never monitored, and the lapse found during
-an inspection — with the work performed in the interim now in question.
+**Monitor certification expiry actively.** Captured at hire and never revisited, a lapse surfaces
+during an inspection, with the work performed in the interim now in question.
 
-**Development as a reward.** Conference attendance allocated to the well-regarded rather than to
-where the capability gap is.
+**Allocate development against the capability gap, not the roster of the well-regarded.**
+Conference attendance means the most when it goes where the gap actually is.
 
-**Succession as a list.** Names against roles, no development plan, no readiness assessment, and no
-conversation with the named person, who frequently does not want the job.
+**Pair succession names with a development plan, a readiness assessment, and a conversation.** A
+list of names against roles with none of those is not succession planning, and the named person
+frequently does not want the job.
 
-**Training substituting for design.** A process that requires people to remember twelve exceptions
-does not need better training; it needs fewer exceptions. Compare [grounded knowledge
+**Fix the process before adding training.** A process that requires people to remember twelve
+exceptions needs fewer exceptions, not better training. Compare [grounded knowledge
 retrieval](/patterns/grounded-knowledge-retrieval/), which addresses the same problem at the moment
 of need.
 
-**Knowledge and training run separately.** The knowledge base has the current answer, the course
-has last year's, and staff are told to consult both.
+**Run knowledge and training from the same source.** Keeping them separate means the knowledge base
+has the current answer, the course has last year's, and staff are told to consult both.
 
-**Retirement exposure known and unaddressed.** Projections produced annually, filed, and the
-capability loss absorbed as a surprise when it arrives.
+**Act on retirement exposure once it is known.** Projections produced annually and filed do nothing
+on their own; use them, or the capability loss still arrives as a surprise.

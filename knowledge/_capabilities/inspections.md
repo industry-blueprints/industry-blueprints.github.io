@@ -92,29 +92,34 @@ capacity is misallocated.
   constraint on construction timelines, which makes it an economic development question as well as
   a safety one.
 
-## Where it goes wrong
+## What to get right
 
-**Calendar-driven uniformity.** Every subject inspected annually regardless of history, so the
-compliant premises consumes the same capacity as the one with three prior violations.
+**Tier inspection frequency to risk, not a fixed calendar.** Directing more capacity toward subjects
+with a history of violations keeps a compliant premises from consuming the same capacity as one
+with three prior violations.
 
-**Risk tiering with no evidence behind it.** Tiers assigned once at registration and never
-revisited against actual findings, which makes the model decorative.
+**Revisit risk tiers against actual findings.** Tiers reassessed against results, rather than set
+once at registration, are what keeps the model doing real work rather than sitting decorative.
 
-**Findings recorded on paper and entered later.** Detail lost, evidence unattached, and the report
-served days after the visit — by which time the condition may have changed either way.
+**Capture findings and evidence at the point of observation.** Recording detail and attaching
+evidence on the spot, and serving the report promptly, keeps the record matched to the condition as
+found.
 
-**Inconsistency between inspectors.** The same condition cited by one and not another. Corrosive to
-the standard's legitimacy, and the most common substantive complaint from regulated parties.
+**Calibrate inspectors to a shared standard.** Consistent application across inspectors protects the
+standard's legitimacy and heads off the most common substantive complaint from regulated parties.
 
-**Re-inspection replaced by a claim.** Correction accepted on assertion. The same failure as
-[findings closed on receipt of a plan](/kpis/repeat-finding-rate/) in audit and grants oversight.
+**Verify correction at re-inspection, don't just accept a claim.** Actually verifying correction, the
+same discipline as
+[findings closed on receipt of a plan](/kpis/repeat-finding-rate/) in audit and grants oversight,
+is what makes closing a finding meaningful.
 
-**Complaint-driven work displacing risk-based work.** Complaints are visible and generate pressure,
-so capacity drifts toward them and the risk model is abandoned in practice while remaining in
-policy.
+**Protect capacity for risk-based work even as complaints arrive.** Complaints are visible and
+generate real pressure; holding a deliberate balance keeps the risk model operating in practice, not
+just in policy.
 
-**Scheduling that wastes the other party's day.** An all-day window for a fifteen-minute
-inspection, with a business closed and staff paid to wait.
+**Schedule with the other party's time in mind.** A window sized to the actual inspection, not an
+all-day window for a fifteen-minute visit, respects the business's time and staff.
 
-**No feedback loop to the standard.** The same violation found everywhere and never treated as
-evidence that the requirement is unclear or unreasonable.
+**Feed recurring findings back into the standard.** Treating a violation found everywhere as a
+signal that the requirement may be unclear or unreasonable closes the loop and improves the
+standard itself.

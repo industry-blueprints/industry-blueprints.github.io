@@ -93,29 +93,32 @@ management](/capabilities/identity-and-access-management/) capability rather tha
   person holds a process entirely, and no successor. Also the level with the most physical assets
   to recover — keys, radios, vehicles, uniforms — and the least systematic tracking of them.
 
-## Where it goes wrong
+## What to get right
 
-**Knowledge transfer as a document request.** Asked in the final week to "write up" a role held for
-twenty years. What gets produced is a task list, not the judgment.
+**Start knowledge transfer well before the final week.** A request to "write up" a role held for
+twenty years in the last week produces a task list, not the judgment; capture needs the runway a
+real transfer takes.
 
-**Notice period spent finishing work.** The departing person clears their own queue instead of
-teaching someone else to. Understandable, and the wrong use of the only window available.
+**Use the notice period to teach a successor, not just clear the queue.** The departing person
+finishing their own work is understandable, but it is the wrong use of the only window available
+for transfer.
 
-**Access revocation dependent on a manual notification.** HR emails IT, IT disables the main
-account, and eleven peripheral systems retain access indefinitely.
+**Drive access revocation from one authoritative trigger, not a manual notification.** HR emailing
+IT to disable the main account leaves eleven peripheral systems with access indefinitely; one
+trigger reaching every system closes all of them.
 
-**Departure trigger that never fires.** For contractors, seasonal staff, and interns especially,
-there is often no separation event at all — the person simply stops coming.
+**Define a separation event for contractors, seasonal staff, and interns too.** Without one, the
+person simply stops coming and nothing fires to revoke access or start knowledge capture.
 
-**Assets written off silently.** Nobody wants to chase a former colleague for a laptop, so it is
-absorbed.
+**Track asset return rather than writing it off.** Nobody wants to chase a former colleague for a
+laptop, but tracking keeps it from being silently absorbed.
 
-**Exit interviews by HR at the end.** The honest answer is rarely given to the organization being
-left; themes are collected and not acted on, so nothing changes and the same reasons recur.
+**Act on exit interview themes, not just collect them.** Collected without action, the same reasons
+recur; acted on, they change something for the people still there.
 
-**Retirement navigated alone.** Multiple systems, elections with deadlines, and irreversible
-consequences — for people who have given decades of service and get a packet.
+**Give retiring employees a guided path through the process.** Multiple systems, elections with
+deadlines, and irreversible consequences are a lot to navigate alone after decades of service.
 
-**Mailbox deleted.** Organizational records disposed of at separation because the mailbox was
-treated as personal — a retention failure created by an HR process. See [records and information
+**Preserve the mailbox as an organizational record, not a personal one.** Disposing of it at
+separation is a retention failure created by an HR process. See [records and information
 management](/capabilities/records-and-information-management/).

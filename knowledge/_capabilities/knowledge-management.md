@@ -77,22 +77,24 @@ colleague, staff will ask the colleague. That is a latency problem, not a cultur
   covers refuse collection through business licensing, so retrieval quality matters more than
   content depth.
 
-## Where it goes wrong
+## What to get right
 
-**Content exists, ownership does not.** A large library with no named owners and no review dates
-is not a knowledge base; it is a liability with a search box.
+**Assign a named owner and review date to every piece of content.** A large library with no named
+owners and no review dates is not a knowledge base; it is a liability with a search box.
 
-**Policy documents published as answers.** Twelve pages of authoritative, unusable text. Staff
-translate it privately and never share the translation.
+**Write answers, not policy documents.** Twelve pages of authoritative text is unusable at the
+point of need; staff will translate it privately and never share the translation, so it has to be
+written as an answer in the first place.
 
-**Superseded content left in place.** Dated but not marked, so retrieval surfaces it and nothing
-indicates it was replaced.
+**Mark superseded content as superseded.** Left dated but unmarked, it surfaces in retrieval with
+nothing indicating it was replaced.
 
-**No gap signal.** Unanswered questions leave no trace, so the organization cannot distinguish
-"we have no content" from "our content is unfindable" and fixes the wrong one.
+**Capture gap signal from unanswered questions.** Without it, the organization cannot distinguish
+"we have no content" from "our content is unfindable," and fixes the wrong one.
 
-**Two audiences, one budget.** Staff-facing and public-facing content have different reading-level,
-accessibility, and translation requirements, and are maintained as though they were the same.
+**Budget for two audiences.** Staff-facing and public-facing content have different reading-level,
+accessibility, and translation requirements, and need separate maintenance rather than being
+treated as the same content.
 
-**Bulk generation as a shortcut.** Producing content nobody owns increases the surface area a
-single under-resourced person is accountable for — the opposite of the problem.
+**Assign ownership before generating content in bulk.** Producing content nobody owns increases
+the surface area a single under-resourced person is accountable for — the opposite of the goal.

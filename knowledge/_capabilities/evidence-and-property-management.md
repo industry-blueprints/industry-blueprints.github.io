@@ -94,29 +94,32 @@ storage crisis.
 - **Municipal.** **The most common and most exposed configuration**: a property room in the police
   station, one custodian, no independent audit for years, and storage full since the last purge.
 
-## Where it goes wrong
+## What to get right
 
-**Chain broken at an informal transfer.** An item handed to a colleague without a recorded
-transfer, and the defect surfaces at trial.
+**Record every transfer, including informal ones.** An item handed to a colleague without a
+recorded transfer breaks the chain, and the defect surfaces at trial.
 
-**No independent audit.** The custodian audits their own inventory. Every published account of
-property room theft involves this configuration, and it is the single most correctable control gap
-here.
+**Have someone independent of custody run the audit.** A custodian auditing their own inventory is
+the configuration behind every published account of property room theft, and it is the single most
+correctable control gap here.
 
-**Retention unknown because case status is unknown.** Disposition requires a court outcome that
-never arrives in a usable form, so nothing is disposed of and the room fills — see above.
+**Get case status flowing back so retention can be determined.** Disposition requires a court
+outcome delivered in usable form; without it nothing gets disposed of and the room fills — see
+above.
 
-**Purge programmes as one-off projects.** A backlog cleared once, then re-accumulated over five
-years because the routine disposition process was never fixed.
+**Fix the routine disposition process, not just the backlog.** A backlog cleared once but
+re-accumulated over five years means the ongoing process, not just the one-time cleanup, needed
+fixing.
 
-**Owner property never returned.** Recovered items held for years, owners never notified, and
-eventually auctioned — legal, and a poor outcome for a victim.
+**Notify and return owner property promptly.** Recovered items held for years with owners never
+notified end up auctioned — legal, but a poor outcome for a victim.
 
-**Digital evidence treated as files on a share.** No hashing, no integrity verification, no access
-log, so authenticity is arguable and the volume is growing faster than any other category.
+**Hash and verify digital evidence, don't just store it.** Hashing, integrity verification, and an
+access log keep authenticity defensible in a category whose volume is growing faster than any
+other.
 
-**Narcotics and currency without enhanced control.** Single-person access to the two categories
-with the strongest incentive attached.
+**Put narcotics and currency under enhanced, multi-person control.** These are the two categories
+with the strongest incentive attached, and they deserve controls to match.
 
-**Storage conditions unmatched to the item.** Biological evidence held without refrigeration,
-degrading the analysis a cold case review would have depended on.
+**Match storage conditions to the item.** Biological evidence needs refrigeration to preserve the
+analysis a cold case review would depend on.

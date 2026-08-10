@@ -106,25 +106,27 @@ organization may simultaneously be a supplier, a grant recipient, a permit holde
   duplicate records, because there is no central master — which weakens screening and
   duplicate-payment controls simultaneously.
 
-## Where it goes wrong
+## What to get right
 
-**Duplicates as the default state.** "Acme Corp," "Acme Corporation," "ACME Corp." Total spend and
-concentration risk both become unanswerable, and duplicate-invoice detection fails because the
-records look distinct.
+**Resolve duplicates to one record per supplier.** "Acme Corp," "Acme Corporation," "ACME Corp."
+left unresolved make total spend and concentration risk both unanswerable, and duplicate-invoice
+detection fails because the records look distinct.
 
-**Screening once, at registration.** A supplier debarred two years later keeps being paid.
-Eligibility is a state that changes.
+**Rescreen eligibility on an ongoing basis, not just at registration.** Eligibility is a state
+that changes; a supplier debarred two years later needs to be caught, not paid on the strength of
+a registration-time check.
 
-**Onboarding burden that excludes the target.** A process designed for large suppliers deters
-exactly the small and local businesses a diversity programme exists to reach.
+**Keep onboarding light enough for the suppliers a programme wants to reach.** A process designed
+for large suppliers deters exactly the small and local businesses a diversity programme exists to
+reach — scaling the burden to the supplier avoids that.
 
-**Performance recorded nowhere reusable.** One department knows a supplier performed badly; the
-next does not, and awards to them.
+**Record performance somewhere reusable.** Sharing what one department knows about a supplier's
+performance is what keeps the next department from awarding to them unaware.
 
-**Remittance change as a fraud vector.** Payment detail updated on the strength of an email. Among
-the most common and successful frauds against public organizations, and the control is procedural:
-out-of-band verification using contact details already held, segregation of requester and verifier,
-and a hold on the first payment after a change.
+**Verify remittance changes out of band.** Payment detail updated on the strength of an email is
+among the most common and successful frauds against public organizations, and the control is
+procedural: out-of-band verification using contact details already held, segregation of requester
+and verifier, and a hold on the first payment after a change.
 
-**Certification expiry unwatched**, so diverse-supplier participation is reported from lapsed
-certifications and overstated.
+**Watch certification expiry actively**, so diverse-supplier participation is reported from
+current certifications rather than lapsed ones.

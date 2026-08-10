@@ -58,7 +58,7 @@ Two rules make it usable:
 
 ## Diagnostic questions
 
-Ask these; do not ask people what level they think they are.
+Discuss these together — rather than asking people what level they think they're at.
 
 **Channels & intake**
 - If a person emails on Monday and calls on Wednesday, does the representative on Wednesday know about Monday?
@@ -119,15 +119,15 @@ level 5 long before they are permitted to do it.
 2. Expect disagreement between managers and front-line staff. That disagreement is data — the
    front-line score is usually the accurate one.
 3. Identify the *lowest* dimension. It generally caps the value of everything above it.
-4. Only then look at [AI opportunities](/ai-opportunities/) — filtered to the level you
+4. Only then look at [AI integrations](/ai-integrations/) — filtered to the level you
    actually scored, not the one you would like to be.
 
 ## Calibration status
 
 **These level descriptions are written from research and are not yet validated against real
-organizations.** They are plausible; that is not the same as correct. The rubric stays
-`draft` until it has been walked through with at least three organizations across different
-government levels, and the observable characteristics adjusted to match what people actually
-recognize in themselves.
+organizations.** They are plausible; that is not the same as correct. The rubric stays a draft
+until it has been walked through with at least three organizations across different government
+levels, and the observable characteristics adjusted to match what people actually recognize in
+themselves.
 
 Treat disagreement from a real organization as a defect in the rubric, not in the organization.

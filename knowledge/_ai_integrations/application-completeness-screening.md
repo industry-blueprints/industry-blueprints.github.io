@@ -1,9 +1,9 @@
 ---
-type: AI Opportunity
+type: AI Integration
 title: Screen Applications for Completeness and Eligibility
 description: Check what is present against what was required, so staff effort moves
   from document-opening to merit — and applicants get a specific, fast cure request.
-resource: https://industry-blueprints.github.io/ai-opportunities/application-completeness-screening/
+resource: https://industry-blueprints.github.io/ai-integrations/application-completeness-screening/
 tags: [ai, grants, classification, extraction, intake, access]
 
 generated: { by: human:jhofmann, at: 2026-07-27T14:00:00Z }
@@ -13,6 +13,7 @@ depth: defined
 
 industry: public-sector
 government_levels: [federal, state, county]
+ai_modality: queue
 ai_task_type: extraction
 minimum_level: 3
 

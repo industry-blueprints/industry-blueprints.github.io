@@ -104,40 +104,41 @@ uniformly as contempt generates warrants that compound a scheduling problem into
 - **Tribal.** Tribal courts applying tribal law, with jurisdiction and full faith and credit
   questions arising at every boundary.
 
-## Where it goes wrong
+## What good looks like here
 
-**Designed for lawyers.** Forms, notices, and procedure that assume representation, in
-case types where most parties have none — which makes the outcome a function of procedural
-literacy.
+**Design forms, notices, and procedure for the self-represented majority.** Assuming
+representation, in case types where most parties have none, makes the outcome a function of
+procedural literacy.
 
-**Notices nobody can act on.** A hearing date in a document that does not explain what happens if
-you cannot attend, sent to an address of record that may be stale — and non-appearance treated as
-contempt. The same [service failure](/capabilities/enforcement-and-adjudication/) as in
-administrative enforcement, with a warrant at the end of it.
+**Write notices a person can act on, and verify the address.** A hearing date in a document that
+does not explain what happens if you cannot attend, sent to an address of record that may be stale,
+turns non-appearance into contempt rather than a scheduling gap. The same
+[service failure](/capabilities/enforcement-and-adjudication/) as in administrative enforcement,
+with a warrant at the end of it.
 
-**Scheduling for the court's convenience.** Everyone summoned for the same morning, all waiting;
-jurors held for days without being selected; witnesses and parties losing a day of pay per
-appearance.
+**Schedule around the time of parties, witnesses, and jurors.** Summoning everyone for the same
+morning holds jurors for days without being selected and costs witnesses and parties a day of pay
+per appearance.
 
-**Continuances granted routinely.** Each one reasonable, and collectively the cause of case age —
-and every continuance is another lost day for anyone who had to attend.
+**Manage continuances actively.** Each one reasonable in isolation, they are collectively the cause
+of case age — and every continuance is another lost day for anyone who had to attend.
 
-**Dispositions not transmitted.** The court decides, and law enforcement, corrections, and the
-state criminal history repository do not receive it — so records stay open, warrants stay active,
-and background checks report charges that were dismissed. A
+**Transmit dispositions to every agency that needs them.** Without transmission, law enforcement,
+corrections, and the state criminal history repository don't receive the decision — records stay
+open, warrants stay active, and background checks report charges that were dismissed. A
 [justice information sharing](/capabilities/justice-information-sharing/) failure with lifelong
 consequences for the individual.
 
-**Fines and fees as revenue.** Where the court funds itself or the municipality from what it
-imposes, assessment stops being about the offence — the same inversion as
+**Keep fines and fees separate from the court's own funding.** Where the court funds itself or the
+municipality from what it imposes, assessment stops being about the offence — the same inversion as
 [enforcement revenue targets](/capabilities/enforcement-and-adjudication/), with incarceration
 available at the end.
 
-**Ability to pay never assessed.** Obligations imposed uniformly, unpaid, escalating to licence
-suspension or a warrant, which removes the means of paying.
+**Assess ability to pay before obligations escalate.** Imposed uniformly and left unpaid, they
+escalate to licence suspension or a warrant, which removes the means of paying.
 
-**Expungement requiring a petition.** Relief that exists on paper and is claimed by a small
-fraction of eligible people, because it requires knowing about it and usually a lawyer.
+**Make expungement available without requiring a lawyer.** Relief that exists on paper and requires
+a petition and usually a lawyer is claimed by only a small fraction of eligible people.
 
-**Jury pools drawn from sources that under-represent.** Summons non-response uncorrected, so the
-pool skews and the constitutional expectation is not met.
+**Correct jury pool sources that under-represent.** Uncorrected summons non-response skews the
+pool, and the constitutional expectation is not met.

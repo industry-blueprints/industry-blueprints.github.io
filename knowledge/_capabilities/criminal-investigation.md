@@ -101,32 +101,34 @@ uninterpretable — which is precisely why they are frequently reported together
 - **Tribal.** Investigation with jurisdictional complexity, frequently requiring federal
   involvement for serious offences.
 
-## Where it goes wrong
+## What to get right
 
-**Forensic backlogs measured in months or years.** Evidence submitted and unanalysed while the case
-ages, witnesses disperse, and the statutory clock runs. Untested evidence backlogs — sexual assault
-kits most prominently — have been a recurring national finding and are a laboratory capacity problem, not an investigative
-failing — which matters, because they are routinely reported as the latter.
+**Fund forensic laboratory capacity to the actual submission volume.** Evidence submitted and
+unanalysed for months or years lets cases age, witnesses disperse, and the statutory clock run.
+Untested evidence backlogs — sexual assault kits most prominently — have been a recurring national
+finding and are a laboratory capacity problem, not an investigative one — which matters, because
+they are routinely reported as the latter.
 
-**Every case assigned, few worked.** No screening, so the caseload is nominal and the actual
-selection happens invisibly.
+**Screen cases for solvability rather than assigning all of them.** Without screening, the caseload
+is nominal and the actual selection happens invisibly.
 
-**Victims informed only when something is needed from them.** Participation collapses, and the case
-fails for want of a witness who concluded nobody was working it.
+**Keep victims informed throughout, not only when something is needed from them.** Otherwise
+participation collapses, and the case fails for want of a witness who concluded nobody was working
+it.
 
-**Investigative steps undocumented.** Actions taken and not recorded cannot be disclosed, cannot be
-defended, and are indistinguishable at trial from actions not taken.
+**Document investigative steps as they're taken.** Actions taken and not recorded cannot be
+disclosed, cannot be defended, and are indistinguishable at trial from actions not taken.
 
-**Disclosure treated as a trial-preparation task.** Exculpatory material is disclosable from the
-outset; discovering it late is the most common cause of case collapse and of the reversals that
-follow.
+**Disclose exculpatory material from the outset, not at trial preparation.** Discovering it late is
+the most common cause of case collapse and of the reversals that follow.
 
-**Digital evidence volume unplanned for.** Phone extractions, video from many sources, and cloud
-data now dominate the workload in ordinary cases, and the capacity to process them was scoped for a
-different era.
+**Plan capacity for digital evidence volume.** Phone extractions, video from many sources, and
+cloud data now dominate the workload in ordinary cases, and capacity scoped for an earlier era
+falls behind.
 
-**Clearance pressure distorting classification.** Where clearance is the headline measure,
-classification practices move — and the measure stops describing anything.
+**Keep classification practices independent of clearance pressure.** Where clearance is the
+headline measure, classification practices can drift to protect it — and the measure stops
+describing anything.
 
-**No cold case review.** Cases with newly available forensic possibilities never revisited because
-no one owns the backlog.
+**Assign ownership for cold case review.** Cases with newly available forensic possibilities get
+revisited only when someone owns the backlog.

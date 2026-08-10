@@ -94,20 +94,20 @@ from termination. It is the escalation step in
 [monitoring](/processes/subrecipient-risk-and-monitoring/) that gives a finding consequence
 short of ending the relationship.
 
-## Where it goes wrong
+## What to get right
 
-- **Awards in and awards out modelled separately.** Flow-down becomes untraceable, and the
-  organization cannot state its total position in either direction.
-- **One "amount" field.** Committed versus disbursed versus expended becomes unanswerable, which
-  breaks both cash management and closeout.
-- **Subaward as a flat list.** Recorded as rows against a program with no parent link, so
-  conditions are re-derived by hand each cycle.
-- **Closeout as a status flip.** No distinct in-closeout state, so the backlog is invisible until
-  someone runs a report nobody asked for.
-- **Retention clock started at award.** Records disposed of while still required, because the
-  clock runs from closeout.
-- **Match as a single number.** Pledged, realized, and evidenced collapsed into one field, so the
-  evidence does not exist when it is requested.
+- **Model awards in and awards out as one structure.** Connecting them keeps flow-down traceable
+  and lets the organization state its total position in either direction.
+- **Separate committed, disbursed, and expended into distinct fields**, so each is independently
+  answerable and both cash management and closeout stay accurate.
+- **Give subaward a parent link**, not a flat list against a program, so conditions don't need
+  re-deriving by hand each cycle.
+- **Give closeout its own state**, distinct from a status flip, so the backlog is visible without
+  waiting for someone to run a report.
+- **Start the retention clock at closeout**, not at award, so records aren't disposed of while
+  still required.
+- **Model match as three states — pledged, realized, evidenced —** not a single number, so the
+  evidence exists when it is requested.
 
 ## AI relevance
 

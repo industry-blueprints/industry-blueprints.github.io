@@ -80,7 +80,7 @@ invisible in the budget conversation where it would matter.
 
 Duration estimation from historical actuals, duplicate work request detection, and bundling
 suggestions by geography and access window are all genuine assists — see
-[work request triage and duplicate detection](/ai-opportunities/work-request-triage-and-duplicate-detection/).
+[work request triage and duplicate detection](/ai-integrations/work-request-triage-and-duplicate-detection/).
 
 What does not help: anything that increases the volume of work requests without increasing the
 capacity to plan them. A public reporting channel that triples requests into an unplanned backlog

@@ -89,31 +89,34 @@ hides exactly the population the service most needs to reach.
   public safety systems under their own access requirements, and constituent identity typically
   reinvented per service.
 
-## Where it goes wrong
+## What to get right
 
-**Access copied from a colleague.** The fastest way to provision and the origin of most
-accumulated entitlement. See [onboarding](/capabilities/onboarding/).
+**Provision access by role, not by copying a colleague.** Provisioning against a defined role,
+rather than copying whatever a colleague holds, is what keeps entitlement from accumulating
+unchecked. See [onboarding](/capabilities/onboarding/).
 
-**Reviews that certify without reading.** Managers approving long lists to clear the task, which
-produces the evidence of a review and none of the effect.
+**Make access reviews substantive, not a rubber stamp.** A manager who actually reads the list
+before approving is what turns the review into a real control instead of just its paperwork.
 
-**Separation not reaching every system.** The main account disabled, peripheral systems retaining
-access indefinitely — the measure in
-[offboarding](/capabilities/offboarding-and-knowledge-transfer/) that fails most often.
+**Make separation reach every system, not just the main account.** Disabling access everywhere, not
+only in the primary directory, is the measure in
+[offboarding](/capabilities/offboarding-and-knowledge-transfer/) that most often needs the most
+attention.
 
-**Privileged access as a permanent grant.** Administrative rights issued for a project and held for
-years.
+**Time-box privileged access.** Issuing administrative rights for the project and revisiting them on
+a schedule keeps a temporary grant from quietly becoming permanent.
 
-**Proofing that excludes.** Requiring a credit file, a smartphone, or a driving licence, each of
-which fails for a predictable and already-disadvantaged population — and the abandonment shows up
-as low demand rather than as a barrier.
+**Design proofing so it doesn't exclude.** Requiring a credit file, a smartphone, or a driving
+licence each fails for a predictable and already-disadvantaged population, so building in
+alternatives keeps abandonment from being misread as low demand.
 
-**No alternative route.** When automated proofing fails there must be a supported path — in person,
-by phone, through a trusted intermediary — or the service is closed to whoever the algorithm
-cannot place.
+**Provide an alternative route when automated proofing fails.** A supported path — in person, by
+phone, through a trusted intermediary — keeps the service open to whoever the algorithm cannot
+place.
 
-**Multi-factor by SMS only.** Excludes people without reliable mobile service and is the weakest
-common factor.
+**Offer multi-factor options beyond SMS.** Additional factors reach people without reliable mobile
+service and strengthen the weakest common option.
 
-**Identity per system.** The same person with eleven accounts, which makes
-[identity resolution](/data-models/core-public-sector-model/) unachievable everywhere downstream.
+**Resolve to one identity per person, not one per system.** A single identity, rather than the same
+person holding eleven accounts, is what makes
+[identity resolution](/data-models/core-public-sector-model/) achievable everywhere downstream.

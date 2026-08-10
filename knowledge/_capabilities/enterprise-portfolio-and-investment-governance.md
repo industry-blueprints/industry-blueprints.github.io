@@ -89,26 +89,30 @@ organizations cannot compute it because the review never happens.
   each department buys within its own budget, and the first enterprise-wide picture appears during
   a consolidation attempt.
 
-## Where it goes wrong
+## What to get right
 
-**Shadow portfolio.** Departmental initiatives under the approval threshold, invisible centrally,
-consuming the same scarce integration and security capacity as the governed ones.
+**Bring departmental initiatives into the same visible portfolio.** Below-threshold work invisible
+centrally still consumes the same scarce integration and security capacity as the governed
+initiatives, so it needs the same visibility.
 
-**Gates that never fail.** A review at which no initiative has ever been stopped is a reporting
-ceremony. Its cost is real and its function is not.
+**Let gates actually stop initiatives.** A review that has never stopped anything is a reporting
+ceremony — its cost is real even if its function isn't. Gates that can fail are what make the
+process worth running.
 
-**Full funding at approval.** Committing the entire budget at the point of least information, then
-managing variance for three years.
+**Release funding in stages tied to evidence.** Committing the entire budget at the point of least
+information, then managing variance for three years, is what staged release is meant to prevent.
 
-**Optimism as a bidding strategy.** Cases compete on benefit claims, so claims inflate, so nobody
-believes them, so the ranking is made on other grounds — and the case-writing effort was wasted.
+**Score cases on evidence, not on optimism.** Cases that compete on benefit claims invite inflation,
+which makes nobody believe them, which pushes the ranking onto other grounds — grounding the
+comparison in evidence keeps the case-writing effort worth it.
 
-**Benefits owned by the delivery team.** The team disbands at go-live and the benefit becomes
-nobody's. Benefits belong to the operational owner, with the budget line adjusted to match.
+**Give benefits an operational owner who outlives the delivery team.** A benefit with no owner after
+go-live becomes nobody's; assigning it to the operational owner, with the budget line adjusted to
+match, keeps it tracked.
 
-**Money governed, capacity not.** Twelve funded initiatives all requiring the same four
-integration engineers. The constraint surfaces as slippage across all twelve rather than as a
-sequencing decision.
+**Govern capacity as closely as money.** Twelve funded initiatives all requiring the same four
+integration engineers need that constraint surfaced as a sequencing decision, not left to appear as
+slippage across all twelve.
 
-**No post-implementation review.** The one activity that would improve the next case, and the
-first cut when the team moves on.
+**Run the post-implementation review.** It is the one activity that would improve the next case, so
+it is worth protecting even when the team has moved on.

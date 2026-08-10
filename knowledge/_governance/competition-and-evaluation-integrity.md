@@ -20,7 +20,7 @@ relationships:
   - predicate: constrains
     target: /processes/solicitation-and-response-management.md
   - predicate: constrains
-    target: /ai-opportunities/specification-competition-review.md
+    target: /ai-integrations/specification-competition-review.md
 ---
 
 ## Control objective
@@ -108,19 +108,21 @@ individual scores prior to consolidation · commercial opening record showing se
 clarification correspondence · departure rationale · approval within authority · debrief records ·
 protest file
 
-## Where organizations fail this control
+## What organizations need to get right
 
-**Prices opened early**, for convenience, invalidating the technical evaluation.
+**Keep prices sealed until technical evaluation is complete**, so opening them early for
+convenience doesn't invalidate it.
 
-**Generic conflict declarations** signed before the bidder list exists.
+**Collect conflict declarations after the bidder list exists**, not before.
 
-**Individual Q&A responses** never published, giving information asymmetry to whoever asked.
+**Publish Q&A responses to everyone**, so answering one bidder doesn't create information
+asymmetry.
 
-**Specifications written around a product**, which is the failure that occurs before this process
-starts and that no amount of evaluation rigour can repair — see
+**Write specifications around outcomes, not a product.** Getting this right happens before this
+process starts, and no amount of evaluation rigour later can substitute for it — see
 [needs definition and market research](/processes/needs-definition-and-market-research/).
 
-**Debriefs that recite scores.** The supplier learns nothing, and concludes the outcome was
+**Debrief on substance, not just scores.** A supplier who learns nothing concludes the outcome was
 predetermined.
 
 **Scoring in a room.** Convenient, faster, and it produces anchored scores that look independent

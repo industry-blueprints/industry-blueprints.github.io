@@ -170,6 +170,48 @@
   margin-bottom: 0;
 }
 
+// ── AI facets ────────────────────────────────────────────────────────
+// Modality (who initiates, who commits the effect) and task type (what the
+// model does) are orthogonal and compose. Shown together at the head of the
+// page because the pair, not either alone, determines what governance the
+// opportunity needs — and because the same task type in two modalities is
+// two different risk profiles.
+
+.ai-facets {
+  border-left: 3px solid var(--accent);
+  padding-left: var(--space-3);
+  margin: var(--space-3) 0;
+}
+
+.ai-modality {
+  font-size: 0.95rem;
+  margin-bottom: var(--space-1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em 0.9em;
+}
+
+.ai-axes,
+.ai-task {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.ai-task {
+  color: var(--accent-soft);
+  border: 1px solid var(--line);
+  padding: 0.15em 0.5em;
+}
+
+.ai-modality-note {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
 // ── Guide header ─────────────────────────────────────────────────────
 // A guide is addressed to a reader, not about a subject. Naming the reader
 // and the traversal shape up front is how someone decides in three seconds
@@ -291,6 +333,172 @@
   font-size: 0.78rem;
   color: var(--muted);
   font-style: italic;
+}
+
+// ── Disclosure ───────────────────────────────────────────────────────
+// Used to collapse content that is published and complete but not the current
+// focus. Native <details> so it works without JavaScript and stays keyboard
+// and screen-reader accessible.
+
+.disclosure {
+  border-top: 1px solid var(--line);
+  padding-top: var(--space-3);
+}
+
+.disclosure > summary {
+  cursor: pointer;
+  padding: 0.5em 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  list-style-position: outside;
+}
+
+.disclosure > summary:hover { color: var(--text); }
+
+.disclosure > summary strong { color: var(--text); font-weight: 650; }
+
+.disclosure > summary:focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 2px;
+}
+
+// ── Layer coverage ───────────────────────────────────────────────────
+
+.coverage {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin-top: var(--space-4);
+}
+
+.coverage-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 0.55em 0.8em;
+  background: var(--bg);
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.coverage-row:hover { background: var(--surface); }
+
+.coverage-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.coverage-layers {
+  display: flex;
+  gap: 3px;
+  flex: none;
+}
+
+.coverage-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 3px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.coverage-cell.is-filled {
+  background: var(--accent-soft);
+  color: var(--bg);
+  font-weight: 650;
+}
+
+// ── Layer panel ──────────────────────────────────────────────────────
+// Related content grouped by blueprint layer. Reuses the .related-group
+// item styling; only the group header and the empty state differ.
+
+.layer-group {
+  margin-bottom: var(--space-3);
+}
+
+.layer-group h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  margin-bottom: var(--space-1);
+}
+
+.layer-group-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4em;
+  height: 1.4em;
+  flex: none;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 0.85em;
+  line-height: 1;
+}
+
+.layer-group-count {
+  margin-left: auto;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+// An empty layer is information, not an omission — quieted, never hidden.
+.layer-group.is-empty h3,
+.layer-group.is-unlayered h3 { color: var(--muted); }
+
+.layer-group-empty {
+  margin: 0;
+  padding: 0.5em 0.8em;
+  background: var(--surface);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.layer-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.layer-group li { background: var(--line); }
+
+.layer-group a {
+  display: block;
+  background: var(--bg);
+  padding: 0.6em 0.8em;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.layer-group a:hover { background: var(--surface); }
+
+.layer-group .kind-label {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.15em;
 }
 
 // ── Sources & provenance ─────────────────────────────────────────────
@@ -587,6 +795,20 @@
 
 .entry-layout.is-wide .related-heading { column-span: all; }
 .entry-layout.is-wide .related-group { break-inside: avoid; }
+
+// Four layers, four columns — the shape of the model is the shape of the page.
+// Grid rather than CSS columns, so the layers stay in order left to right and
+// an empty layer still occupies its slot instead of being flowed away.
+.entry-layout.is-wide .layers-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--space-4);
+  align-items: start;
+  margin-top: var(--space-5);
+}
+
+.entry-layout.is-wide .layers-panel .related-heading { grid-column: 1 / -1; }
+.entry-layout.is-wide .layers-panel .layer-group { margin-bottom: 0; }
 
 .entity-list {
   columns: var(--entity-cols, 2) 16rem;
