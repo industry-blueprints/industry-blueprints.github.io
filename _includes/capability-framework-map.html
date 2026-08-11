@@ -1,0 +1,55 @@
+{% assign framework = site.data.capability_framework %}
+{% assign capability_guides = site.pages | where: "capability_id", include.capability_id %}
+
+<div class="framework-intro">
+  <div>
+    <span class="framework-track-label">{{ framework.business_track.title }}</span>
+    <p>{{ framework.business_track.description }}</p>
+    <strong>Builds toward: {{ framework.business_track.final_artifact }}</strong>
+  </div>
+  <div>
+    <span class="framework-track-label">{{ framework.technical_track.title }}</span>
+    <p>{{ framework.technical_track.description }}</p>
+    <strong>Builds toward: {{ framework.technical_track.final_artifact }}</strong>
+  </div>
+</div>
+
+<div class="framework-map" aria-label="Capability exploration paths">
+  {% for pair in framework.pairs %}
+    {% assign business_guides = capability_guides | where: "framework_track", "business" | where: "framework_stage", pair.number %}
+    {% assign business_guide = business_guides | first %}
+    {% assign technical_guides = capability_guides | where: "framework_track", "technical" | where: "framework_stage", pair.number %}
+    {% assign technical_guide = technical_guides | first %}
+    <section class="framework-pair" aria-labelledby="framework-pair-{{ pair.number }}">
+      <header class="framework-pair-head">
+        <span>{{ pair.number | prepend: "0" }}</span>
+        <h3 id="framework-pair-{{ pair.number }}">{{ pair.label }}</h3>
+      </header>
+      <div class="framework-pair-cards">
+        {% if business_guide %}
+          <a class="framework-card is-available" href="{{ business_guide.url | relative_url }}">
+        {% else %}
+          <div class="framework-card is-planned">
+        {% endif %}
+            <span class="framework-card-kind">Understand the work</span>
+            <h4>{{ pair.business.title }}</h4>
+            <p>{{ pair.business.description }}</p>
+            <span class="framework-card-artifact">Produces: {{ pair.business.artifact }}</span>
+            <span class="framework-card-status">{% if business_guide %}Explore this stage &rarr;{% else %}Planned{% endif %}</span>
+        {% if business_guide %}</a>{% else %}</div>{% endif %}
+
+        {% if technical_guide %}
+          <a class="framework-card is-available" href="{{ technical_guide.url | relative_url }}">
+        {% else %}
+          <div class="framework-card is-planned">
+        {% endif %}
+            <span class="framework-card-kind">Design the enabling technology</span>
+            <h4>{{ pair.technical.title }}</h4>
+            <p>{{ pair.technical.description }}</p>
+            <span class="framework-card-artifact">Produces: {{ pair.technical.artifact }}</span>
+            <span class="framework-card-status">{% if technical_guide %}Explore this stage &rarr;{% else %}Planned{% endif %}</span>
+        {% if technical_guide %}</a>{% else %}</div>{% endif %}
+      </div>
+    </section>
+  {% endfor %}
+</div>

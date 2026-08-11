@@ -1,0 +1,71 @@
+business_track:
+  title: Understand the work
+  description: Build a practical view of why the capability exists, how it operates, and what needs to improve.
+  final_artifact: Capability Blueprint
+
+technical_track:
+  title: Design the enabling technology
+  description: Translate the business view into traceable information, application, integration, platform, and technology decisions.
+  final_artifact: Target Architecture Package
+
+pairs:
+  - number: 1
+    label: Purpose and alignment
+    business:
+      title: Public Purpose & Outcomes
+      description: Establish why the capability exists, who depends on it, and the public outcomes it supports.
+      artifact: Capability Purpose and Outcome Map
+    technical:
+      title: Architecture Context & Principles
+      description: Translate public outcomes and operating context into durable guidance for technical decisions.
+      artifact: Architecture Context and Principles
+  - number: 2
+    label: Services and requirements
+    business:
+      title: Services, Lifecycles & Performance
+      description: Describe the end-to-end work, the services it supports, and how successful performance is understood.
+      artifact: Service, Lifecycle and Performance Model
+    technical:
+      title: Architecture Requirements & Service Qualities
+      description: Turn service, lifecycle, and performance needs into traceable functional and quality requirements.
+      artifact: Architecture Requirements and Traceability Model
+  - number: 3
+    label: Execution and controls
+    business:
+      title: Execution, Accountability & Controls
+      description: Explain how work is performed, who is accountable, which decisions are made, and which controls apply.
+      artifact: Process, Decision, Responsibility and Control Model
+    technical:
+      title: Technical Controls & Operational Design
+      description: Translate operating responsibilities and controls into access, security, audit, continuity, and support needs.
+      artifact: Technical Control and Operational Requirements Model
+  - number: 4
+    label: Information and data
+    business:
+      title: Information & Data Needs
+      description: Identify the information the work relies on, who stewards it, and what makes it dependable and useful.
+      artifact: Business Information and Stewardship Model
+    technical:
+      title: Information & Data Architecture
+      description: Define authoritative sources, information structures, movement, protection, quality, retention, and access.
+      artifact: Information Architecture and Authoritative-Source Matrix
+  - number: 5
+    label: Opportunities and solutions
+    business:
+      title: Improvement Opportunities & Priorities
+      description: Identify and compare improvements to services, work, information, decisions, and enabling tools.
+      artifact: Prioritized Improvement Portfolio
+    technical:
+      title: Applications, Integration, Platforms & AI
+      description: Evaluate solution options against the accumulated requirements, controls, information needs, and priorities.
+      artifact: Solution Options and Preferred Architecture Direction
+  - number: 6
+    label: Target state and transition
+    business:
+      title: Target Operating Model & Roadmap
+      description: Describe how the future capability will operate and how the organization can move toward it.
+      artifact: Target Operating Model and Capability Roadmap
+    technical:
+      title: Target Architecture & Transition Roadmap
+      description: Assemble the preceding decisions into a target architecture, transition states, roadmap, and governance approach.
+      artifact: Target Architecture Package and Transition Roadmap

@@ -63,3 +63,12 @@ disposal are connected parts of that lifecycle.
 The most useful set varies by portfolio. A transportation agency, water utility, parks department,
 and facilities office use different condition methods while working toward the same outcome:
 dependable public service supported by clear, current asset information.
+
+## Explore Asset Management
+
+Follow the business path to understand and improve the capability, or use the aligned technical
+path to translate that understanding into architecture decisions. Each stage produces an artifact
+that informs the work that follows. Technical stages build from their business sibling and the
+technical decisions made previously.
+
+{% include capability-framework-map.html capability_id=page.slug %}
