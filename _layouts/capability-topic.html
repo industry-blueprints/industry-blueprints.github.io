@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign capability = site.capabilities | where: "id", page.capability_id | first %}
+
+<article class="blueprint capability-page">
+  <div class="wrap">
+    <div class="artifact-shell">
+      <nav class="sibling-nav" aria-label="Explore {{ capability.title }}">
+        <a class="sibling-nav-parent" href="{{ '/capabilities/' | relative_url }}">&larr; All capabilities</a>
+        <h2>{{ capability.title }}</h2>
+        <ul>
+          <li><a href="{{ capability.url | relative_url }}">Overview</a></li>
+          <li><a href="{{ '/capabilities/asset-management/lifecycle/' | relative_url }}" class="active" aria-current="page">Asset lifecycle</a></li>
+        </ul>
+      </nav>
+
+      <div class="artifact-content">
+        <header class="entry-head">
+          <span class="eyebrow">{{ capability.title }}</span>
+          <h1>{{ page.title }}</h1>
+          <p class="summary">{{ page.description }}</p>
+        </header>
+        <div class="entry-body">{{ content }}</div>
+      </div>
+    </div>
+  </div>
+</article>

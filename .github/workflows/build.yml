@@ -30,9 +30,6 @@ jobs:
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
 
-      - name: Validate PSCMF content
-        run: bundle exec ruby scripts/validate_pscmf.rb
-
       - name: Build
         run: bundle exec jekyll build --trace
         env:

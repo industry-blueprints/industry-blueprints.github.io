@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign capability_area = site.data.capability_areas | where: "id", page.capability_area | first %}
+{% assign siblings = site.capabilities | where: "capability_area", page.capability_area | sort: "order" %}
+
+<article class="blueprint capability-page">
+  <div class="wrap">
+    <div class="artifact-shell">
+      <nav class="sibling-nav" aria-label="Browse {{ capability_area.title }} capabilities">
+        <a class="sibling-nav-parent" href="{{ '/capabilities/#' | append: capability_area.id | relative_url }}">← All capabilities</a>
+        <h2>{{ capability_area.title }}</h2>
+        <ul>
+          {% for sibling in siblings %}
+            <li><a href="{{ sibling.url | relative_url }}"{% if sibling.url == page.url %} class="active" aria-current="page"{% endif %}>{{ sibling.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="artifact-content">
+        <header class="entry-head">
+          <span class="eyebrow">{{ capability_area.title }} capability</span>
+          <h1>{{ page.title }}</h1>
+          <p class="summary">{{ page.description }}</p>
+        </header>
+        <div class="entry-body">{{ content }}</div>
+      </div>
+    </div>
+  </div>
+</article>

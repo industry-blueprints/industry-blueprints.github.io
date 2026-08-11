@@ -1,0 +1,36 @@
+- id: govern
+  order: 10
+  title: Govern
+  description: How authority is conferred and exercised—elections, direction, rules, risk, and accountability.
+- id: serve
+  order: 20
+  title: Serve
+  description: Direct interaction with the people and organizations government serves—requests, cases, benefits, licenses, and decisions.
+- id: fund
+  order: 30
+  title: Fund
+  description: Raising, allocating, spending, and accounting for public money with clear stewardship.
+- id: acquire
+  order: 40
+  title: Acquire
+  description: Defining needs, buying goods and services, running fair competitions, and managing resulting agreements.
+- id: staff
+  order: 50
+  title: Staff
+  description: Finding, hiring, developing, supporting, paying, and retaining the people who deliver public services.
+- id: inform
+  order: 60
+  title: Inform
+  description: Governing, protecting, and making usable the information and technology every other capability depends on.
+- id: build-and-operate
+  order: 70
+  title: Build & Operate
+  description: Planning, building, maintaining, and operating land, infrastructure, facilities, utilities, fleet, and equipment.
+- id: protect
+  order: 80
+  title: Protect
+  description: Preparing for, responding to, and recovering from threats to safety, health, continuity, and community wellbeing.
+- id: justice-and-public-safety
+  order: 90
+  title: Justice & Public Safety
+  description: Answering emergencies, investigating crime, and administering the justice process with care for rights, safety, and liberty.

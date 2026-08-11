@@ -1,5 +1,5 @@
 title: Industry Blueprints
-description: Practical guides to how public-sector missions operate and modernize.
+description: Industry Blueprints
 url: "https://industry-blueprints.github.io"
 baseurl: ""
 lang: en
@@ -10,174 +10,22 @@ author:
 
 repository:
   site: "https://github.com/industry-blueprints/industry-blueprints.github.io"
-  platform: "https://github.com/industry-blueprints/platform"
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-collections_dir: docs
-
 collections:
-  system:
-    output: false
-  foundations:
-    output: true
-    permalink: /foundations/:name/
-  personas:
-    output: true
-    permalink: /personas/:name/
-  capability_areas:
-    output: true
-    permalink: /capability-areas/:name/
   capabilities:
     output: true
     permalink: /capabilities/:name/
-  domains:
-    output: true
-    permalink: /domains/:name/
-  domain_stages:
-    output: true
-  domain_use_cases:
-    output: true
-  architectures:
-    output: true
-    permalink: /architecture/:name/
-  solutions:
-    output: true
-    permalink: /solutions/:name/
-  workloads:
-    output: true
-    permalink: /workloads/:name/
-  scenarios:
-    output: true
-    permalink: /scenarios/:name/
-  realizations:
-    output: true
-    permalink: /platform/:name/
 
 defaults:
   - scope:
       path: ""
-      type: system
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: foundations
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: personas
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: capability_areas
-    values:
-      layout: artifact
-  - scope:
-      path: ""
       type: capabilities
     values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: domains
-    values:
-      layout: domain
-  - scope:
-      path: ""
-      type: domain_stages
-    values:
-      layout: domain-stage
-  - scope:
-      path: ""
-      type: domain_use_cases
-    values:
-      layout: domain-use-case
-  - scope:
-      path: ""
-      type: architectures
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: solutions
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: workloads
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: scenarios
-    values:
-      layout: artifact
-  - scope:
-      path: ""
-      type: realizations
-    values:
-      layout: artifact
-
-blueprint_levels:
-  - key: system
-    number: 0
-    label: Blueprint System
-    question: How does the knowledge system itself work?
-  - key: foundations
-    number: 1
-    label: Foundations
-    question: What is this thing fundamentally?
-  - key: capabilities
-    number: 2
-    label: Capabilities
-    question: What business function must the organization perform?
-  - key: solutions
-    number: 3
-    label: Solution Patterns
-    question: How do reusable capabilities solve this class of problem together?
-  - key: workloads
-    number: 4
-    label: Workloads
-    question: How does the solution operate in this real-world context?
-  - key: scenarios
-    number: 5
-    label: Reference Scenarios
-    question: What does the architecture look like in one concrete story?
-  - key: realizations
-    number: 6
-    label: Platform Realizations
-    question: How can this architecture be implemented and run?
-
-reader_layers:
-  - key: business
-    number: 1
-    label: Business
-    full_label: Business Blueprint
-    question: How the work operates—its problem, people, outcomes, processes, rules, and variations.
-  - key: architecture
-    number: 2
-    label: Architecture
-    full_label: Information & Architecture Blueprint
-    question: How information, boundaries, events, permissions, and interfaces fit together.
-  - key: platform
-    number: 3
-    label: Platform
-    full_label: Platform Examples & Mappings
-    question: How the blueprint appears in running examples and specific implementation platforms.
-
-artifact_tracks:
-  business: Business
-  experience-process: Experience & Process
-  information: Information
-  architecture: Architecture
-  trust-governance: Trust & Governance
-  ai-automation: AI & Automation
-  executable: Executable
+      layout: capability
 
 sass:
   style: compressed
@@ -188,4 +36,3 @@ exclude:
   - README.md
   - vendor/
   - .design
-  - templates

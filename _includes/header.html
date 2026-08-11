@@ -3,13 +3,8 @@
     <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}, home">
       {{ site.title }}
     </a>
-    {% assign domain_collections = "domains,domain_stages,domain_use_cases" %}
-    {% assign library_collections = "foundations,personas,capability_areas,capabilities,architectures,solutions,workloads,scenarios,realizations" %}
     <nav class="site-nav" aria-label="Primary navigation">
-      <a href="{{ '/domains/' | relative_url }}"{% if page.section == 'domains' or domain_collections contains page.collection %} class="active" aria-current="page"{% endif %}>Domains</a>
-      <a href="{{ '/framework/' | relative_url }}"{% if page.section == 'framework' %} class="active" aria-current="page"{% endif %}>Framework</a>
-      <a href="{{ '/library/' | relative_url }}"{% if page.section == 'library' or page.reader_layer or library_collections contains page.collection %} class="active" aria-current="page"{% endif %}>Library</a>
-      <a href="{{ '/about/' | relative_url }}"{% if page.section == 'about' %} class="active" aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/capabilities/' | relative_url }}"{% if page.section == 'capabilities' or page.collection == 'capabilities' %} class="active" aria-current="page"{% endif %}>Capabilities</a>
     </nav>
   </div>
 </header>

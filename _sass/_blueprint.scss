@@ -2,6 +2,10 @@
 // panel, provenance. Everything here renders state computed in _plugins/,
 // never state an author typed by hand.
 
+.capability-page {
+  padding-block: var(--space-4) var(--space-7);
+}
+
 // ── Badges ───────────────────────────────────────────────────────────
 
 .badge-row {
@@ -757,6 +761,71 @@
   padding-left: var(--space-3);
   color: var(--muted);
   margin-block: var(--space-3);
+}
+
+.content-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: var(--space-2);
+  color: var(--text);
+  font-weight: 650;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.3em;
+}
+
+.content-link:hover {
+  color: var(--accent-soft);
+}
+
+.lifecycle-steps {
+  counter-reset: lifecycle;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+  margin: var(--space-4) 0 var(--space-5);
+  padding: 0;
+  list-style: none;
+}
+
+.lifecycle-steps li {
+  counter-increment: lifecycle;
+  position: relative;
+  min-height: 8.5rem;
+  padding: var(--space-3) var(--space-3) var(--space-3) 4.2rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.lifecycle-steps li::before {
+  content: counter(lifecycle, decimal-leading-zero);
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  color: var(--accent-soft);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.lifecycle-steps h3 {
+  margin: 0 0 var(--space-1);
+}
+
+.lifecycle-steps p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 40rem) {
+  .lifecycle-steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lifecycle-steps li {
+    min-height: 0;
+  }
 }
 
 // Wide content must scroll inside its own box, never the page.
