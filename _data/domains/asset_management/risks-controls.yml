@@ -1,0 +1,40 @@
+- id: incomplete-inventory
+  title: Incomplete or unclear asset inventory
+  context: Assets without clear identity, ownership, location, or service purpose are difficult to plan and care for consistently.
+  controls:
+    - defined asset-registration criteria
+    - named asset and information stewards
+    - reconciliation with operational, spatial, project, and financial records
+  stage_ids: [risk-controls, information-data]
+- id: stale-condition
+  title: Condition information is no longer current
+  context: Investment and maintenance choices need assessment dates, methods, coverage, and confidence to be understood together.
+  controls:
+    - assessment cycles based on asset class and criticality
+    - consistent condition methods and quality review
+    - visible assessment age and coverage
+  stage_ids: [performance-expectations, risk-controls, information-data]
+- id: service-priority-gap
+  title: Asset priorities are disconnected from service outcomes
+  context: Technical need becomes more useful when its relationship to service, safety, access, and community outcomes is explicit.
+  controls:
+    - service-to-asset mapping
+    - documented criticality criteria
+    - cross-functional investment review
+  stage_ids: [mission-outcomes, risk-controls, initiative-prioritization]
+- id: incomplete-project-handover
+  title: New or renewed assets enter service without complete operating information
+  context: Timely handover helps operating teams maintain the asset and preserves the value of project information.
+  controls:
+    - information requirements included in project acceptance
+    - asset registration before operational handover
+    - accountable review by the receiving operational owner
+  stage_ids: [services-value-streams, processes-roles-decisions, governance-improvement]
+- id: opaque-prioritization
+  title: Investment choices are difficult to explain or reproduce
+  context: Transparent criteria help leaders, practitioners, and communities understand how limited resources are directed.
+  controls:
+    - published prioritization factors and definitions
+    - retained scoring assumptions and source information
+    - documented review and decision authority
+  stage_ids: [initiative-prioritization, governance-improvement]

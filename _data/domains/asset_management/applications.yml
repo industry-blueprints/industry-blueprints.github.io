@@ -1,0 +1,21 @@
+- id: eam-cmms
+  title: Enterprise Asset or Maintenance Management
+  responsibility: Asset registry, maintenance strategy, work planning, history, and lifecycle records.
+- id: gis
+  title: Geographic Information System
+  responsibility: Spatial identity, network relationships, location, mapping, and field context.
+- id: erp-finance
+  title: Enterprise Resource Planning & Finance
+  responsibility: Financial accounting, procurement, labor, inventory, budgets, projects, and capitalization.
+- id: records-content
+  title: Records & Content Management
+  responsibility: Drawings, manuals, photographs, reports, warranties, approvals, and retained records.
+- id: telemetry-control
+  title: Telemetry, IoT & Operational Control
+  responsibility: Observations about use, state, performance, alarms, and operating conditions where applicable.
+- id: analytics-data
+  title: Analytics & Data Platform
+  responsibility: Portfolio reporting, forecasting, comparison, modeling, and cross-system analysis.
+- id: mobile-field
+  title: Mobile Field Applications
+  responsibility: Inspections, observations, work updates, photographs, location, and offline field capture.

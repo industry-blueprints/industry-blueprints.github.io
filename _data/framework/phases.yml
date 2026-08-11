@@ -1,0 +1,43 @@
+- id: purpose-context
+  number: 1
+  title: Purpose & Context
+  description: Establish the public value, operating environment, services, expectations, and important protections that shape the domain.
+  stage_ids:
+    - mission-outcomes
+    - operating-context
+    - services-value-streams
+    - performance-expectations
+    - risk-controls
+
+- id: operating-model
+  number: 2
+  title: Operating Model
+  description: Describe the capabilities, processes, roles, and decisions that make the work operate.
+  stage_ids:
+    - business-capabilities
+    - processes-roles-decisions
+
+- id: information-technology
+  number: 3
+  title: Information & Technology
+  description: Connect the work to the information, applications, integration, analytics, and AI that enable it.
+  stage_ids:
+    - information-data
+    - applications-integration
+    - analytics-ai
+
+- id: future-change
+  number: 4
+  title: Future State & Change
+  description: Define the intended future, compare possible initiatives, and arrange them into an achievable sequence.
+  stage_ids:
+    - target-model-architecture
+    - initiative-prioritization
+    - transformation-roadmap
+
+- id: sustain-improve
+  number: 5
+  title: Sustain & Improve
+  description: Establish the ownership, review cadence, evidence, and learning practices that keep the domain effective over time.
+  stage_ids:
+    - governance-improvement

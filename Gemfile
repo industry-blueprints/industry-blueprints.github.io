@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 
-# Jekyll 4, not the github-pages gem: we run custom plugins in _plugins/,
-# which GitHub's built-in Pages build ignores. Deploys via Actions instead —
-# see .github/workflows/build.yml.
+# Jekyll is versioned directly so local and GitHub Actions builds use the same toolchain.
 gem "jekyll", "~> 4.3"
 
 group :jekyll_plugins do

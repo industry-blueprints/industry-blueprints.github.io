@@ -1,0 +1,35 @@
+- id: inventory-coverage
+  title: Inventory coverage
+  outcome: A trusted asset inventory
+  description: The share of in-scope assets represented with the minimum required identity, ownership, location, class, and service information.
+  stage_ids: [performance-expectations, information-data]
+- id: condition-currency
+  title: Condition assessment currency
+  outcome: Current condition information
+  description: The share of assets assessed within the cycle defined for their class and criticality.
+  stage_ids: [performance-expectations, risk-controls]
+- id: service-reliability
+  title: Asset-related service reliability
+  outcome: Dependable public service
+  description: Service availability and disruptions associated with asset condition or failure.
+  stage_ids: [mission-outcomes, performance-expectations]
+- id: lifecycle-plan-coverage
+  title: Lifecycle plan coverage
+  outcome: Clear priorities
+  description: The share of critical assets or asset systems with a current lifecycle strategy and forecast need.
+  stage_ids: [performance-expectations, business-capabilities]
+- id: renewal-funding-alignment
+  title: Renewal funding alignment
+  outcome: Sustainable renewal
+  description: Planned renewal investment compared with forecast renewal need over an agreed planning horizon.
+  stage_ids: [performance-expectations, initiative-prioritization, transformation-roadmap]
+- id: handover-completeness
+  title: Project handover completeness
+  outcome: Operationally ready new assets
+  description: The share of accepted assets registered with required operating, maintenance, warranty, and record information.
+  stage_ids: [services-value-streams, governance-improvement]
+- id: planned-reactive-work
+  title: Planned-to-reactive maintenance balance
+  outcome: Better lifecycle value
+  description: The relationship between planned preventive work and unplanned corrective or emergency work.
+  stage_ids: [performance-expectations, processes-roles-decisions]

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% assign domain_data = site.data.domains[page.data_key] %}
+{% assign domain = domain_data.domain %}
+{% assign domain_stage_pages = site.domain_stages | where: "domain_id", page.domain_id %}
+
+<article class="pscmf-page modernization-page">
+  <div class="wrap">
+    <div class="pscmf-shell">
+      {% include domain-navigation.html domain_id=domain.id domain_name=domain.name domain_url=page.domain_url active="modernization" %}
+      <div class="pscmf-content">
+        <header class="entry-head">
+          <a class="back-link" href="{{ page.domain_url | relative_url }}">← {{ domain.name }} overview</a>
+          <span class="eyebrow">{{ domain.name }} · Modernization</span>
+          <h1>A practical path from mission to sustained improvement.</h1>
+          <p class="summary">The fourteen stages share one sequence across every Domain. Here, each stage is applied specifically to Asset Management.</p>
+        </header>
+
+        <div class="entry-body modernization-introduction">{{ content }}</div>
+
+        <div class="modernization-phases">
+          {% for phase in site.data.framework.phases %}
+            <section class="modernization-phase">
+              <header><span>{{ phase.number | prepend: "0" | slice: -2, 2 }}</span><div><h2>{{ phase.title }}</h2><p>{{ phase.description }}</p></div></header>
+              <ol>
+                {% for stage_id in phase.stage_ids %}
+                  {% assign stage = site.data.framework.stages | where: "id", stage_id | first %}
+                  {% assign stage_page = domain_stage_pages | where: "stage_id", stage_id | first %}
+                  <li><a href="{{ stage_page.url | relative_url }}"><span>{{ stage.number | prepend: "0" | slice: -2, 2 }}</span><div><strong>{{ stage.title }}</strong><p>{{ stage.core_question }}</p></div><b aria-hidden="true">→</b></a></li>
+                {% endfor %}
+              </ol>
+            </section>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

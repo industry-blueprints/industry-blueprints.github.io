@@ -244,6 +244,86 @@
 
 // ── Two-column entry ─────────────────────────────────────────────────
 
+.artifact-shell {
+  display: grid;
+  grid-template-columns: minmax(11rem, 14rem) minmax(0, 1fr);
+  gap: clamp(var(--space-4), 5vw, var(--space-7));
+  align-items: start;
+}
+
+.artifact-content {
+  min-width: 0;
+}
+
+.sibling-nav {
+  position: sticky;
+  top: var(--space-3);
+  padding-right: var(--space-3);
+  border-right: 1px solid var(--line);
+}
+
+.sibling-nav-parent {
+  display: inline-block;
+  margin-bottom: var(--space-2);
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sibling-nav-parent:hover {
+  color: var(--accent-soft);
+}
+
+.sibling-nav h2 {
+  margin-bottom: var(--space-2);
+  color: var(--text);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sibling-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sibling-nav a:not(.sibling-nav-parent) {
+  display: block;
+  position: relative;
+  padding: 0.65em 0.8em;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.sibling-nav a:not(.sibling-nav-parent)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  background: transparent;
+}
+
+.sibling-nav a:not(.sibling-nav-parent):hover,
+.sibling-nav a.active {
+  color: var(--text);
+  background: var(--surface);
+}
+
+.sibling-nav a.active::before {
+  background: var(--accent);
+}
+
 .entry-layout {
   display: grid;
   grid-template-columns: minmax(0, 42rem) minmax(0, 20rem);
@@ -251,10 +331,68 @@
   align-items: start;
 }
 
+.blueprint-layers {
+  margin-bottom: var(--space-6);
+}
+
+.capability-area-map {
+  margin-bottom: var(--space-6);
+}
+
+.capability-area-map .section-head {
+  margin-bottom: var(--space-3);
+}
+
+.capability-area-map .section-head h2 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.blueprint-layers .section-head {
+  margin-bottom: var(--space-3);
+}
+
+.blueprint-layers .section-head h2 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
 @media (max-width: 62rem) {
   .entry-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-5);
+  }
+}
+
+@media (max-width: 48rem) {
+  .artifact-shell {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-4);
+  }
+
+  .sibling-nav {
+    position: static;
+    padding-right: 0;
+    padding-bottom: var(--space-2);
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sibling-nav ul {
+    flex-direction: row;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .sibling-nav ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sibling-nav li {
+    flex: none;
+  }
+
+  .sibling-nav a:not(.sibling-nav-parent) {
+    white-space: nowrap;
   }
 }
 
@@ -305,6 +443,14 @@
 }
 
 .related-group li { background: var(--line); }
+
+.related-group li > span {
+  display: block;
+  background: var(--bg);
+  padding: 0.6em 0.8em;
+  color: var(--text);
+  font-size: 0.9rem;
+}
 
 .related-group a {
   display: block;
@@ -637,6 +783,164 @@
   border: 1px dashed var(--line);
   padding: var(--space-4);
   text-align: center;
+}
+
+// ── Business catalog tabs ───────────────────────────────────────────
+
+.business-catalog {
+  padding-block: 0 var(--space-6);
+}
+
+.business-catalog > .wrap {
+  display: grid;
+  grid-template-columns: minmax(11rem, 14rem) minmax(0, 1fr);
+  gap: clamp(var(--space-4), 5vw, var(--space-7));
+  align-items: start;
+  padding-top: var(--space-4);
+}
+
+.business-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  position: sticky;
+  top: var(--space-2);
+  padding-right: var(--space-3);
+  border-right: 1px solid var(--line);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.business-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.business-tab {
+  position: relative;
+  padding: 0.7em 0.85em;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.business-tab::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  background: transparent;
+}
+
+.business-tab:hover,
+.business-tab[aria-selected="true"] {
+  color: var(--text);
+  background: var(--surface);
+}
+
+.business-tab[aria-selected="true"]::after {
+  background: var(--accent);
+}
+
+.business-tab-panel {
+  min-width: 0;
+  scroll-margin-top: var(--space-3);
+}
+
+.business-tab-panel + .business-tab-panel {
+  margin-top: var(--space-7);
+  border-top: 1px solid var(--line);
+}
+
+.business-catalog.is-enhanced .business-tab-panel + .business-tab-panel {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.business-tab-panel .section-head {
+  margin-bottom: var(--space-4);
+}
+
+.business-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1px;
+}
+
+.business-area-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 10rem;
+  padding: var(--space-3);
+  color: var(--text);
+  background: var(--bg);
+  box-shadow: 0 0 0 1px var(--line);
+  text-decoration: none;
+}
+
+.business-area-card:hover {
+  background: var(--surface);
+}
+
+.business-area-card .card-eyebrow {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.business-area-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: var(--space-1);
+}
+
+.business-area-card p {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .business-catalog > .wrap {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-4);
+  }
+
+  .business-tabs {
+    position: static;
+    flex-direction: row;
+    gap: var(--space-3);
+    overflow-x: auto;
+    padding-right: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .business-tab {
+    flex: none;
+    padding: var(--space-2) 0 calc(var(--space-1) + 2px);
+    background: transparent;
+  }
+
+  .business-tab::after {
+    top: auto;
+    right: 0;
+    bottom: -1px;
+    width: auto;
+    height: 2px;
+  }
+
+  .business-tab:hover,
+  .business-tab[aria-selected="true"] {
+    background: transparent;
+  }
 }
 
 .card-eyebrow {

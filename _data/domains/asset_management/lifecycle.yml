@@ -1,0 +1,31 @@
+id: asset-lifecycle
+title: Asset lifecycle
+stages:
+  - id: plan
+    number: 1
+    title: Plan
+    description: Connect service needs, asset strategies, standards, and investment choices.
+  - id: acquire-create
+    number: 2
+    title: Acquire or Create
+    description: Add assets through purchase, construction, donation, or transfer and prepare them for service.
+  - id: operate
+    number: 3
+    title: Operate
+    description: Use assets to deliver services while keeping operating information current.
+  - id: inspect-monitor
+    number: 4
+    title: Inspect or Monitor
+    description: Observe condition, performance, safety, and service contribution.
+  - id: maintain
+    number: 5
+    title: Maintain
+    description: Plan and complete work that preserves function and useful life.
+  - id: renew-replace
+    number: 6
+    title: Renew or Replace
+    description: Rehabilitate or replace assets when needs, value, and timing support investment.
+  - id: dispose
+    number: 7
+    title: Dispose
+    description: Retire, sell, transfer, or remove assets and close the corresponding records.

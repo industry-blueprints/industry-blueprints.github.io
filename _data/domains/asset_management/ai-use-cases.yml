@@ -1,0 +1,54 @@
+- id: inspection-image-assistance
+  title: Inspection image review assistance
+  stage_id: analytics-ai
+  capability_ids: [inspection-condition]
+  information_ids: [asset, condition, inspection, location]
+  ai_pattern: classification
+  human_involvement: assist
+  accountable_role: inspection program owner
+  value_hypothesis: Help inspectors organize observations and identify images that merit closer review.
+  controls:
+    - inspector confirms any observation used in an official condition record
+    - model output retains source image and confidence context
+    - performance is evaluated across relevant asset classes and field conditions
+  measures:
+    - review time per inspection
+    - confirmed observation precision and recall
+    - inspector override rate
+  disposition: candidate
+- id: maintenance-history-retrieval
+  title: Maintenance history retrieval and summarization
+  stage_id: analytics-ai
+  capability_ids: [work-maintenance, lifecycle-planning]
+  information_ids: [asset, work-order, maintenance-history]
+  ai_pattern: retrieval-summarization
+  human_involvement: inform
+  accountable_role: maintenance manager
+  value_hypothesis: Help planners find relevant work history, manuals, and recurring issues before planning new work.
+  controls:
+    - responses identify the source records used
+    - source permissions remain in effect
+    - planners can open and verify the underlying records
+  measures:
+    - time to locate relevant history
+    - source citation coverage
+    - planner usefulness rating
+  disposition: candidate
+- id: renewal-scenario-support
+  title: Renewal scenario decision support
+  stage_id: initiative-prioritization
+  capability_ids: [capital-needs-forecasting, investment-prioritization]
+  information_ids: [asset, condition, cost, risk, service-level, project-investment]
+  ai_pattern: prediction-recommendation
+  human_involvement: approve-to-act
+  accountable_role: capital planning executive
+  value_hypothesis: Help teams compare renewal timing and funding scenarios while keeping assumptions and tradeoffs visible.
+  controls:
+    - recommendation factors and assumptions are available for review
+    - authorized leaders retain investment decision authority
+    - scenarios are tested against historical results and planning constraints
+  measures:
+    - forecast error by asset class
+    - scenario preparation time
+    - share of recommendations with documented review
+  disposition: explore-with-caution

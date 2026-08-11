@@ -1,81 +1,159 @@
 # Industry Blueprints
 
-An open, vendor-neutral body of knowledge answering one question: **how should important
-business systems actually work?**
+Industry Blueprints is a vendor-neutral body of knowledge for understanding and modernizing
+important public-sector domains.
 
-Capabilities, processes, personas, domain models, architecture, governance, and AI — described
-precisely enough to build from, and paired with running reference software. Public sector is
-the content domain and the proving ground; the method is not specific to it.
+The organizing principle is **Blueprint first, platform second**. General business truth is
+defined once, composed into recognizable solutions, specialized for real operating contexts,
+demonstrated with concrete scenarios, and mapped to technology last.
 
-## Design documents
+The current product and implementation direction is defined in
+[.design/public_sector_capability_modernization_framework_design.md](.design/public_sector_capability_modernization_framework_design.md)
+and [.design/pscmf_jekyll_reference_implementation_specification.md](.design/pscmf_jekyll_reference_implementation_specification.md).
 
-- [.design/vision.md](.design/vision.md) — what this is and why (product)
-- [.design/content-architecture.md](.design/content-architecture.md) — how it is built (implementation contract)
-- [.design/new-vision.md](.design/new-vision.md) — the wider professional-platform strategy this site sits inside. Source material, not a spec for this repo.
+## Domain-first site structure
 
-## The companion repository
+The primary reader experience begins with a Domain or one of its recognizable use cases:
 
-The executable half of the project lives in a sibling repo, **Industry Modules Platform** — a
-composable application platform whose `core/` → `modules/` → `solutions/` layering is the
-implementation of the model described here. Several solutions run today, including constituent
-services, permitting, inspector general, and asset management.
+| Entry point | Purpose |
+|---|---|
+| Domains | End-to-end guides to public-sector missions, operating models, use cases, modernization, architecture, and AI opportunities |
+| Framework | The shared fourteen-stage method applied across Domains |
+| Library | Reusable capabilities, personas, foundations, architectures, patterns, and examples |
+| About | The purpose and intended use of Industry Blueprints |
 
-Neither repo depends on the other. The site stays readable without the platform, the platform
-stays runnable without the site, and the pairing is the value.
+Asset Management is the first reference Domain. It includes seven initial use cases and applies the
+fourteen-stage framework through five reader-facing modernization phases. Investigations and Grants
+Management are the next validation Domains.
 
-## Status
+Architecture, AI, training material, workshops, assessments, and platform examples are presented in
+the context of a Domain. They do not compete with the Domain as separate primary experiences.
 
-**Reframing in progress.** The vision was rewritten on 2026-08-10 around *blueprints* developed
-through four layers — business, information & architecture, executable reference implementation,
-and platform mappings. Site chrome, navigation, and the `layer` → `layer` rename are done.
+The hierarchy below remains a supporting authoring ontology and organizes the reusable Library.
+Its level numbers are not presented as the site's primary navigation.
 
-**Not yet done:** the `Blueprint` and `Domain Module` artifact types, the `covers` and
-`composed_of` predicates, and the first blueprint (Constituent Services). See vision.md §8 for
-the change list and §10 for the blueprint roadmap.
+## Blueprint hierarchy
 
-The knowledge base itself is substantial and unaffected by the reframing: 113 capabilities
-across 9 domains, with processes, personas, measures, controls, and AI integrations. Most
-artifacts are marked `draft` and `unverified`, which is accurate rather than modest.
+| Level | Collection | Purpose |
+|---:|---|---|
+| 0 | `docs/_system/` | Standards and metadata for the knowledge system |
+| 1 | `docs/_foundations/` | Reusable business concepts |
+| — | `docs/_personas/` | Supporting role-based portraits used across business artifacts |
+| — | `docs/_capability_areas/` | Curated groupings for browsing related capabilities |
+| 2 | `docs/_capabilities/` | Reusable business functions |
+| — | `docs/_architectures/` | Supporting architecture artifacts attached to primary business artifacts |
+| 3 | `docs/_solutions/` | Compositions that solve recognizable problems |
+| 4 | `docs/_workloads/` | Mission-, industry-, or policy-specific specializations |
+| 5 | `docs/_scenarios/` | Concrete end-to-end stories and traces |
+| 6 | `docs/_realizations/` | Executable implementations and platform mappings |
 
-## How the content model works
+The Library includes 113 public-sector capabilities organized into nine Capability Areas. Earlier
+municipal constituent-service artifacts remain available there as reusable reference content while
+the public entry experience is developed around Domains.
 
-Content lives in `knowledge/_<collection>/` as markdown with
-[Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)
-v0.2 frontmatter. Content files carry no Jekyll-specific keys — `layout` and `permalink` are
-injected from `_config.yml` defaults — so a concept file is a plain OKF document you can open
-in any editor.
+## Capability modernization framework
 
-Three things are computed rather than hand-written:
+The Public Sector Capability Modernization Framework (PSCMF) supplies the common fourteen-stage
+path used inside every Domain. The blueprint hierarchy classifies reusable Library content; PSCMF
+organizes the learning and modernization journey. These models are linked rather than merged.
 
-- **Trust, lifecycle, and freshness badges** are derived from `verified`, `status`, and
-  `stale_after` (`_plugins/okf.rb`). An author cannot mark something reviewed by editing a
-  badge; they add a `verified` entry, which is the auditable act.
-- **Inverse relationships.** Edges are authored once, in either direction, and both ends are
-  generated (`_plugins/relationships.rb`). Declaring the same edge twice is a build error.
-- **The maturity lens.** `from_level` / `to_level` on playbooks and `minimum_level` on
-  patterns and AI integrations render as a level scale, so guidance can be filtered to what
-  an organization can actually reach. Demoted from organizing spine to optional lens
-  (vision.md §11); the fields stay because they cost nothing and the written rubric uses them.
+A Capability can remain a concise Library entry and link to a deeper Domain experience. Domains
+specialize the canonical framework with a recognizable lifecycle, use cases, domain capabilities,
+information, applications, measures, maturity criteria, and AI use cases. Asset Management is the
+first reference Domain. Investigations and Grants Management will later test whether the
+model generalizes without template forks or copied canonical prose.
+
+Canonical stages live in `_data/framework/`. Structured domain overlays live in
+`_data/domains/`. The routable domain landing pages and their thin stage manifests live in
+`docs/_domains/`, `docs/_domain_use_cases/`, and `docs/_domain_stages/`.
+
+## Content model
+
+Every artifact uses the shared contract in [schemas/blueprint.schema.json](schemas/blueprint.schema.json).
+Its required frontmatter includes:
+
+```yaml
+id: case-management
+title: Case Management
+type: capability
+level: 2
+version: "0.1"
+status: draft
+description: Coordinate extended, accountable work around a matter.
+last_updated: 2026-08-10
+tracks: [business, experience-process, information, architecture]
+relationships:
+  builds_on: [person, organization, communication, task]
+  adds: [Case, Case Party, Case Activity, Case Outcome]
+sources: []
+reviewed: []
+```
+
+Stable IDs are global and kebab-cased. A more specific object authors `builds_on`; the build derives
+`used_by` on its dependencies. A Platform Realization authors `realizes`; the build derives
+`realized_by` on each demonstrated object. This keeps every edge single-authored.
+
+Business artifacts author `personas` to identify the reusable roles involved. Persona pages derive
+their `used_by` list from those links, keeping role definitions separate from the capabilities,
+Solution Patterns, Workloads, and scenarios that use them.
+
+Every Capability declares one `capability_area`. The build validates that reference and derives the
+area's capability inventory, allowing a large catalog to remain browsable without treating the area
+as another abstraction level.
+
+Capabilities may declare `content_profile: educational` for a concise reader-facing structure:
+Overview, public-sector importance, Personas, Common processes, and Outcomes and measures. Imported
+capabilities without that profile retain their earlier section contract while they are refreshed.
+
+`sources` and `reviewed` are optional editorial metadata. The validator checks their structure, but
+the public templates do not render them. Platform Realizations also declare `realization_kind` as
+either `sample` or `platform-mapping` so runnable examples remain distinct from product-specific guidance.
+
+The seven available tracks are:
+
+- `business`
+- `experience-process`
+- `information`
+- `architecture`
+- `trust-governance`
+- `ai-automation`
+- `executable`
+
+## Authoring
+
+Start from the matching file in `templates/`, place the new Markdown file in its collection, and
+replace every placeholder. The templates mirror the v0.1 definition of done for each level.
+
+The build fails when:
+
+- an ID is duplicated or malformed;
+- a collection, type, and level disagree;
+- required metadata is absent;
+- an artifact track is unknown;
+- a relationship target does not exist;
+- or `builds_on` points to a higher abstraction level.
+
+## Styling and templates
+
+- `_sass/` contains the design tokens, typography, layout, catalog, and blueprint styles.
+- `_layouts/artifact.html` renders every blueprint object.
+- `_layouts/collection-index.html` renders level indexes.
+- `_includes/relationship-panel.html` renders the generated knowledge graph.
+- `_plugins/blueprint_graph.rb` validates and connects artifacts during the build.
 
 ## Local development
 
-```
+```sh
 bundle install
 bundle exec jekyll serve
 ```
 
-Relationship errors warn locally so authoring stays fast. To get the CI behaviour — errors
-fail the build — run:
+To run the same production build used by GitHub Actions:
 
+```sh
+bundle exec ruby scripts/validate_pscmf.rb
+JEKYLL_ENV=production bundle exec jekyll build --trace
 ```
-JEKYLL_STRICT_RELATIONSHIPS=true bundle exec jekyll build
-```
 
-## Deployment
-
-GitHub Actions, not the built-in Pages Jekyll pipeline — see
-[.github/workflows/build.yml](.github/workflows/build.yml). The built-in pipeline ignores
-`_plugins/`, and the relationship generator is not optional.
-
-**One-time repo setting:** Settings → Pages → Build and deployment → Source must be set to
-**GitHub Actions**.
+GitHub Actions handles deployment. In the repository settings, Pages must use **GitHub Actions**
+as its build and deployment source.
