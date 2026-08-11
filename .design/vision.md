@@ -1,384 +1,1293 @@
-# Industry Blueprints — Product Vision
+# Industry Blueprints Vision
 
-**Status:** Draft · **Last revised:** 2026-08-10 · **Supersedes:** the 2026-07-26 toolkit vision
+## Purpose
 
-An open body of knowledge answering one question: **how should important business systems actually work?**
+**Industry Blueprints** is an open, vendor-neutral body of knowledge for designing, building, modernizing, and governing serious business systems.
 
-Companion documents:
-[content-architecture.md](content-architecture.md) — the implementation contract for the content model and build pipeline.
-[new-vision.md](new-vision.md) — the wider professional-platform strategy this site sits inside. Retained as source material; **not** a specification for this repository.
+The project combines:
 
----
+- business and domain knowledge,
+- reusable architectural models,
+- executable reference implementations,
+- AI and automation guidance,
+- industry- and mission-specific workloads,
+- end-to-end reference scenarios,
+- and platform realization guidance.
 
-## 1. Scope of this document
+The core principle is:
 
-The wider strategy in [new-vision.md](new-vision.md) describes six surfaces: a personal site, this site, GitHub, YouTube, LinkedIn, and a projects lab.
+> **Blueprint first, platform second.**
 
-**This document governs one of them.** Positioning, advisory offerings, the portfolio-career argument, the spiral model, and the publishing cadence belong to the personal site and are deliberately out of scope here. They are good material in the wrong repository, and letting them leak in is how a reference work turns into a brochure.
+Organizations should begin with the business problem, people, processes, information, capabilities, constraints, and architecture. Technology selection and implementation should follow.
 
-What this site owes the wider platform is narrow and concrete: **the knowledge layer, and the connection between it and running software.**
-
----
-
-## 2. The shift
-
-The previous vision had one organizing use case: *"a working session, not a reading session."* A consultant sits with a customer for an afternoon, locates them on a maturity rubric, agrees on three moves. Everything downstream served that — the maturity spine, the downloadable toolkits, the conversation layer of workshops and discovery guides.
-
-That framing is now demoted. The organizing question becomes:
-
-> **How should important business systems actually work?**
-
-That is a reference-work question, not a facilitation question, and the difference propagates. A reference work is judged on whether its answers are *right and complete enough to build from*. A facilitation toolkit is judged on whether an afternoon goes well. The first standard is harder, more durable, and the one worth holding.
-
-Three consequences shape everything below.
-
-**The unit of the library becomes the blueprint, not the capability.** A capability is a description of something an organization must be able to do. A blueprint is an answer to how a system supporting it should be built. The site currently holds 113 of the first and none of the second, which is why it is a capability library wearing the name Industry Blueprints. §5 fixes that.
-
-**Answers must reach all the way to running code.** A blueprint that stops at diagrams is an opinion. The companion platform repository (§7) already runs four of the candidate blueprints, which makes the executable layer a documentation problem rather than a construction problem — a much better position than the previous vision assumed.
-
-**Facilitation becomes a by-product, not a product.** Workshops, discovery sessions, and rubrics remain useful and remain published. They stop being the front door, stop driving the information architecture, and stop being written ahead of the knowledge they facilitate. See §11.
+Industry Blueprints is intended to be more than documentation. It should become an interconnected knowledge system that allows a reader to move from general concepts to specific workloads, concrete scenarios, and executable software.
 
 ---
 
-## 3. Point of view
+# Guiding Principles
 
-The ideas the library argues for, stated so content can be held against them.
+## Document truth at the highest reusable level
 
-**Software creation is being commoditized. Engineering judgment is not.** AI-assisted development makes software faster to create and does not make important systems easier to engineer. Architecture, information models, integration, ownership, lifecycle, and operational risk are unchanged by generation speed.
+A concept should be documented only at the highest level where it is generally true.
 
-**Build versus buy is a spectrum, and the architecture decides where each approach belongs.** Packaged applications, configurable platforms, custom software, open-source components, generated code, APIs, and agents all compose. Choosing among them per subsystem is the real design work.
+For example:
 
-**Blueprint first, platform second.** A case-management system should first be understood as a case-management system — not as a Dynamics implementation, a Salesforce implementation, or a custom build. Technology selection follows the model, not the other way round.
+- the definition of a **Person** belongs in Foundations;
+- the definition of a **Case** belongs in Case Management;
+- a **Legislative District** may belong in a government workload;
+- a fictional resident living in District 14 belongs in a Reference Scenario;
+- the PostgreSQL representation of that district belongs in a Platform Realization.
 
-**Easier software creation raises the value of governance.** If organizations create far more software, then architecture, security, ownership, testing, and lifecycle management matter more, not less.
+The content model should therefore move from:
 
-**Enterprise AI is mostly an integration problem.** The model is one component. Value comes from connecting intelligence safely to data, processes, permissions, actions, and people — which is why AI in this library is always expressed against a domain model and a permission model, never as a standalone feature list.
+> **general truth → specialization → example → implementation**
 
-**Systems thinking is the durable skill.** Platforms, languages, and models churn. The relationships between people, processes, information, technology, and constraints do not.
-
----
-
-## 4. Audience
-
-**Practitioners designing or modernizing business systems** — architects, engineering leads, product owners. The primary reader. They arrive with a domain problem and need a defensible model.
-
-**Technology and delivery leaders** making build/buy/configure decisions, needing the domain understood before the platform is chosen.
-
-**Public-sector program and technology staff**, for whom the content domain is directly their own.
-
-**AI agents** doing discovery, solution design, or research on behalf of the above — served by structured relationships, explicit provenance, and stable identifiers rather than by any dedicated feature. A consequence of doing the content model well, not a headline.
-
-Consultants and facilitators remain a real audience. They are no longer the audience the information architecture is designed around.
+This minimizes duplication and keeps the knowledge base maintainable.
 
 ---
 
-## 5. The Blueprint
+## Compose rather than copy
 
-A **Blueprint** is the unit of the library: a composed answer to how a class of business system should work, developed through four layers.
+More specific content should build on reusable concepts and capabilities rather than redefining them.
 
-The layers are a depth ladder, not a pipeline. A blueprint is publishable at layer 1 and improves outward.
+A solution such as Constituent Management should not duplicate Case Management. It should declare that it **uses** Case Management and then document only what it adds.
 
-### 5.1 The four layers
-
-**Layer 1 — Business Blueprint.** The domain, independent of technology. Business problem · personas and actors · terminology · processes and workflows · business rules · lifecycle models · common requirements · common variations · regulatory and policy considerations.
-
-*Existing types:* Capability, Persona, Process, Governance Control, KPI.
-
-**Layer 2 — Information & Architecture Blueprint.** How the system should be structured. Domain model · entities and relationships · bounded contexts · state models · business events · security and permission concepts · integration patterns · APIs · extensibility · audit requirements · AI interaction points.
-
-*Existing types:* Data Model, Data Entity, Solution Pattern, Reference Architecture, AI Integration, AI Agent.
-
-**Layer 3 — Executable Reference Implementation.** Working open-source software that makes the architecture concrete, explorable, and testable. Lives in the companion platform repository (§7), represented here as a Demonstration artifact.
-
-The purpose is not production software organizations deploy unchanged. It is that a reader can run the system, inspect the data model, call the APIs, and read the code that implements the state machine layer 2 describes.
-
-**Layer 4 — Platform Mappings.** How the architecture maps onto implementation platforms — custom development, Dynamics 365 / Power Platform, Salesforce, ServiceNow, cloud-native, AI-native, hybrid. The blueprint remains independent of all of them.
-
-*Existing type:* Vendor Implementation.
-
-### 5.2 AI is not a fifth layer
-
-AI is an architectural capability expressed in every layer: opportunities and human decision points in layer 1, interaction points and agent boundaries in layer 2, a working assistant in layer 3, platform AI services in layer 4.
-
-Every AI artifact must connect explicitly to data, business process, permissions, available actions, human decision points, approval requirements, auditability, and evaluation. An AI opportunity stated without those connections is a feature list, and the library does not publish feature lists.
-
-### 5.3 What a blueprint is not
-
-Not a capability, not a product comparison, not a case study, and not a single reference architecture. It is the composition — and the composition is the contribution, because the individual pieces are widely available and their coherent assembly is not.
+Likewise, a workload such as State Constituent Services should build on the Constituent Management solution pattern and specialize it for a particular operating context.
 
 ---
 
-## 6. The layered model, and the word "capability"
+## Prefer composition over inheritance
 
-The library, the modular architecture, and the platform repository each use "capability" to mean something different. Three meanings, silently overlapping, is the fastest way to break the model — so they are named and separated here before any blueprint is written.
+Business domains rarely fit clean object-oriented inheritance hierarchies.
 
-| Concept | Grain | Example | Where it lives |
-|---|---|---|---|
-| **Business Capability** | Something an organization must be able to do | Licensing and Permitting · Eligibility Determination · Budget Formulation | `_capabilities` — 113 today |
-| **Domain Module** | A reusable domain concept with a lifecycle and a state model | Case · Request · Asset · Inspection · Finding · Agreement · Credential | New — layer 2 specification |
-| **Platform Module** | A code package with contracts, commands, events, permissions | `case-management` · `approvals` · `document-intake` | platform repo `modules/` |
+For example, Constituent Management is not simply a subtype of Case Management.
 
-**Recommendation, and a change from [new-vision.md](new-vision.md):** the middle tier there is called *Business Capabilities*, which collides head-on with the 113. Call it **Domain Modules** instead. The payoff is a clean pairing — a Domain Module is a specification, a Platform Module is its implementation, and the two names differ by exactly the word that says which is which.
+A constituent interaction may:
 
-The resulting stack:
+- create no case,
+- create one case,
+- create several cases,
+- update an existing case,
+- or only record a communication.
 
+The preferred modeling approach is therefore:
+
+> **composable business capabilities**
+
+rather than rigid parent-child inheritance.
+
+---
+
+## Keep the model vendor-neutral
+
+Microsoft, Salesforce, ServiceNow, custom development, cloud-native services, and emerging AI-native platforms are implementation options.
+
+They are not the blueprint.
+
+Platform-specific guidance belongs at the realization layer.
+
+---
+
+## Make architecture executable
+
+Reference implementations should make architectural ideas concrete.
+
+A reader should eventually be able to:
+
+- inspect the model,
+- run the software,
+- view sample data,
+- exercise APIs,
+- observe events,
+- understand security decisions,
+- and see where AI participates.
+
+The implementation exists to explain and validate the blueprint, not necessarily to become production software deployed unchanged.
+
+---
+
+## Treat AI as an architectural capability
+
+AI should not be added as a superficial chatbot layer.
+
+For every meaningful AI capability, document:
+
+- input data,
+- accessible context,
+- allowed actions,
+- human approval points,
+- risks,
+- auditability,
+- and evaluation criteria.
+
+AI should be shown in the context of real business processes and systems.
+
+---
+
+# Blueprint Hierarchy
+
+Industry Blueprints is organized into six primary abstraction levels, supported by a system-level meta-layer.
+
+```text
+Industry Blueprints
+│
+├── 0. Blueprint System
+│
+├── 1. Foundations
+│
+├── 2. Capabilities
+│
+├── 3. Solution Patterns
+│
+├── 4. Workloads
+│
+├── 5. Reference Scenarios
+│
+└── 6. Platform Realizations
 ```
-Blueprint            Constituent Services · Permitting · Investigations · Asset Management
-   │  covers ────────► Business Capabilities   (the map of the territory — what an org does)
-   │  composed of ───► Domain Modules          (shared nouns with lifecycles — layers 1–2)
-   └  demonstrated by► Platform Modules        (running code — layer 3)
+
+Each level answers a different architectural question.
+
+---
+
+# 0. Blueprint System
+
+The Blueprint System defines how Industry Blueprints itself works.
+
+It contains the project-wide standards, principles, schemas, terminology, and modeling conventions used by every other layer.
+
+## Key artifacts
+
+### Purpose and philosophy
+
+- project vision,
+- design principles,
+- contribution philosophy,
+- licensing model,
+- versioning philosophy,
+- and the meaning of “Blueprint first, platform second.”
+
+### Taxonomy
+
+Canonical definitions for:
+
+- Foundation,
+- Capability,
+- Solution Pattern,
+- Workload,
+- Reference Scenario,
+- Platform Realization.
+
+### Modeling standards
+
+Standards may include:
+
+- naming conventions,
+- domain modeling conventions,
+- architecture diagram conventions,
+- API conventions,
+- business-event conventions,
+- module-composition rules,
+- identity and security principles,
+- dependency rules,
+- versioning rules.
+
+### Machine-readable metadata
+
+Every blueprint object should eventually be represented by structured metadata.
+
+Example:
+
+```yaml
+id: constituent-management
+type: solution-pattern
+version: 0.2
+status: draft
+
+uses:
+  - party-management
+  - request-management
+  - case-management
+  - communication-management
+
+specialized_by:
+  - state-constituent-services
+  - legislative-casework
 ```
 
-**Foundation** sits beneath Domain Modules: Person · Organization · Location · Address · Communication · Document · Note · Task · Classification · Audit Event. Universal, boring, and the thing every blueprint would otherwise redefine incompatibly.
+A future schema such as `blueprint.schema.json` can make the site itself aware of the relationships between blueprint objects.
 
-Two consequences worth stating plainly:
-
-**Case Management is not Blueprint 001.** It is a Domain Module — the shared engine beneath Constituent Services, Investigations, Permitting, and half the rest. [new-vision.md](new-vision.md) proposes it as the first blueprint; that proposal is what surfaced the naming collision. The first blueprint is Constituent Services, and Case Management is what it is built from. See §10.
-
-**The 113 business capabilities are not wasted, and are not the product either.** They are the map — the thing that shows where a blueprint sits and what territory remains unaddressed. A blueprint declares which capabilities it covers; the map shows coverage honestly, including the large majority not yet covered.
-
-### 6.1 Abstractions are extracted, not designed
-
-Domain Modules are identified by writing two blueprints and noticing what repeats — not by designing a universal enterprise model in advance. Where a concept works across domains, it is promoted and strengthened. Where it does not, the abstraction is revised or abandoned. A Domain Module with one consumer is a premature abstraction and is written back into its blueprint.
+This allows Industry Blueprints to operate as a **knowledge graph**, not merely a collection of pages.
 
 ---
 
-## 7. The two repositories
+# 1. Foundations
 
-The companion repository at `repos/platform` (**Industry Modules Platform**) is the executable half of this project. It is not a demo folder; it independently arrived at the same layering this document describes.
+Foundations define reusable business concepts that appear across many systems.
 
-| This site | Platform repo | Correspondence |
-|---|---|---|
-| Foundation | `core/` + `person-registry` | identity, permissions, workflow, audit, notifications |
-| Domain Module | `modules/` | case-management · approvals · document-intake · asset-registry · activity-tracking · person-registry |
-| Blueprint | `solutions/` | constituent-services · public-sector-permits · inspector-general · asset-management · vendor-onboarding |
-| Layer 2 architecture | `docs/architecture/` + solution YAML | contracts, ADRs, state models, storage strategy |
-| Layer 3 Demonstration | `examples/city-demo` | one command, four department apps, a public portal, one tenant database |
+Examples include:
 
-### 7.1 Layer 3 is ahead of layer 2, and that changes the working method
+```text
+Person
+Organization
+Location
+Address
+Contact Point
+Document
+Communication
+Task
+Note
+Classification
+Audit Event
+Identity
+```
 
-The obvious assumption is that architecture is documented and then implemented. Here the opposite is true: the platform has running state machines, entity contracts, permission models, events, and process templates, while this site has 9 data entities, 4 data models, 1 reference architecture, and 5 patterns.
+A Foundation answers:
 
-**So layer 2 is harvested from layer 3, not designed ahead of it.** The state machine exists in `core/workflow` and solution YAML; layer 2's job is to express it vendor-neutrally, explain why it is shaped that way, and say what would change under different constraints. This is faster, and it produces architecture documentation that is true by construction rather than by intention.
+> **What is this thing fundamentally?**
 
-The direction reverses once a blueprint has no implementation yet. Both directions are legitimate; what is not legitimate is publishing a layer 2 model that contradicts running code in the sister repo.
+It should not be tied to one workload, industry, or application.
 
-### 7.2 The alignment contract
+## Foundation artifacts
 
-* **Naming.** A blueprint and its solution share a slug. `constituent-services` here is `solutions/constituent-services` there.
-* **Direction of authority.** Layer 2 is the specification of record for domain semantics. The platform is the specification of record for how those semantics are implemented. Where they disagree, one of them is a bug, and the disagreement is resolved rather than documented twice.
-* **No duplication.** This site does not restate contracts, schemas, or ADRs that live in the platform repo. It links to them and explains the reasoning. The practical test in §11 applies here too.
-* **The platform stays runnable without this site, and this site stays readable without the platform.** Neither is a dependency of the other; the pairing is the value.
+### Business definition
+
+Provide:
+
+- canonical meaning,
+- terminology,
+- distinctions from similar concepts,
+- common roles the concept may play.
+
+For example, a Person may be a constituent, customer, employee, applicant, subject, case participant, or system user, but the Foundation should not redefine Person separately for each role.
+
+### Information model
+
+This is the primary artifact category for Foundations.
+
+Include:
+
+- conceptual model,
+- attributes,
+- identifiers,
+- relationships,
+- cardinality,
+- ownership,
+- lifecycle where appropriate,
+- reference data.
+
+Example:
+
+```text
+Person
+ ├── Name
+ ├── Contact Points
+ ├── Addresses
+ ├── Identifiers
+ └── Relationships
+```
+
+### Architecture
+
+Document reusable concerns such as:
+
+- identity matching,
+- duplicate detection,
+- master-data considerations,
+- APIs,
+- events,
+- extensibility.
+
+### Trust and governance
+
+Include:
+
+- privacy classification,
+- PII concerns,
+- retention,
+- audit requirements,
+- data ownership,
+- access considerations.
+
+### Executable artifacts
+
+Where useful, Foundations may have:
+
+- schemas,
+- database migrations,
+- domain objects,
+- API representations,
+- validation rules,
+- sample data,
+- tests.
 
 ---
 
-## 8. Content model
+# 2. Capabilities
 
-Unchanged in mechanics and specified in [content-architecture.md](content-architecture.md): one markdown file per artifact, OKF v0.2 frontmatter as the native vocabulary, typed relationships authored once and rendered in both directions, derived trust and freshness badges, static client-side search.
+Capabilities define something an organization needs to be able to do.
 
-That machinery survives the shift intact, which is the main reason this is a reframing rather than a rebuild. The **relationship predicate vocabulary is normative in [content-architecture.md](content-architecture.md) §6.2** — it moved there from the product vision, because a table the validator enforces and the build publishes belongs with the machinery that does both.
+Examples include:
 
-**Changes required:**
+```text
+Case Management
+Request Management
+Investigation Management
+Inspection Management
+Correspondence Management
+Document Management
+Scheduling
+Application Management
+Program Management
+Grant Management
+Asset Management
+```
 
-| Change | Reason |
+A Capability answers:
+
+> **What business function must the organization perform?**
+
+Capabilities should remain broadly reusable across industries and workloads.
+
+## Capability artifacts
+
+### Business
+
+Include:
+
+- capability definition,
+- business outcomes,
+- scope,
+- terminology,
+- common personas,
+- common variations,
+- business rules,
+- anti-patterns,
+- common failure modes.
+
+### Experience and process
+
+Include:
+
+- capability map,
+- lifecycle,
+- process flows,
+- state model,
+- persona journeys,
+- activities,
+- decisions,
+- escalations.
+
+Example Case Management lifecycle:
+
+```text
+Intake
+  ↓
+Triage
+  ↓
+Assignment
+  ↓
+Work
+  ↓
+Review
+  ↓
+Resolution
+  ↓
+Closure
+```
+
+### Information
+
+Create a canonical domain model.
+
+Example:
+
+```text
+Case
+ ├── Type
+ ├── Status
+ ├── Priority
+ ├── Parties
+ ├── Activities
+ ├── Tasks
+ ├── Communications
+ ├── Documents
+ └── Outcome
+```
+
+Capabilities should explicitly identify which Foundations they depend on.
+
+### Architecture
+
+Artifacts may include:
+
+- capability context diagram,
+- module boundaries,
+- API surface,
+- business events,
+- integration patterns,
+- extensibility points,
+- search considerations,
+- history and timeline patterns,
+- nonfunctional requirements.
+
+### Trust and governance
+
+For a capability such as Case Management, document:
+
+- record ownership,
+- case-level permissions,
+- sensitive-case handling,
+- auditability,
+- retention,
+- segregation of duties,
+- disclosure considerations.
+
+### AI and automation
+
+Document AI opportunity patterns before implementing them.
+
+Examples:
+
+- intake classification,
+- summarization,
+- routing recommendations,
+- correspondence drafting,
+- timeline generation.
+
+Each AI opportunity should describe:
+
+```text
+Input
+Allowed Data
+Allowed Actions
+Human Approval
+Risk
+Evaluation Criteria
+```
+
+### Executable artifacts
+
+Capabilities may eventually become reusable code modules containing:
+
+- domain objects,
+- APIs,
+- persistence,
+- events,
+- UI components where appropriate,
+- tests,
+- seed data.
+
+---
+
+# 3. Solution Patterns
+
+Solution Patterns compose multiple capabilities to solve a recognizable business problem.
+
+Examples include:
+
+```text
+Constituent Management
+Regulatory Operations
+Benefits Administration
+Customer Service Management
+Compliance Management
+Field Operations
+Program Delivery
+Employee Services
+```
+
+A Solution Pattern answers:
+
+> **How do reusable capabilities work together to address this class of problem?**
+
+The pattern should compose existing Foundations and Capabilities and document only what it uniquely contributes.
+
+Example:
+
+```text
+Constituent Management
+
+USES
+├── Party Management
+├── Communication Management
+├── Request Management
+├── Case Management
+├── Correspondence Management
+└── Service Delivery
+
+ADDS
+├── Constituent Context
+├── Interaction History
+├── Jurisdiction
+├── Service Preferences
+└── Constituent Experience
+```
+
+## Solution Pattern artifacts
+
+### Business
+
+Describe:
+
+- the recognizable business problem,
+- outcomes,
+- major personas,
+- when the pattern is useful,
+- how it differs from adjacent patterns,
+- the capabilities involved.
+
+### Composition Map
+
+Every Solution Pattern should have a required **Composition Map**.
+
+Example:
+
+```text
+              Constituent Management
+                       │
+       ┌───────────────┼───────────────┐
+       │               │               │
+     Party          Request           Case
+   Management      Management      Management
+       │                               │
+       └──────── Communication ─────────┘
+                       │
+                Correspondence
+```
+
+### Experience and process
+
+Focus on cross-capability processes rather than duplicating capability-specific lifecycles.
+
+Example:
+
+```text
+Constituent Contacts Agency
+        ↓
+Identify Constituent
+        ↓
+Capture Interaction
+        ↓
+Determine Need
+       / \
+      /   \
+ Request   Information Only
+   ↓
+Requires Extended Work?
+       ↓
+     Case
+       ↓
+Resolution
+       ↓
+Constituent Notification
+```
+
+### Information
+
+Create an integrated conceptual model showing how solution-specific concepts connect to reusable Foundations and Capabilities.
+
+Only define new concepts and relationships.
+
+### Architecture
+
+Focus on composition:
+
+- module interaction,
+- orchestration,
+- shared ownership,
+- cross-capability events,
+- integration boundaries,
+- architectural tradeoffs.
+
+### AI and automation
+
+Solution Patterns can introduce multi-capability AI behaviors.
+
+For example, a Constituent Service Agent might:
+
+- identify constituent context,
+- classify a request,
+- search knowledge,
+- locate related cases,
+- recommend routing,
+- draft a response.
+
+### Executable artifacts
+
+A Solution Pattern should be implemented as a composition of reusable modules rather than an isolated codebase.
+
+Example repository organization:
+
+```text
+foundation/*
+capabilities/case
+capabilities/request
+capabilities/communication
+
+solutions/constituent-management
+```
+
+---
+
+# 4. Workloads
+
+Workloads specialize Solution Patterns for a particular industry, mission, organizational, policy, or regulatory context.
+
+Examples:
+
+```text
+Government
+├── State Constituent Services
+├── Legislative Casework
+├── 311 Service Management
+├── Inspector General Investigations
+├── Permitting & Licensing
+└── Grants Administration
+
+Financial Services
+├── Customer Complaints
+├── Fraud Investigations
+└── Regulatory Examination Management
+```
+
+A Workload answers:
+
+> **How does this solution operate in this real-world context?**
+
+Industry should generally be treated as classification metadata rather than forcing every Workload into a rigid hierarchy.
+
+Example:
+
+```yaml
+name: State Constituent Services
+type: workload
+
+industries:
+  - government
+
+missions:
+  - constituent-services
+
+uses:
+  - constituent-management
+
+capabilities:
+  - request-management
+  - case-management
+  - correspondence-management
+```
+
+## Workload artifacts
+
+### Business
+
+Add domain depth:
+
+- industry terminology,
+- mission outcomes,
+- specific actors,
+- organizational structures,
+- regulatory environment,
+- policy considerations,
+- common operating models,
+- KPIs,
+- variants,
+- pain points.
+
+### Experience and process
+
+Document the **delta** from the generalized Solution Pattern.
+
+Generic flow:
+
+```text
+Receive → Classify → Route → Resolve
+```
+
+Specialized workload flow:
+
+```text
+Receive
+  ↓
+Identify Constituent
+  ↓
+Verify Jurisdiction
+  ↓
+Determine Responsible Agency
+  ↓
+Route / Refer
+  ↓
+Track Response
+  ↓
+Constituent Follow-up
+```
+
+### Information
+
+Add workload-specific concepts and semantics.
+
+Examples might include:
+
+```text
+District
+Jurisdiction
+Government Agency
+Elected Official
+Service Area
+Referral
+Consent
+```
+
+Do not redefine general concepts already owned by a lower layer.
+
+### Architecture
+
+Architecture becomes more context-specific here.
+
+Examples include:
+
+- government identity systems,
+- accessibility,
+- records management,
+- external portals,
+- legacy integration,
+- jurisdiction lookup,
+- correspondence generation,
+- data residency,
+- security constraints.
+
+### Trust and governance
+
+This may become one of the most important artifact areas at the Workload level.
+
+Examples:
+
+- records retention,
+- privacy,
+- public-records concerns,
+- accessibility,
+- data classification,
+- delegated authority,
+- auditability,
+- jurisdiction,
+- separation of duties.
+
+Industry Blueprints should identify architectural concerns, not replace legal or policy guidance.
+
+### AI and automation
+
+Describe AI in the context of the actual mission.
+
+For example, a Constituent Intake Assistant could:
+
+- identify request intent,
+- suggest involved agencies,
+- summarize documents,
+- recommend classification,
+- identify related matters.
+
+Also document:
+
+- prohibited or inappropriate automation,
+- required human review,
+- sensitive data concerns,
+- audit expectations,
+- quality controls.
+
+### Executable artifacts
+
+Workloads may include:
+
+- configuration,
+- specialized modules,
+- sample data,
+- policy rules,
+- domain-specific workflows,
+- workload-specific UI or behavior.
+
+---
+
+# 5. Reference Scenarios
+
+Reference Scenarios are concrete end-to-end stories that exercise the architecture.
+
+They are examples, not new capabilities or workloads.
+
+A scenario should make an abstract blueprint understandable to both technical and nontechnical audiences.
+
+Example:
+
+> Maria contacts her state senator because her benefits application has been pending for eight weeks.
+
+The scenario may flow through:
+
+```text
+Maria
+ ↓
+Constituent identified
+ ↓
+Interaction captured
+ ↓
+Request recorded
+ ↓
+Jurisdiction established
+ ↓
+Case opened
+ ↓
+Agency referral sent
+ ↓
+Follow-up task created
+ ↓
+Agency response received
+ ↓
+Correspondence generated
+ ↓
+Constituent notified
+ ↓
+Case closed
+```
+
+## Scenario artifacts
+
+### Narrative
+
+Explain the situation in plain language.
+
+### Personas
+
+Identify the people and organizational actors involved.
+
+### Journey
+
+Provide a visual step-by-step flow.
+
+### Capability Trace
+
+Show which capability is used at each step.
+
+Example:
+
+```text
+Step                Capability
+
+Identify Maria      Party Management
+Capture request     Request Management
+Open case           Case Management
+Contact agency      Correspondence
+Track follow-up     Task Management
+```
+
+### Data Trace
+
+Show what information or records are created.
+
+Example:
+
+```text
+Person: Maria
+Interaction: INT-1048
+Request: REQ-2411
+Case: CASE-8821
+Referral: REF-391
+Task: TASK-620
+Communication: COM-919
+```
+
+### Event Trace
+
+Show business or system events.
+
+Example:
+
+```text
+RequestReceived
+CaseOpened
+CaseAssigned
+ReferralCreated
+ResponseReceived
+CaseResolved
+```
+
+### AI Trace
+
+Identify exactly where AI participates and where it does not.
+
+### Architecture Trace
+
+Show which modules, services, APIs, or integration points participate.
+
+### Executable Scenario
+
+Reference Scenarios should eventually become runnable seed/demo packages.
+
+For example:
+
+> **Load Maria Constituent Services Scenario**
+
+This allows demonstrations to use meaningful, repeatable sample data rather than arbitrary records.
+
+---
+
+# 6. Platform Realizations
+
+Platform Realizations show how blueprint concepts become running technology.
+
+They answer:
+
+> **How can this architecture be implemented?**
+
+Platform Realizations are deliberately separated from the underlying blueprint so that the business architecture remains durable as technology changes.
+
+There are two primary realization types.
+
+---
+
+## Reference Realizations
+
+These are vendor-neutral executable implementations maintained by Industry Blueprints.
+
+A possible reference stack may include technologies such as:
+
+```text
+React / TypeScript
+.NET
+PostgreSQL
+Docker
+OIDC
+OpenAPI
+AI provider abstraction
+```
+
+The specific stack may evolve.
+
+The goals are:
+
+- clarity,
+- portability,
+- accessibility,
+- architectural demonstration,
+- and hands-on experimentation.
+
+---
+
+## Platform Mappings
+
+Platform Mappings explain how a blueprint could be implemented using commercial or vendor platforms.
+
+Examples include:
+
+- Microsoft Dynamics 365,
+- Power Platform,
+- Salesforce,
+- ServiceNow,
+- cloud-native services,
+- emerging AI-native platforms.
+
+A mapping might document:
+
+```text
+Blueprint Concept     Platform Concept
+
+Case                  Dynamics custom table / Case
+Person                Contact
+Organization          Account
+Task                  Activity
+Document              SharePoint / Dataverse file
+```
+
+Mappings should also include architectural caveats and tradeoffs.
+
+A runnable implementation is not required for every platform mapping.
+
+---
+
+## Realization artifacts
+
+Platform Realizations may include:
+
+- solution architecture,
+- deployment architecture,
+- repositories,
+- database schemas,
+- APIs,
+- event contracts,
+- source code,
+- tests,
+- infrastructure-as-code,
+- containers,
+- identity configuration,
+- sample data,
+- observability,
+- AI integration,
+- deployment guides,
+- developer guides,
+- screenshots,
+- live demonstrations,
+- walkthrough videos.
+
+This layer proves that the blueprint is more than theory.
+
+---
+
+# Artifact Tracks
+
+Across the hierarchy, blueprint content should generally be organized using seven recurring artifact tracks.
+
+| Track | Question |
 |---|---|
-| Add `Blueprint` artifact type | §5 — the unit of the library has no representation today |
-| Add `Domain Module` artifact type | §6 — the middle tier is unrepresented |
-| Add `covers` / `covered_by` predicate | Blueprint → Business Capability |
-| Add `composed_of` / `composes` predicate | Blueprint → Domain Module |
-| Extend `layer` frontmatter from 3 values to 4 | §8.2 — the executable layer is new; vendor moves 3 → 4 |
-| Populate `_demonstrations` | Layer 3 — currently empty, while five solutions run |
-| Relax `industry` and `government_levels` from required | §9 — public sector is the content, not the identity |
+| **Business** | What problem are we solving and why does it matter? |
+| **Experience & Process** | Who does what, and how does work move? |
+| **Information** | What things exist and how are they related? |
+| **Architecture** | How should the system be structured? |
+| **Trust & Governance** | How do security, auditability, compliance, and ownership work? |
+| **AI & Automation** | Where can intelligence or automation safely participate? |
+| **Executable** | Can the idea be seen, run, tested, or implemented? |
 
-### 8.0 Two axes, not twenty types
+Not every level requires the same depth in every track.
 
-The library is authored as ~20 artifact types. It should not be *browsed* as twenty artifact types — the previous vision said as much ("eighteen equal categories is a discovery failure") and then shipped a navigation that did exactly that.
-
-Navigation is therefore two axes, both over content that already exists:
-
-* **Capability → layers.** A capability page shows what exists at each of the four layers, and says plainly where nothing does. This is the primary entry point.
-* **Layers → capabilities.** A coverage view: which capabilities have reached which layer. This answers "where are the holes," which is the roadmap question.
-
-Type collections remain as URLs, authoring homes, and bundle structure. They are reachable through Browse and are no longer the way in.
-
-**A consequence worth naming: this probably removes the need for a `Blueprint` artifact.** A capability page showing its four layers *is* the blueprint, generated from the graph rather than hand-authored. §15 left this open pending a try at generation; the generation works, so the burden of proof now sits with anyone wanting a hand-written blueprint on top of it.
-
-The traversal that makes this work is two hops with two constraints — the second hop must go to a **deeper** layer, and may only **start from layer 2**. The first rule alone lets a shared persona drag in a neighbouring capability's material; layer 1 artifacts are hubs, and hubs are not routes downward.
-
-### 8.1 The depth ladder stays
-
-Coverage is partial by design and for a long time, so **depth is a declared state on every artifact** rather than something a reader infers. It renders as a badge, for the same reason trust and freshness do: a stub that announces itself is honest, and one that doesn't is a broken promise.
-
-| Tier | Contains |
-|---|---|
-| **Named** | Appears on the capability map with a one-line definition. No page. |
-| **Defined** | Purpose · outcomes · key processes, personas, entities named · 3–5 measures · variance sketch |
-| **Detailed** | + how it typically works today · pain points · business rules · standards mappings · full relationship graph |
-| **Complete** | + its own process, data, measure, and governance artifacts |
-
-It is doing real work across 113 artifacts and promotion is one file plus one line. Layer position is the depth signal for *blueprints*; the two coexist because they measure different things — a blueprint at layer 3 may rest on capabilities that are merely Defined.
-
-### 8.2 The layer model, extended from three to four
-
-The previous model had three **layers** enforced by a `layer` field: 1 industry knowledge, 2 vendor-neutral solution design, 3 vendor implementation. The four layers in §5 are the same idea with the executable layer inserted and the vendor layer pushed out to the end:
-
-| Old `layer` | New `layer` |
-|---|---|
-| 1 — industry and operating-model knowledge | **1** — Business Blueprint |
-| 2 — vendor-neutral solution design | **2** — Information & Architecture |
-| *(none)* | **3** — Executable Reference Implementation |
-| 3 — vendor implementation | **4** — Platform Mappings |
-
-**The word stays "layer."** An intermediate draft called these *rings*, to avoid confusion while both the three-value and four-value models were live. That confusion was transitional and has passed, and *layer* is the word this audience already thinks in — the whole point of §6 is that vocabulary should be familiar and unambiguous, not novel. The one-time cost is that "layer 3" means something new; the permanent cost of an unfamiliar term would have been larger.
-
-One consequence worth being deliberate about: the companion platform repo (§7) organizes its **code** into five layers of its own — core, modules, solutions, experiences, examples. Those are layers of a codebase, these are layers of a blueprint, and they do not correspond one-to-one. In any discussion spanning both, qualify: *blueprint layer 2*, *platform layer 2*.
-
-The vendor-neutrality rule carries over unchanged in substance, with the number updated: **no layer 1 or 2 artifact holds an outbound edge to a layer 4 artifact.** `realizes` always points upward, and platform listings on neutral pages render from inbound edges. Injected via config defaults, so no author restates it per file.
+The abstraction level determines which artifacts are most important.
 
 ---
 
-## 9. Public sector as proving ground
+# Relationship Model
 
-Every blueprint candidate in [new-vision.md](new-vision.md) is a public-sector domain, and both repositories are already deep in it. Public sector therefore remains the content — but stops being the identity.
+Every blueprint object should explicitly declare four relationship categories.
 
-The distinction is not cosmetic. "A vendor-neutral public-sector toolkit" describes a niche reference site. "How serious business systems are designed, demonstrated in public sector" describes a body of work whose method transfers. The second is what both repositories actually contain: the platform's modules are industry-neutral by construction, and its README already names insurance claims, manufacturing quality, and healthcare referral as future solutions.
+## Builds On
 
-Practically: keep the capability map, keep the level-variance treatment, keep the regulatory citation discipline — that rigour is the evidence the method is serious. Widen the framing, the navigation, and the front door. Move `industry` and `government_levels` from required to optional so a non-public-sector blueprint costs nothing structurally.
+Which lower-level concepts, capabilities, or patterns does this object use?
 
----
+## Adds
 
-## 10. Roadmap
+What does this object uniquely contribute?
 
-### 10.0 Domain Module 001 — Case Management *(done, 2026-08-10)*
+## Used By
 
-The first vertical slice is a **Domain Module, not a Blueprint** — an amendment to the ordering below, made because case management threads every candidate blueprint and is therefore the thing they all rest on.
+Which higher-level objects depend on or specialize this object?
 
-This inverts §6.1's usual sequence, which requires an abstraction to be extracted from two blueprints rather than designed ahead of them. It is a legitimate exception rather than a bent rule: the platform repository had already proven the boundary across **four** running solutions before a word of the specification was written. The evidence arrived from layer 3 instead of from two layer-1 passes, which is the §7.1 working method applied to abstraction rather than to architecture.
+## Realized By
 
-It also completes the layer model at the smallest scale that can complete it — capability, module, running software, and one platform mapping — which is worth more as a first proof than a larger slice that stops at layer 2.
+Which executable implementations demonstrate this object?
 
-| Layer | Artifact |
-|---|---|
-| 1 | [capability](/capabilities/case-management/) *(pre-existing)* |
-| 2 | `domain-modules/case-management` + [entity](/data-entities/case/) *(pre-existing)* |
-| 3 | `demonstrations/case-management-module` → `platform/modules/case-management` |
-| 4 | `vendor-implementations/case-management-on-dataverse` |
+Example:
 
-### 10.1 Blueprints
+```text
+Case Management
 
-Four blueprints where **both repositories already hold material**, ordered by combined depth.
+Builds On:
+- Person
+- Organization
+- Task
+- Document
+- Communication
 
-| # | Blueprint | Layer 1 (site) | Layer 3 (platform) |
-|---|---|---|---|
-| 001 | **Constituent Services** | Capability `complete`, rubric, AI integration catalog, reference architecture, personas, processes | `solutions/constituent-services` |
-| 002 | **Permitting & Licensing** | `licensing-and-permitting` capability, application entity | `solutions/public-sector-permits` |
-| 003 | **Investigations & Inspector General** | Investigator persona, allegation-intake process, rights-advisement control, track-determination KPI | `solutions/inspector-general` |
-| 004 | **Asset & Maintenance Management** | Asset and maintenance capabilities, work-order entity, facilities-manager persona | `solutions/asset-management` |
+Adds:
+- Case
+- Case Party
+- Case Activity
+- Outcome
 
-**001 is the proof.** It is taken through all four layers before 002 begins, for the same reason the previous vision threaded one capability end to end: a complete vertical slice reveals which parts of the model are wrong, and a breadth-first pass across four half-blueprints reveals nothing.
+Used By:
+- Constituent Management
+- Regulatory Operations
+- Investigations
 
-**002 is the test of reuse.** Domain Modules extracted from 001 are provisional until a second blueprint consumes them. Extraction that has not survived a second consumer is a guess (§6.1).
+Realized By:
+- Open Reference Application
+```
 
-Layer 4 is deferred until a blueprint has layers 1–3. Platform mappings written against an unsettled architecture map the wrong thing — the exception being Case Management, whose architecture was settled in code before it was written down.
-
-### 10.2 What Blueprint 001 now inherits
-
-Constituent Services no longer starts from nothing at layer 2. It declares `composed_of → case-management` and inherits the engine, the contract, and the reuse boundary — leaving its own layer-2 work to what is genuinely specific to constituent service: channels, the service catalogue, identity verification, and referral.
-
-That is the composition claim in §6 becoming testable. If Blueprint 001 finds itself restating what the module already says, either the module's boundary is drawn wrong or the blueprint is the wrong unit — and both are worth knowing early.
-
----
-
-## 11. What is demoted, and why
-
-Recorded as decisions rather than deletions, so the reasoning survives.
-
-**Maturity rubrics.** Demoted from the organizing spine to an optional lens on a capability. The previous vision called level-filtering "the single highest-value interaction in the product"; one rubric exists against 113 capabilities, which is what a spine nobody can afford to build looks like. The rubric that exists stays and stays useful. New rubrics are written only where a blueprint reaches layer 2 and the levels describe something observable.
-
-**Toolkit downloads.** Retained, re-motivated, and lowered in priority. Portability is still a principle — but the reason is now "hand it to an AI assistant, or drop it into a project repo" rather than "carry it into a workshop." Scoping likely moves from per-capability to per-blueprint, which is a better bundle anyway. Still Phase 2 machinery; still touches no authoring.
-
-**The conversation layer.** The four existing guides stay published and stay in the graph. They come off the primary navigation and off the home page, and no new ones are written until the blueprint they would facilitate exists. The rule in [content-architecture.md](content-architecture.md) §4b — conversation artifacts add no facts — is unchanged and remains the reason they are cheap to keep.
-
-**"Working session, not a reading session."** Retired as the organizing use case. It produced a good information architecture for a product that was going to be judged on afternoons rather than answers.
-
-Nothing here is deleted. A reader who wants to run a session can still do so; they are no longer the reader the site is shaped around.
+These relationships allow navigation to behave like a knowledge graph rather than a document tree.
 
 ---
 
-## 12. Principles
+# Example Vertical Slice
 
-**Business-first.** Content begins with problems, processes, decisions, and outcomes — not products.
+Industry Blueprints should be built iteratively.
 
-**Honest about today.** Current-state descriptions include the workarounds and the reasons they exist. Content describing only an idealized future does not survive contact with people who run the system.
+The first release does not require a complete taxonomy.
 
-**Vendor-neutral core, pluggable implementations.** Layers 1–2 stay vendor-agnostic. Layer 4 is removable: no layer 1 or 2 artifact holds an outbound edge to a layer 4 artifact.
+A useful initial vertical slice could contain:
 
-**Executable where possible.** An architectural claim that can be demonstrated should be. Layer 3 is what separates this from a slide library.
+```text
+Blueprint System v0.1
 
-**Let real use cases create abstractions.** No universal enterprise model in advance (§6.1).
+Foundation
+├── Person
+├── Organization
+├── Communication
+└── Task
 
-**Keep reference code understandable.** The code exists to make architecture concrete, not to win a benchmark. Mainstream technologies, minimal dependencies, no commercial platform requirements.
+Capability
+├── Request Management
+└── Case Management
 
-**Structured and interconnected.** Repeatable schemas, typed bidirectional relationships, no knowledge living only in a template.
+Solution Pattern
+└── Constituent Management
 
-**Provenance is visible.** Every artifact shows who wrote it, whether a human verified it, what it is based on, and when it goes stale. Unverified content is labeled, not hidden.
+Workload
+└── State Constituent Services
 
-**Publish before perfect.** Versioned early, improved in public. A blueprint at layer 1 is publishable.
+Reference Scenario
+└── Resident Agency Assistance Request
 
-**Portable.** The knowledge stays useful with the website switched off.
+Platform Realization
+└── Open Reference Application
+```
 
----
+This small slice exercises every architectural level.
 
-## 13. Nonfunctional requirements
+Future iterations can deepen the existing objects and introduce new paths such as:
 
-**Accessibility.** WCAG 2.2 AA, verified in CI. Non-negotiable — the library advises on Section 508 obligations and cannot itself fail them.
-
-**Performance.** Static output, no client framework requirement, deferred media.
-
-**SEO.** Unique titles, meta descriptions, canonical URLs, structured headings, schema.org, Open Graph.
-
-**Maintainability.** Layer 4 mappings are independently editable and carry shorter freshness windows (6 months) than layer 1–2 knowledge (12 months).
-
-**Extensibility.** New industries, platforms, artifact types, and predicates are additive.
-
-**Security.** No authentication, and therefore no authentication risk.
-
----
-
-## 14. Definition of done
-
-Not an afternoon that goes well. The standard is:
-
-> **A competent architect can read one blueprint, run its reference implementation, and build a defensible version of that system on a platform of their choosing — without needing this site to remain online.**
-
-If that works for Constituent Services, the method transfers. If it does not, no amount of breadth compensates.
-
-The progress standard from [new-vision.md](new-vision.md) applies unchanged: **what useful asset exists today that did not exist yesterday?**
+- Investigations,
+- Permitting and Licensing,
+- Grants Administration,
+- Regulatory Operations,
+- Financial Services Complaints,
+- and other public- and private-sector workloads.
 
 ---
 
-## 15. Resolved decisions
+# Suggested Repository / Content Structure
 
-| # | Decision |
-|---|---|
-| 1 | **Scope.** This document governs the Industry Blueprints site only. Personal-platform strategy stays in [new-vision.md](new-vision.md) (§1). |
-| 2 | **Organizing question.** "How should important business systems actually work?" replaces "a working session, not a reading session" (§2). |
-| 3 | **Unit of the library.** The Blueprint, developed through four layers (§5). |
-| 4 | **Naming.** The middle tier is **Domain Modules**, not "Business Capabilities" — the latter collides with the 113 (§6). Blueprint depth stays **layers**, not "rings" (§8.2). |
-| 5 | **Blueprint 001 is Constituent Services**, not Case Management. Case Management is a Domain Module beneath it (§6, §10). |
-| 6 | **Layer 2 is harvested from layer 3** where an implementation exists (§7.1). |
-| 7 | **Public sector is the content domain, not the site identity.** `industry` and `government_levels` become optional (§9). |
-| 8 | **Maturity, toolkits, and the conversation layer are demoted, not deleted** (§11). |
-| 9 | **Name.** Industry Blueprints, unchanged, and now accurate. |
-| 10 | **Contribution model.** Single author. `verified` remains self-attestation. |
-| 11 | **OKF version.** Pin `0.2`. Review minor bumps deliberately. |
+A future repository may evolve toward a structure such as:
 
-### Still open
+```text
+/
+├── docs/
+│   ├── system/
+│   ├── foundations/
+│   ├── capabilities/
+│   ├── solutions/
+│   ├── workloads/
+│   ├── scenarios/
+│   └── realizations/
+│
+├── schemas/
+│   └── blueprint.schema.json
+│
+├── foundation/
+│
+├── capabilities/
+│
+├── solutions/
+│
+├── workloads/
+│
+├── scenarios/
+│
+└── realizations/
+```
 
-* **Domain Module grain.** Is `Case` one module or three (Case, Request, Investigation)? Unanswerable until 002 exists — which is the point of §6.1, but it will be an uncomfortable open question during 001.
+The documentation hierarchy and source-code hierarchy do not have to be identical.
 
-* **Where layer 2 physically lives.** Harvesting from the platform repo argues for authoring architecture next to the code; the graph and bundle model argue for authoring it here. Current lean: **specification here, contracts there**, with links rather than copies. Revisit after 001.
+Documentation should optimize for human understanding.
 
-* ~~**Whether `Blueprint` needs its own layout or composes existing ones.**~~ **Resolved 2026-08-10 by building it.** The capability page generates the traversal, so no `Blueprint` artifact type is being added. Revisit only if a blueprint needs to say something the graph cannot derive — a narrative order, or a scope that is not one capability.
+Code should optimize for sound engineering boundaries.
 
-* **The capability map's future.** 113 capabilities against 4 planned blueprints is a coverage ratio that will look thin once blueprints are the unit. Options: keep it as an honest territory map, narrow it to domains blueprints will plausibly reach, or promote it as a standalone reference. No decision yet; it is not urgent until 002.
+---
+
+# Definition of Done by Level
+
+A practical first-pass definition of done can help keep the project moving.
+
+## Foundation v0.1
+
+- canonical definition,
+- conceptual information model,
+- relationships,
+- governance considerations,
+- relationship metadata.
+
+## Capability v0.1
+
+- business definition,
+- lifecycle or process,
+- domain model,
+- dependency list,
+- architecture diagram,
+- initial AI opportunities,
+- relationship metadata.
+
+## Solution Pattern v0.1
+
+- problem statement,
+- composition map,
+- cross-capability workflow,
+- integrated conceptual model,
+- architecture overview,
+- relationship metadata.
+
+## Workload v0.1
+
+- mission/domain description,
+- specialized personas,
+- specialized process,
+- domain-specific extensions,
+- governance considerations,
+- relationship metadata.
+
+## Reference Scenario v0.1
+
+- narrative,
+- journey,
+- capability trace,
+- data trace,
+- event trace.
+
+## Platform Realization v0.1
+
+- running application,
+- documented setup,
+- sample data,
+- core APIs,
+- architecture overview,
+- source repository.
+
+These definitions can become richer over time.
+
+---
+
+# Long-Term Vision
+
+Industry Blueprints should eventually allow someone to begin from almost any point and navigate through the architecture.
+
+A reader might start with:
+
+> **Inspector General Investigations**
+
+and discover that the workload uses:
+
+- Investigation Management,
+- Case Management,
+- Document Management,
+- Party Management,
+- Tasks,
+- Communications,
+- and audit capabilities.
+
+Another reader might begin with:
+
+> **Case Management**
+
+and discover all the solution patterns and workloads where that capability is reused.
+
+A developer might begin with:
+
+> **Open Reference Application**
+
+and trace the implementation back to the architectural and business concepts it realizes.
+
+An executive may begin with:
+
+> **State Constituent Services**
+
+and understand the business model before ever seeing a technology diagram.
+
+The end state is therefore not merely a library of reference solutions.
+
+It is an open, composable, executable model of how serious business systems can be understood and built.
+
+The project should demonstrate one durable idea:
+
+> **Business systems are easier to design when their business concepts, reusable capabilities, solution compositions, mission-specific workloads, concrete scenarios, and technology realizations are explicitly separated—and then intentionally connected.**
