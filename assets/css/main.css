@@ -208,7 +208,11 @@ p { margin: 0 0 1rem; }
 .related-card small { margin-top: 8px; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 
 .site-footer { padding: 60px 0; color: #bbcbca; background: #0a202c; }
-.footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 90px; }
+.footer-grid { display: grid; grid-template-columns: 1.3fr 1.3fr 1fr; gap: 60px; }
+.footer-links { list-style: none; margin: 0; padding: 0; }
+.footer-links li { margin-bottom: 7px; }
+.footer-links a { color: #bbcbca; text-decoration: none; }
+.footer-links a:hover { color: white; text-decoration: underline; }
 .site-footer p { max-width: 480px; }
 .footer-title { color: white; font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; }
 .footer-label { margin-bottom: 8px; color: var(--mint); font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
