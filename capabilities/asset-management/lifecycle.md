@@ -199,8 +199,8 @@ decades of service and investment decisions.
 
 This model directly informs:
 
-- **Execution, Accountability & Controls**, which will develop the processes, roles, decisions, and controls within the lifecycle; and
-- **Architecture Requirements & Service Qualities**, which will translate its service, handoff, information, field-work, reliability, and performance needs into traceable technical requirements.
+- [Execution, Accountability & Controls]({{ '/capabilities/asset-management/understand/execution-accountability-controls/' | relative_url }}), which develops the processes, roles, decisions, and controls within the lifecycle; and
+- [Architecture Requirements & Service Qualities]({{ '/capabilities/asset-management/architecture/requirements-service-qualities/' | relative_url }}), which translates its service, handoff, information, field-work, reliability, and performance needs into traceable technical requirements.
 
 The technical translation also applies the
 [Architecture Context and Principles]({{ '/capabilities/asset-management/architecture/context-principles/' | relative_url }}).

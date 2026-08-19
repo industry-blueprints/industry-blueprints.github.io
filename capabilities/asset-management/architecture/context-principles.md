@@ -140,7 +140,8 @@ decision environment.
 
 ## What this informs next
 
-This artifact becomes a required input to **Architecture Requirements & Service Qualities**. That
-stage will translate the business
+This artifact becomes a required input to
+[Architecture Requirements & Service Qualities]({{ '/capabilities/asset-management/architecture/requirements-service-qualities/' | relative_url }}).
+That stage translates the business
 [Service, Lifecycle and Performance Model]({{ '/capabilities/asset-management/lifecycle/' | relative_url }})
 into traceable requirements while applying the context and principles established here.
