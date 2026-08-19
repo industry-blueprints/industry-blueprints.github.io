@@ -1,38 +1,28 @@
-# Industry Blueprints
+# Public Sector Blueprints
 
-Industry Blueprints is being rebuilt one reader-facing page at a time. The current site begins
-with a public-sector Capability catalog.
+A Jekyll and GitHub Pages site for a living public-sector capability and solution knowledge system.
 
-## Capabilities
+## Run locally
 
-The catalog contains 113 mission workloads and use cases organized into nine categories:
-
-- Govern
-- Serve
-- Fund
-- Acquire
-- Staff
-- Inform
-- Build & Operate
-- Protect
-- Justice & Public Safety
-
-Capability source files live in `_capabilities/`. Each page uses the same concise educational
-structure: Overview, Why it matters in the public sector, Personas, Common processes, and Outcomes
-and measures. `_data/capability_areas.yml` controls category order and descriptions.
-
-Design documents remain in `.design/` as private working material and are excluded from the
-generated site.
-
-## Local development
-
-```sh
+```powershell
 bundle install
 bundle exec jekyll serve
 ```
 
-To run the production build used by GitHub Actions:
+Open `http://localhost:4000`.
 
-```sh
-JEKYLL_ENV=production bundle exec jekyll build --trace
-```
+## Content model
+
+Content is organized into Jekyll collections:
+
+- `_workloads`
+- `_capabilities`
+- `_architectures` (Reference Architectures)
+- `_patterns` (Solution Patterns)
+- `_implementation_patterns`
+- `_tools`
+
+Each collection entry is a Markdown file with YAML front matter. Shared presentation is handled by `_layouts/knowledge.html`.
+
+Use Case is still one of the six modeled components, but for the moment it is not a standalone collection — it renders as an in-page subsection on its parent Capability's page (one subsection per use case). See `.design/content-schemas.md` for the reasoning.
+

@@ -1,5 +1,5 @@
-title: Industry Blueprints
-description: Industry Blueprints
+title: Public Sector Blueprints
+description: A living solution design system for public-sector capabilities, workloads, and reusable technology patterns.
 url: "https://industry-blueprints.github.io"
 baseurl: ""
 lang: en
@@ -15,17 +15,70 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+markdown: kramdown
+permalink: pretty
+
 collections:
   capabilities:
     output: true
     permalink: /capabilities/:name/
+  workloads:
+    output: true
+    permalink: /workloads/:name/
+  patterns:
+    output: true
+    permalink: /patterns/:name/
+  architectures:
+    output: true
+    permalink: /architectures/:name/
+  implementation_patterns:
+    output: true
+    permalink: /implementation-patterns/:name/
+  tools:
+    output: true
+    permalink: /tools/:name/
 
 defaults:
   - scope:
       path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
       type: capabilities
     values:
-      layout: capability
+      layout: knowledge
+      eyebrow: Capability
+  - scope:
+      path: ""
+      type: workloads
+    values:
+      layout: knowledge
+      eyebrow: Workload
+  - scope:
+      path: ""
+      type: patterns
+    values:
+      layout: knowledge
+      eyebrow: Solution Pattern
+  - scope:
+      path: ""
+      type: architectures
+    values:
+      layout: knowledge
+      eyebrow: Reference Architecture
+  - scope:
+      path: ""
+      type: implementation_patterns
+    values:
+      layout: knowledge
+      eyebrow: Implementation Pattern
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: knowledge
+      eyebrow: Engagement tool
 
 sass:
   style: compressed
@@ -34,5 +87,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - vendor/
+  - vendor
   - .design
+

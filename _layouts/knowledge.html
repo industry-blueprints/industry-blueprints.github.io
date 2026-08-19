@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<article>
+  <header class="page-hero page-hero--article">
+    <div class="container measure-wide">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span aria-hidden="true">/</span>
+        {% if page.collection == "architectures" or page.collection == "patterns" or page.collection == "implementation_patterns" %}
+          <a href="{{ '/architecture-library/' | relative_url }}">Architecture Library</a>
+        {% else %}
+          <a href="{{ page.collection | replace: '_', '-' | prepend: '/' | append: '/' | relative_url }}">{{ page.collection | replace: '_', ' ' | capitalize }}</a>
+        {% endif %}
+        {% if page.parent_title and page.parent_url %}
+          <span aria-hidden="true">/</span>
+          <a href="{{ page.parent_url | relative_url }}">{{ page.parent_title }}</a>
+        {% endif %}
+      </nav>
+      <p class="eyebrow">{{ page.eyebrow }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+      {% if page.status or page.tier or page.design_level or page.updated %}
+        <div class="page-meta" aria-label="Content metadata">
+          {% if page.status %}<span class="status">{{ page.status }}</span>{% endif %}
+          {% if page.tier %}<span>{{ page.tier }}</span>{% endif %}
+          {% if page.design_level %}<span>{{ page.design_level }}</span>{% endif %}
+          {% if page.updated %}<span>Updated {{ page.updated | date: "%B %Y" }}</span>{% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </header>
+  <div class="article-title-bar" aria-hidden="true">
+    <div class="container">
+      <span>{{ page.eyebrow }}</span>
+      <strong>{{ page.title }}</strong>
+    </div>
+  </div>
+  <div class="container article-layout">
+    {% if page.sections %}
+      <aside class="article-nav" aria-label="On this page">
+        <p>On this page</p>
+        {% for section in page.sections %}
+          <a href="#{{ section | slugify }}">{{ section }}</a>
+        {% endfor %}
+      </aside>
+    {% endif %}
+    <div class="prose">
+      {{ content }}
+
+      {% if page.related %}
+        <section class="related-section" aria-labelledby="related-heading">
+          <p class="eyebrow">Continue exploring</p>
+          <h2 id="related-heading">Related knowledge</h2>
+          <div class="related-grid">
+            {% for item in page.related %}
+              <a class="related-card" href="{{ item.url | relative_url }}">
+                <span>{{ item.type }}</span>
+                <strong>{{ item.title }}</strong>
+                {% if item.summary %}<small>{{ item.summary }}</small>{% endif %}
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+    </div>
+  </div>
+</article>
