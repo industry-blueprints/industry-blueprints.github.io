@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Inspections"
 summary: "Scheduling and conducting verification against a standard, and recording findings — with finite capacity and a population that keeps growing."
 description: "Scheduling and conducting verification against a standard, and recording findings — with finite capacity and a population that keeps growing."

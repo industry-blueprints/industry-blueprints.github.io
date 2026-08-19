@@ -1,0 +1,13 @@
+{%- assign capability_items = site.capabilities | where: "workload", page.title | sort: "order" -%}
+{%- if capability_items.size > 0 -%}
+<div class="capability-grid">
+  {%- for item in capability_items %}
+  <a class="capability-card" href="{{ item.url | relative_url }}">
+    <span class="capability-card-index" aria-hidden="true">{{ forloop.index }}</span>
+    <strong>{{ item.title }}</strong>
+    <small>{{ item.summary }}</small>
+    <span class="capability-card-link" aria-hidden="true">Explore capability &rarr;</span>
+  </a>
+  {%- endfor %}
+</div>
+{%- endif -%}

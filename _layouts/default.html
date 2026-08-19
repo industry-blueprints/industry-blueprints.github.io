@@ -13,6 +13,8 @@
     <main id="main-content">{{ content }}</main>
     {% include footer.html %}
     <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+    {% for script in page.scripts %}<script src="{{ script | relative_url }}"></script>
+    {% endfor %}
   </body>
 </html>
 

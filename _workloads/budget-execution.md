@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Budget Execution"
 summary: "Spending within authority — managing appropriations, encumbrances, and adjustments across the year without overspending or leaving money unused."
 description: "Spending within authority — managing appropriations, encumbrances, and adjustments across the year without overspending or leaving money unused."

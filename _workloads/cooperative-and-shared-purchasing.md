@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Cooperative & Shared Purchasing"
 summary: "Using or hosting joint contracts so other jurisdictions can buy without running their own competition — leverage, with a due-diligence obligation attached."
 description: "Using or hosting joint contracts so other jurisdictions can buy without running their own competition — leverage, with a due-diligence obligation attached."

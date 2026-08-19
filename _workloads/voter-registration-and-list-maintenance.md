@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Voter Registration & List Maintenance"
 summary: "Establishing who is eligible to vote and keeping the list accurate — where both an inflated roll and an over-aggressive purge are failures."
 description: "Establishing who is eligible to vote and keeping the list accurate — where both an inflated roll and an over-aggressive purge are failures."

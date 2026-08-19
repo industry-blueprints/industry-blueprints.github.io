@@ -1,4 +1,5 @@
 ---
+published: false
 title: "AI Governance & Delivery"
 summary: "Knowing what AI the organization is using, deciding what it may use it for, and being able to explain any of it afterwards."
 description: "Knowing what AI the organization is using, deciding what it may use it for, and being able to explain any of it afterwards."

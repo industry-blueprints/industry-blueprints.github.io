@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Strategic Planning"
 summary: "Setting multi-year direction against an electoral horizon that is frequently shorter than the initiatives it commissions."
 description: "Setting multi-year direction against an electoral horizon that is frequently shorter than the initiatives it commissions."

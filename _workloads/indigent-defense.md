@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Indigent Defense"
 summary: "Providing counsel to people who cannot afford it, at a caseload and resourcing level that permits an actual defense rather than a formal one."
 description: "Providing counsel to people who cannot afford it, at a caseload and resourcing level that permits an actual defense rather than a formal one."

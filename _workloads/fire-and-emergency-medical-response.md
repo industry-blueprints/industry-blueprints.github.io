@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Fire & Emergency Medical Response"
 summary: "Station-based response to fire, medical, and rescue incidents — and the deployment model that decides who is reached in time."
 description: "Station-based response to fire, medical, and rescue incidents — and the deployment model that decides who is reached in time."

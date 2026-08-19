@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Vote Counting, Canvass & Certification"
 summary: "Tabulating, auditing, canvassing, and certifying results — where being right is necessary and being demonstrably right is the actual requirement."
 description: "Tabulating, auditing, canvassing, and certifying results — where being right is necessary and being demonstrably right is the actual requirement."

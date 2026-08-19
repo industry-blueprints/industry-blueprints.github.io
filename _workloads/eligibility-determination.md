@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Eligibility Determination"
 summary: "Deciding whether someone qualifies, against criteria, with notice and appeal rights — where a wrong decision has a person on the other end of it."
 description: "Deciding whether someone qualifies, against criteria, with notice and appeal rights — where a wrong decision has a person on the other end of it."

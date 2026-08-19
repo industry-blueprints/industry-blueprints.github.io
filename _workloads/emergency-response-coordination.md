@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Emergency Response Coordination"
 summary: "Running the incident — activation, a common operating picture, resource requests, and multi-agency command across organizations nobody controls."
 description: "Running the incident — activation, a common operating picture, resource requests, and multi-agency command across organizations nobody controls."

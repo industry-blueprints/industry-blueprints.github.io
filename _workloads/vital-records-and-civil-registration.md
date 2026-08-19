@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Vital Records & Civil Registration"
 summary: "Registering births, deaths, and marriages and issuing certificates — the identity foundation almost every other service depends on."
 description: "Registering births, deaths, and marriages and issuing certificates — the identity foundation almost every other service depends on."

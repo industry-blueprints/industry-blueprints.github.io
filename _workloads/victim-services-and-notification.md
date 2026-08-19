@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Victim Services & Notification"
 summary: "Rights, information, notification, and compensation for people harmed by crime — inside a process built around the defendant."
 description: "Rights, information, notification, and compensation for people harmed by crime — inside a process built around the defendant."

@@ -1,4 +1,5 @@
 ---
+published: false
 title: Telematics Event to Work Order
 summary: A concrete design that turns a telematics or schedule-threshold signal into a reviewed, scheduled maintenance work order.
 description: "A concrete design that turns a telematics or schedule-threshold signal into a reviewed, scheduled maintenance work order."

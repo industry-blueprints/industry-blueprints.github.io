@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Licensing & Permitting"
 summary: "Authorizing a person, organization, or activity — with conditions, expiry, and renewal — where the authorization is an Agreement like any other."
 description: "Authorizing a person, organization, or activity — with conditions, expiry, and renewal — where the authorization is an Agreement like any other."

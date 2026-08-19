@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Supply & Inventory Management"
 summary: "Holding, issuing, and replenishing physical goods — where the cost of a stockout is measured in service failure, not lost sales."
 description: "Holding, issuing, and replenishing physical goods — where the cost of a stockout is measured in service failure, not lost sales."

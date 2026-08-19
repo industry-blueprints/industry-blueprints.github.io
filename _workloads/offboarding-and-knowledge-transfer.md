@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Offboarding & Knowledge Transfer"
 summary: "Separation, clearance, benefit transition, and capturing what the departing person knew — the last one almost never happens."
 description: "Separation, clearance, benefit transition, and capturing what the departing person knew — the last one almost never happens."

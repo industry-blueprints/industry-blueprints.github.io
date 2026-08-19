@@ -6,6 +6,21 @@ status: Starter
 tier: Tier 1 · Catalog
 area: justice-and-public-safety
 updated: 2026-08-18
+personas:
+  - name: "Complainant or reporting source"
+    role: "Reports the allegation, incident, or concern that may initiate an investigation."
+  - name: "Intake or triage officer"
+    role: "Evaluates incoming matters and decides whether to open a case."
+  - name: "Investigator or agent"
+    role: "Plans, conducts, and documents the investigative work."
+  - name: "Subject matter specialist"
+    role: "Provides forensic, financial, technical, or other specialized analysis of evidence."
+  - name: "Legal counsel or prosecutor"
+    role: "Advises on authority, evidentiary sufficiency, and lawful process."
+  - name: "Reviewing official"
+    role: "Approves findings, resolution, and accountability on behalf of the agency."
+  - name: "Program manager or oversight reviewer"
+    role: "Monitors caseload, deadlines, and performance, and identifies systemic trends across the investigative program."
 sections:
   - Overview
   - Common Workload Variants
@@ -36,20 +51,8 @@ Criminal investigations, fraud and program-integrity investigations, regulatory 
 
 Investigations move through a set of complementary capabilities rather than one linear process — several run in parallel, and new evidence or a subject's account can send the matter back to an earlier capability. Sixteen capabilities compose this workload, listed here in the order a matter typically encounters them.
 
-{% assign investigations_capabilities = site.capabilities | where: "workload", page.title | sort: "order" %}{% for item in investigations_capabilities %}
-<p class="eyebrow">Capability</p>
-
-### {{ item.title }}
-
-{{ item.summary }} [Explore capability →]({{ item.url | relative_url }})
-{% endfor %}
+{% include capability-cards.html %}
 
 ## Personas
 
-- **Complainant or reporting source** — Reports the allegation, incident, or concern that may initiate an investigation.
-- **Intake or triage officer** — Evaluates incoming matters and decides whether to open a case.
-- **Investigator or agent** — Plans, conducts, and documents the investigative work.
-- **Subject matter specialist** — Provides forensic, financial, technical, or other specialized analysis of evidence.
-- **Legal counsel or prosecutor** — Advises on authority, evidentiary sufficiency, and lawful process.
-- **Reviewing official** — Approves findings, resolution, and accountability on behalf of the agency.
-- **Program manager or oversight reviewer** — Monitors caseload, deadlines, and performance, and identifies systemic trends across the investigative program.
+{% include persona-cards.html %}

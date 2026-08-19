@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Data Governance & Stewardship"
 summary: "Establishing who owns which data, what it means, how good it has to be, and who may decide — across departments that own their own systems."
 description: "Establishing who owns which data, what it means, how good it has to be, and who may decide — across departments that own their own systems."

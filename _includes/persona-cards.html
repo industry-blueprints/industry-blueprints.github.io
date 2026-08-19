@@ -1,0 +1,14 @@
+{%- if page.personas -%}
+<div class="persona-grid">
+  {%- for persona in page.personas %}
+  <div class="persona-card">
+    {%- if persona.name %}
+    <strong>{{ persona.name }}</strong>
+    {%- if persona.role %}<small>{{ persona.role }}</small>{% endif %}
+    {%- else %}
+    <strong>{{ persona }}</strong>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</div>
+{%- endif -%}

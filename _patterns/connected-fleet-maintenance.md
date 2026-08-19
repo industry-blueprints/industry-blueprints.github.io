@@ -1,4 +1,5 @@
 ---
+published: false
 title: Connected Fleet Maintenance
 pattern_type: Solution pattern
 summary: A reusable approach connecting telematics, asset records, maintenance rules, and work-order orchestration so preventive and corrective maintenance responds to actual vehicle condition and use.

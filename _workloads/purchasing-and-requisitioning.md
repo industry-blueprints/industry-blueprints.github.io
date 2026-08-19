@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Purchasing & Requisitioning"
 summary: "The day-to-day buying that never reaches a competition — requisitions, orders, cards, and receipting, at the highest volume in the domain."
 description: "The day-to-day buying that never reaches a competition — requisitions, orders, cards, and receipting, at the highest volume in the domain."

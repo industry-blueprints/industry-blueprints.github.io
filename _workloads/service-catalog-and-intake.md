@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Service Catalog & Intake"
 summary: "Defining what the organization offers and the channels through which it is requested — the front door, and the thing nobody owns."
 description: "Defining what the organization offers and the channels through which it is requested — the front door, and the thing nobody owns."

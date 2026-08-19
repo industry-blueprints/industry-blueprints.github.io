@@ -27,7 +27,7 @@ description: Six components split evenly across business and technology connect 
         <p class="eyebrow">The core model</p>
         <h2>Six components, business to technical</h2>
       </div>
-      <p>Workload maps to Reference Architecture, Capability maps to Solution Pattern, and Use Case maps to Implementation Pattern. Everything else — AI, assessments, data, standards, products, governance, and sources — attaches as a cross-cutting layer, not another rung in the hierarchy.</p>
+      <p>Workload maps to Reference Architecture, Capability maps to Capability Architecture, and Use Case maps to Implementation Pattern. Workloads, capabilities, and reference architectures are pages; use cases and their implementation patterns are sections within a capability page. Everything else — AI, assessments, data, standards, products, governance, and sources — attaches as a cross-cutting layer, not another rung in the hierarchy.</p>
     </div>
     <p class="eyebrow" style="margin-bottom: 14px;">Business side</p>
     <div class="model-flow">
@@ -44,7 +44,7 @@ description: Six components split evenly across business and technology connect 
       <article class="model-step">
         <span class="step-number">Use Case</span>
         <h3>What problem or opportunity are we addressing?</h3>
-        <p>A concrete scenario in which capabilities are applied, improved, automated, or augmented.</p>
+        <p>A concrete scenario in which a capability is applied, improved, automated, or augmented — written as a section on its capability's page.</p>
       </article>
     </div>
     <p class="eyebrow" style="margin: 42px 0 14px;">Technical side</p>
@@ -52,17 +52,17 @@ description: Six components split evenly across business and technology connect 
       <article class="model-step">
         <span class="step-number">Reference Architecture</span>
         <h3>What should the environment look like?</h3>
-        <p>A vendor-neutral logical architecture that supports a workload and its major capabilities.</p>
+        <p>A vendor-neutral logical architecture for a whole workload, composed from the capability architectures beneath it.</p>
       </article>
       <article class="model-step">
-        <span class="step-number">Solution Pattern</span>
-        <h3>What approach enables this ability?</h3>
-        <p>A reusable vendor-neutral technical approach that enables one or more capabilities.</p>
+        <span class="step-number">Capability Architecture</span>
+        <h3>What shape does that ability take?</h3>
+        <p>A vendor-neutral logical design for one capability, combining the implementation patterns from its use cases into a single shape.</p>
       </article>
       <article class="model-step">
         <span class="step-number">Implementation Pattern</span>
         <h3>How can this scenario be built?</h3>
-        <p>A concrete, repeatable technical design for addressing one or more use cases.</p>
+        <p>A concrete, repeatable technical approach for a single use case, written inline with that use case.</p>
       </article>
     </div>
   </div>
@@ -100,13 +100,13 @@ description: Six components split evenly across business and technology connect 
       <a class="card" href="{{ '/capabilities/' | relative_url }}">
         <p class="card-kicker">The ability</p>
         <h3>Capabilities</h3>
-        <p>Reusable abilities required to execute one or more workloads — each capability's page details its own use cases.</p>
+        <p>Reusable abilities required to execute one or more workloads — each capability's page carries its own use cases and its capability architecture.</p>
         <p class="card-link">Browse capabilities →</p>
       </a>
       <a class="card" href="{{ '/architecture-library/' | relative_url }}">
         <p class="card-kicker">The design</p>
         <h3>Architecture Library</h3>
-        <p>Reference architectures, solution patterns, and implementation patterns — vendor-neutral, product options shown only after the shape is understood.</p>
+        <p>Reference architectures composed from the capability architectures beneath them — vendor-neutral, with product options shown only after the shape is understood.</p>
         <p class="card-link">Browse the library →</p>
       </a>
     </div>
