@@ -1,6 +1,7 @@
 ---
 title: "Performance Management"
 summary: "Defining what success means, measuring it honestly, and changing something as a result — the last part being the one that usually fails."
+description: "Defining what success means, measuring it honestly, and changing something as a result — the last part being the one that usually fails."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

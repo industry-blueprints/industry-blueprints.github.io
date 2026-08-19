@@ -1,6 +1,7 @@
 ---
 title: "Utility Operations"
 summary: "Producing and distributing water, wastewater, power, or waste services — with a regulated quality obligation and a rate structure that must fund renewal."
+description: "Producing and distributing water, wastewater, power, or waste services — with a regulated quality obligation and a rate structure that must fund renewal."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

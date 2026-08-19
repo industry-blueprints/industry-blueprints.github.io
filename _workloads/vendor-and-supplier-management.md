@@ -1,6 +1,7 @@
 ---
 title: "Vendor & Supplier Management"
 summary: "Knowing who the organization buys from, whether they may be paid, and how they have actually performed."
+description: "Knowing who the organization buys from, whether they may be paid, and how they have actually performed."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: Investigative Planning & Tasking
 summary: Ability to develop investigative plans and lines of inquiry, assign tasks, and revise strategy as facts emerge.
+description: "Ability to develop investigative plans and lines of inquiry, assign tasks, and revise strategy as facts emerge."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

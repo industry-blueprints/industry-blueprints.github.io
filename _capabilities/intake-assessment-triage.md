@@ -1,6 +1,7 @@
 ---
 title: Intake Assessment & Triage
 summary: Ability to determine jurisdiction, assess credibility and severity, and decide whether to open, decline, refer, or consolidate a matter.
+description: "Ability to determine jurisdiction, assess credibility and severity, and decide whether to open, decline, refer, or consolidate a matter."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

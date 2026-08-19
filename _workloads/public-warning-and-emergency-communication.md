@@ -1,6 +1,7 @@
 ---
 title: "Public Warning & Emergency Communication"
 summary: "Getting accurate, actionable, accessible information to affected people fast, in their language — where a false alarm costs the next warning."
+description: "Getting accurate, actionable, accessible information to affected people fast, in their language — where a false alarm costs the next warning."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

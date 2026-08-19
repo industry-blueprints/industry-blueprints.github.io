@@ -1,6 +1,7 @@
 ---
 title: "Campaign Finance & Candidate Filing"
 summary: "Qualifying candidates and measures for the ballot, and collecting and publishing campaign finance disclosure in time for it to matter."
+description: "Qualifying candidates and measures for the ballot, and collecting and publishing campaign finance disclosure in time for it to matter."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

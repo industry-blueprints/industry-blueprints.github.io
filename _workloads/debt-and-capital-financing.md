@@ -1,6 +1,7 @@
 ---
 title: "Debt & Capital Financing"
 summary: "Issuing and servicing debt to fund long-lived assets, and managing the continuing obligations that arrive with the money."
+description: "Issuing and servicing debt to fund long-lived assets, and managing the continuing obligations that arrive with the money."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

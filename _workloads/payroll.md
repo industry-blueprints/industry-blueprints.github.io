@@ -1,6 +1,7 @@
 ---
 title: "Payroll"
 summary: "Paying people correctly and on time under rules set by statute, union agreement, and grant condition simultaneously."
+description: "Paying people correctly and on time under rules set by statute, union agreement, and grant condition simultaneously."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

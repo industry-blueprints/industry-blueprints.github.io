@@ -301,6 +301,7 @@ Where a stack has no honest fit for a component, say so in the `Realize with` ce
 ```yaml
 title: Capability Name          # ampersands fine here, not in H2 headings
 summary: Ability to …           # one sentence, feeds the workload page listing
+description: Ability to …       # same text as summary — see below
 status: Draft                   # controlled vocabulary only
 tier: Tier 2 · Practitioner
 scope: All
@@ -316,6 +317,10 @@ sources: []
 ```
 
 **`sections` must list every H2 in the body, in body order.** It drives the sidebar nav; a mismatch produces a dead anchor or a missing entry. `anchorcheck.js` catches this.
+
+**`description` duplicates `summary`, deliberately.** `summary` is Required by the content schema and feeds the listing cards. `description` is what `jekyll-seo-tag` reads for the meta description, Open Graph, and Twitter card. Without it the plugin falls back to the page excerpt, which for our pages is the first heading — every page would describe itself as "Overview".
+
+Keep the two identical, and change both when you change either. A generator plugin deriving one from the other was considered and rejected: `_plugins/` is ignored under the `github-pages` gem, so it would fail silently if the build toolchain changed, and the failure looks like correct output. Front matter works under any builder.
 
 **`order`** positions the capability in the workload's lifecycle. The workload page sorts on it (`sort: "order"`); the cross-workload `/capabilities/` listing stays alphabetical.
 

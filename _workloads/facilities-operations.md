@@ -1,6 +1,7 @@
 ---
 title: "Facilities Operations"
 summary: "Running buildings — space, security, energy, cleaning, and occupant services — for an estate that is often older than anyone working in it."
+description: "Running buildings — space, security, energy, cleaning, and occupant services — for an estate that is often older than anyone working in it."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

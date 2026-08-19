@@ -1,6 +1,7 @@
 ---
 title: "Environmental Management & Sustainability"
 summary: "Meeting environmental obligations and pursuing resilience and emissions commitments — compliance and ambition, with different funding and different consequences."
+description: "Meeting environmental obligations and pursuing resilience and emissions commitments — compliance and ambition, with different funding and different consequences."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

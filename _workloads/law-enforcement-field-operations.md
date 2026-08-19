@@ -1,6 +1,7 @@
 ---
 title: "Law Enforcement Field Operations"
 summary: "Patrol, response to calls for service, initial investigation, and the reports everything downstream is built from."
+description: "Patrol, response to calls for service, initial investigation, and the reports everything downstream is built from."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

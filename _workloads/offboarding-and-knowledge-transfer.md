@@ -1,6 +1,7 @@
 ---
 title: "Offboarding & Knowledge Transfer"
 summary: "Separation, clearance, benefit transition, and capturing what the departing person knew — the last one almost never happens."
+description: "Separation, clearance, benefit transition, and capturing what the departing person knew — the last one almost never happens."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

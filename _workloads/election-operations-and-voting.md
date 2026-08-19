@@ -1,6 +1,7 @@
 ---
 title: "Election Operations & Voting"
 summary: "Preparing ballots, opening polling places, and running every way of voting — a full-scale operation with an immovable date and no rehearsal."
+description: "Preparing ballots, opening polling places, and running every way of voting — a full-scale operation with an immovable date and no rehearsal."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

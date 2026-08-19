@@ -1,6 +1,7 @@
 ---
 title: Financial & Transaction Analysis
 summary: Ability to analyze financial transactions, trace funds and assets, and calculate losses or improper payments.
+description: "Ability to analyze financial transactions, trace funds and assets, and calculate losses or improper payments."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

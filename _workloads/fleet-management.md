@@ -1,6 +1,7 @@
 ---
 title: Fleet Management
 summary: The coordinated work of planning, acquiring, assigning, maintaining, fueling, and retiring a public agency's vehicle fleet so it delivers safe, available, and cost-effective service.
+description: "The coordinated work of planning, acquiring, assigning, maintaining, fueling, and retiring a public agency's vehicle fleet so it delivers safe, available, and cost-effective service."
 status: Draft
 tier: Tier 1 · Catalog
 scope: All

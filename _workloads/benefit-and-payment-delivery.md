@@ -1,6 +1,7 @@
 ---
 title: "Benefit & Payment Delivery"
 summary: "Issuing entitlements and managing changes, overpayments, and recovery — where the recovery policy determines whether the program helps or harms."
+description: "Issuing entitlements and managing changes, overpayments, and recovery — where the recovery policy determines whether the program helps or harms."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

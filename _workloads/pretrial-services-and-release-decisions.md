@@ -1,6 +1,7 @@
 ---
 title: "Pretrial Services & Release Decisions"
 summary: "Assessing and supervising people awaiting trial — and supporting the decision about who is detained before any finding of guilt."
+description: "Assessing and supervising people awaiting trial — and supporting the decision about who is detained before any finding of guilt."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

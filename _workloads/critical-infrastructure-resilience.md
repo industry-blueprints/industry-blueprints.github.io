@@ -1,6 +1,7 @@
 ---
 title: "Critical Infrastructure Resilience"
 summary: "Identifying dependencies and hardening the systems whose failure would cascade — most of which the government does not own."
+description: "Identifying dependencies and hardening the systems whose failure would cascade — most of which the government does not own."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

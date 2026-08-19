@@ -1,6 +1,7 @@
 ---
 title: Allegation, Tip & Referral Intake
 summary: Ability to receive allegations, tips, and referrals from any channel and route them to the right investigative organization.
+description: "Ability to receive allegations, tips, and referrals from any channel and route them to the right investigative organization."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

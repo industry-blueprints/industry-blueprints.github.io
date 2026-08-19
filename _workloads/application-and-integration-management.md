@@ -1,6 +1,7 @@
 ---
 title: "Application & Integration Management"
 summary: "The portfolio of systems, the interfaces between them, and their lifecycle — where the integrations outlive the projects that built them."
+description: "The portfolio of systems, the interfaces between them, and their lifecycle — where the integrations outlive the projects that built them."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

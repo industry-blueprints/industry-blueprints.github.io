@@ -1,6 +1,7 @@
 ---
 title: "Library Services"
 summary: "Collections, digital access, public computing, and information help — the last public building anyone can enter without needing a reason."
+description: "Collections, digital access, public computing, and information help — the last public building anyone can enter without needing a reason."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

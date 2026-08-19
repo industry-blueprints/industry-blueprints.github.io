@@ -1,6 +1,7 @@
 ---
 title: Interviews & Statements
 summary: Ability to plan and conduct interviews, capture statements and reports, and track follow-up commitments.
+description: "Ability to plan and conduct interviews, capture statements and reports, and track follow-up commitments."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

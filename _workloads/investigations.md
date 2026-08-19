@@ -1,6 +1,7 @@
 ---
 title: Investigations
 summary: The coordinated work of receiving allegations or leads, gathering and preserving evidence, reaching defensible findings, and moving matters to a lawful resolution.
+description: "The coordinated work of receiving allegations or leads, gathering and preserving evidence, reaching defensible findings, and moving matters to a lawful resolution."
 status: Starter
 tier: Tier 1 · Catalog
 area: justice-and-public-safety

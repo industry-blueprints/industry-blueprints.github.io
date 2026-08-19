@@ -1,6 +1,7 @@
 ---
 title: "Workforce Planning"
 summary: "Working out what people the organization will need, and noticing early enough that the answer is actionable."
+description: "Working out what people the organization will need, and noticing early enough that the answer is actionable."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

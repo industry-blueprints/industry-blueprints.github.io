@@ -1,6 +1,7 @@
 ---
 title: "Volunteer & Donations Management"
 summary: "Organizing the surge of people and goods that arrives after a visible event — which will arrive whether or not anyone planned for it."
+description: "Organizing the surge of people and goods that arrives after a visible event — which will arrive whether or not anyone planned for it."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

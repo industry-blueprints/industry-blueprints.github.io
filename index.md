@@ -1,5 +1,4 @@
 ---
-title: Home
 description: Six components split evenly across business and technology connect public-sector work to vendor-neutral solution architecture.
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Project Delivery & Construction Management"
 summary: "Designing, procuring, and delivering capital projects to schedule, budget, and standard — with change orders as the recurring failure."
+description: "Designing, procuring, and delivering capital projects to schedule, budget, and standard — with change orders as the recurring failure."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

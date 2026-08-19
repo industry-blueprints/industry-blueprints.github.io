@@ -1,6 +1,7 @@
 ---
 title: Investigative Analysis & Intelligence
 summary: Ability to build timelines, correlate information across sources, and identify patterns, networks, and trends.
+description: "Ability to build timelines, correlate information across sources, and identify patterns, networks, and trends."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Enterprise Portfolio & Investment Governance"
 summary: "Deciding which initiatives are funded, staged, and stopped — and holding them to the case that got them funded."
+description: "Deciding which initiatives are funded, staged, and stopped — and holding them to the case that got them funded."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

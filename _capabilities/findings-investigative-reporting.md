@@ -1,6 +1,7 @@
 ---
 title: Findings & Investigative Reporting
 summary: Ability to document findings with their supporting evidence and produce reports of investigation through quality review.
+description: "Ability to document findings with their supporting evidence and produce reports of investigation through quality review."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

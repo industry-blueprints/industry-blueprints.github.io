@@ -1,6 +1,7 @@
 ---
 title: "Maintenance Management"
 summary: "Preventive and corrective work — requests, orders, scheduling, parts, and completion — where reactive work crowds out the preventive work that would reduce it."
+description: "Preventive and corrective work — requests, orders, scheduling, parts, and completion — where reactive work crowds out the preventive work that would reduce it."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

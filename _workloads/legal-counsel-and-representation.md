@@ -1,6 +1,7 @@
 ---
 title: "Legal Counsel & Representation"
 summary: "Advising on authority and exposure before decisions are made, and representing the organization once they have been."
+description: "Advising on authority and exposure before decisions are made, and representing the organization once they have been."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

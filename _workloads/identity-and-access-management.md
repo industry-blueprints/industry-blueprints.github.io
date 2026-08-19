@@ -1,6 +1,7 @@
 ---
 title: "Identity & Access Management"
 summary: "Establishing who someone is, at what assurance level, and what they may do — for staff and for the public, which are different problems."
+description: "Establishing who someone is, at what assurance level, and what they may do — for staff and for the public, which are different problems."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

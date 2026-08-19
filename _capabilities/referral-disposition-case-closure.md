@@ -1,6 +1,7 @@
 ---
 title: Referral, Disposition & Case Closure
 summary: Ability to refer matters for action, record outcomes and closure rationale, and complete retention requirements.
+description: "Ability to refer matters for action, record outcomes and closure rationale, and complete retention requirements."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

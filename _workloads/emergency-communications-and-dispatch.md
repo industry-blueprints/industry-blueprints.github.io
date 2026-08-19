@@ -1,6 +1,7 @@
 ---
 title: "Emergency Communications & Dispatch"
 summary: "Answering the emergency call, determining what is needed, and sending it — the single front door to every response service."
+description: "Answering the emergency call, determining what is needed, and sending it — the single front door to every response service."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

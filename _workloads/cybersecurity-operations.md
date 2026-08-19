@@ -1,6 +1,7 @@
 ---
 title: "Cybersecurity Operations"
 summary: "Protecting, detecting, responding, and recovering across an estate that includes water treatment, traffic signals, and emergency dispatch."
+description: "Protecting, detecting, responding, and recovering across an estate that includes water treatment, traffic signals, and emergency dispatch."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

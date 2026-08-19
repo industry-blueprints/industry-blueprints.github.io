@@ -1,6 +1,7 @@
 ---
 title: "Budget Formulation"
 summary: "Turning competing requests, revenue forecasts, and political priorities into a proposed budget that can be adopted."
+description: "Turning competing requests, revenue forecasts, and political priorities into a proposed budget that can be adopted."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: Evidence Management & Chain of Custody
 summary: Ability to register physical and digital evidence and maintain its provenance, custody, and access controls.
+description: "Ability to register physical and digital evidence and maintain its provenance, custody, and access controls."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

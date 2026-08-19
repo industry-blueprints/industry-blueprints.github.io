@@ -1,6 +1,7 @@
 ---
 title: "Digital Service Design & Accessibility"
 summary: "Designing usable, accessible public-facing services — for a public that cannot go elsewhere when the service is bad."
+description: "Designing usable, accessible public-facing services — for a public that cannot go elsewhere when the service is bad."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

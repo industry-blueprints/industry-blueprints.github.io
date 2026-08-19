@@ -1,6 +1,7 @@
 ---
 title: "Work Order & Field Service Management"
 summary: "Dispatching, equipping, and tracking crews doing work away from a desk — the shared operational spine under every field-based service."
+description: "Dispatching, equipping, and tracking crews doing work away from a desk — the shared operational spine under every field-based service."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

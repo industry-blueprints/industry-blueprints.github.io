@@ -1,6 +1,7 @@
 ---
 title: "Emergency Preparedness & Planning"
 summary: "Plans, exercises, training, mutual aid, and stockpiles held against future need — where the exercise is worth more than the plan."
+description: "Plans, exercises, training, mutual aid, and stockpiles held against future need — where the exercise is worth more than the plan."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

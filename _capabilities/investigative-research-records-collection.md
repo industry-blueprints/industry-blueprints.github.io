@@ -1,6 +1,7 @@
 ---
 title: Investigative Research & Records Collection
 summary: Ability to search authorized information sources, issue and track records requests, and collect investigative material.
+description: "Ability to search authorized information sources, issue and track records requests, and collect investigative material."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

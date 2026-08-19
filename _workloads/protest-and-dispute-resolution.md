@@ -1,6 +1,7 @@
 ---
 title: "Protest & Dispute Resolution"
 summary: "Handling challenges to a solicitation or award, and holding the record needed to defend one — a capability exercised entirely on work already done."
+description: "Handling challenges to a solicitation or award, and holding the record needed to defend one — a capability exercised entirely on work already done."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Recruiting & Hiring"
 summary: "Filling positions through a merit process designed to prevent patronage — and therefore slower than the market it competes in."
+description: "Filling positions through a merit process designed to prevent patronage — and therefore slower than the market it competes in."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Hazard Identification & Risk Assessment"
 summary: "Understanding what could go wrong locally, how likely it is, and who would be most affected — the last part being the one usually omitted."
+description: "Understanding what could go wrong locally, how likely it is, and who would be most affected — the last part being the one usually omitted."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

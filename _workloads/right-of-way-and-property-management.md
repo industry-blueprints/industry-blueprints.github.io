@@ -1,6 +1,7 @@
 ---
 title: "Right-of-Way & Property Management"
 summary: "Acquiring, leasing, licensing, and disposing of real property and access to the public right of way — a portfolio most jurisdictions cannot fully enumerate."
+description: "Acquiring, leasing, licensing, and disposing of real property and access to the public right of way — a portfolio most jurisdictions cannot fully enumerate."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

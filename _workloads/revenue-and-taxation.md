@@ -1,6 +1,7 @@
 ---
 title: "Revenue & Taxation"
 summary: "Assessing, levying, and administering the taxes and own-source revenue that fund everything else — with an equity problem built into the assessment."
+description: "Assessing, levying, and administering the taxes and own-source revenue that fund everything else — with an equity problem built into the assessment."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

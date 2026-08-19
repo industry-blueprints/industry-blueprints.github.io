@@ -1,6 +1,7 @@
 ---
 title: "Financial Compliance & Audit Response"
 summary: "Preparing for, responding to, and actually remediating financial examinations — where the repeat finding is the only measure that matters."
+description: "Preparing for, responding to, and actually remediating financial examinations — where the repeat finding is the only measure that matters."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Public Records & Transparency Response"
 summary: "Finding, reviewing, redacting, and releasing records on request — against a statutory clock, with no search infrastructure."
+description: "Finding, reviewing, redacting, and releasing records on request — against a statutory clock, with no search infrastructure."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

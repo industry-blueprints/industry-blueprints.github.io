@@ -1,6 +1,7 @@
 ---
 title: "Court Administration & Adjudication"
 summary: "Filing, docketing, scheduling, hearing, and disposing of cases — and managing the jury, the record, and the money the court collects."
+description: "Filing, docketing, scheduling, hearing, and disposing of cases — and managing the jury, the record, and the money the court collects."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

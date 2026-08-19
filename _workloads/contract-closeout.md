@@ -1,6 +1,7 @@
 ---
 title: "Contract Closeout"
 summary: "Final acceptance, payment reconciliation, records retention, and lessons captured — the stage that happens when someone notices."
+description: "Final acceptance, payment reconciliation, records retention, and lessons captured — the stage that happens when someone notices."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Community Supervision & Reentry"
 summary: "Probation, parole, conditions, violation response, and preparing people to return successfully — where the conditions themselves generate much of the failure."
+description: "Probation, parole, conditions, violation response, and preparing people to return successfully — where the conditions themselves generate much of the failure."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

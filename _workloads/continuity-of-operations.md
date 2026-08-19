@@ -1,6 +1,7 @@
 ---
 title: "Continuity of Operations"
 summary: "Keeping essential government functions running when normal conditions do not hold — which is a service question before it is a technology one."
+description: "Keeping essential government functions running when normal conditions do not hold — which is a service question before it is a technology one."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

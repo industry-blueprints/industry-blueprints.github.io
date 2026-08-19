@@ -1,6 +1,7 @@
 ---
 title: "Technology Service Management"
 summary: "Service desk, incident and change management, and the operational running of technology — the internal equivalent of constituent service."
+description: "Service desk, incident and change management, and the operational running of technology — the internal equivalent of constituent service."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: Vehicle Maintenance Management
 summary: Ability to keep the fleet's vehicles safe, available, and cost-effectively maintained through preventive and corrective service.
+description: "Ability to keep the fleet's vehicles safe, available, and cost-effectively maintained through preventive and corrective service."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

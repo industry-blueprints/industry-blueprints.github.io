@@ -1,6 +1,7 @@
 ---
 title: Investigative Oversight & Performance
 summary: Ability to monitor caseload and outcomes, conduct quality assurance review, and identify systemic trends.
+description: "Ability to monitor caseload and outcomes, conduct quality assurance review, and identify systemic trends."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

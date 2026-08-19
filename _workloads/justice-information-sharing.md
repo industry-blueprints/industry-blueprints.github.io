@@ -1,6 +1,7 @@
 ---
 title: "Justice Information Sharing"
 summary: "Moving accurate information across agencies that do not report to each other — under access rules stricter than anywhere else in government."
+description: "Moving accurate information across agencies that do not report to each other — under access rules stricter than anywhere else in government."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

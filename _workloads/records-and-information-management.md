@@ -1,6 +1,7 @@
 ---
 title: "Records & Information Management"
 summary: "Keeping what must be kept for as long as required, disposing of the rest defensibly, and being able to find any of it."
+description: "Keeping what must be kept for as long as required, disposing of the rest defensibly, and being able to find any of it."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

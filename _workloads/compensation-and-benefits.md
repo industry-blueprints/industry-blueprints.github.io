@@ -1,6 +1,7 @@
 ---
 title: "Compensation & Benefits"
 summary: "Administering pay scales, differentials, leave, health, and retirement — and a total reward package whose largest component is invisible to the employee."
+description: "Administering pay scales, differentials, leave, health, and retirement — and a total reward package whose largest component is invisible to the employee."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

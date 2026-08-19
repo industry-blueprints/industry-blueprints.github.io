@@ -1,6 +1,7 @@
 ---
 title: "Open Government & Public Participation"
 summary: "Meeting notice and access duties, publishing open data, and running consultation that changes something."
+description: "Meeting notice and access duties, publishing open data, and running consultation that changes something."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

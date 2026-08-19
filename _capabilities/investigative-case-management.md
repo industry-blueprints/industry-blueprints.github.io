@@ -1,6 +1,7 @@
 ---
 title: Investigative Case Management
 summary: Ability to open, assign, and track a case's status, milestones, and record through to resolution.
+description: "Ability to open, assign, and track a case's status, milestones, and record through to resolution."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

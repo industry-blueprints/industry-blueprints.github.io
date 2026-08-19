@@ -1,6 +1,7 @@
 ---
 title: Subject, Entity & Relationship Management
 summary: Ability to maintain records for people, organizations, and other entities, and represent the relationships among them across investigations.
+description: "Ability to maintain records for people, organizations, and other entities, and represent the relationships among them across investigations."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

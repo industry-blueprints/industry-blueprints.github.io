@@ -1,6 +1,7 @@
 ---
 title: "Public Health Protection"
 summary: "Surveillance, investigation, immunization, environmental health, and outbreak response — where success is an event that did not happen."
+description: "Surveillance, investigation, immunization, environmental health, and outbreak response — where success is an event that did not happen."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

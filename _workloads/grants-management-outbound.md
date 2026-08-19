@@ -1,6 +1,7 @@
 ---
 title: "Grants Management (Outbound)"
 summary: "Awarding public money to other organizations to achieve a public purpose — and remaining accountable for what they do with it."
+description: "Awarding public money to other organizations to achieve a public purpose — and remaining accountable for what they do with it."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

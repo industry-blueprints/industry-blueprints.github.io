@@ -1,6 +1,7 @@
 ---
 title: "Risk Management & Insurance"
 summary: "Identifying, treating, and financing enterprise risk — including the claims that arrive whether or not anyone identified the risk first."
+description: "Identifying, treating, and financing enterprise risk — including the claims that arrive whether or not anyone identified the risk first."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: Interagency & Joint Investigation Collaboration
 summary: Ability to coordinate joint investigations, share authorized information, and deconflict investigative activity.
+description: "Ability to coordinate joint investigations, share authorized information, and deconflict investigative activity."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

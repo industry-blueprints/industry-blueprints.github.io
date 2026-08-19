@@ -1,6 +1,7 @@
 ---
 title: "Prosecution & Charging"
 summary: "Deciding whether and what to charge, meeting disclosure obligations, and resolving cases — where the charging decision constrains everything after it."
+description: "Deciding whether and what to charge, meeting disclosure obligations, and resolving cases — where the charging decision constrains everything after it."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

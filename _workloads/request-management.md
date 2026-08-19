@@ -1,6 +1,7 @@
 ---
 title: "Request Management"
 summary: "Capture, classify, route, track, and resolve a request for information, service, action, or referral."
+description: "Capture, classify, route, track, and resolve a request for information, service, action, or referral."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

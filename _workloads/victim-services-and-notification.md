@@ -1,6 +1,7 @@
 ---
 title: "Victim Services & Notification"
 summary: "Rights, information, notification, and compensation for people harmed by crime — inside a process built around the defendant."
+description: "Rights, information, notification, and compensation for people harmed by crime — inside a process built around the defendant."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

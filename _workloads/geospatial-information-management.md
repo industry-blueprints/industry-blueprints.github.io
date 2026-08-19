@@ -1,6 +1,7 @@
 ---
 title: "Geospatial Information Management"
 summary: "Authoritative location, parcel, boundary, and asset geometry — the shared key most public-sector data resolves to, owned by somebody specific."
+description: "Authoritative location, parcel, boundary, and asset geometry — the shared key most public-sector data resolves to, owned by somebody specific."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

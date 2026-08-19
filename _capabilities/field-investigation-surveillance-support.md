@@ -1,6 +1,7 @@
 ---
 title: Field Investigation & Surveillance Support
 summary: Ability to conduct and record site visits, observations, canvassing, and other field investigative activity.
+description: "Ability to conduct and record site visits, observations, canvassing, and other field investigative activity."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Evaluation & Award"
 summary: "Scoring responses against published criteria and making a decision that can be defended on the record that exists, not the reasoning that happened."
+description: "Scoring responses against published criteria and making a decision that can be defended on the record that exists, not the reasoning that happened."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

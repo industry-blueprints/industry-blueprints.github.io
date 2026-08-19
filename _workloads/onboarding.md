@@ -1,6 +1,7 @@
 ---
 title: "Onboarding"
 summary: "Getting a new hire credentialed, equipped, trained, and productive — a cross-functional process nobody owns end to end."
+description: "Getting a new hire credentialed, equipped, trained, and productive — a cross-functional process nobody owns end to end."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

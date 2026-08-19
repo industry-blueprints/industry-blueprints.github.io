@@ -1,6 +1,7 @@
 ---
 title: "Labor & Employee Relations"
 summary: "Collective bargaining, grievances, discipline, and the consultation obligations that attach to representation — negotiated in public, in many places."
+description: "Collective bargaining, grievances, discipline, and the consultation obligations that attach to representation — negotiated in public, in many places."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

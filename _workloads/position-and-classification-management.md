@@ -1,6 +1,7 @@
 ---
 title: "Position & Classification Management"
 summary: "Defining positions, grading them, and maintaining the classification structure that pay, budget, and workforce reporting all depend on."
+description: "Defining positions, grading them, and maintaining the classification structure that pay, budget, and workforce reporting all depend on."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

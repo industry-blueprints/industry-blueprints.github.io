@@ -1,6 +1,7 @@
 ---
 title: "Sourcing & Solicitation"
 summary: "Defining what is needed, taking it to market openly, and reaching a defensible award decision."
+description: "Defining what is needed, taking it to market openly, and reaching a defensible award decision."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: "Custody & Detention Operations"
 summary: "Running jails and detention facilities — intake, classification, safety, health care, and release — for a population mostly awaiting trial."
+description: "Running jails and detention facilities — intake, classification, safety, health care, and release — for a population mostly awaiting trial."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

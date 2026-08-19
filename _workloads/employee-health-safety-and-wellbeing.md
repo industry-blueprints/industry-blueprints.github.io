@@ -1,6 +1,7 @@
 ---
 title: "Employee Health, Safety & Wellbeing"
 summary: "Occupational safety, injury and workers' compensation, accommodation, and support — for a workforce that runs toward emergencies as part of the job."
+description: "Occupational safety, injury and workers' compensation, accommodation, and support — for a workforce that runs toward emergencies as part of the job."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

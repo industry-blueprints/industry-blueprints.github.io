@@ -1,6 +1,7 @@
 ---
 title: "Evidence & Property Management"
 summary: "Custody of seized, recovered, and evidentiary property from intake to disposition, with the chain intact — a warehouse operation with legal consequences."
+description: "Custody of seized, recovered, and evidentiary property from intake to disposition, with the chain intact — a warehouse operation with legal consequences."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

@@ -1,6 +1,7 @@
 ---
 title: Legal, Prosecutorial & Enforcement Coordination
 summary: Ability to coordinate with counsel and enforcement partners and track legal process, approvals, and referral packages.
+description: "Ability to coordinate with counsel and enforcement partners and track legal process, approvals, and referral packages."
 status: Draft
 tier: Tier 2 · Practitioner
 scope: All

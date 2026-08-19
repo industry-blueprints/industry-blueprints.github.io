@@ -1,6 +1,7 @@
 ---
 title: "Public Safety Accountability & Oversight"
 summary: "Complaints, use-of-force review, early intervention, and the transparency that public consent depends on."
+description: "Complaints, use-of-force review, early intervention, and the transparency that public consent depends on."
 status: Starter
 tier: Tier 1 · Catalog
 scope: All

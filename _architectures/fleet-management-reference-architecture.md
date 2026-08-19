@@ -1,6 +1,7 @@
 ---
 title: Fleet Management Reference Architecture
 summary: A vendor-neutral logical architecture connecting fleet/EAM, work order, telematics, fuel, financial, procurement, GIS, identity, analytics, and mobile/integration systems to support the Fleet Management workload.
+description: "A vendor-neutral logical architecture connecting fleet/EAM, work order, telematics, fuel, financial, procurement, GIS, identity, analytics, and mobile/integration systems to support the Fleet Management workload."
 status: Draft
 tier: Tier 3 · Solution
 scope: All
